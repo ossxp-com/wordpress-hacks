@@ -167,9 +167,12 @@ function edit_user( $user_id = 0 ) {
 		$errors->add( 'empty_email', __( '<strong>ERROR</strong>: Please enter an e-mail address.' ), array( 'form-field' => 'email' ) );
 	} elseif ( !is_email( $user->user_email ) ) {
 		$errors->add( 'invalid_email', __( '<strong>ERROR</strong>: The e-mail address isn&#8217;t correct.' ), array( 'form-field' => 'email' ) );
-	} elseif ( ( $owner_id = email_exists($user->user_email) ) && $owner_id != $user->ID ) {
+	}
+	/*
+	elseif ( ( $owner_id = email_exists($user->user_email) ) && $owner_id != $user->ID ) {
 		$errors->add( 'email_exists', __('<strong>ERROR</strong>: This email is already registered, please choose another one.'), array( 'form-field' => 'email' ) );
 	}
+	*/
 
 	// Allow plugins to return their own errors.
 	do_action_ref_array('user_profile_update_errors', array ( &$errors, $update, &$user ) );
