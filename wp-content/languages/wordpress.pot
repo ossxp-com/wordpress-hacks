@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.9.1-beta1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-28 20:56+0000\n"
+"POT-Creation-Date: 2009-12-29 12:03+0800\n"
 "PO-Revision-Date: 2009-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,8 +26,8 @@ msgstr ""
 
 #: wp-admin/admin-ajax.php:186 wp-admin/categories.php:182
 #: wp-admin/edit-comments.php:269 wp-admin/edit-link-categories.php:101
-#: wp-admin/edit-pages.php:240 wp-admin/edit-tags.php:196
-#: wp-admin/edit.php:242 wp-admin/includes/media.php:1867
+#: wp-admin/edit-pages.php:240 wp-admin/edit.php:242
+#: wp-admin/edit-tags.php:196 wp-admin/includes/media.php:1867
 #: wp-admin/includes/plugin-install.php:287
 #: wp-admin/includes/theme-install.php:386 wp-admin/plugins.php:367
 #: wp-admin/themes.php:80 wp-admin/upload.php:271
@@ -36,8 +36,8 @@ msgstr ""
 
 #: wp-admin/admin-ajax.php:187 wp-admin/categories.php:183
 #: wp-admin/edit-comments.php:270 wp-admin/edit-link-categories.php:102
-#: wp-admin/edit-pages.php:241 wp-admin/edit-tags.php:197
-#: wp-admin/edit.php:243 wp-admin/includes/media.php:1868
+#: wp-admin/edit-pages.php:241 wp-admin/edit.php:243
+#: wp-admin/edit-tags.php:197 wp-admin/includes/media.php:1868
 #: wp-admin/includes/plugin-install.php:288
 #: wp-admin/includes/theme-install.php:387 wp-admin/plugins.php:368
 #: wp-admin/themes.php:81 wp-admin/upload.php:272
@@ -155,9 +155,9 @@ msgstr ""
 #: wp-admin/admin-ajax.php:1150 wp-admin/categories.php:26
 #: wp-admin/categories.php:46 wp-admin/categories.php:97
 #: wp-admin/edit-comments.php:13 wp-admin/edit-link-categories.php:18
-#: wp-admin/edit-pages.php:13 wp-admin/edit-tags.php:35
+#: wp-admin/edit-pages.php:13 wp-admin/edit.php:13 wp-admin/edit-tags.php:35
 #: wp-admin/edit-tags.php:56 wp-admin/edit-tags.php:76
-#: wp-admin/edit-tags.php:111 wp-admin/edit.php:13 wp-admin/import/opml.php:28
+#: wp-admin/edit-tags.php:111 wp-admin/import/opml.php:28
 #: wp-admin/import/opml.php:80 wp-admin/import/wp-cat2tag.php:28
 #: wp-admin/includes/bookmark.php:30 wp-admin/link-category.php:24
 #: wp-admin/link-category.php:39 wp-admin/link-category.php:80
@@ -296,8 +296,8 @@ msgstr ""
 msgid "Cannot load importer."
 msgstr ""
 
-#: wp-admin/admin.php:138 wp-admin/import.php:15
-#: wp-admin/import/blogger.php:193 wp-admin/import/textpattern.php:73
+#: wp-admin/admin.php:138 wp-admin/import/blogger.php:193
+#: wp-admin/import.php:15 wp-admin/import/textpattern.php:73
 #: wp-admin/menu.php:103
 msgid "Import"
 msgstr ""
@@ -344,7 +344,7 @@ msgstr ""
 
 #: wp-admin/categories.php:139 wp-admin/edit-comments.php:135
 #: wp-admin/edit-link-categories.php:67 wp-admin/edit-pages.php:146
-#: wp-admin/edit-tags.php:156 wp-admin/edit.php:139
+#: wp-admin/edit.php:139 wp-admin/edit-tags.php:156
 #: wp-admin/link-manager.php:77 wp-admin/upload.php:176 wp-admin/users.php:244
 #, php-format
 msgid "Search results for &#8220;%s&#8221;"
@@ -359,8 +359,8 @@ msgstr ""
 #: wp-admin/edit-comments.php:300 wp-admin/edit-comments.php:398
 #: wp-admin/edit-link-categories.php:113 wp-admin/edit-link-categories.php:167
 #: wp-admin/edit-pages.php:259 wp-admin/edit-pages.php:308
-#: wp-admin/edit-tags.php:208 wp-admin/edit-tags.php:251 wp-admin/edit.php:254
-#: wp-admin/edit.php:344 wp-admin/link-manager.php:104
+#: wp-admin/edit.php:254 wp-admin/edit.php:344 wp-admin/edit-tags.php:208
+#: wp-admin/edit-tags.php:251 wp-admin/link-manager.php:104
 #: wp-admin/link-manager.php:262 wp-admin/plugins.php:483
 #: wp-admin/upload.php:288 wp-admin/upload.php:454 wp-admin/users.php:308
 #: wp-admin/users.php:374
@@ -385,8 +385,8 @@ msgstr ""
 #: wp-admin/edit-comments.php:321 wp-admin/edit-comments.php:419
 #: wp-admin/edit-link-categories.php:116 wp-admin/edit-link-categories.php:170
 #: wp-admin/edit-pages.php:270 wp-admin/edit-pages.php:319
-#: wp-admin/edit-tags.php:211 wp-admin/edit-tags.php:254 wp-admin/edit.php:265
-#: wp-admin/edit.php:355 wp-admin/includes/template.php:3739
+#: wp-admin/edit.php:265 wp-admin/edit.php:355 wp-admin/edit-tags.php:211
+#: wp-admin/edit-tags.php:254 wp-admin/includes/template.php:3739
 #: wp-admin/link-manager.php:107 wp-admin/link-manager.php:265
 #: wp-admin/plugins.php:494 wp-admin/upload.php:299 wp-admin/upload.php:465
 #: wp-admin/users.php:311 wp-admin/users.php:377
@@ -576,8 +576,8 @@ msgstr ""
 
 #. translators: field name in comment form
 #: wp-admin/comment.php:130 wp-admin/includes/meta-boxes.php:409
-#: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
+#: wp-content/themes/classic/comments-popup.php:52
 #: wp-includes/comment-template.php:649
 msgctxt "noun"
 msgid "Comment"
@@ -639,9 +639,9 @@ msgstr ""
 #: wp-admin/custom-header.php:290 wp-admin/import/blogger.php:667
 #: wp-admin/options-discussion.php:226 wp-admin/options-general.php:289
 #: wp-admin/options-media.php:96 wp-admin/options-misc.php:72
-#: wp-admin/options-permalink.php:224 wp-admin/options-privacy.php:45
-#: wp-admin/options-reading.php:86 wp-admin/options-writing.php:133
-#: wp-admin/options.php:139
+#: wp-admin/options-permalink.php:224 wp-admin/options.php:139
+#: wp-admin/options-privacy.php:45 wp-admin/options-reading.php:86
+#: wp-admin/options-writing.php:133
 msgid "Save Changes"
 msgstr ""
 
@@ -1313,8 +1313,8 @@ msgstr ""
 #: wp-admin/includes/template.php:2439 wp-admin/includes/template.php:2454
 #: wp-admin/includes/template.php:2543 wp-admin/themes.php:277
 #: wp-admin/update-core.php:232 wp-admin/update-core.php:239
-#: wp-admin/user-edit.php:183 wp-content/themes/classic/comments-popup.php:71
-#: wp-content/themes/classic/comments.php:57
+#: wp-admin/user-edit.php:183 wp-content/themes/classic/comments.php:57
+#: wp-content/themes/classic/comments-popup.php:71
 #: wp-includes/js/tinymce/langs/wp-langs.php:312
 msgid "Name"
 msgstr ""
@@ -1626,86 +1626,6 @@ msgstr ""
 msgid "Submitted"
 msgstr ""
 
-#: wp-admin/edit-tag-form.php:14
-msgid "You do not have sufficient permissions to edit tags for this blog."
-msgstr ""
-
-#: wp-admin/edit-tag-form.php:17
-msgid "A tag was not selected for editing."
-msgstr ""
-
-#: wp-admin/edit-tag-form.php:26 wp-admin/edit-tags.php:96
-msgid "Edit Tag"
-msgstr ""
-
-#: wp-admin/edit-tag-form.php:35 wp-admin/edit-tags.php:289
-msgid "Tag name"
-msgstr ""
-
-#: wp-admin/edit-tag-form.php:39 wp-admin/edit-tags.php:295
-msgid "Tag slug"
-msgstr ""
-
-#: wp-admin/edit-tag-form.php:46
-msgid ""
-"The description is not prominent by default, however some themes may show it."
-msgstr ""
-
-#: wp-admin/edit-tag-form.php:50 wp-admin/includes/template.php:266
-msgid "Update Tag"
-msgstr ""
-
-#: wp-admin/edit-tags.php:12 wp-admin/includes/dashboard.php:407
-#: wp-admin/includes/template.php:760 wp-admin/includes/template.php:1157
-#: wp-includes/default-widgets.php:979
-msgid "Tags"
-msgstr ""
-
-#: wp-admin/edit-tags.php:20 wp-includes/taxonomy.php:1359
-#: wp-includes/taxonomy.php:1625
-msgid "Invalid taxonomy"
-msgstr ""
-
-#: wp-admin/edit-tags.php:145
-msgid "Tag added."
-msgstr ""
-
-#: wp-admin/edit-tags.php:146
-msgid "Tag deleted."
-msgstr ""
-
-#: wp-admin/edit-tags.php:147
-msgid "Tag updated."
-msgstr ""
-
-#: wp-admin/edit-tags.php:148
-msgid "Tag not added."
-msgstr ""
-
-#: wp-admin/edit-tags.php:150
-msgid "Tags deleted."
-msgstr ""
-
-#: wp-admin/edit-tags.php:168 wp-admin/edit-tags.php:170
-msgid "Search Tags"
-msgstr ""
-
-#: wp-admin/edit-tags.php:269
-msgid "Popular Tags"
-msgstr ""
-
-#: wp-admin/edit-tags.php:282
-msgid "Add a New Tag"
-msgstr ""
-
-#: wp-admin/edit-tags.php:291
-msgid "The name is how the tag appears on your site."
-msgstr ""
-
-#: wp-admin/edit-tags.php:306
-msgid "Add Tag"
-msgstr ""
-
 #: wp-admin/edit.php:47 wp-admin/post.php:200 wp-admin/upload.php:93
 msgid "You are not allowed to move this post to the trash."
 msgstr ""
@@ -1821,6 +1741,86 @@ msgstr ""
 msgid "No posts found"
 msgstr ""
 
+#: wp-admin/edit-tag-form.php:14
+msgid "You do not have sufficient permissions to edit tags for this blog."
+msgstr ""
+
+#: wp-admin/edit-tag-form.php:17
+msgid "A tag was not selected for editing."
+msgstr ""
+
+#: wp-admin/edit-tag-form.php:26 wp-admin/edit-tags.php:96
+msgid "Edit Tag"
+msgstr ""
+
+#: wp-admin/edit-tag-form.php:35 wp-admin/edit-tags.php:289
+msgid "Tag name"
+msgstr ""
+
+#: wp-admin/edit-tag-form.php:39 wp-admin/edit-tags.php:295
+msgid "Tag slug"
+msgstr ""
+
+#: wp-admin/edit-tag-form.php:46
+msgid ""
+"The description is not prominent by default, however some themes may show it."
+msgstr ""
+
+#: wp-admin/edit-tag-form.php:50 wp-admin/includes/template.php:266
+msgid "Update Tag"
+msgstr ""
+
+#: wp-admin/edit-tags.php:12 wp-admin/includes/dashboard.php:407
+#: wp-admin/includes/template.php:760 wp-admin/includes/template.php:1157
+#: wp-includes/default-widgets.php:979
+msgid "Tags"
+msgstr ""
+
+#: wp-admin/edit-tags.php:20 wp-includes/taxonomy.php:1359
+#: wp-includes/taxonomy.php:1625
+msgid "Invalid taxonomy"
+msgstr ""
+
+#: wp-admin/edit-tags.php:145
+msgid "Tag added."
+msgstr ""
+
+#: wp-admin/edit-tags.php:146
+msgid "Tag deleted."
+msgstr ""
+
+#: wp-admin/edit-tags.php:147
+msgid "Tag updated."
+msgstr ""
+
+#: wp-admin/edit-tags.php:148
+msgid "Tag not added."
+msgstr ""
+
+#: wp-admin/edit-tags.php:150
+msgid "Tags deleted."
+msgstr ""
+
+#: wp-admin/edit-tags.php:168 wp-admin/edit-tags.php:170
+msgid "Search Tags"
+msgstr ""
+
+#: wp-admin/edit-tags.php:269
+msgid "Popular Tags"
+msgstr ""
+
+#: wp-admin/edit-tags.php:282
+msgid "Add a New Tag"
+msgstr ""
+
+#: wp-admin/edit-tags.php:291
+msgid "The name is how the tag appears on your site."
+msgstr ""
+
+#: wp-admin/edit-tags.php:306
+msgid "Add Tag"
+msgstr ""
+
 #: wp-admin/export.php:13
 msgid ""
 "You do not have sufficient permissions to export the content of this blog."
@@ -1862,20 +1862,6 @@ msgstr ""
 
 #: wp-admin/export.php:55
 msgid "Download Export File"
-msgstr ""
-
-#: wp-admin/import.php:13
-msgid "You do not have sufficient permissions to import content in this blog."
-msgstr ""
-
-#: wp-admin/import.php:23
-msgid ""
-"If you have posts or comments in another system, WordPress can import those "
-"into this blog. To get started, choose a system to import from below:"
-msgstr ""
-
-#: wp-admin/import.php:45
-msgid "No importers are available."
 msgstr ""
 
 #: wp-admin/import/blogger.php:50
@@ -2950,6 +2936,20 @@ msgstr ""
 
 #: wp-admin/import/opml.php:154
 msgid "Import links in OPML format."
+msgstr ""
+
+#: wp-admin/import.php:13
+msgid "You do not have sufficient permissions to import content in this blog."
+msgstr ""
+
+#: wp-admin/import.php:23
+msgid ""
+"If you have posts or comments in another system, WordPress can import those "
+"into this blog. To get started, choose a system to import from below:"
+msgstr ""
+
+#: wp-admin/import.php:45
+msgid "No importers are available."
 msgstr ""
 
 #: wp-admin/import/rss.php:26
@@ -4071,8 +4071,8 @@ msgid "There are no drafts at the moment"
 msgstr ""
 
 #: wp-admin/includes/dashboard.php:518 wp-admin/includes/meta-boxes.php:398
-#: wp-content/themes/classic/comments-popup.php:58
 #: wp-content/themes/classic/comments.php:32
+#: wp-content/themes/classic/comments-popup.php:58
 msgid "No comments yet."
 msgstr ""
 
@@ -4129,15 +4129,15 @@ msgid "[Pending]"
 msgstr ""
 
 #: wp-admin/includes/dashboard.php:591
-#: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
+#: wp-content/themes/classic/comments-popup.php:52
 #: wp-includes/comment-template.php:651
 msgid "Pingback"
 msgstr ""
 
 #: wp-admin/includes/dashboard.php:594
-#: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
+#: wp-content/themes/classic/comments-popup.php:52
 #: wp-includes/comment-template.php:650
 msgid "Trackback"
 msgstr ""
@@ -7427,14 +7427,6 @@ msgstr ""
 msgid "Repair and Optimize Database"
 msgstr ""
 
-#: wp-admin/media-upload.php:32
-msgid "You are not allowed to be here"
-msgstr ""
-
-#: wp-admin/media-upload.php:57
-msgid "Upload New Media"
-msgstr ""
-
 #: wp-admin/media.php:23 wp-admin/media.php:57
 msgid "You are not allowed to edit this attachment."
 msgstr ""
@@ -7457,6 +7449,14 @@ msgstr ""
 
 #: wp-admin/media.php:100
 msgid "Update Media"
+msgstr ""
+
+#: wp-admin/media-upload.php:32
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: wp-admin/media-upload.php:57
+msgid "Upload New Media"
 msgstr ""
 
 #: wp-admin/menu.php:49
@@ -8165,6 +8165,14 @@ msgid ""
 "press <kbd>CTRL + a</kbd> to select all."
 msgstr ""
 
+#: wp-admin/options.php:54
+msgid "Error! Options page not found."
+msgstr ""
+
+#: wp-admin/options.php:97
+msgid "All Settings"
+msgstr ""
+
 #: wp-admin/options-privacy.php:15
 msgid "Privacy Settings"
 msgstr ""
@@ -8361,14 +8369,6 @@ msgid ""
 "WordPress is not notifying any <a href=\"http://codex.wordpress.org/"
 "Update_Services\">Update Services</a> because of your blog&#8217;s <a href="
 "\"%s\">privacy settings</a>."
-msgstr ""
-
-#: wp-admin/options.php:54
-msgid "Error! Options page not found."
-msgstr ""
-
-#: wp-admin/options.php:97
-msgid "All Settings"
 msgstr ""
 
 #: wp-admin/page-new.php:11
@@ -9959,6 +9959,19 @@ msgstr ""
 msgid "Error: please enter a valid email address."
 msgstr ""
 
+#: wp-content/languages/tools/pomo/sample/app.php:56
+#, php-format
+msgid "Welcome %s!"
+msgstr ""
+
+#: wp-content/languages/tools/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr ""
+
+#: wp-content/languages/tools/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr ""
+
 #: wp-content/plugins/akismet/akismet.php:57
 #: wp-content/plugins/akismet/akismet.php:133
 msgid "Akismet Configuration"
@@ -10017,8 +10030,8 @@ msgid ""
 "completely eliminate the comment and trackback spam you get on your site. If "
 "one does happen to get through, simply mark it as \"spam\" on the moderation "
 "screen and Akismet will learn from the mistakes. If you don't have a "
-"WordPress.com account yet, you can get one at <a href=\"%2$s\">Akismet.com</"
-"a>."
+"WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress."
+"com</a>."
 msgstr ""
 
 #: wp-content/plugins/akismet/akismet.php:140
@@ -10331,93 +10344,6 @@ msgstr ""
 msgid "blocked by"
 msgstr ""
 
-#: wp-content/themes/classic/comments-popup.php:9
-#, php-format
-msgid "Comments on %s"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:31
-#: wp-content/themes/classic/comments.php:35
-msgid ""
-"<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on "
-"this post."
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:34
-msgid ""
-"The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this "
-"entry is:"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:52
-#: wp-content/themes/classic/comments.php:24
-msgid "by"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:62
-#: wp-content/themes/classic/comments.php:13
-#: wp-content/themes/classic/comments.php:42
-msgid "Leave a comment"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:63
-msgid ""
-"Line and paragraph breaks automatic, e-mail address never displayed, "
-"<acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:67
-#: wp-content/themes/classic/comments.php:52
-#, php-format
-msgid "Logged in as %s."
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:67
-#: wp-content/themes/classic/comments.php:52
-msgid "Log out of this account"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:67
-#: wp-content/themes/classic/comments.php:52
-msgid "Log out &raquo;"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:81
-msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:86
-msgid "Your Comment"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:94
-msgid "Say It!"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:99
-#: wp-content/themes/classic/comments.php:81
-msgid "Sorry, the comment form is closed at this time."
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:104
-msgid "Close this window."
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:115
-#, php-format
-msgid ""
-"<cite>Powered by <a href=\"http://wordpress.org\" title=\"%s"
-"\"><strong>WordPress</strong></a></cite>"
-msgstr ""
-
-#: wp-content/themes/classic/comments-popup.php:115
-#: wp-content/themes/classic/footer.php:12
-#: wp-content/themes/classic/sidebar.php:38
-#: wp-includes/default-widgets.php:300
-msgid ""
-"Powered by WordPress, state-of-the-art semantic personal publishing platform."
-msgstr ""
-
 #: wp-content/themes/classic/comments.php:8
 msgid "Enter your password to view comments."
 msgstr ""
@@ -10437,11 +10363,29 @@ msgstr ""
 msgid "% Comments"
 msgstr ""
 
+#: wp-content/themes/classic/comments.php:13
+#: wp-content/themes/classic/comments.php:42
+#: wp-content/themes/classic/comments-popup.php:62
+msgid "Leave a comment"
+msgstr ""
+
+#: wp-content/themes/classic/comments.php:24
+#: wp-content/themes/classic/comments-popup.php:52
+msgid "by"
+msgstr ""
+
 #: wp-content/themes/classic/comments.php:24
 #: wp-content/themes/classic/index.php:15 wp-includes/link-template.php:605
 #: wp-includes/link-template.php:731 wp-includes/link-template.php:835
 #: wp-includes/link-template.php:876
 msgid "Edit This"
+msgstr ""
+
+#: wp-content/themes/classic/comments.php:35
+#: wp-content/themes/classic/comments-popup.php:31
+msgid ""
+"<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on "
+"this post."
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:37
@@ -10451,6 +10395,22 @@ msgstr ""
 #: wp-content/themes/classic/comments.php:45
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: wp-content/themes/classic/comments.php:52
+#: wp-content/themes/classic/comments-popup.php:67
+#, php-format
+msgid "Logged in as %s."
+msgstr ""
+
+#: wp-content/themes/classic/comments.php:52
+#: wp-content/themes/classic/comments-popup.php:67
+msgid "Log out of this account"
+msgstr ""
+
+#: wp-content/themes/classic/comments.php:52
+#: wp-content/themes/classic/comments-popup.php:67
+msgid "Log out &raquo;"
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:60
@@ -10464,6 +10424,59 @@ msgstr ""
 
 #: wp-content/themes/classic/comments.php:71
 msgid "Submit Comment"
+msgstr ""
+
+#: wp-content/themes/classic/comments.php:81
+#: wp-content/themes/classic/comments-popup.php:99
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: wp-content/themes/classic/comments-popup.php:9
+#, php-format
+msgid "Comments on %s"
+msgstr ""
+
+#: wp-content/themes/classic/comments-popup.php:34
+msgid ""
+"The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this "
+"entry is:"
+msgstr ""
+
+#: wp-content/themes/classic/comments-popup.php:63
+msgid ""
+"Line and paragraph breaks automatic, e-mail address never displayed, "
+"<acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed:"
+msgstr ""
+
+#: wp-content/themes/classic/comments-popup.php:81
+msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
+msgstr ""
+
+#: wp-content/themes/classic/comments-popup.php:86
+msgid "Your Comment"
+msgstr ""
+
+#: wp-content/themes/classic/comments-popup.php:94
+msgid "Say It!"
+msgstr ""
+
+#: wp-content/themes/classic/comments-popup.php:104
+msgid "Close this window."
+msgstr ""
+
+#: wp-content/themes/classic/comments-popup.php:115
+#, php-format
+msgid ""
+"<cite>Powered by <a href=\"http://wordpress.org\" title=\"%s"
+"\"><strong>WordPress</strong></a></cite>"
+msgstr ""
+
+#: wp-content/themes/classic/comments-popup.php:115
+#: wp-content/themes/classic/footer.php:12
+#: wp-content/themes/classic/sidebar.php:38
+#: wp-includes/default-widgets.php:300
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr ""
 
 #: wp-content/themes/classic/footer.php:12
@@ -10678,6 +10691,16 @@ msgid_plural "%s topics"
 msgstr[0] ""
 msgstr[1] ""
 
+#: wp-includes/classes.php:1332
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: wp-includes/classes.php:1347
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
 #: wp-includes/class-pop3.php:83
 msgid "No server specified"
 msgstr ""
@@ -10751,14 +10774,22 @@ msgstr ""
 msgid "Command failed "
 msgstr ""
 
-#: wp-includes/classes.php:1332
-#, php-format
-msgid "View all posts filed under %s"
+#: wp-includes/comment.php:261
+msgid "Unapproved"
 msgstr ""
 
-#: wp-includes/classes.php:1347
-#, php-format
-msgid "Feed for all posts filed under %s"
+#: wp-includes/comment.php:500 wp-includes/comment.php:502
+msgid ""
+"Duplicate comment detected; it looks as though you&#8217;ve already said "
+"that!"
+msgstr ""
+
+#: wp-includes/comment.php:560 wp-includes/comment.php:562
+msgid "You are posting comments too quickly.  Slow down."
+msgstr ""
+
+#: wp-includes/comment.php:1274
+msgid "Could not update comment status"
 msgstr ""
 
 #: wp-includes/comment-template.php:940
@@ -10815,24 +10846,6 @@ msgstr ""
 
 #: wp-includes/comment-template.php:1270
 msgid "(Edit)"
-msgstr ""
-
-#: wp-includes/comment.php:261
-msgid "Unapproved"
-msgstr ""
-
-#: wp-includes/comment.php:500 wp-includes/comment.php:502
-msgid ""
-"Duplicate comment detected; it looks as though you&#8217;ve already said "
-"that!"
-msgstr ""
-
-#: wp-includes/comment.php:560 wp-includes/comment.php:562
-msgid "You are posting comments too quickly.  Slow down."
-msgstr ""
-
-#: wp-includes/comment.php:1274
-msgid "Could not update comment status"
 msgstr ""
 
 #: wp-includes/cron.php:297
@@ -11367,8 +11380,11 @@ msgid "&laquo; Back"
 msgstr ""
 
 #. #-#-#-#-#  wordpress.pot (WordPress 2.9.1-beta1)  #-#-#-#-#
+#. Not gettexted string WP_I18N_ERROR
+#. #-#-#-#-#  wordpress.pot (WordPress 2.9.1-beta1)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
-#: wp-includes/functions.php:2521 wp-load.php:50
+#: wp-includes/functions.php:2521
+#: wp-content/languages/tools/t/data/not-gettexted-0.php:11 wp-load.php:50
 msgid "WordPress &rsaquo; Error"
 msgstr ""
 
@@ -13459,6 +13475,30 @@ msgstr ""
 msgid "[%s] Your username and password"
 msgstr ""
 
+#: wp-includes/post.php:1614
+msgid "Content, title, and excerpt are empty."
+msgstr ""
+
+#: wp-includes/post.php:1739
+msgid "Could not update post in the database"
+msgstr ""
+
+#: wp-includes/post.php:1755
+msgid "Could not insert post into the database"
+msgstr ""
+
+#: wp-includes/post.php:1799
+msgid "The page template is invalid."
+msgstr ""
+
+#: wp-includes/post.php:3854
+msgid "Cannot create a revision of a revision"
+msgstr ""
+
+#: wp-includes/post.php:4030
+msgid "You do not have permission to preview drafts."
+msgstr ""
+
 #: wp-includes/post-template.php:113
 #, php-format
 msgid "Protected: %s"
@@ -13525,30 +13565,6 @@ msgstr ""
 
 #: wp-includes/post-template.php:1334
 msgid "Date Created"
-msgstr ""
-
-#: wp-includes/post.php:1614
-msgid "Content, title, and excerpt are empty."
-msgstr ""
-
-#: wp-includes/post.php:1739
-msgid "Could not update post in the database"
-msgstr ""
-
-#: wp-includes/post.php:1755
-msgid "Could not insert post into the database"
-msgstr ""
-
-#: wp-includes/post.php:1799
-msgid "The page template is invalid."
-msgstr ""
-
-#: wp-includes/post.php:3854
-msgid "Cannot create a revision of a revision"
-msgstr ""
-
-#: wp-includes/post.php:4030
-msgid "You do not have permission to preview drafts."
 msgstr ""
 
 #: wp-includes/registration.php:312
@@ -14416,6 +14432,35 @@ msgstr ""
 msgid ""
 " $db->get_row(string query, output type, int offset) -- Output type must be "
 "one of: OBJECT, ARRAY_A, ARRAY_N"
+msgstr ""
+
+#. Not gettexted string WP_I18N_CONFIG
+#: wp-content/languages/tools/t/data/not-gettexted-0.php:11
+msgid ""
+" There doesn't seem to be a <code>wp-config.php</code> file. I need this "
+"before we can get started. Need more help? <a href='http://codex.wordpress."
+"org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config."
+"php</code> file through a web interface, but this doesn't work for all "
+"server setups. The safest way is to manually create the file.</p><p><a "
+"href='%s' class='button'>Create a Configuration File</a>"
+msgstr ""
+
+#. Not gettexted string WP_I18N_CONFIG
+#: wp-content/languages/tools/t/data/not-gettexted-0-work.php:11
+#: wp-content/languages/tools/t/data/not-gettexted-0-result.php:11
+msgid ""
+"Translation: There doesn't seem to be a <code>wp-config.php</code> file. I "
+"need this before we can get started. Need more help? <a href='http://codex."
+"wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a "
+"<code>wp-config.php</code> file through a web interface, but this doesn't "
+"work for all server setups. The safest way is to manually create the file.</"
+"p><p><a href='%s' class='button'>Create a Configuration File</a>"
+msgstr ""
+
+#. Not gettexted string WP_I18N_ERROR
+#: wp-content/languages/tools/t/data/not-gettexted-0-work.php:11
+#: wp-content/languages/tools/t/data/not-gettexted-0-result.php:11
+msgid "Translation: WordPress &rsaquo; Error"
 msgstr ""
 
 #. Not gettexted string WP_I18N_OLD_PHP
