@@ -1,3 +1,7 @@
 wp-config.php
 wp-content/uploads/
+wp-content/plugins/*
 wp-content/languages/*.mo
+wp-content/themes/*
+error.log
+.htaccess

@@ -1,13 +1,14 @@
 # translation of zh_CN.po to
 # Jiang Xin <worldhello.net@gmail.com>, 2009.
+# leiweiwei, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: zh_CN\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-12-29 12:03+0800\n"
-"PO-Revision-Date: 2009-12-29 12:37+0800\n"
-"Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
-"Language-Team:  <en@li.org>\n"
+"PO-Revision-Date: 2009-12-29 18:22+0800\n"
+"Last-Translator: leiweiwei\n"
+"Language-Team: 简体中文 <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: wp-admin/admin-ajax.php:31
 #, php-format
@@ -906,14 +907,12 @@ msgstr[0] "%s 条评论从垃圾评论中恢复"
 msgid "%s comment moved to the trash."
 msgid_plural "%s comments moved to the trash."
 msgstr[0] "%s 条评论被移入回收站。 "
-msgstr[1] "%s 条评论被移入回收站。 "
 
 #: wp-admin/edit-comments.php:169
 #, php-format
 msgid "%s comment restored from the trash"
 msgid_plural "%s comments restored from the trash"
 msgstr[0] "%s 条评论从回收站中恢复"
-msgstr[1] "%s 条评论从回收站中恢复, ssssssssssssssssssssss"
 
 #: wp-admin/edit-comments.php:173
 #, php-format
@@ -1084,8 +1083,7 @@ msgstr "日志已提交。 <a target=\"_blank\" href=\"%s\">查看日志</a>"
 msgid ""
 "Post scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "post</a>"
-msgstr ""
-"日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
+msgstr "日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
 
 #. translators: Publish box date formt, see http://php.net/date
 #: wp-admin/edit-form-advanced.php:54 wp-admin/edit-form-comment.php:58
@@ -1383,8 +1381,7 @@ msgstr "页面已提交。<a target=\"_blank\" href=\"%s\">查看页面</a>"
 msgid ""
 "Page scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "page</a>"
-msgstr ""
-"页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
+msgstr "页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
 
 #: wp-admin/edit-page-form.php:52
 #, php-format
@@ -2406,8 +2403,7 @@ msgstr "导入工具能做的事："
 msgid ""
 "Parses gm-authors.cgi to import (new) authors. Everyone is imported at level "
 "1."
-msgstr ""
-"解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
+msgstr "解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
 
 #: wp-admin/import/greymatter.php:38
 msgid ""
@@ -2783,8 +2779,7 @@ msgstr "下载评论"
 msgid ""
 "Now we will download your comments so we can import them (this could take a "
 "<strong>long</strong> time if you have lots of comments)..."
-msgstr ""
-"现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
+msgstr "现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
 
 #: wp-admin/import/livejournal.php:871
 #, php-format
@@ -3084,8 +3079,7 @@ msgstr "导入 Simple Tagging"
 
 #: wp-admin/import/stp.php:30
 msgid "Howdy! This imports tags from Simple Tagging 1.6.2 into WordPress tags."
-msgstr ""
-"已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
+msgstr "已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
 
 # (Mileage may vary)
 #: wp-admin/import/stp.php:31
@@ -3674,8 +3668,7 @@ msgstr "ftp PHP 扩展不可用"
 msgid ""
 "The ssh2 PHP extension is available, however, we require the PHP5 function "
 "<code>stream_get_contents()</code>"
-msgstr ""
-" ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
+msgstr " ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:72
 msgid "SSH2 hostname is required"
@@ -4642,7 +4635,6 @@ msgid "Crop"
 msgstr "剪辑"
 
 #: wp-admin/includes/image-edit.php:44
-#, fuzzy
 msgid "Rotate counter-clockwise"
 msgstr "逆时针旋转"
 
@@ -4654,7 +4646,7 @@ msgstr "顺时针旋转"
 msgid ""
 "Image rotation is not supported by your web host (function imagerotate() is "
 "missing)"
-msgstr ""
+msgstr "你的浏览器不支持图片旋转(没有图片旋转功能)"
 
 #: wp-admin/includes/image-edit.php:53
 msgid "Flip vertically"
@@ -5561,8 +5553,7 @@ msgstr "页面序号"
 msgid ""
 "Pages are usually ordered alphabetically, but you can put a number above to "
 "change the order pages appear in."
-msgstr ""
-"页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
+msgstr "页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
 
 #: wp-admin/includes/meta-boxes.php:523
 msgid "Visit Link"
@@ -6765,8 +6756,7 @@ msgstr "<a href=\"http://codex.wordpress.org/\">文档</a>"
 msgid ""
 "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</"
 "a>"
-msgstr ""
-"<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
+msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
 
 #: wp-admin/includes/template.php:3615
 msgid "Screen Options"
@@ -6843,8 +6833,7 @@ msgstr "移除侧边栏的某一个挂件时，先点击它的标题以显示设
 msgid ""
 "To remove a widget from a sidebar <em>and keep its configuration</em>, drag "
 "it to Inactive Widgets."
-msgstr ""
-"拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
+msgstr "拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
 
 #: wp-admin/includes/template.php:3662
 msgid ""
@@ -7267,8 +7256,7 @@ msgstr "WordPress 自动更新失败！请提醒站点管理员。"
 msgid ""
 "<strong><em>Note that password</em></strong> carefully! It is a <em>random</"
 "em> password that was generated just for you."
-msgstr ""
-"<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
+msgstr "<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
 
 #: wp-admin/includes/upgrade.php:67
 msgid "User already exists.  Password inherited."
@@ -7508,8 +7496,7 @@ msgstr "已经安装"
 msgid ""
 "You appear to have already installed WordPress. To reinstall please clear "
 "your old database tables first."
-msgstr ""
-"您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
+msgstr "您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
 
 #: wp-admin/install.php:90
 msgid "Welcome"
@@ -7687,8 +7674,7 @@ msgstr ""
 msgid ""
 "WordPress can automatically look for some common database problems and "
 "repair them.  Repairing can take awhile, so please be patient."
-msgstr ""
-"WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
+msgstr "WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
 
 #: wp-admin/maint/repair.php:83
 msgid "Repair Database"
@@ -8525,13 +8511,11 @@ msgstr "Blog 可见性"
 msgid ""
 "I would like my blog to be visible to everyone, including search engines "
 "(like Google, Bing, Technorati) and archivers"
-msgstr ""
-"任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
+msgstr "任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
 
 #: wp-admin/options-privacy.php:35
 msgid "I would like to block search engines, but allow normal visitors"
-msgstr ""
-"我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
+msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
 
 #: wp-admin/options-reading.php:15
 msgid "Reading Settings"
@@ -8779,8 +8763,7 @@ msgstr "文件修改成功。"
 msgid ""
 "This plugin has been deactivated because your changes resulted in a "
 "<strong>fatal error</strong>."
-msgstr ""
-"这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
+msgstr "这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
 
 # 可编辑时显示“正在编辑”
 #: wp-admin/plugin-editor.php:144
@@ -9434,8 +9417,7 @@ msgstr ""
 msgid ""
 "You only have one theme installed at the moment so there is nothing to show "
 "you here.  Maybe you should download some more to try out."
-msgstr ""
-"您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
+msgstr "您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
 
 #: wp-admin/themes.php:272
 msgid "Broken Themes"
@@ -9583,8 +9565,7 @@ msgstr ""
 msgid ""
 "Drag-and-drop the following link to your bookmarks bar or right click it and "
 "add it to your favorites for a posting shortcut."
-msgstr ""
-"拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
+msgstr "拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
 
 #: wp-admin/update-core.php:13 wp-admin/update.php:21 wp-admin/update.php:40
 msgid "You do not have sufficient permissions to update plugins for this blog."
@@ -10099,16 +10080,14 @@ msgstr "添加新用户"
 msgid ""
 "Users can <a href=\"%1$s\">register themselves</a> or you can manually "
 "create users here."
-msgstr ""
-"用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
+msgstr "用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
 
 #: wp-admin/user-new.php:80
 #, php-format
 msgid ""
 "Users cannot currently <a href=\"%1$s\">register themselves</a>, but you can "
 "manually create users here."
-msgstr ""
-"用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
+msgstr "用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
 
 #: wp-admin/user-new.php:101
 msgid "First Name"
@@ -10431,8 +10410,7 @@ msgstr "无法连接 Akismet 服务器，请检查您的服务器的设置。"
 msgid ""
 "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</"
 "a>)"
-msgstr ""
-"请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
+msgstr "请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
 
 #: wp-content/plugins/akismet/akismet.php:126
 msgid "This key is valid."
@@ -10442,8 +10420,7 @@ msgstr "该 Key 有效"
 msgid ""
 "The key below was previously validated but a connection to akismet.com can "
 "not be established at this time. Please check your server configuration."
-msgstr ""
-"该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
+msgstr "该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
 
 #: wp-content/plugins/akismet/akismet.php:130
 #: wp-content/themes/default/functions.php:374
@@ -10472,8 +10449,7 @@ msgstr "WordPress.com API Key"
 #: wp-content/plugins/akismet/akismet.php:144
 msgid ""
 "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
-msgstr ""
-"<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
+msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
 
 #: wp-content/plugins/akismet/akismet.php:146
 msgid "Why might my key be invalid?"
@@ -10616,8 +10592,7 @@ msgstr "Akismet 已就绪。"
 msgid ""
 "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to "
 "work."
-msgstr ""
-"您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
+msgstr "您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
 
 #: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
@@ -10756,8 +10731,7 @@ msgid ""
 msgid_plural ""
 "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments "
 "already,"
-msgstr[0] ""
-"<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
+msgstr[0] "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
 
 #: wp-content/plugins/akismet/akismet.php:938
 #, php-format
@@ -11036,8 +11010,7 @@ msgstr "本页面可通过 XHTML 1.0 Transitional 验证"
 
 #: wp-content/themes/classic/sidebar.php:36
 msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
-msgstr ""
-"有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
 
 #: wp-content/themes/default/functions.php:171
 msgid "Close Color Picker"
@@ -13501,8 +13474,7 @@ msgstr ""
 msgid ""
 "If you do not like the way the rich editor works, you may turn it off from "
 "Your Profile submenu, under Users in the admin menu."
-msgstr ""
-"如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
+msgstr "如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:191
 msgid "Advanced Rich Editing"
@@ -14460,8 +14432,7 @@ msgstr "请再次登陆。"
 msgid "Sidebar %d"
 msgstr "侧边栏 %d"
 
-#: wp-includes/wp-db.php:1055
-#, fuzzy, php-format
+#: wp-includes/wp-db.php:1055, php-format
 msgid "<strong>ERROR</strong>: WordPress %s requires MySQL 4.1.2 or higher"
 msgstr "<strong>错误</strong>：WordPress %s 需要 MySQL 4.0.0 以上版本的支持。"
 
@@ -14546,8 +14517,7 @@ msgstr "<strong>错误</strong>：无效的电子邮件地址。"
 msgid ""
 "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
 "href=\"mailto:%s\">webmaster</a> !"
-msgstr ""
-"<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
+msgstr "<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
 
 #: wp-login.php:347
 msgid "Sorry, that key does not appear to be valid."
@@ -15114,3 +15084,4 @@ msgstr ""
 "取帮助</a>。您可以通过 web 界面创建一个 <code>wp-config.php</code> 文件，但并"
 "非所有服务器都支持这么创建。最安全的办法是手动创建这个文件。</p><p><a "
 "href='{$path}setup-config.php' class='button'>创建配置文件</a>"
+
