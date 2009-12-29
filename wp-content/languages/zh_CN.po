@@ -516,7 +516,7 @@ msgstr "您无权编辑这篇日志的评论。"
 msgid ""
 "This comment is in the Trash. Please move it out of the Trash if you want to "
 "edit it."
-msgstr "该评论处于回收箱中。如果您需要编辑请将其移出回收箱。"
+msgstr "该评论处于回收站中。如果您需要编辑请将其移出回收站。"
 
 #: wp-admin/comment.php:84
 msgid "You are not allowed to delete comments on this post."
@@ -757,7 +757,7 @@ msgstr "恢复"
 #: wp-admin/edit-attachment-rows.php:98 wp-admin/includes/template.php:1455
 #: wp-admin/includes/template.php:1675 wp-admin/upload.php:396
 msgid "Trash"
-msgstr "回收箱"
+msgstr "回收站"
 
 #: wp-admin/edit-attachment-rows.php:100 wp-admin/edit-comments.php:316
 #: wp-admin/edit-comments.php:412 wp-admin/edit-form-comment.php:71
@@ -905,13 +905,13 @@ msgstr[0] "%s 条评论从垃圾评论中恢复"
 #, php-format
 msgid "%s comment moved to the trash."
 msgid_plural "%s comments moved to the trash."
-msgstr[0] "%s 条评论被移入回收箱。 "
+msgstr[0] "%s 条评论被移入回收站。 "
 
 #: wp-admin/edit-comments.php:169
 #, php-format
 msgid "%s comment restored from the trash"
 msgid_plural "%s comments restored from the trash"
-msgstr[0] "%s 条评论从回收箱中恢复"
+msgstr[0] "%s 条评论从回收站中恢复"
 
 #: wp-admin/edit-comments.php:173
 #, php-format
@@ -956,7 +956,7 @@ msgid ""
 msgid_plural ""
 "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 msgstr[0] ""
-"回收箱<span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+"回收站<span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:233 wp-admin/edit-comments.php:235
 msgid "Search Comments"
@@ -997,7 +997,7 @@ msgstr "非垃圾评论"
 #: wp-admin/includes/media.php:1243 wp-admin/includes/meta-boxes.php:193
 #: wp-admin/upload.php:294 wp-admin/upload.php:460
 msgid "Move to Trash"
-msgstr "移入回收箱"
+msgstr "移入回收站"
 
 #: wp-admin/edit-comments.php:325
 msgid "Show all comment types"
@@ -1030,7 +1030,7 @@ msgstr "清空垃圾评论"
 #: wp-admin/edit.php:310 wp-admin/edit.php:357 wp-admin/upload.php:339
 #: wp-admin/upload.php:468
 msgid "Empty Trash"
-msgstr "清空回收箱"
+msgstr "清空回收站"
 
 #: wp-admin/edit-comments.php:448
 msgid "No comments awaiting moderation&hellip; yet."
@@ -1418,21 +1418,21 @@ msgstr "修订历史"
 
 #: wp-admin/edit-pages.php:39 wp-admin/page.php:160
 msgid "You are not allowed to move this page to the trash."
-msgstr "您无权将该页面移入回收箱。"
+msgstr "您无权将该页面移入回收站。"
 
 #: wp-admin/edit-pages.php:42 wp-admin/edit.php:50 wp-admin/page.php:163
 #: wp-admin/post.php:203 wp-admin/upload.php:96
 msgid "Error in moving to trash..."
-msgstr "移入回收箱时出错..."
+msgstr "移入回收站时出错..."
 
 #: wp-admin/edit-pages.php:52
 msgid "You are not allowed to restore this page from the trash."
-msgstr "您无权从回收箱中还原该页面。"
+msgstr "您无权从回收站中还原该页面。"
 
 #: wp-admin/edit-pages.php:55 wp-admin/edit.php:63 wp-admin/page.php:179
 #: wp-admin/post.php:219 wp-admin/upload.php:106
 msgid "Error in restoring from trash..."
-msgstr "从回收箱恢复时出错..."
+msgstr "从回收站恢复时出错..."
 
 #: wp-admin/edit-pages.php:67 wp-admin/page.php:192
 msgid "You are not allowed to delete this page."
@@ -1532,18 +1532,18 @@ msgstr[0] "私人的 <span class=\"count\">(%s)</span>"
 #: wp-admin/edit-pages.php:114
 msgctxt "page"
 msgid "Trash"
-msgstr "回收箱"
+msgstr "回收站"
 
 #: wp-admin/edit-pages.php:114
 msgid "Trash pages"
-msgstr "回收箱中的页面"
+msgstr "回收站中的页面"
 
 #: wp-admin/edit-pages.php:114
 #, php-format
 msgctxt "page"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "回收箱<span class=\"count\">(%s)</span>"
+msgstr[0] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125 wp-admin/includes/template.php:3239
 #: wp-admin/menu.php:59 wp-includes/default-widgets.php:19
@@ -1585,13 +1585,13 @@ msgstr[0] "%s 个页面已永久删除。"
 #, php-format
 msgid "Page moved to the trash."
 msgid_plural "%s pages moved to the trash."
-msgstr[0] "%s 个页面被移入回收箱。"
+msgstr[0] "%s 个页面被移入回收站。"
 
 #: wp-admin/edit-pages.php:174
 #, php-format
 msgid "Page restored from the trash."
 msgid_plural "%s pages restored from the trash."
-msgstr[0] "%s 个页面已从回收箱中恢复。"
+msgstr[0] "%s 个页面已从回收站中恢复。"
 
 #: wp-admin/edit-pages.php:183
 msgid "Your page has been saved."
@@ -1632,11 +1632,11 @@ msgstr "已提交"
 
 #: wp-admin/edit.php:47 wp-admin/post.php:200 wp-admin/upload.php:93
 msgid "You are not allowed to move this post to the trash."
-msgstr "您无权将该日志移动到回收箱。"
+msgstr "您无权将该日志移动到回收站。"
 
 #: wp-admin/edit.php:60
 msgid "You are not allowed to restore this post from the trash."
-msgstr "您无权从回收箱中恢复该日志。"
+msgstr "您无权从回收站中恢复该日志。"
 
 #: wp-admin/edit.php:75 wp-admin/post.php:232 wp-admin/upload.php:113
 msgid "You are not allowed to delete this post."
@@ -1687,7 +1687,7 @@ msgstr[0] "%s 个日志已永久删除。"
 #, php-format
 msgid "Post moved to the trash."
 msgid_plural "%s posts moved to the trash."
-msgstr[0] "%s 个日志被移入回收箱。"
+msgstr[0] "%s 个日志被移入回收站。"
 
 #: wp-admin/edit.php:176
 #, php-format
@@ -4243,12 +4243,12 @@ msgstr "垃圾评论"
 
 #: wp-admin/includes/dashboard.php:560 wp-admin/includes/template.php:2195
 msgid "Move this comment to the trash"
-msgstr "将此评论移入回收箱"
+msgstr "将此评论移入回收站"
 
 #: wp-admin/includes/dashboard.php:560 wp-admin/includes/template.php:2195
 msgctxt "verb"
 msgid "Trash"
-msgstr "回收箱"
+msgstr "回收站"
 
 #: wp-admin/includes/dashboard.php:585
 #, php-format
@@ -6137,17 +6137,17 @@ msgstr[0] "私人的 <span class=\"count\">(%s)</span>"
 #: wp-admin/includes/post.php:824
 msgctxt "post"
 msgid "Trash"
-msgstr "回收箱"
+msgstr "回收站"
 
 #: wp-admin/includes/post.php:824
 msgid "Trash posts"
-msgstr "回收箱中的日志"
+msgstr "回收站中的日志"
 
 #: wp-admin/includes/post.php:824
 #, php-format
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "回收箱<span class=\"count\">(%s)</span>"
+msgstr[0] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:867
 msgid "Images"
@@ -6453,11 +6453,11 @@ msgstr "私人日志"
 
 #: wp-admin/includes/template.php:1453
 msgid "Restore this post from the Trash"
-msgstr "从回收箱中移恢复该日志"
+msgstr "从回收站中移恢复该日志"
 
 #: wp-admin/includes/template.php:1455
 msgid "Move this post to the Trash"
-msgstr "将此文移入回收箱"
+msgstr "将此文移入回收站"
 
 #: wp-admin/includes/template.php:1457
 msgid "Delete this post permanently"
@@ -6479,11 +6479,11 @@ msgstr "编辑页面"
 
 #: wp-admin/includes/template.php:1673
 msgid "Remove this page from the Trash"
-msgstr "从回收箱恢复该页面"
+msgstr "从回收站恢复该页面"
 
 #: wp-admin/includes/template.php:1675
 msgid "Move this page to the Trash"
-msgstr "将此页面移入回收箱"
+msgstr "将此页面移入回收站"
 
 #: wp-admin/includes/template.php:1677
 msgid "Delete this page permanently"
@@ -6526,7 +6526,7 @@ msgstr "提交回复"
 #: wp-admin/includes/template.php:2384
 #, php-format
 msgid "Comment by %s moved to the trash."
-msgstr "%s 的评论被移入回收箱。 "
+msgstr "%s 的评论被移入回收站。 "
 
 #: wp-admin/includes/template.php:2387
 #, php-format
@@ -7723,7 +7723,7 @@ msgstr "您正在试图编辑一个不存在的附件。该附件可能已被删
 msgid ""
 "You can&#8217;t edit this attachment because it is in the Trash. Please move "
 "it out of the Trash and try again."
-msgstr "您无法编辑位于回收箱中的附件。请将其移出并重试。"
+msgstr "您无法编辑位于回收站中的附件。请将其移出并重试。"
 
 #: wp-admin/media.php:78 wp-admin/upload.php:207
 msgid "Media attachment updated."
@@ -8747,11 +8747,11 @@ msgstr "您正在试图编辑一个不存在的页面。该页面可能已被删
 msgid ""
 "You can&#8217;t edit this page because it is in the Trash. Please move it "
 "out of the Trash and try again."
-msgstr "您无法编辑位于回收箱中的页面。请将其移出并重试。"
+msgstr "您无法编辑位于回收站中的页面。请将其移出并重试。"
 
 #: wp-admin/page.php:176
 msgid "You are not allowed to move this page out of the trash."
-msgstr "您无权将该页面移出回收箱。"
+msgstr "您无权将该页面移出回收站。"
 
 #: wp-admin/plugin-editor.php:13
 msgid "You do not have sufficient permissions to edit plugins for this blog."
@@ -9103,7 +9103,7 @@ msgstr "您正在试图编辑一个不存在的日志。该日志可能已被删
 msgid ""
 "You can&#8217;t edit this post because it is in the Trash. Please restore it "
 "and try again."
-msgstr "您无法编辑位于回收箱中的日志。请将其移出并重试。"
+msgstr "您无法编辑位于回收站中的日志。请将其移出并重试。"
 
 #: wp-admin/post.php:160
 msgid "Edit Post"
@@ -9111,7 +9111,7 @@ msgstr "编辑日志"
 
 #: wp-admin/post.php:216 wp-admin/upload.php:103
 msgid "You are not allowed to move this post out of the trash."
-msgstr "您无权将该日志移出回收箱。"
+msgstr "您无权将该日志移出回收站。"
 
 #: wp-admin/press-this.php:122
 msgid "Embed Code"
@@ -9876,11 +9876,11 @@ msgstr "储存媒体文件时错误"
 
 #: wp-admin/upload.php:210
 msgid "Media moved to the trash."
-msgstr "媒体文件被移入回收箱。"
+msgstr "媒体文件被移入回收站。"
 
 #: wp-admin/upload.php:211
 msgid "Media restored from the trash."
-msgstr "媒体文件已从回收箱中恢复。"
+msgstr "媒体文件已从回收站中恢复。"
 
 #: wp-admin/upload.php:233
 #, php-format
@@ -9898,7 +9898,7 @@ msgstr "未用到的附件"
 msgctxt "uploaded files"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "回收箱<span class=\"count\">(%s)</span>"
+msgstr[0] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:296 wp-admin/upload.php:462
 msgid "Attach to a post"
@@ -14265,7 +14265,7 @@ msgstr "上传中&hellip;"
 
 #: wp-includes/script-loader.php:217
 msgid "moved to the trash."
-msgstr "已移入回收箱。"
+msgstr "已移入回收站。"
 
 #: wp-includes/script-loader.php:233
 msgid "Separate multiple categories with commas."
