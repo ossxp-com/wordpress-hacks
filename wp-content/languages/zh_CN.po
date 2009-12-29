@@ -1,11 +1,13 @@
+# translation of zh_CN.po to
+# Jiang Xin <worldhello.net@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress 2.9 beta 2 简体中文语言包\n"
+"Project-Id-Version: zh_CN\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2009-12-29 12:03+0800\n"
-"PO-Revision-Date: 2009-12-03 21:35+0800\n"
-"Last-Translator: Neo <neo.lee.god@gmail.com>\n"
-"Language-Team: Neo @Wopus <neo.lee.god@gmail.com>\n"
+"PO-Revision-Date: 2009-12-29 12:37+0800\n"
+"Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
+"Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: wp-admin/admin-ajax.php:31
 #, php-format
@@ -50,8 +53,7 @@ msgstr "下一页 &raquo;"
 #: wp-admin/categories.php:72 wp-admin/edit-link-categories.php:28
 #: wp-admin/link-category.php:46
 #, php-format
-msgid ""
-"Can&#8217;t delete the <strong>%s</strong> category: this is the default one"
+msgid "Can&#8217;t delete the <strong>%s</strong> category: this is the default one"
 msgstr "无法删除 <strong>%s</strong> 分类：该分类为默认分类"
 
 #: wp-admin/admin-ajax.php:382
@@ -241,8 +243,7 @@ msgid "Y/m/d"
 msgstr "Y年n月j日"
 
 #: wp-admin/admin-footer.php:23
-msgid ""
-"Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
+msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
 msgstr ""
 "感谢使用 <a href=\"http://wordpress.org/\">WordPress</a> | <a href=\"http://"
 "wopus.org/\">WOPUS中文平台中文版</a>"
@@ -534,23 +535,20 @@ msgid "Spam Comment"
 msgstr "垃圾评论"
 
 #: wp-admin/comment.php:96
-#, fuzzy
 msgid "You are about to move the following comment to the Trash:"
-msgstr "您将要审核通过下列评论："
+msgstr "您将要把评论移动到垃圾箱："
 
 #: wp-admin/comment.php:97
-#, fuzzy
 msgid "Trash Comment"
-msgstr "嵌套回复"
+msgstr "垃圾评论"
 
 #: wp-admin/comment.php:100
 msgid "You are about to delete the following comment:"
 msgstr "您将要删除下列评论："
 
 #: wp-admin/comment.php:101
-#, fuzzy
 msgid "Permanently Delete Comment"
-msgstr "删除评论"
+msgstr "永久删除评论"
 
 #: wp-admin/comment.php:104
 msgid "You are about to approve the following comment:"
@@ -675,8 +673,7 @@ msgstr ""
 
 #: wp-admin/custom-header.php:297
 #, php-format
-msgid ""
-"Images of exactly <strong>%1$d x %2$d pixels</strong> will be used as-is."
+msgid "Images of exactly <strong>%1$d x %2$d pixels</strong> will be used as-is."
 msgstr "大小为 <strong>%1$d x %2$d 像素</strong> 的图片可以按原始尺寸使用。"
 
 #: wp-admin/custom-header.php:300
@@ -856,8 +853,7 @@ msgid "No media attachments found."
 msgstr "没有找到媒体附件。"
 
 #: wp-admin/edit-category-form.php:14
-msgid ""
-"You do not have sufficient permissions to edit categories for this blog."
+msgid "You do not have sufficient permissions to edit categories for this blog."
 msgstr "您无权编辑该博客的日志分类。"
 
 #: wp-admin/edit-category-form.php:80 wp-admin/edit-link-category-form.php:27
@@ -932,8 +928,7 @@ msgid ""
 msgid_plural ""
 "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</"
 "span>"
-msgstr[0] ""
-"待审核 <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgstr[0] "待审核 <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:192
 msgid "Approved"
@@ -942,21 +937,15 @@ msgstr[0] "已审核"
 
 #: wp-admin/edit-comments.php:193
 #, php-format
-msgid ""
-"Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
-msgid_plural ""
-"Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
-msgstr[0] ""
-"垃圾评论 <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgid "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgid_plural "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[0] "垃圾评论 <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:194
 #, php-format
-msgid ""
-"Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
-msgid_plural ""
-"Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
-msgstr[0] ""
-"回收箱<span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgid "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgid_plural "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgstr[0] "回收箱<span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:233 wp-admin/edit-comments.php:235
 msgid "Search Comments"
@@ -1041,9 +1030,9 @@ msgid "No results found."
 msgstr "找不到符合搜索条件的评论。"
 
 #: wp-admin/edit-form-advanced.php:28
-#, fuzzy, php-format
+#, php-format
 msgid "Post updated. <a href=\"%s\">View post</a>"
-msgstr "日志已更新。<a target=\"_blank\" href=\"%s\">查看日志</a>"
+msgstr "日志已更新。<a href=\"%s\">查看日志</a>"
 
 #: wp-admin/edit-form-advanced.php:31 wp-admin/edit-page-form.php:32
 msgid "Custom field updated."
@@ -1063,9 +1052,9 @@ msgid "Post restored to revision from %s"
 msgstr "文章已从 %s 修订版本中恢复"
 
 #: wp-admin/edit-form-advanced.php:44
-#, fuzzy, php-format
+#, php-format
 msgid "Post published. <a href=\"%s\">View post</a>"
-msgstr "日志已发布。<a target=\"_blank\" href=\"%s\">查看日志</a>"
+msgstr "日志已发布。<a href=\"%s\">查看日志</a>"
 
 #: wp-admin/edit-form-advanced.php:47 wp-admin/sidebar.php:100
 msgid "Post saved."
@@ -1082,8 +1071,7 @@ msgstr "日志已提交。 <a target=\"_blank\" href=\"%s\">查看日志</a>"
 msgid ""
 "Post scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "post</a>"
-msgstr ""
-"日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
+msgstr "日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
 
 #. translators: Publish box date formt, see http://php.net/date
 #: wp-admin/edit-form-advanced.php:54 wp-admin/edit-form-comment.php:58
@@ -1263,8 +1251,7 @@ msgid "Description (optional)"
 msgstr "描述（可选）"
 
 #: wp-admin/edit-link-category-form.php:14
-msgid ""
-"You do not have sufficient permissions to edit link categories for this blog."
+msgid "You do not have sufficient permissions to edit link categories for this blog."
 msgstr "您没有足够权限修改链接分类。"
 
 #: wp-admin/edit-link-category-form.php:26
@@ -1356,14 +1343,14 @@ msgid ""
 msgstr "当鼠标悬停在 Blogroll 中链接的上方时，将显示该内容。"
 
 #: wp-admin/edit-page-form.php:29
-#, fuzzy, php-format
+#, php-format
 msgid "Page updated. <a href=\"%s\">View page</a>"
-msgstr "页面已更新。<a target=\"_blank\" href=\"%s\">查看页面</a>"
+msgstr "页面已更新。<a href=\"%s\">查看页面</a>"
 
 #: wp-admin/edit-page-form.php:38
-#, fuzzy, php-format
+#, php-format
 msgid "Page published. <a href=\"%s\">View page</a>"
-msgstr "页面已发布。<a target=\"_blank\" href=\"%s\">查看页面</a>"
+msgstr "页面已发布。<a href=\"%s\">查看页面</a>"
 
 #: wp-admin/edit-page-form.php:42
 #, php-format
@@ -1381,8 +1368,7 @@ msgstr "页面已提交。<a target=\"_blank\" href=\"%s\">查看页面</a>"
 msgid ""
 "Page scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "page</a>"
-msgstr ""
-"页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
+msgstr "页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
 
 #: wp-admin/edit-page-form.php:52
 #, php-format
@@ -1405,9 +1391,8 @@ msgid "Page Slug"
 msgstr "页面缩略名"
 
 #: wp-admin/edit-page-form.php:84
-#, fuzzy
 msgid "Page Image"
-msgstr "图片管理"
+msgstr "页面图片"
 
 #: wp-admin/edit-page-form.php:90
 msgid "Page Author"
@@ -1760,8 +1745,7 @@ msgid "Tag slug"
 msgstr "标签缩略名"
 
 #: wp-admin/edit-tag-form.php:46
-msgid ""
-"The description is not prominent by default, however some themes may show it."
+msgid "The description is not prominent by default, however some themes may show it."
 msgstr "在默认情况下描述并不可见，但是某些主题可能会显示它们。"
 
 #: wp-admin/edit-tag-form.php:50 wp-admin/includes/template.php:266
@@ -1820,8 +1804,7 @@ msgid "Add Tag"
 msgstr "添加标签"
 
 #: wp-admin/export.php:13
-msgid ""
-"You do not have sufficient permissions to export the content of this blog."
+msgid "You do not have sufficient permissions to export the content of this blog."
 msgstr "您没有足够的权限导出本博客的内容。"
 
 #: wp-admin/export.php:17 wp-admin/menu.php:104
@@ -1905,8 +1888,7 @@ msgid "Authorization failed"
 msgstr "认证失败"
 
 #: wp-admin/import/blogger.php:94
-msgid ""
-"Something went wrong. If the problem persists, send this info to support:"
+msgid "Something went wrong. If the problem persists, send this info to support:"
 msgstr "出现错误。如果错误依然存在，发送该信息到支持服务："
 
 #: wp-admin/import/blogger.php:151
@@ -2023,8 +2005,7 @@ msgid "Could not connect to %s"
 msgstr "无法连接到 %s"
 
 #: wp-admin/import/blogger.php:737
-msgid ""
-"There was a problem opening a connection to Blogger. This is what went wrong:"
+msgid "There was a problem opening a connection to Blogger. This is what went wrong:"
 msgstr "连接到 Google 出错。错误如下："
 
 #: wp-admin/import/blogger.php:803
@@ -2337,8 +2318,7 @@ msgid "<a href=\"http://www.wordpress.org\">The official WordPress site</a>"
 msgstr "<a href=\"http://www.wordpress.org\">WordPress 官方网站</a>"
 
 #: wp-admin/import/dotclear.php:605 wp-admin/import/textpattern.php:585
-msgid ""
-"<a href=\"http://wordpress.org/support/\">The WordPress support forums</a>"
+msgid "<a href=\"http://wordpress.org/support/\">The WordPress support forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\">WordPress 技术支持论坛</a>"
 
 #: wp-admin/import/dotclear.php:606 wp-admin/import/textpattern.php:586
@@ -2351,8 +2331,7 @@ msgstr ""
 
 #: wp-admin/import/dotclear.php:608 wp-admin/import/textpattern.php:588
 #, php-format
-msgid ""
-"That&#8217;s it! What are you waiting for? Go <a href=\"%1$s\">log in</a>!"
+msgid "That&#8217;s it! What are you waiting for? Go <a href=\"%1$s\">log in</a>!"
 msgstr "就这样了！还在等什么？快点<a href=\"%1$s\">登录</a>吧！"
 
 #: wp-admin/import/dotclear.php:614
@@ -2384,8 +2363,7 @@ msgid "DotClear"
 msgstr "Dotclear"
 
 #: wp-admin/import/dotclear.php:716
-msgid ""
-"Import categories, users, posts, comments, and links from a DotClear blog."
+msgid "Import categories, users, posts, comments, and links from a DotClear blog."
 msgstr "从 DotClear 导入分类、用户、日志、评论和链接。"
 
 # Greymatter 导入工具
@@ -2405,8 +2383,7 @@ msgstr "导入工具能做的事："
 msgid ""
 "Parses gm-authors.cgi to import (new) authors. Everyone is imported at level "
 "1."
-msgstr ""
-"解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
+msgstr "解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
 
 #: wp-admin/import/greymatter.php:38
 msgid ""
@@ -2613,8 +2590,7 @@ msgstr ""
 "中。"
 
 #: wp-admin/import/livejournal.php:213
-msgid ""
-"Enter the password you would like to use for all protected entries here:"
+msgid "Enter the password you would like to use for all protected entries here:"
 msgstr "请输入你想为被保护的日志设置的密码："
 
 #: wp-admin/import/livejournal.php:217
@@ -2690,13 +2666,11 @@ msgid "You have no comments to import!"
 msgstr "没有可导入评论！"
 
 #: wp-admin/import/livejournal.php:493
-msgid ""
-" Comment metadata downloaded successfully, proceeding with comment bodies..."
+msgid " Comment metadata downloaded successfully, proceeding with comment bodies..."
 msgstr "评论metadata已下载，继续下载日志……"
 
 #: wp-admin/import/livejournal.php:518
-msgid ""
-"Failed to retrieve comment bodies from LiveJournal. Please try again soon."
+msgid "Failed to retrieve comment bodies from LiveJournal. Please try again soon."
 msgstr "从LiveJournal获取评论内容失败。请尽快重试。"
 
 #: wp-admin/import/livejournal.php:601 wp-admin/import/livejournal.php:609
@@ -2741,7 +2715,7 @@ msgstr "正在下载并导入您的LiveJournal日志……"
 #: wp-admin/import/livejournal.php:790
 #, php-format
 msgid "Imported post batch %d of <strong>approximately</strong> %d"
-msgstr ""
+msgstr "批量导入日志 %d <strong>总计大约</strong> %d"
 
 #: wp-admin/import/livejournal.php:808
 msgid ""
@@ -2782,13 +2756,12 @@ msgstr "下载评论"
 msgid ""
 "Now we will download your comments so we can import them (this could take a "
 "<strong>long</strong> time if you have lots of comments)..."
-msgstr ""
-"现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
+msgstr "现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
 
 #: wp-admin/import/livejournal.php:871
 #, php-format
 msgid "Imported comment batch %d of <strong>approximately</strong> %d"
-msgstr ""
+msgstr "完成批量导入 %d <strong>总计大约</strong> %d"
 
 # 的
 #: wp-admin/import/livejournal.php:879
@@ -2855,8 +2828,7 @@ msgstr ""
 "点击 \"导入 mt-export.txt\"。"
 
 #: wp-admin/import/mt.php:47
-msgid ""
-"Or use <code>mt-export.txt</code> in your <code>/wp-content/</code> directory"
+msgid "Or use <code>mt-export.txt</code> in your <code>/wp-content/</code> directory"
 msgstr "使用 <code>/wp-content/</code> 下的 <code>mt-export.txt</code>"
 
 #: wp-admin/import/mt.php:49
@@ -3010,8 +2982,7 @@ msgstr ""
 "些链接</a>。"
 
 #: wp-admin/import/opml.php:135
-msgid ""
-"You need to supply your OPML url. Press back on your browser and try again"
+msgid "You need to supply your OPML url. Press back on your browser and try again"
 msgstr "您需要提供您正确的 OPML 文件 URL。请返回重试。"
 
 # 默认链接分类的名称，还是不要翻译了，保持 Blogroll 这个名称。
@@ -3083,8 +3054,7 @@ msgstr "导入 Simple Tagging"
 
 #: wp-admin/import/stp.php:30
 msgid "Howdy! This imports tags from Simple Tagging 1.6.2 into WordPress tags."
-msgstr ""
-"已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
+msgstr "已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
 
 # (Mileage may vary)
 #: wp-admin/import/stp.php:31
@@ -3260,8 +3230,7 @@ msgid "Textpattern"
 msgstr "Textpattern"
 
 #: wp-admin/import/textpattern.php:689
-msgid ""
-"Import categories, users, posts, comments, and links from a Textpattern blog."
+msgid "Import categories, users, posts, comments, and links from a Textpattern blog."
 msgstr "从 Textpattern 中导入分类、用户、日志、评论和链接。"
 
 #: wp-admin/import/utw.php:21
@@ -3269,8 +3238,7 @@ msgid "Import Ultimate Tag Warrior"
 msgstr "导入 Ultimate Tag Warrior"
 
 #: wp-admin/import/utw.php:31
-msgid ""
-"Howdy! This imports tags from Ultimate Tag Warrior 3 into WordPress tags."
+msgid "Howdy! This imports tags from Ultimate Tag Warrior 3 into WordPress tags."
 msgstr ""
 "已经将现有 Ultimate Tag Warrior 3 标签导入到了新的 WordPress 自带的标签系统"
 "中。"
@@ -3354,8 +3322,7 @@ msgstr ""
 "件，我们将把其中的日志、评论、自定义字段、页面和分类导入到您的 Blog 中。"
 
 #: wp-admin/import/wordpress.php:55
-msgid ""
-"Choose a WordPress WXR file to upload, then click Upload file and import."
+msgid "Choose a WordPress WXR file to upload, then click Upload file and import."
 msgstr "选择您到导入的 WXR 文件，然后点击下面的按钮导入。"
 
 #: wp-admin/import/wordpress.php:208
@@ -3518,8 +3485,7 @@ msgstr ""
 "后点击转换按钮。"
 
 #: wp-admin/import/wp-cat2tag.php:147
-msgid ""
-"The newly created categories will still be associated with the same posts."
+msgid "The newly created categories will still be associated with the same posts."
 msgstr "新建分类将会关联到这些文章。"
 
 #: wp-admin/import/wp-cat2tag.php:151
@@ -3538,8 +3504,7 @@ msgstr "转换标签为分类"
 
 #: wp-admin/import/wp-cat2tag.php:233 wp-admin/import/wp-cat2tag.php:348
 #, php-format
-msgid ""
-"Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>."
+msgid "Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>."
 msgstr "不能完成。请 <a href=\"%s\">重新尝试</a>。"
 
 #: wp-admin/import/wp-cat2tag.php:252
@@ -3673,8 +3638,7 @@ msgstr "ftp PHP 扩展不可用"
 msgid ""
 "The ssh2 PHP extension is available, however, we require the PHP5 function "
 "<code>stream_get_contents()</code>"
-msgstr ""
-" ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
+msgstr " ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:72
 msgid "SSH2 hostname is required"
@@ -4132,8 +4096,7 @@ msgstr[0] ""
 
 #: wp-admin/includes/dashboard.php:338
 #, php-format
-msgid ""
-"Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widget</span>"
+msgid "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widget</span>"
 msgid_plural ""
 "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widgets</"
 "span>"
@@ -4153,8 +4116,7 @@ msgstr "主题 <span class=\"b\">%1$s</span>"
 
 #: wp-admin/includes/dashboard.php:364
 #, php-format
-msgid ""
-"Post Published. <a href=\"%s\">View post</a> | <a href=\"%s\">Edit post</a>"
+msgid "Post Published. <a href=\"%s\">View post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "文章已发布。<a href=\"%s\">查看文章</a> | <a href=\"%s\">编辑文章</a>"
 
 #: wp-admin/includes/dashboard.php:366
@@ -4166,8 +4128,7 @@ msgstr "日志已提交。<a href=\"%s\">查看日志</a> | <a href=\"%s\">编�
 
 #: wp-admin/includes/dashboard.php:368
 #, php-format
-msgid ""
-"Draft Saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
+msgid "Draft Saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "草稿已储存。<a href=\"%s\">查看文章</a> | <a href=\"%s\">编辑文章</a>"
 
 #: wp-admin/includes/dashboard.php:381
@@ -4847,8 +4808,7 @@ msgid "Unable to create new image."
 msgstr "无法新建图片。"
 
 #: wp-admin/includes/image-edit.php:528
-msgid ""
-"Error while saving the scaled image. Please reload the page and try again."
+msgid "Error while saving the scaled image. Please reload the page and try again."
 msgstr "调整图片尺寸时发生错误。请刷新后再试。"
 
 #: wp-admin/includes/image-edit.php:536
@@ -5560,8 +5520,7 @@ msgstr "页面序号"
 msgid ""
 "Pages are usually ordered alphabetically, but you can put a number above to "
 "change the order pages appear in."
-msgstr ""
-"页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
+msgstr "页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
 
 #: wp-admin/includes/meta-boxes.php:523
 msgid "Visit Link"
@@ -5803,8 +5762,7 @@ msgid "Popular tags"
 msgstr "热门标签"
 
 #: wp-admin/includes/plugin-install.php:134
-msgid ""
-"You may also browse based on the most popular tags in the Plugin Directory:"
+msgid "You may also browse based on the most popular tags in the Plugin Directory:"
 msgstr "您可以登录插件目录查看更多基于热门标签的插件："
 
 #: wp-admin/includes/plugin-install.php:148
@@ -6756,16 +6714,14 @@ msgid "Help"
 msgstr "帮助"
 
 #: wp-admin/includes/template.php:3600
-msgid ""
-"<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
+msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/\">文档</a>"
 
 #: wp-admin/includes/template.php:3602
 msgid ""
 "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</"
 "a>"
-msgstr ""
-"<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
+msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
 
 #: wp-admin/includes/template.php:3615
 msgid "Screen Options"
@@ -6842,8 +6798,7 @@ msgstr "移除侧边栏的某一个挂件时，先点击它的标题以显示设
 msgid ""
 "To remove a widget from a sidebar <em>and keep its configuration</em>, drag "
 "it to Inactive Widgets."
-msgstr ""
-"拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
+msgstr "拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
 
 #: wp-admin/includes/template.php:3662
 msgid ""
@@ -7266,8 +7221,7 @@ msgstr "WordPress 自动更新失败！请提醒站点管理员。"
 msgid ""
 "<strong><em>Note that password</em></strong> carefully! It is a <em>random</"
 "em> password that was generated just for you."
-msgstr ""
-"<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
+msgstr "<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
 
 #: wp-admin/includes/upgrade.php:67
 msgid "User already exists.  Password inherited."
@@ -7507,8 +7461,7 @@ msgstr "已经安装"
 msgid ""
 "You appear to have already installed WordPress. To reinstall please clear "
 "your old database tables first."
-msgstr ""
-"您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
+msgstr "您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
 
 #: wp-admin/install.php:90
 msgid "Welcome"
@@ -7686,8 +7639,7 @@ msgstr ""
 msgid ""
 "WordPress can automatically look for some common database problems and "
 "repair them.  Repairing can take awhile, so please be patient."
-msgstr ""
-"WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
+msgstr "WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
 
 #: wp-admin/maint/repair.php:83
 msgid "Repair Database"
@@ -7867,8 +7819,7 @@ msgid "Default article settings"
 msgstr "默认文章设置"
 
 #: wp-admin/options-discussion.php:34
-msgid ""
-"Attempt to notify any blogs linked to from the article (slows down posting.)"
+msgid "Attempt to notify any blogs linked to from the article (slows down posting.)"
 msgstr "尝试对在日志中出现的网址发送通告 （会延长发布日志所需的时间）"
 
 #: wp-admin/options-discussion.php:38
@@ -7931,8 +7882,7 @@ msgstr "更新的"
 
 #: wp-admin/options-discussion.php:101
 #, php-format
-msgid ""
-"Comments should be displayed with the %s comments at the top of each page"
+msgid "Comments should be displayed with the %s comments at the top of each page"
 msgstr "每页评论的顶部显示  %s 评论。"
 
 #: wp-admin/options-discussion.php:107 wp-admin/options-discussion.php:108
@@ -8158,10 +8108,8 @@ msgstr "小时"
 
 #: wp-admin/options-general.php:131 wp-admin/options-general.php:167
 #, php-format
-msgid ""
-"<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
-msgstr ""
-"<abbr title=\"Coordinated Universal Time\">UTC</abbr> 时间是 <code>%s</code>"
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> 时间是 <code>%s</code>"
 
 #: wp-admin/options-general.php:133
 #, php-format
@@ -8263,8 +8211,7 @@ msgid "Height"
 msgstr "高度"
 
 #: wp-admin/options-media.php:41
-msgid ""
-"Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
+msgid "Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
 msgstr "裁切预览图到给定尺寸（通常情况预览图将进行等比缩放）"
 
 #: wp-admin/options-media.php:46 wp-admin/options-media.php:47
@@ -8346,8 +8293,7 @@ msgid "You should update your web.config now"
 msgstr "您现在需要手工更新您的web.config(.htaccess)文件。"
 
 #: wp-admin/options-permalink.php:133
-msgid ""
-"Permalink structure updated. Remove write access on web.config file now!"
+msgid "Permalink structure updated. Remove write access on web.config file now!"
 msgstr "固定链接结构已更新。可以去除web.config文件的写权利。"
 
 #: wp-admin/options-permalink.php:135
@@ -8524,13 +8470,11 @@ msgstr "Blog 可见性"
 msgid ""
 "I would like my blog to be visible to everyone, including search engines "
 "(like Google, Bing, Technorati) and archivers"
-msgstr ""
-"任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
+msgstr "任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
 
 #: wp-admin/options-privacy.php:35
 msgid "I would like to block search engines, but allow normal visitors"
-msgstr ""
-"我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
+msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
 
 #: wp-admin/options-reading.php:15
 msgid "Reading Settings"
@@ -8778,8 +8722,7 @@ msgstr "文件修改成功。"
 msgid ""
 "This plugin has been deactivated because your changes resulted in a "
 "<strong>fatal error</strong>."
-msgstr ""
-"这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
+msgstr "这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
 
 # 可编辑时显示“正在编辑”
 #: wp-admin/plugin-editor.php:144
@@ -8877,13 +8820,11 @@ msgid "You do not have sufficient permissions to manage plugins for this blog."
 msgstr "您没有足够的权限管理本博客的插件。"
 
 #: wp-admin/plugins.php:44 wp-admin/plugins.php:63 wp-admin/plugins.php:88
-msgid ""
-"You do not have sufficient permissions to activate plugins for this blog."
+msgid "You do not have sufficient permissions to activate plugins for this blog."
 msgstr "您没有足够的权限启用本博客的插件。"
 
 #: wp-admin/plugins.php:108 wp-admin/plugins.php:118
-msgid ""
-"You do not have sufficient permissions to deactivate plugins for this blog."
+msgid "You do not have sufficient permissions to deactivate plugins for this blog."
 msgstr "您没有足够的权限禁用本博客上的插件。"
 
 #: wp-admin/plugins.php:141
@@ -9433,8 +9374,7 @@ msgstr ""
 msgid ""
 "You only have one theme installed at the moment so there is nothing to show "
 "you here.  Maybe you should download some more to try out."
-msgstr ""
-"您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
+msgstr "您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
 
 #: wp-admin/themes.php:272
 msgid "Broken Themes"
@@ -9533,8 +9473,7 @@ msgid "Updating files:"
 msgstr "请稍等！正在更新文件："
 
 #: wp-admin/tools.php:61
-msgid ""
-"Your browser&#8217;s settings do not permit this website to use Google Gears."
+msgid "Your browser&#8217;s settings do not permit this website to use Google Gears."
 msgstr "你的浏览器的设置不允许此网站使用 Google Gears。"
 
 #: wp-admin/tools.php:65
@@ -9582,8 +9521,7 @@ msgstr ""
 msgid ""
 "Drag-and-drop the following link to your bookmarks bar or right click it and "
 "add it to your favorites for a posting shortcut."
-msgstr ""
-"拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
+msgstr "拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
 
 #: wp-admin/update-core.php:13 wp-admin/update.php:21 wp-admin/update.php:40
 msgid "You do not have sufficient permissions to update plugins for this blog."
@@ -9764,8 +9702,7 @@ msgid "Plugin failed to reactivate due to a fatal error."
 msgstr "发生严重错误，该插件重新启用失败。"
 
 #: wp-admin/update.php:68 wp-admin/update.php:96
-msgid ""
-"You do not have sufficient permissions to install plugins for this blog."
+msgid "You do not have sufficient permissions to install plugins for this blog."
 msgstr "您没有足够权限在此博客上安装插件。"
 
 #: wp-admin/update.php:83
@@ -10098,16 +10035,14 @@ msgstr "添加新用户"
 msgid ""
 "Users can <a href=\"%1$s\">register themselves</a> or you can manually "
 "create users here."
-msgstr ""
-"用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
+msgstr "用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
 
 #: wp-admin/user-new.php:80
 #, php-format
 msgid ""
 "Users cannot currently <a href=\"%1$s\">register themselves</a>, but you can "
 "manually create users here."
-msgstr ""
-"用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
+msgstr "用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
 
 #: wp-admin/user-new.php:101
 msgid "First Name"
@@ -10313,8 +10248,7 @@ msgid ""
 msgstr "拖动挂件到右侧的一个侧边栏来启用它。将挂件拖回以禁用并删除设置。"
 
 #: wp-admin/widgets.php:360
-msgid ""
-"Drag widgets here to remove them from the sidebar but keep their settings."
+msgid "Drag widgets here to remove them from the sidebar but keep their settings."
 msgstr "将挂件拖动至此来从侧边栏移除并保留原先的设置。"
 
 #: wp-app.php:293
@@ -10346,8 +10280,7 @@ msgid "Sorry, you do not have the right to edit this post."
 msgstr "抱歉，您无权编辑这篇日志。"
 
 #: wp-app.php:537 wp-app.php:698 xmlrpc.php:1948
-msgid ""
-"For some strange yet very annoying reason, this post could not be edited."
+msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "该日志不能编辑，原因未知。"
 
 #: wp-app.php:560 wp-app.php:720 xmlrpc.php:1984
@@ -10355,8 +10288,7 @@ msgid "Sorry, you do not have the right to delete this post."
 msgstr "抱歉，您无权删除这篇日志。"
 
 #: wp-app.php:569 wp-app.php:736 xmlrpc.php:1989
-msgid ""
-"For some strange yet very annoying reason, this post could not be deleted."
+msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "该日志不能删除，原因未知。"
 
 #: wp-app.php:587
@@ -10430,8 +10362,7 @@ msgstr "无法连接 Akismet 服务器，请检查您的服务器的设置。"
 msgid ""
 "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</"
 "a>)"
-msgstr ""
-"请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
+msgstr "请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
 
 #: wp-content/plugins/akismet/akismet.php:126
 msgid "This key is valid."
@@ -10441,8 +10372,7 @@ msgstr "该 Key 有效"
 msgid ""
 "The key below was previously validated but a connection to akismet.com can "
 "not be established at this time. Please check your server configuration."
-msgstr ""
-"该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
+msgstr "该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
 
 #: wp-content/plugins/akismet/akismet.php:130
 #: wp-content/themes/default/functions.php:374
@@ -10469,10 +10399,8 @@ msgid "WordPress.com API Key"
 msgstr "WordPress.com API Key"
 
 #: wp-content/plugins/akismet/akismet.php:144
-msgid ""
-"<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
-msgstr ""
-"<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
+msgid "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
+msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
 
 #: wp-content/plugins/akismet/akismet.php:146
 msgid "Why might my key be invalid?"
@@ -10615,8 +10543,7 @@ msgstr "Akismet 已就绪。"
 msgid ""
 "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to "
 "work."
-msgstr ""
-"您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
+msgstr "您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
 
 #: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
@@ -10755,8 +10682,7 @@ msgid ""
 msgid_plural ""
 "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments "
 "already,"
-msgstr[0] ""
-"<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
+msgstr[0] "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
 
 #: wp-content/plugins/akismet/akismet.php:938
 #, php-format
@@ -10765,8 +10691,7 @@ msgstr "<a href=\"%1$s\">Akismet</a> 保护您的 Blog 不受垃圾评论困扰�
 
 #: wp-content/plugins/akismet/akismet.php:943
 #, php-format
-msgid ""
-"and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural ""
 "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right "
 "now."
@@ -10774,8 +10699,7 @@ msgstr[0] "目前您的垃圾评论队列中有 <a href=\"%2$s\">%1$s 条垃圾�
 
 #: wp-content/plugins/akismet/akismet.php:948
 #, php-format
-msgid ""
-"but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
+msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "目前您的<a href='%1$s'>垃圾评论队列</a>为空。"
 
 #: wp-content/plugins/akismet/akismet.php:951
@@ -10941,8 +10865,7 @@ msgstr ""
 #: wp-content/themes/classic/footer.php:12
 #: wp-content/themes/classic/sidebar.php:38
 #: wp-includes/default-widgets.php:300
-msgid ""
-"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr "基于 WordPress，完美的个人信息发布平台。"
 
 #: wp-content/themes/classic/footer.php:12
@@ -11035,8 +10958,7 @@ msgstr "本页面可通过 XHTML 1.0 Transitional 验证"
 
 #: wp-content/themes/classic/sidebar.php:36
 msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
-msgstr ""
-"有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
 
 #: wp-content/themes/default/functions.php:171
 msgid "Close Color Picker"
@@ -11867,8 +11789,7 @@ msgstr "WordPress &rsaquo; 错误"
 
 #: wp-includes/functions.php:2970 wp-includes/functions.php:3006
 #, php-format
-msgid ""
-"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "从 %2$s 版本开始 %1$s 已 <strong>弃用</strong>！请使用 %3$s 进行替代。"
 
 #: wp-includes/functions.php:2972 wp-includes/functions.php:3008
@@ -12046,8 +11967,7 @@ msgid "Copy/Cut/Paste is not available in Mozilla and Firefox."
 msgstr "复制/剪切/粘贴 在 Mozilla 和 Firefox 中不可用。"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:36
-msgid ""
-"Currently not supported by your browser, use keyboard shortcuts instead."
+msgid "Currently not supported by your browser, use keyboard shortcuts instead."
 msgstr "目前不受您的浏览器支持，请使用链接快捷键代替。"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:37
@@ -13500,8 +13420,7 @@ msgstr ""
 msgid ""
 "If you do not like the way the rich editor works, you may turn it off from "
 "Your Profile submenu, under Users in the admin menu."
-msgstr ""
-"如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
+msgstr "如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:191
 msgid "Advanced Rich Editing"
@@ -13639,8 +13558,7 @@ msgid "Header 6"
 msgstr "标题 6"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:220
-msgid ""
-"The following shortcuts use different access keys: Alt + Shift + letter."
+msgid "The following shortcuts use different access keys: Alt + Shift + letter."
 msgstr "以下功能使用不同的快捷键：Alt + Shift + 字母键。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:227
@@ -14089,8 +14007,7 @@ msgid "Missing Attachment"
 msgstr "缺少附件"
 
 #: wp-includes/post-template.php:1136
-msgid ""
-"This post is password protected. To view it please enter your password below:"
+msgid "This post is password protected. To view it please enter your password below:"
 msgstr "这篇日志已被密码保护。请在这里输入密码："
 
 #. translators: revision date format, see http://php.net/date
@@ -14238,8 +14155,7 @@ msgid "An error occurred in the upload. Please try again later."
 msgstr "上传时发生错误。请稍后再试。"
 
 #: wp-includes/script-loader.php:207
-msgid ""
-"There was a configuration error. Please contact the server administrator."
+msgid "There was a configuration error. Please contact the server administrator."
 msgstr "发生配置错误。请联系您的服务器管理员。"
 
 #: wp-includes/script-loader.php:208
@@ -14473,8 +14389,7 @@ msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
 msgstr "<strong>错误</strong>：请输入一个用户名或电子邮箱地址。"
 
 #: wp-login.php:126
-msgid ""
-"<strong>ERROR</strong>: There is no user registered with that email address."
+msgid "<strong>ERROR</strong>: There is no user registered with that email address."
 msgstr "<strong>错误</strong>：没有使用该电子邮箱地址进行注册的用户。"
 
 #: wp-login.php:138
@@ -14486,8 +14401,7 @@ msgid "Password reset is not allowed for this user"
 msgstr "此用户不允许重设密码"
 
 #: wp-login.php:164
-msgid ""
-"Someone has asked to reset the password for the following site and username."
+msgid "Someone has asked to reset the password for the following site and username."
 msgstr "有人要求重设下面这个网站地址和帐号的登录密码。"
 
 #: wp-login.php:167
@@ -14545,8 +14459,7 @@ msgstr "<strong>错误</strong>：无效的电子邮件地址。"
 msgid ""
 "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
 "href=\"mailto:%s\">webmaster</a> !"
-msgstr ""
-"<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
+msgstr "<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
 
 #: wp-login.php:347
 msgid "Sorry, that key does not appear to be valid."
@@ -14738,8 +14651,7 @@ msgid "Sorry, you cannot edit posts on this blog."
 msgstr "抱歉，您在本 Blog 不能编辑日志。"
 
 #: xmlrpc.php:889
-msgid ""
-"Sorry, you must be able to edit posts on this blog in order to view tags."
+msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
 msgstr "对不起，您必须编辑此文来查看标签。"
 
 #: xmlrpc.php:936
@@ -14912,8 +14824,7 @@ msgid ""
 msgstr "目标 URL 无法使用。它不存在，或者不是一个可以通告的资源。"
 
 #: xmlrpc.php:3288
-msgid ""
-"The source URL and the target URL cannot both point to the same resource."
+msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "源 URL 和目标 URL 不能是同一个。"
 
 #: xmlrpc.php:3298
@@ -15073,8 +14984,7 @@ msgstr "WordPress &rsaquo; 错误"
 
 #. Not gettexted string WP_I18N_OLD_PHP
 #: wp-settings.php:109 wp-admin/setup-config.php:55
-msgid ""
-"Your server is running PHP version %s but WordPress requires at least 4.3."
+msgid "Your server is running PHP version %s but WordPress requires at least 4.3."
 msgstr "您的服务器运行的 PHP 版本是 %s， 但 WordPress 要求至少 4.3。"
 
 #. Not gettexted string WP_I18N_OLD_MYSQL
@@ -15114,1169 +15024,3 @@ msgstr ""
 "非所有服务器都支持这么创建。最安全的办法是手动创建这个文件。</p><p><a "
 "href='{$path}setup-config.php' class='button'>创建配置文件</a>"
 
-#~ msgid "Page Thumbnail"
-#~ msgstr "页面缩略图"
-
-# 加一个引号标识出日志标题
-#~ msgid "Allow Comments on this page."
-#~ msgstr "在此页面允许评论"
-
-#~ msgctxt "url for release notification mailing list subscription."
-#~ msgid "http://wordpress.org/download/"
-#~ msgstr "http://wordpress.org/download/"
-
-#~ msgctxt "url for codex documentation."
-#~ msgid "http://codex.wordpress.org"
-#~ msgstr "http://codex.wordpress.org"
-
-#~ msgctxt "Default post slug"
-#~ msgid "welcome"
-#~ msgstr "欢迎"
-
-#~ msgid "Remove"
-#~ msgstr "移除"
-
-#~ msgid "oEmbed discovery"
-#~ msgstr "发现oEmbed"
-
-#~ msgid ""
-#~ "Attempt to embed content from unknown URLs using <a href=\"%s\">oEmbed</a>"
-#~ msgstr "尝试嵌入使用<a href=\"%s\">oEmbed</a>的未知URL内容"
-
-#~ msgid "Time"
-#~ msgstr "时间"
-
-#~ msgid "Undo?"
-#~ msgstr "撤消？"
-
-#~ msgid "Sorry, can&#8217;t call files with their real path."
-#~ msgstr "抱歉，不能用文件的真实路径调用文件。"
-
-#~ msgid "Embed a picture from a web site that supports oEmbed"
-#~ msgstr "从支持oEmbed的网站嵌入图片。"
-
-#~ msgid "Embed image"
-#~ msgstr "嵌入图片"
-
-#~ msgid "Embed"
-#~ msgstr "嵌入"
-
-#~ msgid "Comment by"
-#~ msgstr "评论："
-
-#~ msgid "You did not enter a tag name."
-#~ msgstr "您还没有输入标签名称。"
-
-#~ msgid "Tag <a href=\"#%s\">%s</a> added"
-#~ msgstr "标签 <a href=\"#%s\">%s</a> 已添加"
-
-#~ msgid ""
-#~ "You are about to delete this attachment '%s'\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除附件'%s'。\n"
-#~ "点 “确认” 删除，点 “取消” 取消操作。"
-
-#~ msgid "%s comment deleted"
-#~ msgid_plural "%s comments deleted"
-#~ msgstr[0] "%s 条评论被删除"
-
-#~ msgid "Pending (<span class=\"pending-count\">%s</span>)"
-#~ msgid_plural "Pending (<span class=\"pending-count\">%s</span>)"
-#~ msgstr[0] "待审批 (<span class=\"pending-count\">%s</span>)"
-
-#~ msgid "Spam (<span class=\"spam-count\">%s</span>)"
-#~ msgid_plural "Spam (<span class=\"spam-count\">%s</span>)"
-#~ msgstr[0] "垃圾留言 (<span class=\"spam-count\">%s</span>)"
-
-#~ msgid "Delete All Spam"
-#~ msgstr "全部删除"
-
-#~ msgid ""
-#~ "You are about to delete this draft '%s'\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除草稿'%s'。\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid ""
-#~ "You are about to delete this post '%s'\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除日志“%s”。\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid "Keep this post private"
-#~ msgstr "私人日志"
-
-#~ msgid "Post Password"
-#~ msgstr "文章密码"
-
-#~ msgid "Password Protect This Post"
-#~ msgstr "日志加密"
-
-#~ msgid ""
-#~ "Setting a password will require people who visit your blog to enter the "
-#~ "above password to view this post and its comments."
-#~ msgstr ""
-#~ "在此对日志设置密码后，当有人访问该日志及其评论时，将被要求提供输密码。"
-
-#~ msgid ""
-#~ "You are about to delete this comment. \n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除这条评论。\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid ""
-#~ "You are about to delete this page '%s'\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除页面 “%s”。\n"
-#~ "点 “确认” 删除，点 “取消” 取消操作。"
-
-#~ msgid "Keep this page private"
-#~ msgstr "私人页面"
-
-#~ msgid "Page Password"
-#~ msgstr "页面密码："
-
-#~ msgid "Password Protect This Page"
-#~ msgstr "页面加密"
-
-#~ msgid ""
-#~ "Setting a password will require people who visit your blog to enter the "
-#~ "above password to view this page and its comments."
-#~ msgstr ""
-#~ "在此对页面设置密码后，当有人访问该页面及其评论时，将被要求提供输密码。"
-
-#~ msgid ""
-#~ "These settings apply to this page only. &#8220;Pings&#8221; are <a href="
-#~ "\"http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments\" "
-#~ "target=\"_blank\">trackbacks and pingbacks</a>."
-#~ msgstr ""
-#~ "这些设置只适用于本页面。“引用”包括 <a href=\"http://codex.wordpress.org/"
-#~ "Introduction_to_Blogging#Managing_Comments\" target=\"_blank\">Trackback "
-#~ "及 Pingback</a>。"
-
-#~ msgid "Page deleted."
-#~ msgid_plural "%s pages deleted."
-#~ msgstr[0] "页面已删除。"
-
-#~ msgid "Post deleted."
-#~ msgid_plural "%s posts deleted."
-#~ msgstr[0] "日志已删除。"
-
-#~ msgid "Also used as alternate text for the image"
-#~ msgstr "同时作为图片的替换文字"
-
-#~ msgid "Delete this post"
-#~ msgstr "删除这篇日志"
-
-#~ msgid ""
-#~ "You are about to delete this draft '%s'\n"
-#~ " 'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除草稿“%s”。\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid ""
-#~ "You are about to delete this post '%s'\n"
-#~ " 'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除日志“%s”。\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid "Delete this page"
-#~ msgstr "删除这个页面"
-
-#~ msgid ""
-#~ "You are about to delete this page '%s'\n"
-#~ " 'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除页面 “%s”。\n"
-#~ "点 “确认” 删除，点 “取消” 取消操作。"
-
-#~ msgid ""
-#~ "The character encoding you write your blog in (UTF-8 is <a href=\"http://"
-#~ "developer.apple.com/documentation/macos8/TextIntlSvcs/"
-#~ "TextEncodingConversionManager/TEC1.5/TEC.b0.html\">recommended</a>)"
-#~ msgstr ""
-#~ "您的 Blog 的输出所采用的字符编码方式（<a href=\"http://developer.apple."
-#~ "com/documentation/macos8/TextIntlSvcs/TextEncodingConversionManager/"
-#~ "TEC1.5/TEC.b0.html\">推荐使用</a> UTF-8）"
-
-#~ msgid "You do not have sufficient permissions to edit themes for this blog."
-#~ msgstr "您无权编辑主题。"
-
-#~ msgid "Image (%s)"
-#~ msgid_plural "Images (%s)"
-#~ msgstr[0] "图片 (%s)"
-
-#~ msgid "Audio (%s)"
-#~ msgid_plural "Audio (%s)"
-#~ msgstr[0] "音频 (%s)"
-
-#~ msgid "Video (%s)"
-#~ msgid_plural "Video (%s)"
-#~ msgstr[0] "视频 (%s)"
-
-#~ msgid "Media deleted."
-#~ msgstr "媒体已删除。"
-
-#~ msgid ""
-#~ "You are about to delete the selected items.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除所选项目。\n"
-#~ "点 “确认” 删除，点 “取消” 取消操作。"
-
-#~ msgid "Deleted"
-#~ msgstr "已删除"
-
-#~ msgid "Error in removing from trash..."
-#~ msgstr "从回收箱移除时出错..."
-
-#~ msgid "Import Bunny&#8217;s Technorati Tags"
-#~ msgstr "导入 Bunny&#8217;s Technorati Tags"
-
-#~ msgid ""
-#~ "Howdy! This imports tags from Bunny&#8217;s Technorati Tags into "
-#~ "WordPress tags."
-#~ msgstr ""
-#~ "已经将标签从 Bunny&#8217;s Technorati Tags 导入到了新的 WordPress 自带的标"
-#~ "签系统中。"
-
-#~ msgid "This is suitable for Bunny&#8217;s Technorati Tags version 0.6."
-#~ msgstr "适用于 Bunny&#8217;s Technorati Tags 0.6 版本。"
-
-#~ msgid ""
-#~ "All existing Bunny&#8217;s Technorati Tags will be removed after import."
-#~ msgstr "现有的 Bunny&#8217;s Technorati Tags 在导入后会被删除。"
-
-#~ msgid "Import Tags"
-#~ msgstr "导入标签"
-
-#~ msgid "Reading Bunny&#8217;s Technorati Tags&#8230;"
-#~ msgstr "读取 Bunny&#8217;s Technorati Tags&#8230;"
-
-#~ msgid "Done! <strong>%s</strong> post with tags were read."
-#~ msgid_plural "Done! <strong>%s</strong> posts with tags were read."
-#~ msgstr[0] "完成！<strong>%s</strong> 篇带标签的日志已读取。"
-
-#~ msgid "Next"
-#~ msgstr "下一步"
-
-#~ msgid "Import Bunny&#8217;s Technorati Tags into WordPress tags."
-#~ msgstr "导入 Bunny&#8217;s Technorati Tags"
-
-#~ msgid "Import Jerome&#8217;s Keywords"
-#~ msgstr "导入 Jerome&#8217;s Keywords"
-
-#~ msgid ""
-#~ "Howdy! This imports tags from Jerome&#8217;s Keywords into WordPress tags."
-#~ msgstr ""
-#~ "已经将现有 Jerome&#8217;s Keywords 标签导入到了新的 WordPress 自带的标签系"
-#~ "统中。"
-
-#~ msgid "This is suitable for Jerome&#8217;s Keywords version 1.x and 2.0a."
-#~ msgstr "适用于 Jerome&#8217;s Keywords 1.x 和 2.0a。"
-
-#~ msgid "All existing Jerome&#8217;s Keywords will be removed after import."
-#~ msgstr "现有的 Jerome&#8217;s Keywords 在导入后会被删除。"
-
-#~ msgid "Import Version 1.x"
-#~ msgstr "从 1.x 版本导入"
-
-#~ msgid "Import Version 2.0a"
-#~ msgstr "从 2.0a 版本导入"
-
-#~ msgid "Reading Jerome&#8217;s Keywords Tags&#8230;"
-#~ msgstr "读取 Jerome&#8217;s Keywords Tags&#8230;"
-
-#~ msgid "Import Jerome&#8217;s Keywords into WordPress tags."
-#~ msgstr "将 Jerome&#8217;s Keywords 导入为 WordPress 原生标签"
-
-#~ msgid "Enable syntax highlighting"
-#~ msgstr "开启语法高亮"
-
-#~ msgid "Disable syntax highlighting"
-#~ msgstr "禁用语法高亮"
-
-#~ msgid "You are not allowed to remove this page form the trash."
-#~ msgstr "您无权从回收箱中删除该页面。"
-
-#~ msgid "Media removed from Trash."
-#~ msgstr "影音文件从回收箱移除。"
-
-#~ msgid "Moved to Trash"
-#~ msgstr "移动到回收箱"
-
-#~ msgid "Return to Theme Installer."
-#~ msgstr "回到主题安装。"
-
-#~ msgid "(Password not shown)"
-#~ msgstr "（不显示密码）"
-
-#~ msgid ""
-#~ "<p>There is a new version of %1$s available. <a href=\"%2$s\" class="
-#~ "\"thickbox\" title=\"%1$s\">View version %3$s Details</a>.</p>"
-#~ msgstr "%1$s 有新版本可用。<a href=\"%2$s\">下载版本 %3$s </a>"
-
-#~ msgid ""
-#~ "<p>There is a new version of %1$s available. <a href=\"%2$s\" class="
-#~ "\"thickbox\" title=\"%1$s\">View version %3$s Details</a> or <a href=\"%4"
-#~ "$s\">upgrade automatically</a>.</p>"
-#~ msgstr ""
-#~ "%1$s 有新版本可用。<a href=\"%2$s\">下载版本 %3$s </a> 或 <a href=\"%4$s"
-#~ "\">自动升级</a>。"
-
-#~ msgid "%s Feed"
-#~ msgstr "%s 订阅"
-
-#~ msgid "View Site"
-#~ msgstr "查看网站"
-
-#~ msgid "Comment|noun"
-#~ msgstr "评论|名词"
-
-#~ msgid "Custom Image Header"
-#~ msgstr "自定义标题图片"
-
-#~ msgid "Edit \"%s\""
-#~ msgstr "编辑 \"%s\""
-
-#~ msgid "View \"%s\""
-#~ msgstr "查看 \"%s\""
-
-#~ msgid "Post updated. Continue editing below or <a href=\"%s\">go back</a>."
-#~ msgstr "日志已更新。请继续编辑或<a href=\"%s\">返回</a>。"
-
-#~ msgid "M j, Y @ G:i|Publish box date format"
-#~ msgstr "j F, Y @ G:i|发布框日期格式"
-
-#~ msgid "title"
-#~ msgstr "标题"
-
-#~ msgid "Approved|adjective"
-#~ msgstr "审核|形容词"
-
-#~ msgid "Pending|adjective"
-#~ msgstr "待审核|形容词"
-
-#~ msgid "Spam|adjective"
-#~ msgstr "垃圾评论|形容词"
-
-#~ msgid ""
-#~ "Choose the frame your link targets. Essentially this means if you choose "
-#~ "<code>_blank</code> your link will open in a new window."
-#~ msgstr ""
-#~ "选择链接的打开方式。如果选择 <code>_blank</code>，将使用新窗口打开链接。"
-
-#~ msgid "Page updated. Continue editing below or <a href=\"%s\">go back</a>."
-#~ msgstr "页面已更新。请继续编辑或<a href=\"%s\">返回</a>。"
-
-#~ msgid "Page updated."
-#~ msgstr "页面已更新。"
-
-#~ msgid "Published|page"
-#~ msgstr "已发表页面|页面"
-
-#~ msgid "Published <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Published <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "发布于<span class=\"count\">(%s)</span>|页面"
-
-#~ msgid "Scheduled|page"
-#~ msgstr "预发布页面|页面"
-
-#~ msgid "Scheduled <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "计划于 <span class=\"count\">(%s)</span>"
-
-#~ msgid "Pending Review|page"
-#~ msgstr "待审阅页面|页面"
-
-#~ msgid "Pending Review <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Pending Review <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "待审阅 <span class=\"count\">(%s)</span> |页面"
-
-#~ msgid "Draft|page"
-#~ msgstr "草稿|页面"
-
-#~ msgid "Drafts|manage posts header"
-#~ msgstr "草稿|manage posts header"
-
-#~ msgid "Draft <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Drafts <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "草稿 <span class=\"count\">(%s)</span> |页面"
-
-#~ msgid "Private|page"
-#~ msgstr "私人|页面"
-
-#~ msgid "Private <span class=\"count\">(%s)</span>|page"
-#~ msgid_plural "Private <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "私人的 <span class=\"count\">(%s)</span>"
-
-#~ msgid ""
-#~ "Also, since you're coming from DotClear, you probably have been using "
-#~ "Textile to format your comments and posts.  If this is the case, we "
-#~ "recommend downloading and installing <a href=\"http://www.huddledmasses."
-#~ "org/category/development/wordpress/textile/\">Textile for WordPress</a>.  "
-#~ "Trust me... You'll want it."
-#~ msgstr ""
-#~ "而且，既然您来自 Dotclear，您可能曾经使用 Textile 来格式化您的日志和评论。"
-#~ "如果是这样，我们推荐下载使用<a href=\"http://www.huddledmasses.org/"
-#~ "category/development/wordpress/textile/\">Textile for WordPress</a>。相信"
-#~ "我，你会需要它的！"
-
-#~ msgid "That's it! What are you waiting for? Go <a href=\"%1$s\">login</a>!"
-#~ msgstr "就是这样！还在等什么？快点去<a href=\"%1$s\">登录</a>！"
-
-#~ msgid ""
-#~ "LiveJournal does not appear to be responding right now. Please try again "
-#~ "later."
-#~ msgstr "LiveJournal暂时无响应。请稍后再试。"
-
-#~ msgid "Connection to the server has timeout after %s seconds."
-#~ msgstr "连接服务器已超出  %s 秒。"
-
-#~ msgid "Spam|verb"
-#~ msgstr "垃圾评论|动词"
-
-#~ msgid "something"
-#~ msgstr "某物"
-
-#~ msgid " on %4$s|feed_display"
-#~ msgstr "位于 %4$s|feed_display"
-
-#~ msgid ""
-#~ "The file exceeds the <code>upload_max_filesize</code> directive in "
-#~ "<code>php.ini</code>."
-#~ msgstr ""
-#~ "上传的文件尺寸超过 <code>php.ini</code> 中定义的 "
-#~ "<code>upload_max_filesize</code> 值。"
-
-#~ msgid ""
-#~ "The file exceeds the <em>MAX_FILE_SIZE</em> directive that was specified "
-#~ "in the HTML form."
-#~ msgstr "上传的文件尺寸超过 html 表单所定义的<em>最大上传文件大小</em>值。"
-
-#~ msgid "The file was only partially uploaded."
-#~ msgstr "文件没有被完整上传。"
-
-#~ msgid "No file was sent."
-#~ msgstr "没有文件发送出去。"
-
-#~ msgid "[need help?]"
-#~ msgstr "[需要帮助？]"
-
-#~ msgid "No plugin Specified"
-#~ msgstr "没有指定的插件"
-
-#~ msgid "Successfully installed the plugin."
-#~ msgstr "插件安装成功"
-
-#~ msgid "Downloading plugin package from %s"
-#~ msgstr "正在从 %s 下载更新"
-
-#~ msgid "Editor|User role"
-#~ msgstr "编辑|用户身份"
-
-#~ msgid "Author|User role"
-#~ msgstr "作者|用户身份"
-
-#~ msgid "Subscriber|User role"
-#~ msgstr "订阅者|用户身份"
-
-#~ msgid "File|media column header"
-#~ msgstr "文件|media column header"
-
-#~ msgid "Attached to|media column header"
-#~ msgstr "附加到|媒体栏顶部"
-
-#~ msgid "Date|media column header"
-#~ msgstr "日期|media column header"
-
-#~ msgid "rel"
-#~ msgstr "关系"
-
-#~ msgid ""
-#~ "&ndash;OR&ndash;|Between password field and private checkbox on post "
-#~ "quick edit interface"
-#~ msgstr "&ndash;或&ndash;|在文章快速编辑接口的密码和私人文章之间"
-
-#~ msgid "Preview \"%s\""
-#~ msgstr "预览 %s"
-
-#~ msgid ""
-#~ "%1$s%2$s, %3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, "
-#~ "4: hour input, 5: minute input"
-#~ msgstr ""
-#~ "%1$s%2$s, %3$s @ %4$s : %5$s|1: month input, 2: day input, 3: year input, "
-#~ "4: hour input, 5: minute input"
-
-#~ msgid "Pending|post state"
-#~ msgstr "待审核日志"
-
-#~ msgid "Get help with \"%s\""
-#~ msgstr "通过 \"%s\" 获取帮助"
-
-#~ msgid "Downloading update from %s"
-#~ msgstr "正在从 %s 下载更新"
-
-#~ msgid "Unpacking the core update"
-#~ msgstr "正在解压缩升级文件"
-
-#~ msgid "Uncategorized|Default category slug"
-#~ msgstr "Uncategorized|Default category slug"
-
-#~ msgid "Blogroll|Default link category slug"
-#~ msgstr "Blogroll|Default link category slug"
-
-#~ msgid "hello-world|Default post slug"
-#~ msgstr "hello-world|Default post slug"
-
-#~ msgid "about|Default page slug"
-#~ msgstr "about|Default page slug"
-
-#~ msgid "<strong>ERROR</strong>: The e-mail address isn't correct."
-#~ msgstr "<strong>错误</strong>：电子邮箱地址不正确。"
-
-#~ msgid "No matching widgets"
-#~ msgstr "没有找到符合条件的挂件"
-
-#~ msgid "%1$s: %2$s|1: widget name, 2: widget title"
-#~ msgstr "%1$s: %2$s|1: widget name, 2: widget title"
-
-#~ msgid "Add New|post"
-#~ msgstr "新日志"
-
-#~ msgid "Add New|file"
-#~ msgstr "新文件"
-
-#~ msgid "Add New|links"
-#~ msgstr "新链接"
-
-#~ msgid "Add New|page"
-#~ msgstr "新页面"
-
-#~ msgid "Add New|plugin"
-#~ msgstr "新插件"
-
-#~ msgid "Use legacy <code>my-hacks.php</code> file support"
-#~ msgstr "兼容旧版 WordPress 中的 <code>my-hacks.php</code> 文件"
-
-#~ msgid "Delete Plugin"
-#~ msgstr "删除插件"
-
-#~ msgid "%s by %s"
-#~ msgstr "作者：%s"
-
-#~ msgid "Currently Active Plugins"
-#~ msgstr "当前已启用的插件"
-
-#~ msgid "Recently Active Plugins"
-#~ msgstr "最近启用过的插件"
-
-#~ msgid ""
-#~ "The following plugins were recently active. When a plugin has been "
-#~ "inactive for more than 7 days it will be moved to the Inactive plugin "
-#~ "list."
-#~ msgstr ""
-#~ "下列插件曾被启用过，如果某插件处于非启用状态超过7天，那么这个插件将被移动"
-#~ "到禁用插件列表中。"
-
-#~ msgid "Get More Plugins"
-#~ msgstr "获取更多插件"
-
-# 插件安装说明
-#~ msgid ""
-#~ "To <em>manually</em> install a plugin you generally just need to upload "
-#~ "the plugin file into your <code>%s</code> directory."
-#~ msgstr ""
-#~ "要安装一个插件，您只需将插件文件上传到 <code>%s</code> 目录下。插件上传完"
-#~ "毕，您就可以在这里启用它了。"
-
-#~ msgid "Once a plugin has been installed, you may activate it here."
-#~ msgstr "插件安装之后，您可以在这里启用插件。"
-
-#~ msgid "Styles|Theme stylesheets in theme editor"
-#~ msgstr "样式表|Theme stylesheets in theme editor"
-
-#~ msgid "%1$s %2$s by %3$s|1: theme title, 2: theme version, 3: theme author"
-#~ msgstr "%1$s %2$s by %3$s|1: theme title, 2: theme version, 3: theme author"
-
-#~ msgid "Preview of \"%s\""
-#~ msgstr "预览 %s"
-
-#~ msgid "Activate \"%s\""
-#~ msgstr "启用 \"%s\""
-
-#~ msgid "Get More Themes"
-#~ msgstr "获取更多主题"
-
-#~ msgid ""
-#~ "You can find additional themes for your site in the <a href=\"http://"
-#~ "wordpress.org/extend/themes/\">WordPress theme directory</a>. To install "
-#~ "a theme you generally just need to upload the theme folder into your "
-#~ "<code>wp-content/themes</code> directory. Once a theme is uploaded, you "
-#~ "should see it on this page."
-#~ msgstr ""
-#~ "您可以在 <a href=\"http://wordpress.org/extend/themes/\">WordPress 主题</"
-#~ "a> 找到更多模板。要安装一个新主题，您只需将主题上传到 <code>wp-content/"
-#~ "themes</code> 文件夹里，就可以在这个页面看到这个主题了。"
-
-#~ msgid ""
-#~ "Gears is installed and enabled on this computer. You can disable it from "
-#~ "your browser&#8217;s Options, Under the Hood menu."
-#~ msgstr "Gears 业已启用，您可以在浏览器工具栏中禁用它。"
-
-#~ msgid "Setting theme as Current"
-#~ msgstr "设置为当前主题"
-
-#~ msgid ""
-#~ "Your WordPress database is out-of-date, and must be upgraded before you "
-#~ "can continue."
-#~ msgstr "您的 WordPress 数据库已经过期，必须升级再继续使用。"
-
-#~ msgid "Media|media column header"
-#~ msgstr "媒体|media column header"
-
-#~ msgid "Date Added|media column header"
-#~ msgstr "添加日期|media column header"
-
-#~ msgid ""
-#~ "Enable keyboard shortcuts for comment moderation. <a href=\"http://codex."
-#~ "wordpress.org/Keyboard_Shortcuts\">More information</a>"
-#~ msgstr ""
-#~ "允许使用键盘快捷键审核评论。<a href=\"http://codex.wordpress.org/"
-#~ "Keyboard_Shortcuts\">更多信息</a>"
-
-#~ msgid "Required."
-#~ msgstr "必填"
-
-#~ msgid "Username (required)"
-#~ msgstr "用户名（必填）"
-
-#~ msgid "E-mail (required)"
-#~ msgstr "电子邮箱（必填）"
-
-#~ msgid "Password (twice)"
-#~ msgstr "重复输入密码"
-
-#~ msgid "%1$s <span class=\"count\">(%2$s)</span>|user role with count"
-#~ msgstr "%1$s <span class=\"count\">(%2$s)</span>|用户身份及相应人数"
-
-#~ msgid "Add Widget"
-#~ msgstr "添加 Widget"
-
-#~ msgid "You are using %1$s widget in the \"%2$s\" sidebar."
-#~ msgid_plural "You are using %1$s widgets in the \"%2$s\" sidebar."
-#~ msgstr[0] "您在 \"%2$s\" 侧栏中使用了 %1$s 个 Widgets。"
-
-#~ msgid "You are using %1$s widget in the sidebar."
-#~ msgid_plural "You are using %1$s widgets in the sidebar."
-#~ msgstr[0] "您在侧栏中使用了 %1$s 个 widgets。"
-
-#~ msgid "Show any widgets"
-#~ msgstr "显示任意挂件"
-
-#~ msgid "Show all widgets"
-#~ msgstr "显示所有挂件"
-
-#~ msgid "Show unused widgets"
-#~ msgstr "显示未使用的挂件"
-
-#~ msgid "Show used widgets"
-#~ msgstr "显示使用中的挂件"
-
-#~ msgid "Current Widgets"
-#~ msgstr "当前挂件"
-
-#~ msgid "Add more from the Available Widgets section."
-#~ msgstr "从可用挂件单元中添加更多挂件。"
-
-#~ msgid "Header Image and Color"
-#~ msgstr "页眉图片和颜色"
-
-#~ msgid ", |between list items"
-#~ msgstr "，|between list items"
-
-#~ msgid ", and |between last two list items"
-#~ msgstr "，以及 |between last two list items"
-
-#~ msgid " and |between only two list items"
-#~ msgstr "与|between only two list items"
-
-#~ msgid "%1$s %2$s|Used as a calendar caption"
-#~ msgstr "%1$s %2$s|Used as a calendar caption"
-
-#~ msgid "0| Extra width for the media popup in pixels"
-#~ msgstr "0| Extra width for the media popup in pixels"
-
-#~ msgid "0| Extra height for the media popup in pixels"
-#~ msgstr "0| Extra height for the media popup in pixels"
-
-#~ msgid "0| Extra width for the link popup in pixels"
-#~ msgstr "0| Extra width for the link popup in pixels"
-
-#~ msgid "0| Extra height for the link popup in pixels"
-#~ msgstr "0| Extra height for the link popup in pixels"
-
-#~ msgid "0| Extra width for the image popup in pixels"
-#~ msgstr "0| Extra width for the image popup in pixels"
-
-#~ msgid "0| Extra height for the image popup in pixels"
-#~ msgstr "0| Extra height for the image popup in pixels"
-
-#~ msgid "0| Extra width for the colorpicker popup in pixels"
-#~ msgstr "0| Extra width for the colorpicker popup in pixels"
-
-#~ msgid "0| Extra height for the colorpicker popup in pixels"
-#~ msgstr "0| Extra height for the colorpicker popup in pixels"
-
-#~ msgid ""
-#~ "number_format_decimals|$decimals argument for http://php.net/"
-#~ "number_format, default is 0"
-#~ msgstr ""
-#~ "number_format_decimals|$decimals argument for http://php.net/"
-#~ "number_format, default is 0"
-
-#~ msgid ""
-#~ "number_format_decimal_point|$dec_point argument for http://php.net/"
-#~ "number_format, default is ."
-#~ msgstr ""
-#~ "number_format_decimal_point|$dec_point argument for http://php.net/"
-#~ "number_format, default is ."
-
-#~ msgid ""
-#~ "number_format_thousands_sep|$thousands_sep argument for http://php.net/"
-#~ "number_format, default is ,"
-#~ msgstr ""
-#~ "number_format_thousands_sep|$thousands_sep argument for http://php.net/"
-#~ "number_format, default is ,"
-
-#~ msgid "j F, Y @ G:i|revision date format"
-#~ msgstr "j F, Y @ G:i|版本日期格式"
-
-#~ msgid "%1$s by %2$s|post revision 1:datetime, 2:name"
-#~ msgstr "%1$s 作者 %2$s|修订记录 1:日期时间, 2:名字"
-
-#~ msgid "Medium|password strength"
-#~ msgstr "中等|password strength"
-
-#~ msgid ""
-#~ "Remember to click the \"Save Changes\" button at the bottom of the "
-#~ "Current Widgets column after you're all done!"
-#~ msgstr ""
-#~ "在您完成所有的修改后，要记住要点击点击挂件栏下面的 \"保存修改\" 按钮。"
-
-#~ msgid "You're about to leave without having saved your changes!"
-#~ msgstr "您要离开页面并不保存您所做的修改！"
-
-#~ msgid "<strong>ERROR</strong>: Invalid username."
-#~ msgstr "<strong>错误</strong>：无效的用户名。"
-
-#~ msgid "<strong>ERROR</strong>: Incorrect password."
-#~ msgstr "<strong>错误</strong>：密码错误。"
-
-#~ msgid "Error: could not find an RSS or ATOM feed at that URL."
-#~ msgstr "错误：在该 URL 找不到 RSS 或 ATOM Feed。"
-
-#~ msgid "Error in RSS %1$d"
-#~ msgstr "RSS %1$d 中存在错误"
-
-#~ msgid "Invalid post id."
-#~ msgstr "无效的日志 ID"
-
-#~ msgid ""
-#~ "You are about to delete the selected categories.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除选择分类。\n"
-#~ "点 “确认” 删除，点 “取消” 取消操作。"
-
-#~ msgid ""
-#~ "You are about to delete the selected comments.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除这条评论。\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid ""
-#~ "You are about to delete the selected link categories.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您即将删除所选链接分类。\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid ""
-#~ "You are about to delete the selected posts.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除所选日志。\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid ""
-#~ "Howdy! Upload your LiveJournal XML export file and we&#8217;ll import the "
-#~ "posts into this blog."
-#~ msgstr ""
-#~ "您好！请选择您从 LiveJournal 中导出的 XML 文件，我们将把其中的日志导入到您"
-#~ "的 Blog 中。"
-
-#~ msgid ""
-#~ "Choose a LiveJournal XML file to upload, then click Upload file and "
-#~ "import."
-#~ msgstr "选择您要导入的 LiveJournal 导出文件，然后点导入按钮。"
-
-#~ msgid ""
-#~ "You are about to delete this category '%s'\n"
-#~ " 'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除分类 “%s”。\n"
-#~ "点 “确认” 删除，点 “取消” 取消操作。"
-
-#~ msgid ""
-#~ "You are about to delete this tag '%s'\n"
-#~ " 'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除标签“%s”。\n"
-#~ "点 “确认” 删除，点 “取消” 取消操作。"
-
-#~ msgid ""
-#~ "You are about to delete the selected links.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除所选链接。\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid ""
-#~ "You are about to delete the selected attachments.\n"
-#~ "  'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除所选附件。\n"
-#~ "点 “确认” 删除，点 “取消” 取消操作。"
-
-#~ msgid "(%s)"
-#~ msgid_plural "(%s)"
-#~ msgstr[0] "%s"
-
-#~ msgid "Protected"
-#~ msgstr "已保护"
-
-#~ msgid ""
-#~ "The setting below determines where images, documents, and other media "
-#~ "files will be linked to when inserted into the body of a post."
-#~ msgstr "以下是插入到文章内的图片、文档或者其他媒体文件的设置。"
-
-#~ msgid "Default media links"
-#~ msgstr "默认媒体链接"
-
-#~ msgid "Default image links"
-#~ msgstr "默认图片链接"
-
-#~ msgid "Default image size"
-#~ msgstr "默认图片大小"
-
-#~ msgid "Auto"
-#~ msgstr "自动"
-
-#~ msgid "Default image alignment"
-#~ msgstr "默认图片对齐方式"
-
-#~ msgid "This web site is denied to use Gears."
-#~ msgstr "此站点拒绝使用 Gears。"
-
-#~ msgid "Subtle"
-#~ msgstr "微妙的"
-
-#~ msgid "Classic"
-#~ msgstr "经典"
-
-#~ msgid "Write Post"
-#~ msgstr "撰写日志"
-
-#~ msgid "Help on titles"
-#~ msgstr "关于标题的帮助"
-
-#~ msgid "Help on categories"
-#~ msgstr "关于分类的帮助"
-
-#~ msgid "Help with post field"
-#~ msgstr "关于日志框的帮助"
-
-#~ msgid ""
-#~ "<a href=\"%s\" title=\"Help on trackbacks\"><strong>TrackBack</strong> a "
-#~ "<abbr title=\"Universal Resource Locator\">URL</abbr></a>:</label> "
-#~ "(Separate multiple <abbr title=\"Universal Resource Locator\">URL</abbr>s "
-#~ "with spaces.)"
-#~ msgstr ""
-#~ "<a href=\"%s\" title=\"关于引用的帮助\"><strong>引用</strong>通告<abbr "
-#~ "title=\"Universal Resource Identifier\">地址</abbr></a>：</label>（多个"
-#~ "<abbr title=\"Universal Resource Identifier\">地址</abbr>请用空格隔开。"
-
-#~ msgid "Save as Private"
-#~ msgstr "保存为私人日志/页面"
-
-#~ msgid "Advanced Editing"
-#~ msgstr "高级编辑"
-
-#~ msgid "View Draft Pages"
-#~ msgstr "查看页面草稿"
-
-#~ msgid "<a %s>Private</a> <span class=\"count\">(%s)</span>"
-#~ msgid_plural "<a %s>Private</a> <span class=\"count\">(%s)</span>"
-#~ msgstr[0] "<a %s>私人</a> <span class=\"count\">(%s)</span>"
-
-#~ msgid "View Drafts"
-#~ msgstr "查看草稿"
-
-#~ msgid "Choose File"
-#~ msgstr "选择文件"
-
-#~ msgid "Upload an Image"
-#~ msgstr "添加图片"
-
-#~ msgid "Upload Audio"
-#~ msgstr "上传音频"
-
-#~ msgid "Tags|media column header"
-#~ msgstr "标签|media column header"
-
-#~ msgid "<cite>%s</cite> Says:"
-#~ msgstr "<cite>%s</cite> 说道:"
-
-#~ msgid "&raquo; Newer Comments"
-#~ msgstr "&laquo; 较新的评论"
-
-#~ msgid "Login"
-#~ msgstr "登录"
-
-# 待审核的评论
-#~ msgid "Awaiting Moderation (%s)"
-#~ msgid_plural "Awaiting Moderation (%s)"
-#~ msgstr[0] "待审核 (%s)"
-
-#~ msgid "Approved|plural"
-#~ msgstr "已审核|plural"
-
-#~ msgid "Show All Comments"
-#~ msgstr "显示所有评论"
-
-#~ msgid "Privacy Options"
-#~ msgstr "隐私设置"
-
-#~ msgid "Trackbacks and Pings"
-#~ msgstr "引用通告"
-
-# 加一个引号标识出日志标题
-#~ msgid "Comments on this Post"
-#~ msgstr "该日志的评论"
-
-#~ msgid "Insert Media"
-#~ msgstr "插入媒体"
-
-# 待审核的评论
-#~ msgid "Awaiting Moderation"
-#~ msgid_plural "Awaiting Moderation"
-#~ msgstr[0] "待审核"
-
-#~ msgid ""
-#~ "You are about to delete this link '%s'\n"
-#~ "'Cancel' to stop, 'OK' to delete."
-#~ msgstr ""
-#~ "您将要删除链接 '%s'\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid "Delete&nbsp;link"
-#~ msgstr "删除&nbsp;链接"
-
-#~ msgid "Comments &amp; Pings"
-#~ msgstr "评论与引用"
-
-#~ msgid "Published (%s)"
-#~ msgid_plural "Published (%s)"
-#~ msgstr[0] "已发布 (%s)"
-
-#~ msgid "Scheduled (%s)"
-#~ msgid_plural "Scheduled (%s)"
-#~ msgstr[0] "预发布 (%s)"
-
-#~ msgid "Pending Review (%s)"
-#~ msgid_plural "Pending Review (%s)"
-#~ msgstr[0] "待审核 (%s)"
-
-#~ msgid "Draft (%s)"
-#~ msgid_plural "Drafts (%s)"
-#~ msgstr[0] "草稿 (%s)"
-
-#~ msgid "Private (%s)"
-#~ msgid_plural "Private (%s)"
-#~ msgstr[0] "私人日志/页面 (%s)"
-
-#~ msgid "All Pages"
-#~ msgstr "所有页面"
-
-#~ msgid "All Posts"
-#~ msgstr "所有日志"
-
-#~ msgid "Recent Comments <a href=\"%s\">View all</a>"
-#~ msgstr "最新评论（<a href=\"%s\">查看全部</a>）"
-
-#~ msgid "Recent Drafts <a href=\"%s\">View all</a>"
-#~ msgstr "管理分类（<a href=\"%s\">添加分类</a>）"
-
-# 待审核的评论
-#~ msgid "[Awaiting Moderation]"
-#~ msgstr "待审核 (%s)"
-
-#~ msgid "(based on %d rating)"
-#~ msgid_plural "(based on %d ratings)"
-#~ msgstr[0] "(共有 %d 人打分)"
-
-#~ msgid "Parent Category"
-#~ msgstr "上级分类"
-
-#~ msgid "Timestamp"
-#~ msgstr "时间戳"
-
-#~ msgid "Selected pages"
-#~ msgstr "预发布页面"
-
-#~ msgid "Selected posts"
-#~ msgstr "预发布日志"
-
-#~ msgid "(expand)"
-#~ msgstr "(展开)"
-
-#~ msgid "(fold)"
-#~ msgstr "(折叠)"
-
-#~ msgid "Comments and Pings"
-#~ msgstr "评论与引用"
-
-#~ msgid "Disallow Comments"
-#~ msgstr "禁止评论"
-
-#~ msgid "Disallow Pings"
-#~ msgstr "禁止ping"
-
-# 或者自行输入一个值
-#~ msgid "or"
-#~ msgstr "或者"
-
-#~ msgid "Add Photo"
-#~ msgstr "添加图片"
-
-#~ msgid "All Users"
-#~ msgstr "所有用户"
-
-#~ msgid "%i% pending"
-#~ msgstr "%i% 条评论待审核"
-
-#~ msgid "Browse your files"
-#~ msgstr "浏览您的文件"
-
-#~ msgid "Direct link to file"
-#~ msgstr "直接链接到文件"
-
-#~ msgid "Icon"
-#~ msgstr "图标"
-
-#~ msgid "Show:"
-#~ msgstr "显示："
-
-#~ msgid "Link to:"
-#~ msgstr "链接到："
-
-#~ msgid "Send to editor &raquo;"
-#~ msgstr "发送到编辑器 &raquo;"
-
-#~ msgid "Save &raquo;"
-#~ msgstr "保存 &raquo;"
-
-#~ msgid ""
-#~ "Are you sure you want to delete the file '%title%'?\n"
-#~ "Click ok to delete or cancel to go back."
-#~ msgstr ""
-#~ "您确定要删除文件“%title%”？\n"
-#~ "点“确认”删除，点“取消”取消操作。"
-
-#~ msgid "Related"
-#~ msgstr "相关操作"
-
-#~ msgid "Manage All Link Categories"
-#~ msgstr "管理所有链接分类"
-
-#, fuzzy
-#~ msgid "View All Comments"
-#~ msgstr "显示所有评论"
-
-#, fuzzy
-#~ msgid "Yesterday"
-#~ msgstr "星期二"
-
-#, fuzzy
-#~ msgid "%1$s in response to %2$s:"
-#~ msgstr "%1$s发表于《%2$s》"
-
-#~ msgid "Please enter a title before previewing this page."
-#~ msgstr "预览此页面之前，请先设置一个标题。"
-
-#~ msgid "Please enter a title before previewing this post."
-#~ msgstr "预览此文章之前，请先设置一个标题。"
-
-#~ msgid ""
-#~ "To enable it, make sure this web site is not on the denied list in Gears "
-#~ "Settings under your browser's Tools menu, then click the button below."
-#~ msgstr ""
-#~ "要启用它，请确认该站点不在您浏览器工具栏下的 Gears 禁止名单中，然后点击下"
-#~ "面按钮。"
-
-#~ msgid "<a href=\"http://codex.wordpress.org/\">Help</a>"
-#~ msgstr "<a href=\"http://codex.wordpress.org/\">帮助</a>"
-
-#~ msgid "Manage Categories"
-#~ msgstr "管理分类"
-
-#~ msgid "Save and Continue Editing"
-#~ msgstr "保存并继续编辑"
-
-#~ msgid "View this Post"
-#~ msgstr "查看该日志"
-
-#~ msgid "Publish Status"
-#~ msgstr "发布状态"
-
-#~ msgid "Delete&nbsp;post"
-#~ msgstr "删除 &nbsp; 日志"
-
-#~ msgid "Manage All Comments"
-#~ msgstr "管理所有评论"
-
-#~ msgid "Manage All Categories"
-#~ msgstr "管理所有分类"
-
-#~ msgid "Manage All Tags"
-#~ msgstr "管理所有标签"
-
-#~ msgid "Approval Status"
-#~ msgstr "审核状态"
-
-#~ msgid "Moderated"
-#~ msgstr "待审核"
-
-#~ msgid "Delete comment"
-#~ msgstr "删除评论"
-
-#~ msgid "Manage Link Categories (<a href=\"%s\">add new</a>)"
-#~ msgstr "管理链接分类（<a href=\"%s\">添加链接分类</a>）"
-
-#~ msgid "Manage Link Categories"
-#~ msgstr "管理链接分类"
-
-#~ msgid "Write Page"
-#~ msgstr "撰写页面"
-
-#~ msgid "Delete&nbsp;page"
-#~ msgstr "删除&nbsp;页面"
