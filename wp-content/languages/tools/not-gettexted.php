@@ -51,7 +51,7 @@ class NotGettexted {
 		return '';
 	}
 
-	function list_php_files($dir) {
+	function list_php_files($dir, $excludes=array()) {
 		$files = array();
 		$d = opendir($dir);
 		if (!$d) return false;
@@ -59,10 +59,21 @@ class NotGettexted {
 			$full_item = $dir . '/' . $item;
 			if ('.' == $item || '..' == $item)
 				continue;
+			$exclude_match = FALSE;
+			foreach($excludes as $exclude)
+			{
+				if(fnmatch($exclude,$full_item))
+				{
+					$exclude_match = TRUE;
+					break;
+				}
+			}
+			if($exclude_match)
+				continue;
 			if ('.php' == substr($item, -4))
 				$files[] = $full_item; 
 			if (is_dir($full_item))
-				$files += array_merge($files, NotGettexted::list_php_files($full_item, $files));
+				$files += array_merge($files, NotGettexted::list_php_files($full_item, $excludes));
 		}
 		closedir($d);
 		return $files;

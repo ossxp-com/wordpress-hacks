@@ -147,13 +147,13 @@ class MakePOT {
 			$placeholders['version'] = $matches[1];
 		}
 		$output = is_null($output)? 'wordpress.pot' : $output;
-		$res = $this->xgettext('wp', $dir, $output, $placeholders, array('wp-admin/includes/continents-cities.php'));
+		$res = $this->xgettext('wp', $dir, $output, $placeholders, array('wp-admin/includes/continents-cities.php', 'wp-content/languages/*'));
 		if (!$res) return false;
 		/* Add not-gettexted strings */
 		$old_dir = getcwd();
 		$output = realpath($output);
 		chdir($dir);
-		$php_files = NotGettexted::list_php_files('.');
+		$php_files = NotGettexted::list_php_files('.', array('./wp-content/languages/*'));
 		$not_gettexted = & new NotGettexted;
 		$res = $not_gettexted->command_extract($output, $php_files);
 		chdir($old_dir);
@@ -169,7 +169,7 @@ class MakePOT {
 			$placeholders['version'] = $matches[1];
 		}
 		$output = is_null($output)? 'wordpress-continents-cities.pot' : $output;
-		return $this->xgettext('wp', $dir, $output, $placeholders, array(), array('wp-admin/includes/continents-cities.php'));
+		return $this->xgettext('wp', $dir, $output, $placeholders, array('wp-content/languages/*'), array('wp-admin/includes/continents-cities.php'));
 	}
 	
 
@@ -179,14 +179,14 @@ class MakePOT {
 			$placeholders['version'] = $matches[1];
 		}
 		$output = is_null($output)? 'wordpress.pot' : $output;
-		return $this->xgettext('wp', $dir, $output, $placeholders);
+		return $this->xgettext('wp', $dir, $output, $placeholders, array('wp-content/languages/*'));
 	}
 
 
 	function bb($dir, $output) {
 		$placeholders = array();
 		$output = is_null($output)? 'bbpress.pot' : $output;
-		return $this->xgettext('bb', $dir, $output, $placeholders);
+		return $this->xgettext('bb', $dir, $output, $placeholders, array('wp-content/languages/*'));
 
 	}
 
@@ -215,7 +215,7 @@ class MakePOT {
 
 	function generic($dir, $output) {
 		$output = is_null($output)? "generic.pot" : $output;
-		return $this->xgettext('generic', $dir, $output, array());
+		return $this->xgettext('generic', $dir, $output, array(), array('wp-content/languages/*'));
 	}
 
 	function guess_plugin_slug($dir) {
@@ -244,7 +244,7 @@ class MakePOT {
 		$placeholders['slug'] = $slug;
 
 		$output = is_null($output)? "$slug.pot" : $output;
-		$res = $this->xgettext('wp-plugin', $dir, $output, $placeholders);
+		$res = $this->xgettext('wp-plugin', $dir, $output, $placeholders, array('wp-content/languages/*'));
 		if (!$res) return false;
 	    $potextmeta = new PotExtMeta;
 	    $res = $potextmeta->append($main_file, $output);
@@ -269,7 +269,7 @@ class MakePOT {
 		$placeholders['slug'] = $slug;
 
 		$output = is_null($output)? "$slug.pot" : $output;
-		$res = $this->xgettext('wp-theme', $dir, $output, $placeholders);
+		$res = $this->xgettext('wp-theme', $dir, $output, $placeholders, array('wp-content/languages/*'));
 		if (!$res) return false;
 	    $potextmeta = new PotExtMeta;
 	    $res = $potextmeta->append($main_file, $output);
@@ -281,7 +281,7 @@ class MakePOT {
 	
 	function bp($dir, $output) {
 		$output = is_null($output)? "buddypress.pot" : $output;
-		return $this->xgettext('bp', $dir, $output, array());
+		return $this->xgettext('bp', $dir, $output, array(), array('wp-content/languages/*'));
 	}
 
 }
