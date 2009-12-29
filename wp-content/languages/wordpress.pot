@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.9.1-beta1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-29 12:03+0800\n"
+"POT-Creation-Date: 2009-12-29 15:30+0800\n"
 "PO-Revision-Date: 2009-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9959,19 +9959,6 @@ msgstr ""
 msgid "Error: please enter a valid email address."
 msgstr ""
 
-#: wp-content/languages/tools/pomo/sample/app.php:56
-#, php-format
-msgid "Welcome %s!"
-msgstr ""
-
-#: wp-content/languages/tools/pomo/sample/app.php:60
-msgid "A string with low priority!"
-msgstr ""
-
-#: wp-content/languages/tools/pomo/sample/app.php:62
-msgid "Bye\n"
-msgstr ""
-
 #: wp-content/plugins/akismet/akismet.php:57
 #: wp-content/plugins/akismet/akismet.php:133
 msgid "Akismet Configuration"
@@ -11380,11 +11367,8 @@ msgid "&laquo; Back"
 msgstr ""
 
 #. #-#-#-#-#  wordpress.pot (WordPress 2.9.1-beta1)  #-#-#-#-#
-#. Not gettexted string WP_I18N_ERROR
-#. #-#-#-#-#  wordpress.pot (WordPress 2.9.1-beta1)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
-#: wp-includes/functions.php:2521
-#: wp-content/languages/tools/t/data/not-gettexted-0.php:11 wp-load.php:50
+#: wp-includes/functions.php:2521 wp-load.php:50
 msgid "WordPress &rsaquo; Error"
 msgstr ""
 
@@ -14432,35 +14416,6 @@ msgstr ""
 msgid ""
 " $db->get_row(string query, output type, int offset) -- Output type must be "
 "one of: OBJECT, ARRAY_A, ARRAY_N"
-msgstr ""
-
-#. Not gettexted string WP_I18N_CONFIG
-#: wp-content/languages/tools/t/data/not-gettexted-0.php:11
-msgid ""
-" There doesn't seem to be a <code>wp-config.php</code> file. I need this "
-"before we can get started. Need more help? <a href='http://codex.wordpress."
-"org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config."
-"php</code> file through a web interface, but this doesn't work for all "
-"server setups. The safest way is to manually create the file.</p><p><a "
-"href='%s' class='button'>Create a Configuration File</a>"
-msgstr ""
-
-#. Not gettexted string WP_I18N_CONFIG
-#: wp-content/languages/tools/t/data/not-gettexted-0-work.php:11
-#: wp-content/languages/tools/t/data/not-gettexted-0-result.php:11
-msgid ""
-"Translation: There doesn't seem to be a <code>wp-config.php</code> file. I "
-"need this before we can get started. Need more help? <a href='http://codex."
-"wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a "
-"<code>wp-config.php</code> file through a web interface, but this doesn't "
-"work for all server setups. The safest way is to manually create the file.</"
-"p><p><a href='%s' class='button'>Create a Configuration File</a>"
-msgstr ""
-
-#. Not gettexted string WP_I18N_ERROR
-#: wp-content/languages/tools/t/data/not-gettexted-0-work.php:11
-#: wp-content/languages/tools/t/data/not-gettexted-0-result.php:11
-msgid "Translation: WordPress &rsaquo; Error"
 msgstr ""
 
 #. Not gettexted string WP_I18N_OLD_PHP
