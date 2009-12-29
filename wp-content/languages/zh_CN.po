@@ -1463,7 +1463,7 @@ msgstr "已发布的页面"
 msgctxt "page"
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
-msgstr[0] "发布于<span class=\"count\">(%s)</span>"
+msgstr[0] "已发布 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:110
 msgctxt "page"
@@ -5366,7 +5366,7 @@ msgstr "预发布于：<b>%1$s</b>"
 #: wp-admin/includes/meta-boxes.php:155
 #, php-format
 msgid "Published on: <b>%1$s</b>"
-msgstr "发布于：<b>%1$s</b>"
+msgstr "已发布在：<b>%1$s</b>"
 
 #: wp-admin/includes/meta-boxes.php:157 wp-admin/includes/meta-boxes.php:165
 msgid "Publish <b>immediately</b>"
@@ -5380,7 +5380,7 @@ msgstr "预发布于：<b>%1$s</b>"
 #: wp-admin/includes/meta-boxes.php:161
 #, php-format
 msgid "Publish on: <b>%1$s</b>"
-msgstr "计划于：<b>%1$s</b>"
+msgstr "发布于：<b>%1$s</b>"
 
 #: wp-admin/includes/meta-boxes.php:205 wp-admin/includes/meta-boxes.php:206
 #: wp-includes/script-loader.php:294
@@ -6077,7 +6077,7 @@ msgstr "已发布的日志"
 #, php-format
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
-msgstr[0] "发布于<span class=\"count\">(%s)</span>"
+msgstr[0] "已发布 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:820
 msgctxt "post"
@@ -6506,7 +6506,7 @@ msgstr "Y年n月j日 \\a\\t H:i"
 #: wp-admin/includes/template.php:2149
 #, php-format
 msgid "Submitted on <a href=\"%1$s\">%2$s at %3$s</a>"
-msgstr "提交于<a href=\"%1$s\">%2$s at %3$s</a>"
+msgstr "提交于 <a href=\"%1$s\">%2$s - %3$s</a>"
 
 #: wp-admin/includes/template.php:2149
 msgid "g:ia"
@@ -7986,8 +7986,8 @@ msgid ""
 msgstr ""
 "当评论的内容、姓名、URL、电子邮箱、IP 地址中包含以下任何一个关键词，则将其加"
 "入<a href=\"edit-comments.php?comment_status=moderated\">审核队列</a>。一行一"
-"个关键词或IP。It will match inside words, so &#8220;press&#8221; will match "
-"&#8220;WordPress&#8221;."
+"个关键词或IP。非全词匹配，如 &#8220;press&#8221; 将匹配 &#8220;"
+"WordPress&#8221;."
 
 #: wp-admin/options-discussion.php:140 wp-admin/options-discussion.php:141
 msgid "Comment Blacklist"
@@ -8655,11 +8655,11 @@ msgstr ""
 
 #: wp-admin/options-writing.php:66 wp-admin/options-writing.php:67
 msgid "Atom Publishing Protocol"
-msgstr "Atom Publishing Protocol"
+msgstr "Atom 发布协议"
 
 #: wp-admin/options-writing.php:70
 msgid "Enable the Atom Publishing Protocol."
-msgstr "开启 Atom"
+msgstr "开启 Atom 发布协议。"
 
 #: wp-admin/options-writing.php:74 wp-admin/options-writing.php:75
 msgid "XML-RPC"
@@ -8669,7 +8669,7 @@ msgstr "XML-RPC"
 msgid ""
 "Enable the WordPress, Movable Type, MetaWeblog and Blogger XML-RPC "
 "publishing protocols."
-msgstr "开启 WordPress, Movable Type, MetaWeblog and Blogger XML-RPC 协议端口"
+msgstr "开启 WordPress, Movable Type, MetaWeblog 和 Blogger XML-RPC 发布协议。"
 
 #: wp-admin/options-writing.php:84
 msgid "Post via e-mail"
