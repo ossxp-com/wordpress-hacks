@@ -53,7 +53,8 @@ msgstr "下一页 &raquo;"
 #: wp-admin/categories.php:72 wp-admin/edit-link-categories.php:28
 #: wp-admin/link-category.php:46
 #, php-format
-msgid "Can&#8217;t delete the <strong>%s</strong> category: this is the default one"
+msgid ""
+"Can&#8217;t delete the <strong>%s</strong> category: this is the default one"
 msgstr "无法删除 <strong>%s</strong> 分类：该分类为默认分类"
 
 #: wp-admin/admin-ajax.php:382
@@ -243,7 +244,8 @@ msgid "Y/m/d"
 msgstr "Y年n月j日"
 
 #: wp-admin/admin-footer.php:23
-msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
+msgid ""
+"Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
 msgstr ""
 "感谢使用 <a href=\"http://wordpress.org/\">WordPress</a> | <a href=\"http://"
 "wopus.org/\">WOPUS中文平台中文版</a>"
@@ -514,7 +516,7 @@ msgstr "您无权编辑这篇日志的评论。"
 msgid ""
 "This comment is in the Trash. Please move it out of the Trash if you want to "
 "edit it."
-msgstr "该评论处于回收箱中。如果您需要编辑请将其移出回收箱。"
+msgstr "该评论处于回收站中。如果您需要编辑请将其移出回收站。"
 
 #: wp-admin/comment.php:84
 msgid "You are not allowed to delete comments on this post."
@@ -673,7 +675,8 @@ msgstr ""
 
 #: wp-admin/custom-header.php:297
 #, php-format
-msgid "Images of exactly <strong>%1$d x %2$d pixels</strong> will be used as-is."
+msgid ""
+"Images of exactly <strong>%1$d x %2$d pixels</strong> will be used as-is."
 msgstr "大小为 <strong>%1$d x %2$d 像素</strong> 的图片可以按原始尺寸使用。"
 
 #: wp-admin/custom-header.php:300
@@ -754,7 +757,7 @@ msgstr "恢复"
 #: wp-admin/edit-attachment-rows.php:98 wp-admin/includes/template.php:1455
 #: wp-admin/includes/template.php:1675 wp-admin/upload.php:396
 msgid "Trash"
-msgstr "回收箱"
+msgstr "回收站"
 
 #: wp-admin/edit-attachment-rows.php:100 wp-admin/edit-comments.php:316
 #: wp-admin/edit-comments.php:412 wp-admin/edit-form-comment.php:71
@@ -853,7 +856,8 @@ msgid "No media attachments found."
 msgstr "没有找到媒体附件。"
 
 #: wp-admin/edit-category-form.php:14
-msgid "You do not have sufficient permissions to edit categories for this blog."
+msgid ""
+"You do not have sufficient permissions to edit categories for this blog."
 msgstr "您无权编辑该博客的日志分类。"
 
 #: wp-admin/edit-category-form.php:80 wp-admin/edit-link-category-form.php:27
@@ -901,13 +905,15 @@ msgstr[0] "%s 条评论从垃圾评论中恢复"
 #, php-format
 msgid "%s comment moved to the trash."
 msgid_plural "%s comments moved to the trash."
-msgstr[0] "%s 条评论被移入回收箱。 "
+msgstr[0] "%s 条评论被移入回收站。 "
+msgstr[1] "%s 条评论被移入回收站。 "
 
 #: wp-admin/edit-comments.php:169
 #, php-format
 msgid "%s comment restored from the trash"
 msgid_plural "%s comments restored from the trash"
-msgstr[0] "%s 条评论从回收箱中恢复"
+msgstr[0] "%s 条评论从回收站中恢复"
+msgstr[1] "%s 条评论从回收站中恢复, ssssssssssssssssssssss"
 
 #: wp-admin/edit-comments.php:173
 #, php-format
@@ -928,7 +934,8 @@ msgid ""
 msgid_plural ""
 "Pending <span class=\"count\">(<span class=\"pending-count\">%s</span>)</"
 "span>"
-msgstr[0] "待审核 <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgstr[0] ""
+"待审核 <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:192
 msgid "Approved"
@@ -937,15 +944,21 @@ msgstr[0] "已审核"
 
 #: wp-admin/edit-comments.php:193
 #, php-format
-msgid "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
-msgid_plural "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
-msgstr[0] "垃圾评论 <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgid ""
+"Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgid_plural ""
+"Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[0] ""
+"垃圾评论 <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:194
 #, php-format
-msgid "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
-msgid_plural "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
-msgstr[0] "回收箱<span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgid ""
+"Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgid_plural ""
+"Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgstr[0] ""
+"回收站<span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:233 wp-admin/edit-comments.php:235
 msgid "Search Comments"
@@ -986,7 +999,7 @@ msgstr "非垃圾评论"
 #: wp-admin/includes/media.php:1243 wp-admin/includes/meta-boxes.php:193
 #: wp-admin/upload.php:294 wp-admin/upload.php:460
 msgid "Move to Trash"
-msgstr "移入回收箱"
+msgstr "移入回收站"
 
 #: wp-admin/edit-comments.php:325
 msgid "Show all comment types"
@@ -1019,7 +1032,7 @@ msgstr "清空垃圾评论"
 #: wp-admin/edit.php:310 wp-admin/edit.php:357 wp-admin/upload.php:339
 #: wp-admin/upload.php:468
 msgid "Empty Trash"
-msgstr "清空回收箱"
+msgstr "清空回收站"
 
 #: wp-admin/edit-comments.php:448
 msgid "No comments awaiting moderation&hellip; yet."
@@ -1071,7 +1084,8 @@ msgstr "日志已提交。 <a target=\"_blank\" href=\"%s\">查看日志</a>"
 msgid ""
 "Post scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "post</a>"
-msgstr "日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
+msgstr ""
+"日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
 
 #. translators: Publish box date formt, see http://php.net/date
 #: wp-admin/edit-form-advanced.php:54 wp-admin/edit-form-comment.php:58
@@ -1251,7 +1265,8 @@ msgid "Description (optional)"
 msgstr "描述（可选）"
 
 #: wp-admin/edit-link-category-form.php:14
-msgid "You do not have sufficient permissions to edit link categories for this blog."
+msgid ""
+"You do not have sufficient permissions to edit link categories for this blog."
 msgstr "您没有足够权限修改链接分类。"
 
 #: wp-admin/edit-link-category-form.php:26
@@ -1368,7 +1383,8 @@ msgstr "页面已提交。<a target=\"_blank\" href=\"%s\">查看页面</a>"
 msgid ""
 "Page scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "page</a>"
-msgstr "页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
+msgstr ""
+"页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
 
 #: wp-admin/edit-page-form.php:52
 #, php-format
@@ -1404,21 +1420,21 @@ msgstr "修订历史"
 
 #: wp-admin/edit-pages.php:39 wp-admin/page.php:160
 msgid "You are not allowed to move this page to the trash."
-msgstr "您无权将该页面移入回收箱。"
+msgstr "您无权将该页面移入回收站。"
 
 #: wp-admin/edit-pages.php:42 wp-admin/edit.php:50 wp-admin/page.php:163
 #: wp-admin/post.php:203 wp-admin/upload.php:96
 msgid "Error in moving to trash..."
-msgstr "移入回收箱时出错..."
+msgstr "移入回收站时出错..."
 
 #: wp-admin/edit-pages.php:52
 msgid "You are not allowed to restore this page from the trash."
-msgstr "您无权从回收箱中还原该页面。"
+msgstr "您无权从回收站中还原该页面。"
 
 #: wp-admin/edit-pages.php:55 wp-admin/edit.php:63 wp-admin/page.php:179
 #: wp-admin/post.php:219 wp-admin/upload.php:106
 msgid "Error in restoring from trash..."
-msgstr "从回收箱恢复时出错..."
+msgstr "从回收站恢复时出错..."
 
 #: wp-admin/edit-pages.php:67 wp-admin/page.php:192
 msgid "You are not allowed to delete this page."
@@ -1518,18 +1534,18 @@ msgstr[0] "私人的 <span class=\"count\">(%s)</span>"
 #: wp-admin/edit-pages.php:114
 msgctxt "page"
 msgid "Trash"
-msgstr "回收箱"
+msgstr "回收站"
 
 #: wp-admin/edit-pages.php:114
 msgid "Trash pages"
-msgstr "回收箱中的页面"
+msgstr "回收站中的页面"
 
 #: wp-admin/edit-pages.php:114
 #, php-format
 msgctxt "page"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "回收箱<span class=\"count\">(%s)</span>"
+msgstr[0] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125 wp-admin/includes/template.php:3239
 #: wp-admin/menu.php:59 wp-includes/default-widgets.php:19
@@ -1571,13 +1587,13 @@ msgstr[0] "页面已永久删除。"
 #, php-format
 msgid "Page moved to the trash."
 msgid_plural "%s pages moved to the trash."
-msgstr[0] "页面被移入回收箱。"
+msgstr[0] "%s 个页面被移入回收站。"
 
 #: wp-admin/edit-pages.php:174
 #, php-format
 msgid "Page restored from the trash."
 msgid_plural "%s pages restored from the trash."
-msgstr[0] "页面已从回收箱中恢复。"
+msgstr[0] "页面已从回收站中恢复。"
 
 #: wp-admin/edit-pages.php:183
 msgid "Your page has been saved."
@@ -1618,11 +1634,11 @@ msgstr "已提交"
 
 #: wp-admin/edit.php:47 wp-admin/post.php:200 wp-admin/upload.php:93
 msgid "You are not allowed to move this post to the trash."
-msgstr "您无权将该日志移动到回收箱。"
+msgstr "您无权将该日志移动到回收站。"
 
 #: wp-admin/edit.php:60
 msgid "You are not allowed to restore this post from the trash."
-msgstr "您无权从回收箱中恢复该日志。"
+msgstr "您无权从回收站中恢复该日志。"
 
 #: wp-admin/edit.php:75 wp-admin/post.php:232 wp-admin/upload.php:113
 msgid "You are not allowed to delete this post."
@@ -1673,13 +1689,13 @@ msgstr[0] "日志已永久删除。"
 #, php-format
 msgid "Post moved to the trash."
 msgid_plural "%s posts moved to the trash."
-msgstr[0] "日志被移入回收箱。"
+msgstr[0] "日志被移入回收站。"
 
 #: wp-admin/edit.php:176
 #, php-format
 msgid "Post restored from the trash."
 msgid_plural "%s posts restored from the trash."
-msgstr[0] "文章已从回收箱中恢复。"
+msgstr[0] "文章已从回收站中恢复。"
 
 #: wp-admin/edit.php:198
 #, php-format
@@ -1745,7 +1761,8 @@ msgid "Tag slug"
 msgstr "标签缩略名"
 
 #: wp-admin/edit-tag-form.php:46
-msgid "The description is not prominent by default, however some themes may show it."
+msgid ""
+"The description is not prominent by default, however some themes may show it."
 msgstr "在默认情况下描述并不可见，但是某些主题可能会显示它们。"
 
 #: wp-admin/edit-tag-form.php:50 wp-admin/includes/template.php:266
@@ -1804,7 +1821,8 @@ msgid "Add Tag"
 msgstr "添加标签"
 
 #: wp-admin/export.php:13
-msgid "You do not have sufficient permissions to export the content of this blog."
+msgid ""
+"You do not have sufficient permissions to export the content of this blog."
 msgstr "您没有足够的权限导出本博客的内容。"
 
 #: wp-admin/export.php:17 wp-admin/menu.php:104
@@ -1888,7 +1906,8 @@ msgid "Authorization failed"
 msgstr "认证失败"
 
 #: wp-admin/import/blogger.php:94
-msgid "Something went wrong. If the problem persists, send this info to support:"
+msgid ""
+"Something went wrong. If the problem persists, send this info to support:"
 msgstr "出现错误。如果错误依然存在，发送该信息到支持服务："
 
 #: wp-admin/import/blogger.php:151
@@ -2005,7 +2024,8 @@ msgid "Could not connect to %s"
 msgstr "无法连接到 %s"
 
 #: wp-admin/import/blogger.php:737
-msgid "There was a problem opening a connection to Blogger. This is what went wrong:"
+msgid ""
+"There was a problem opening a connection to Blogger. This is what went wrong:"
 msgstr "连接到 Google 出错。错误如下："
 
 #: wp-admin/import/blogger.php:803
@@ -2318,7 +2338,8 @@ msgid "<a href=\"http://www.wordpress.org\">The official WordPress site</a>"
 msgstr "<a href=\"http://www.wordpress.org\">WordPress 官方网站</a>"
 
 #: wp-admin/import/dotclear.php:605 wp-admin/import/textpattern.php:585
-msgid "<a href=\"http://wordpress.org/support/\">The WordPress support forums</a>"
+msgid ""
+"<a href=\"http://wordpress.org/support/\">The WordPress support forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\">WordPress 技术支持论坛</a>"
 
 #: wp-admin/import/dotclear.php:606 wp-admin/import/textpattern.php:586
@@ -2331,7 +2352,8 @@ msgstr ""
 
 #: wp-admin/import/dotclear.php:608 wp-admin/import/textpattern.php:588
 #, php-format
-msgid "That&#8217;s it! What are you waiting for? Go <a href=\"%1$s\">log in</a>!"
+msgid ""
+"That&#8217;s it! What are you waiting for? Go <a href=\"%1$s\">log in</a>!"
 msgstr "就这样了！还在等什么？快点<a href=\"%1$s\">登录</a>吧！"
 
 #: wp-admin/import/dotclear.php:614
@@ -2363,7 +2385,8 @@ msgid "DotClear"
 msgstr "Dotclear"
 
 #: wp-admin/import/dotclear.php:716
-msgid "Import categories, users, posts, comments, and links from a DotClear blog."
+msgid ""
+"Import categories, users, posts, comments, and links from a DotClear blog."
 msgstr "从 DotClear 导入分类、用户、日志、评论和链接。"
 
 # Greymatter 导入工具
@@ -2383,7 +2406,8 @@ msgstr "导入工具能做的事："
 msgid ""
 "Parses gm-authors.cgi to import (new) authors. Everyone is imported at level "
 "1."
-msgstr "解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
+msgstr ""
+"解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
 
 #: wp-admin/import/greymatter.php:38
 msgid ""
@@ -2590,7 +2614,8 @@ msgstr ""
 "中。"
 
 #: wp-admin/import/livejournal.php:213
-msgid "Enter the password you would like to use for all protected entries here:"
+msgid ""
+"Enter the password you would like to use for all protected entries here:"
 msgstr "请输入你想为被保护的日志设置的密码："
 
 #: wp-admin/import/livejournal.php:217
@@ -2666,11 +2691,13 @@ msgid "You have no comments to import!"
 msgstr "没有可导入评论！"
 
 #: wp-admin/import/livejournal.php:493
-msgid " Comment metadata downloaded successfully, proceeding with comment bodies..."
+msgid ""
+" Comment metadata downloaded successfully, proceeding with comment bodies..."
 msgstr "评论metadata已下载，继续下载日志……"
 
 #: wp-admin/import/livejournal.php:518
-msgid "Failed to retrieve comment bodies from LiveJournal. Please try again soon."
+msgid ""
+"Failed to retrieve comment bodies from LiveJournal. Please try again soon."
 msgstr "从LiveJournal获取评论内容失败。请尽快重试。"
 
 #: wp-admin/import/livejournal.php:601 wp-admin/import/livejournal.php:609
@@ -2756,7 +2783,8 @@ msgstr "下载评论"
 msgid ""
 "Now we will download your comments so we can import them (this could take a "
 "<strong>long</strong> time if you have lots of comments)..."
-msgstr "现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
+msgstr ""
+"现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
 
 #: wp-admin/import/livejournal.php:871
 #, php-format
@@ -2828,7 +2856,8 @@ msgstr ""
 "点击 \"导入 mt-export.txt\"。"
 
 #: wp-admin/import/mt.php:47
-msgid "Or use <code>mt-export.txt</code> in your <code>/wp-content/</code> directory"
+msgid ""
+"Or use <code>mt-export.txt</code> in your <code>/wp-content/</code> directory"
 msgstr "使用 <code>/wp-content/</code> 下的 <code>mt-export.txt</code>"
 
 #: wp-admin/import/mt.php:49
@@ -2982,7 +3011,8 @@ msgstr ""
 "些链接</a>。"
 
 #: wp-admin/import/opml.php:135
-msgid "You need to supply your OPML url. Press back on your browser and try again"
+msgid ""
+"You need to supply your OPML url. Press back on your browser and try again"
 msgstr "您需要提供您正确的 OPML 文件 URL。请返回重试。"
 
 # 默认链接分类的名称，还是不要翻译了，保持 Blogroll 这个名称。
@@ -3054,7 +3084,8 @@ msgstr "导入 Simple Tagging"
 
 #: wp-admin/import/stp.php:30
 msgid "Howdy! This imports tags from Simple Tagging 1.6.2 into WordPress tags."
-msgstr "已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
+msgstr ""
+"已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
 
 # (Mileage may vary)
 #: wp-admin/import/stp.php:31
@@ -3230,7 +3261,8 @@ msgid "Textpattern"
 msgstr "Textpattern"
 
 #: wp-admin/import/textpattern.php:689
-msgid "Import categories, users, posts, comments, and links from a Textpattern blog."
+msgid ""
+"Import categories, users, posts, comments, and links from a Textpattern blog."
 msgstr "从 Textpattern 中导入分类、用户、日志、评论和链接。"
 
 #: wp-admin/import/utw.php:21
@@ -3238,7 +3270,8 @@ msgid "Import Ultimate Tag Warrior"
 msgstr "导入 Ultimate Tag Warrior"
 
 #: wp-admin/import/utw.php:31
-msgid "Howdy! This imports tags from Ultimate Tag Warrior 3 into WordPress tags."
+msgid ""
+"Howdy! This imports tags from Ultimate Tag Warrior 3 into WordPress tags."
 msgstr ""
 "已经将现有 Ultimate Tag Warrior 3 标签导入到了新的 WordPress 自带的标签系统"
 "中。"
@@ -3322,7 +3355,8 @@ msgstr ""
 "件，我们将把其中的日志、评论、自定义字段、页面和分类导入到您的 Blog 中。"
 
 #: wp-admin/import/wordpress.php:55
-msgid "Choose a WordPress WXR file to upload, then click Upload file and import."
+msgid ""
+"Choose a WordPress WXR file to upload, then click Upload file and import."
 msgstr "选择您到导入的 WXR 文件，然后点击下面的按钮导入。"
 
 #: wp-admin/import/wordpress.php:208
@@ -3485,7 +3519,8 @@ msgstr ""
 "后点击转换按钮。"
 
 #: wp-admin/import/wp-cat2tag.php:147
-msgid "The newly created categories will still be associated with the same posts."
+msgid ""
+"The newly created categories will still be associated with the same posts."
 msgstr "新建分类将会关联到这些文章。"
 
 #: wp-admin/import/wp-cat2tag.php:151
@@ -3504,7 +3539,8 @@ msgstr "转换标签为分类"
 
 #: wp-admin/import/wp-cat2tag.php:233 wp-admin/import/wp-cat2tag.php:348
 #, php-format
-msgid "Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>."
+msgid ""
+"Uh, oh. Something didn&#8217;t work. Please <a href=\"%s\">try again</a>."
 msgstr "不能完成。请 <a href=\"%s\">重新尝试</a>。"
 
 #: wp-admin/import/wp-cat2tag.php:252
@@ -3638,7 +3674,8 @@ msgstr "ftp PHP 扩展不可用"
 msgid ""
 "The ssh2 PHP extension is available, however, we require the PHP5 function "
 "<code>stream_get_contents()</code>"
-msgstr " ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
+msgstr ""
+" ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:72
 msgid "SSH2 hostname is required"
@@ -4096,7 +4133,8 @@ msgstr[0] ""
 
 #: wp-admin/includes/dashboard.php:338
 #, php-format
-msgid "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widget</span>"
+msgid ""
+"Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widget</span>"
 msgid_plural ""
 "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widgets</"
 "span>"
@@ -4116,7 +4154,8 @@ msgstr "主题 <span class=\"b\">%1$s</span>"
 
 #: wp-admin/includes/dashboard.php:364
 #, php-format
-msgid "Post Published. <a href=\"%s\">View post</a> | <a href=\"%s\">Edit post</a>"
+msgid ""
+"Post Published. <a href=\"%s\">View post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "文章已发布。<a href=\"%s\">查看文章</a> | <a href=\"%s\">编辑文章</a>"
 
 #: wp-admin/includes/dashboard.php:366
@@ -4128,7 +4167,8 @@ msgstr "日志已提交。<a href=\"%s\">查看日志</a> | <a href=\"%s\">编�
 
 #: wp-admin/includes/dashboard.php:368
 #, php-format
-msgid "Draft Saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
+msgid ""
+"Draft Saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "草稿已储存。<a href=\"%s\">查看文章</a> | <a href=\"%s\">编辑文章</a>"
 
 #: wp-admin/includes/dashboard.php:381
@@ -4205,12 +4245,12 @@ msgstr "垃圾评论"
 
 #: wp-admin/includes/dashboard.php:560 wp-admin/includes/template.php:2195
 msgid "Move this comment to the trash"
-msgstr "将此评论移入回收箱"
+msgstr "将此评论移入回收站"
 
 #: wp-admin/includes/dashboard.php:560 wp-admin/includes/template.php:2195
 msgctxt "verb"
 msgid "Trash"
-msgstr "回收箱"
+msgstr "回收站"
 
 #: wp-admin/includes/dashboard.php:585
 #, php-format
@@ -4808,7 +4848,8 @@ msgid "Unable to create new image."
 msgstr "无法新建图片。"
 
 #: wp-admin/includes/image-edit.php:528
-msgid "Error while saving the scaled image. Please reload the page and try again."
+msgid ""
+"Error while saving the scaled image. Please reload the page and try again."
 msgstr "调整图片尺寸时发生错误。请刷新后再试。"
 
 #: wp-admin/includes/image-edit.php:536
@@ -5520,7 +5561,8 @@ msgstr "页面序号"
 msgid ""
 "Pages are usually ordered alphabetically, but you can put a number above to "
 "change the order pages appear in."
-msgstr "页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
+msgstr ""
+"页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
 
 #: wp-admin/includes/meta-boxes.php:523
 msgid "Visit Link"
@@ -5762,7 +5804,8 @@ msgid "Popular tags"
 msgstr "热门标签"
 
 #: wp-admin/includes/plugin-install.php:134
-msgid "You may also browse based on the most popular tags in the Plugin Directory:"
+msgid ""
+"You may also browse based on the most popular tags in the Plugin Directory:"
 msgstr "您可以登录插件目录查看更多基于热门标签的插件："
 
 #: wp-admin/includes/plugin-install.php:148
@@ -6098,17 +6141,17 @@ msgstr[0] "私人的 <span class=\"count\">(%s)</span>"
 #: wp-admin/includes/post.php:824
 msgctxt "post"
 msgid "Trash"
-msgstr "回收箱"
+msgstr "回收站"
 
 #: wp-admin/includes/post.php:824
 msgid "Trash posts"
-msgstr "回收箱中的日志"
+msgstr "回收站中的日志"
 
 #: wp-admin/includes/post.php:824
 #, php-format
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "回收箱<span class=\"count\">(%s)</span>"
+msgstr[0] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:867
 msgid "Images"
@@ -6414,11 +6457,11 @@ msgstr "私人日志"
 
 #: wp-admin/includes/template.php:1453
 msgid "Restore this post from the Trash"
-msgstr "从回收箱中移恢复该日志"
+msgstr "从回收站中移恢复该日志"
 
 #: wp-admin/includes/template.php:1455
 msgid "Move this post to the Trash"
-msgstr "将此文移入回收箱"
+msgstr "将此文移入回收站"
 
 #: wp-admin/includes/template.php:1457
 msgid "Delete this post permanently"
@@ -6440,11 +6483,11 @@ msgstr "编辑页面"
 
 #: wp-admin/includes/template.php:1673
 msgid "Remove this page from the Trash"
-msgstr "从回收箱恢复该页面"
+msgstr "从回收站恢复该页面"
 
 #: wp-admin/includes/template.php:1675
 msgid "Move this page to the Trash"
-msgstr "将此页面移入回收箱"
+msgstr "将此页面移入回收站"
 
 #: wp-admin/includes/template.php:1677
 msgid "Delete this page permanently"
@@ -6487,7 +6530,7 @@ msgstr "提交回复"
 #: wp-admin/includes/template.php:2384
 #, php-format
 msgid "Comment by %s moved to the trash."
-msgstr "%s 的评论被移入回收箱。 "
+msgstr "%s 的评论被移入回收站。 "
 
 #: wp-admin/includes/template.php:2387
 #, php-format
@@ -6714,14 +6757,16 @@ msgid "Help"
 msgstr "帮助"
 
 #: wp-admin/includes/template.php:3600
-msgid "<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
+msgid ""
+"<a href=\"http://codex.wordpress.org/\" target=\"_blank\">Documentation</a>"
 msgstr "<a href=\"http://codex.wordpress.org/\">文档</a>"
 
 #: wp-admin/includes/template.php:3602
 msgid ""
 "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</"
 "a>"
-msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
+msgstr ""
+"<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
 
 #: wp-admin/includes/template.php:3615
 msgid "Screen Options"
@@ -6798,7 +6843,8 @@ msgstr "移除侧边栏的某一个挂件时，先点击它的标题以显示设
 msgid ""
 "To remove a widget from a sidebar <em>and keep its configuration</em>, drag "
 "it to Inactive Widgets."
-msgstr "拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
+msgstr ""
+"拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
 
 #: wp-admin/includes/template.php:3662
 msgid ""
@@ -7221,7 +7267,8 @@ msgstr "WordPress 自动更新失败！请提醒站点管理员。"
 msgid ""
 "<strong><em>Note that password</em></strong> carefully! It is a <em>random</"
 "em> password that was generated just for you."
-msgstr "<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
+msgstr ""
+"<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
 
 #: wp-admin/includes/upgrade.php:67
 msgid "User already exists.  Password inherited."
@@ -7461,7 +7508,8 @@ msgstr "已经安装"
 msgid ""
 "You appear to have already installed WordPress. To reinstall please clear "
 "your old database tables first."
-msgstr "您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
+msgstr ""
+"您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
 
 #: wp-admin/install.php:90
 msgid "Welcome"
@@ -7639,7 +7687,8 @@ msgstr ""
 msgid ""
 "WordPress can automatically look for some common database problems and "
 "repair them.  Repairing can take awhile, so please be patient."
-msgstr "WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
+msgstr ""
+"WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
 
 #: wp-admin/maint/repair.php:83
 msgid "Repair Database"
@@ -7672,7 +7721,7 @@ msgstr "您正在试图编辑一个不存在的附件。该附件可能已被删
 msgid ""
 "You can&#8217;t edit this attachment because it is in the Trash. Please move "
 "it out of the Trash and try again."
-msgstr "您无法编辑位于回收箱中的附件。请将其移出并重试。"
+msgstr "您无法编辑位于回收站中的附件。请将其移出并重试。"
 
 #: wp-admin/media.php:78 wp-admin/upload.php:207
 msgid "Media attachment updated."
@@ -7819,7 +7868,8 @@ msgid "Default article settings"
 msgstr "默认文章设置"
 
 #: wp-admin/options-discussion.php:34
-msgid "Attempt to notify any blogs linked to from the article (slows down posting.)"
+msgid ""
+"Attempt to notify any blogs linked to from the article (slows down posting.)"
 msgstr "尝试对在日志中出现的网址发送通告 （会延长发布日志所需的时间）"
 
 #: wp-admin/options-discussion.php:38
@@ -7882,7 +7932,8 @@ msgstr "更新的"
 
 #: wp-admin/options-discussion.php:101
 #, php-format
-msgid "Comments should be displayed with the %s comments at the top of each page"
+msgid ""
+"Comments should be displayed with the %s comments at the top of each page"
 msgstr "每页评论的顶部显示  %s 评论。"
 
 #: wp-admin/options-discussion.php:107 wp-admin/options-discussion.php:108
@@ -8108,8 +8159,10 @@ msgstr "小时"
 
 #: wp-admin/options-general.php:131 wp-admin/options-general.php:167
 #, php-format
-msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
-msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> 时间是 <code>%s</code>"
+msgid ""
+"<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr ""
+"<abbr title=\"Coordinated Universal Time\">UTC</abbr> 时间是 <code>%s</code>"
 
 #: wp-admin/options-general.php:133
 #, php-format
@@ -8211,7 +8264,8 @@ msgid "Height"
 msgstr "高度"
 
 #: wp-admin/options-media.php:41
-msgid "Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
+msgid ""
+"Crop thumbnail to exact dimensions (normally thumbnails are proportional)"
 msgstr "裁切预览图到给定尺寸（通常情况预览图将进行等比缩放）"
 
 #: wp-admin/options-media.php:46 wp-admin/options-media.php:47
@@ -8293,7 +8347,8 @@ msgid "You should update your web.config now"
 msgstr "您现在需要手工更新您的web.config(.htaccess)文件。"
 
 #: wp-admin/options-permalink.php:133
-msgid "Permalink structure updated. Remove write access on web.config file now!"
+msgid ""
+"Permalink structure updated. Remove write access on web.config file now!"
 msgstr "固定链接结构已更新。可以去除web.config文件的写权利。"
 
 #: wp-admin/options-permalink.php:135
@@ -8470,11 +8525,13 @@ msgstr "Blog 可见性"
 msgid ""
 "I would like my blog to be visible to everyone, including search engines "
 "(like Google, Bing, Technorati) and archivers"
-msgstr "任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
+msgstr ""
+"任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
 
 #: wp-admin/options-privacy.php:35
 msgid "I would like to block search engines, but allow normal visitors"
-msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
+msgstr ""
+"我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
 
 #: wp-admin/options-reading.php:15
 msgid "Reading Settings"
@@ -8688,11 +8745,11 @@ msgstr "您正在试图编辑一个不存在的页面。该页面可能已被删
 msgid ""
 "You can&#8217;t edit this page because it is in the Trash. Please move it "
 "out of the Trash and try again."
-msgstr "您无法编辑位于回收箱中的页面。请将其移出并重试。"
+msgstr "您无法编辑位于回收站中的页面。请将其移出并重试。"
 
 #: wp-admin/page.php:176
 msgid "You are not allowed to move this page out of the trash."
-msgstr "您无权将该页面移出回收箱。"
+msgstr "您无权将该页面移出回收站。"
 
 #: wp-admin/plugin-editor.php:13
 msgid "You do not have sufficient permissions to edit plugins for this blog."
@@ -8722,7 +8779,8 @@ msgstr "文件修改成功。"
 msgid ""
 "This plugin has been deactivated because your changes resulted in a "
 "<strong>fatal error</strong>."
-msgstr "这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
+msgstr ""
+"这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
 
 # 可编辑时显示“正在编辑”
 #: wp-admin/plugin-editor.php:144
@@ -8820,11 +8878,13 @@ msgid "You do not have sufficient permissions to manage plugins for this blog."
 msgstr "您没有足够的权限管理本博客的插件。"
 
 #: wp-admin/plugins.php:44 wp-admin/plugins.php:63 wp-admin/plugins.php:88
-msgid "You do not have sufficient permissions to activate plugins for this blog."
+msgid ""
+"You do not have sufficient permissions to activate plugins for this blog."
 msgstr "您没有足够的权限启用本博客的插件。"
 
 #: wp-admin/plugins.php:108 wp-admin/plugins.php:118
-msgid "You do not have sufficient permissions to deactivate plugins for this blog."
+msgid ""
+"You do not have sufficient permissions to deactivate plugins for this blog."
 msgstr "您没有足够的权限禁用本博客上的插件。"
 
 #: wp-admin/plugins.php:141
@@ -9041,7 +9101,7 @@ msgstr "您正在试图编辑一个不存在的日志。该日志可能已被删
 msgid ""
 "You can&#8217;t edit this post because it is in the Trash. Please restore it "
 "and try again."
-msgstr "您无法编辑位于回收箱中的日志。请将其移出并重试。"
+msgstr "您无法编辑位于回收站中的日志。请将其移出并重试。"
 
 #: wp-admin/post.php:160
 msgid "Edit Post"
@@ -9049,7 +9109,7 @@ msgstr "编辑日志"
 
 #: wp-admin/post.php:216 wp-admin/upload.php:103
 msgid "You are not allowed to move this post out of the trash."
-msgstr "您无权将该日志移出回收箱。"
+msgstr "您无权将该日志移出回收站。"
 
 #: wp-admin/press-this.php:122
 msgid "Embed Code"
@@ -9374,7 +9434,8 @@ msgstr ""
 msgid ""
 "You only have one theme installed at the moment so there is nothing to show "
 "you here.  Maybe you should download some more to try out."
-msgstr "您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
+msgstr ""
+"您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
 
 #: wp-admin/themes.php:272
 msgid "Broken Themes"
@@ -9473,7 +9534,8 @@ msgid "Updating files:"
 msgstr "请稍等！正在更新文件："
 
 #: wp-admin/tools.php:61
-msgid "Your browser&#8217;s settings do not permit this website to use Google Gears."
+msgid ""
+"Your browser&#8217;s settings do not permit this website to use Google Gears."
 msgstr "你的浏览器的设置不允许此网站使用 Google Gears。"
 
 #: wp-admin/tools.php:65
@@ -9521,7 +9583,8 @@ msgstr ""
 msgid ""
 "Drag-and-drop the following link to your bookmarks bar or right click it and "
 "add it to your favorites for a posting shortcut."
-msgstr "拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
+msgstr ""
+"拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
 
 #: wp-admin/update-core.php:13 wp-admin/update.php:21 wp-admin/update.php:40
 msgid "You do not have sufficient permissions to update plugins for this blog."
@@ -9702,7 +9765,8 @@ msgid "Plugin failed to reactivate due to a fatal error."
 msgstr "发生严重错误，该插件重新启用失败。"
 
 #: wp-admin/update.php:68 wp-admin/update.php:96
-msgid "You do not have sufficient permissions to install plugins for this blog."
+msgid ""
+"You do not have sufficient permissions to install plugins for this blog."
 msgstr "您没有足够权限在此博客上安装插件。"
 
 #: wp-admin/update.php:83
@@ -9810,11 +9874,11 @@ msgstr "储存媒体文件时错误"
 
 #: wp-admin/upload.php:210
 msgid "Media moved to the trash."
-msgstr "媒体文件被移入回收箱。"
+msgstr "媒体文件被移入回收站。"
 
 #: wp-admin/upload.php:211
 msgid "Media restored from the trash."
-msgstr "媒体文件已从回收箱中恢复。"
+msgstr "媒体文件已从回收站中恢复。"
 
 #: wp-admin/upload.php:233
 #, php-format
@@ -9832,7 +9896,7 @@ msgstr "未用到的附件"
 msgctxt "uploaded files"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
-msgstr[0] "回收箱<span class=\"count\">(%s)</span>"
+msgstr[0] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:296 wp-admin/upload.php:462
 msgid "Attach to a post"
@@ -10035,14 +10099,16 @@ msgstr "添加新用户"
 msgid ""
 "Users can <a href=\"%1$s\">register themselves</a> or you can manually "
 "create users here."
-msgstr "用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
+msgstr ""
+"用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
 
 #: wp-admin/user-new.php:80
 #, php-format
 msgid ""
 "Users cannot currently <a href=\"%1$s\">register themselves</a>, but you can "
 "manually create users here."
-msgstr "用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
+msgstr ""
+"用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
 
 #: wp-admin/user-new.php:101
 msgid "First Name"
@@ -10248,7 +10314,8 @@ msgid ""
 msgstr "拖动挂件到右侧的一个侧边栏来启用它。将挂件拖回以禁用并删除设置。"
 
 #: wp-admin/widgets.php:360
-msgid "Drag widgets here to remove them from the sidebar but keep their settings."
+msgid ""
+"Drag widgets here to remove them from the sidebar but keep their settings."
 msgstr "将挂件拖动至此来从侧边栏移除并保留原先的设置。"
 
 #: wp-app.php:293
@@ -10280,7 +10347,8 @@ msgid "Sorry, you do not have the right to edit this post."
 msgstr "抱歉，您无权编辑这篇日志。"
 
 #: wp-app.php:537 wp-app.php:698 xmlrpc.php:1948
-msgid "For some strange yet very annoying reason, this post could not be edited."
+msgid ""
+"For some strange yet very annoying reason, this post could not be edited."
 msgstr "该日志不能编辑，原因未知。"
 
 #: wp-app.php:560 wp-app.php:720 xmlrpc.php:1984
@@ -10288,7 +10356,8 @@ msgid "Sorry, you do not have the right to delete this post."
 msgstr "抱歉，您无权删除这篇日志。"
 
 #: wp-app.php:569 wp-app.php:736 xmlrpc.php:1989
-msgid "For some strange yet very annoying reason, this post could not be deleted."
+msgid ""
+"For some strange yet very annoying reason, this post could not be deleted."
 msgstr "该日志不能删除，原因未知。"
 
 #: wp-app.php:587
@@ -10362,7 +10431,8 @@ msgstr "无法连接 Akismet 服务器，请检查您的服务器的设置。"
 msgid ""
 "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</"
 "a>)"
-msgstr "请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
+msgstr ""
+"请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
 
 #: wp-content/plugins/akismet/akismet.php:126
 msgid "This key is valid."
@@ -10372,7 +10442,8 @@ msgstr "该 Key 有效"
 msgid ""
 "The key below was previously validated but a connection to akismet.com can "
 "not be established at this time. Please check your server configuration."
-msgstr "该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
+msgstr ""
+"该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
 
 #: wp-content/plugins/akismet/akismet.php:130
 #: wp-content/themes/default/functions.php:374
@@ -10399,8 +10470,10 @@ msgid "WordPress.com API Key"
 msgstr "WordPress.com API Key"
 
 #: wp-content/plugins/akismet/akismet.php:144
-msgid "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
-msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
+msgid ""
+"<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
+msgstr ""
+"<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
 
 #: wp-content/plugins/akismet/akismet.php:146
 msgid "Why might my key be invalid?"
@@ -10543,7 +10616,8 @@ msgstr "Akismet 已就绪。"
 msgid ""
 "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to "
 "work."
-msgstr "您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
+msgstr ""
+"您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
 
 #: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
@@ -10682,7 +10756,8 @@ msgid ""
 msgid_plural ""
 "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments "
 "already,"
-msgstr[0] "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
+msgstr[0] ""
+"<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
 
 #: wp-content/plugins/akismet/akismet.php:938
 #, php-format
@@ -10691,7 +10766,8 @@ msgstr "<a href=\"%1$s\">Akismet</a> 保护您的 Blog 不受垃圾评论困扰�
 
 #: wp-content/plugins/akismet/akismet.php:943
 #, php-format
-msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
+msgid ""
+"and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural ""
 "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right "
 "now."
@@ -10699,7 +10775,8 @@ msgstr[0] "目前您的垃圾评论队列中有 <a href=\"%2$s\">%1$s 条垃圾�
 
 #: wp-content/plugins/akismet/akismet.php:948
 #, php-format
-msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
+msgid ""
+"but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "目前您的<a href='%1$s'>垃圾评论队列</a>为空。"
 
 #: wp-content/plugins/akismet/akismet.php:951
@@ -10865,7 +10942,8 @@ msgstr ""
 #: wp-content/themes/classic/footer.php:12
 #: wp-content/themes/classic/sidebar.php:38
 #: wp-includes/default-widgets.php:300
-msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr "基于 WordPress，完美的个人信息发布平台。"
 
 #: wp-content/themes/classic/footer.php:12
@@ -10958,7 +11036,8 @@ msgstr "本页面可通过 XHTML 1.0 Transitional 验证"
 
 #: wp-content/themes/classic/sidebar.php:36
 msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
-msgstr "有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr ""
+"有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
 
 #: wp-content/themes/default/functions.php:171
 msgid "Close Color Picker"
@@ -11789,7 +11868,8 @@ msgstr "WordPress &rsaquo; 错误"
 
 #: wp-includes/functions.php:2970 wp-includes/functions.php:3006
 #, php-format
-msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgid ""
+"%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "从 %2$s 版本开始 %1$s 已 <strong>弃用</strong>！请使用 %3$s 进行替代。"
 
 #: wp-includes/functions.php:2972 wp-includes/functions.php:3008
@@ -11967,7 +12047,8 @@ msgid "Copy/Cut/Paste is not available in Mozilla and Firefox."
 msgstr "复制/剪切/粘贴 在 Mozilla 和 Firefox 中不可用。"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:36
-msgid "Currently not supported by your browser, use keyboard shortcuts instead."
+msgid ""
+"Currently not supported by your browser, use keyboard shortcuts instead."
 msgstr "目前不受您的浏览器支持，请使用链接快捷键代替。"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:37
@@ -13420,7 +13501,8 @@ msgstr ""
 msgid ""
 "If you do not like the way the rich editor works, you may turn it off from "
 "Your Profile submenu, under Users in the admin menu."
-msgstr "如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
+msgstr ""
+"如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:191
 msgid "Advanced Rich Editing"
@@ -13558,7 +13640,8 @@ msgid "Header 6"
 msgstr "标题 6"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:220
-msgid "The following shortcuts use different access keys: Alt + Shift + letter."
+msgid ""
+"The following shortcuts use different access keys: Alt + Shift + letter."
 msgstr "以下功能使用不同的快捷键：Alt + Shift + 字母键。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:227
@@ -13850,7 +13933,7 @@ msgstr "[%1$s] 通告： \"%2$s\""
 #: wp-includes/pluggable.php:1021 wp-includes/pluggable.php:1109
 #, fuzzy, php-format
 msgid "Trash it: %s"
-msgstr "回收箱中的日志"
+msgstr "回收站中的日志"
 
 #: wp-includes/pluggable.php:1023 wp-includes/pluggable.php:1111
 #, php-format
@@ -14007,7 +14090,8 @@ msgid "Missing Attachment"
 msgstr "缺少附件"
 
 #: wp-includes/post-template.php:1136
-msgid "This post is password protected. To view it please enter your password below:"
+msgid ""
+"This post is password protected. To view it please enter your password below:"
 msgstr "这篇日志已被密码保护。请在这里输入密码："
 
 #. translators: revision date format, see http://php.net/date
@@ -14155,7 +14239,8 @@ msgid "An error occurred in the upload. Please try again later."
 msgstr "上传时发生错误。请稍后再试。"
 
 #: wp-includes/script-loader.php:207
-msgid "There was a configuration error. Please contact the server administrator."
+msgid ""
+"There was a configuration error. Please contact the server administrator."
 msgstr "发生配置错误。请联系您的服务器管理员。"
 
 #: wp-includes/script-loader.php:208
@@ -14196,7 +14281,7 @@ msgstr "上传中&hellip;"
 
 #: wp-includes/script-loader.php:217
 msgid "moved to the trash."
-msgstr "已移入回收箱。"
+msgstr "已移入回收站。"
 
 #: wp-includes/script-loader.php:233
 msgid "Separate multiple categories with commas."
@@ -14389,7 +14474,8 @@ msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
 msgstr "<strong>错误</strong>：请输入一个用户名或电子邮箱地址。"
 
 #: wp-login.php:126
-msgid "<strong>ERROR</strong>: There is no user registered with that email address."
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
 msgstr "<strong>错误</strong>：没有使用该电子邮箱地址进行注册的用户。"
 
 #: wp-login.php:138
@@ -14401,7 +14487,8 @@ msgid "Password reset is not allowed for this user"
 msgstr "此用户不允许重设密码"
 
 #: wp-login.php:164
-msgid "Someone has asked to reset the password for the following site and username."
+msgid ""
+"Someone has asked to reset the password for the following site and username."
 msgstr "有人要求重设下面这个网站地址和帐号的登录密码。"
 
 #: wp-login.php:167
@@ -14459,7 +14546,8 @@ msgstr "<strong>错误</strong>：无效的电子邮件地址。"
 msgid ""
 "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
 "href=\"mailto:%s\">webmaster</a> !"
-msgstr "<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
+msgstr ""
+"<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
 
 #: wp-login.php:347
 msgid "Sorry, that key does not appear to be valid."
@@ -14651,7 +14739,8 @@ msgid "Sorry, you cannot edit posts on this blog."
 msgstr "抱歉，您在本 Blog 不能编辑日志。"
 
 #: xmlrpc.php:889
-msgid "Sorry, you must be able to edit posts on this blog in order to view tags."
+msgid ""
+"Sorry, you must be able to edit posts on this blog in order to view tags."
 msgstr "对不起，您必须编辑此文来查看标签。"
 
 #: xmlrpc.php:936
@@ -14824,7 +14913,8 @@ msgid ""
 msgstr "目标 URL 无法使用。它不存在，或者不是一个可以通告的资源。"
 
 #: xmlrpc.php:3288
-msgid "The source URL and the target URL cannot both point to the same resource."
+msgid ""
+"The source URL and the target URL cannot both point to the same resource."
 msgstr "源 URL 和目标 URL 不能是同一个。"
 
 #: xmlrpc.php:3298
@@ -14984,7 +15074,8 @@ msgstr "WordPress &rsaquo; 错误"
 
 #. Not gettexted string WP_I18N_OLD_PHP
 #: wp-settings.php:109 wp-admin/setup-config.php:55
-msgid "Your server is running PHP version %s but WordPress requires at least 4.3."
+msgid ""
+"Your server is running PHP version %s but WordPress requires at least 4.3."
 msgstr "您的服务器运行的 PHP 版本是 %s， 但 WordPress 要求至少 4.3。"
 
 #. Not gettexted string WP_I18N_OLD_MYSQL
@@ -15023,4 +15114,3 @@ msgstr ""
 "取帮助</a>。您可以通过 web 界面创建一个 <code>wp-config.php</code> 文件，但并"
 "非所有服务器都支持这么创建。最安全的办法是手动创建这个文件。</p><p><a "
 "href='{$path}setup-config.php' class='button'>创建配置文件</a>"
-
