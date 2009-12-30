@@ -64,7 +64,12 @@ $table_prefix  = 'wp_';
  * de.mo to wp-content/languages and set WPLANG to 'de' to enable German
  * language support.
  */
-define ('WPLANG', '');
+define ('WPLANG', 'zh_CN');
+
+/**
+ * Direct download plugins to server
+ */
+define ('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy blogging. */
 
