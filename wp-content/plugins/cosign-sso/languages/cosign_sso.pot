@@ -1,0 +1,196 @@
+# Translation of the WordPress plugin CoSign SSO 0.1 by Jiang Xin.
+# Copyright (C) 2010 Jiang Xin
+# This file is distributed under the same license as the CoSign SSO package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CoSign SSO 0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/cosign-sso\n"
+"POT-Creation-Date: 2010-01-03 18:41+0800\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cosign-sso.php:215
+msgid "CoSign login failed, no REMOTE_USER defined."
+msgstr ""
+
+#: cosign-sso.php:215 cosign-sso.php:248
+msgid "login failed"
+msgstr ""
+
+#: cosign-sso.php:224
+msgid "<strong>ERROR</strong>: The username field is empty."
+msgstr ""
+
+#: cosign-sso.php:227
+msgid "<strong>ERROR</strong>: The password field is empty."
+msgstr ""
+
+#: cosign-sso.php:234
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Incorrect password. <a href=\"%s\" title=\"Password "
+"Lost and Found\">Lost your password</a>?"
+msgstr ""
+
+#: cosign-sso.php:248
+msgid ""
+"Invalid username. Turn on auto_user to create user account automatically."
+msgstr ""
+
+#: cosign-sso.php:289
+msgid ""
+"Note: Some fields of profile store in LDAP and can not be changed here. "
+"These fields are disabled below."
+msgstr ""
+
+#: cosign-sso.php:354
+msgid "Disabled"
+msgstr ""
+
+#: cosign-sso.php:355
+msgid "LDAP"
+msgstr ""
+
+#: cosign-sso.php:356
+msgid "SSO"
+msgstr ""
+
+#: cosign-sso.php:377
+msgid ""
+"Checking the <em>CoSign SSO</em> option below, it will change login method "
+"and will affect all users including yourself.<br /><strong>Bad configuration "
+"will ban all users!!!</strong><br />If you are banned cause of the bad "
+"cosign sso login configurations, simply create a file named <em>'DISABLE'</"
+"em> under this plugin directory or modify the database record by hands."
+msgstr ""
+
+#: cosign-sso.php:387
+msgid "Login method"
+msgstr ""
+
+#: cosign-sso.php:393
+#, php-format
+msgid ""
+"CoSign SSO login disable by file '%s'. To enable CoSign SSO login, remove "
+"that file."
+msgstr ""
+
+#: cosign-sso.php:394
+msgid ""
+"Choose to disable internale auth login and authenticate all users using "
+"CoSign SSO login service."
+msgstr ""
+
+#: cosign-sso.php:402
+msgid "CoSign SSO Options"
+msgstr ""
+
+#: cosign-sso.php:405
+msgid "CoSign Login URL"
+msgstr ""
+
+#: cosign-sso.php:410
+msgid "CoSign Logout URL"
+msgstr ""
+
+#: cosign-sso.php:415
+msgid "CoSign Service Name"
+msgstr ""
+
+#: cosign-sso.php:421
+msgid "User Account"
+msgstr ""
+
+#: cosign-sso.php:424
+msgid "Auto create user account"
+msgstr ""
+
+#: cosign-sso.php:427
+msgid "new user as"
+msgstr ""
+
+#: cosign-sso.php:435 cosign-sso.php:437
+msgid "&mdash; No role for this blog &mdash;"
+msgstr ""
+
+#: cosign-sso.php:444
+msgid "LDAP Options"
+msgstr ""
+
+#: cosign-sso.php:447
+msgid "LDAP hostname"
+msgstr ""
+
+#: cosign-sso.php:452
+msgid "LDAP port"
+msgstr ""
+
+#: cosign-sso.php:458
+msgid "LDAP BaseDN"
+msgstr ""
+
+#: cosign-sso.php:463
+msgid "LDAP Bind Username"
+msgstr ""
+
+#: cosign-sso.php:468
+msgid "LDAP Bind Password"
+msgstr ""
+
+#: cosign-sso.php:473
+msgid "LDAP Search Filter"
+msgstr ""
+
+#: cosign-sso.php:478
+msgid "Login Name"
+msgstr ""
+
+#: cosign-sso.php:483
+msgid "Given Name"
+msgstr ""
+
+#: cosign-sso.php:488
+msgid "Surname"
+msgstr ""
+
+#: cosign-sso.php:493
+msgid "Nick Name"
+msgstr ""
+
+#: cosign-sso.php:498
+msgid "Email"
+msgstr ""
+
+#: cosign-sso.php:507
+msgid "Update Options"
+msgstr ""
+
+#. Plugin Name of an extension
+msgid "CoSign SSO"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://github.com/ossxp-com/wp-cosign-sso/"
+msgstr ""
+
+#. Description of an extension
+msgid ""
+"CoSign SSO is a WordPress plugin that integrates CoSign Single Signon with "
+"WordPress. When user visit login page, redirect to CoSign's weblogin page, "
+"and after successful logged in, redirect back to WordPress."
+msgstr ""
+
+#. Author of an extension
+msgid "Jiang Xin"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.ossxp.com/"
+msgstr ""
