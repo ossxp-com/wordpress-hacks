@@ -6,7 +6,7 @@ Requires at least: unknown
 Tested up to: 2.9.1
 Stable tag: trunk
 
-Alternative authentication plugin for WordPress. This plugin add two LDAP login and CoSign Single Sign-on(SSO) login method, while LDAP login is just a by-pruduct, and this is why this plugin named.
+Alternative authentication plugin for WordPress. This plugin add two login method: LDAP login and CoSign Single Sign-on(SSO) login.
 
 == Description ==
 
@@ -55,10 +55,18 @@ This section describes how to localized, which means let cosign-sso speak in you
       $ msgfmt cosign_sso-zh_CN.po -o cosign_sso-zh_CN.mo
 </pre>
 
-== Changes ==
-=== 0.1 ===
+== Changelog ==
+= 0.1 =
 
 1. Initial release.
+
+== Frequently Asked Questions ==
+
+TODO
+
+== Upgrade Notice ==
+
+Nothing.
 
 == Known Issues ==
 
