@@ -65,6 +65,10 @@ include('admin-header.php');
 <td><input name="posts_per_rss" type="text" id="posts_per_rss" value="<?php form_option('posts_per_rss'); ?>" class="small-text" /> <?php _e('posts') ?></td>
 </tr>
 <tr valign="top">
+<th scope="row"><?php _e('RSS feed language') ?></th>
+<td><input name="rss_language" type="text" id="rss_language" value="<?php form_option('rss_language'); ?>" size="2" /></td>
+</tr>
+<tr valign="top">
 <th scope="row"><?php _e('For each article in a feed, show') ?> </th>
 <td><fieldset><legend class="screen-reader-text"><span><?php _e('For each article in a feed, show') ?> </span></legend>
 <p><label><input name="rss_use_excerpt"  type="radio" value="0" <?php checked(0, get_option('rss_use_excerpt')); ?>	/> <?php _e('Full text') ?></label><br />
