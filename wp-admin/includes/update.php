@@ -30,6 +30,8 @@ function get_preferred_from_update_core() {
  * @return array Array of the update objects
  */
 function get_core_updates( $options = array() ) {
+	if ( !constant('WP_CORE_UPDATE') )
+		return false;
 	$options = array_merge( array('available' => true, 'dismissed' => false ), $options );
 	$dismissed = get_option( 'dismissed_update_core' );
 	if ( !is_array( $dismissed ) ) $dismissed = array();
