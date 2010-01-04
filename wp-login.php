@@ -523,6 +523,8 @@ default:
 		$errors->add('registered', __('Registration complete. Please check your e-mail.'), 'message');
 	elseif	( $interim_login )
 		$errors->add('expired', __('Your session has expired. Please log-in again.'), 'message');
+	elseif  ( isset($_GET['upgrade'])) 
+		$errors->add('upgrade', __('Upgrade is needed, please log in with an admin account.'), 'message');
 
 	login_header(__('Log In'), '', $errors);
 

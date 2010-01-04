@@ -16,6 +16,8 @@ define( 'WP_INSTALLING', true );
 
 /** Load WordPress Bootstrap */
 require( '../wp-load.php' );
+if(!current_user_can('level_10'))
+	wp_safe_redirect('../wp-login.php?upgrade');
 
 timer_start();
 require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );

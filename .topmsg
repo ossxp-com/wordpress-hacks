@@ -1,0 +1,4 @@
+From: Giuseppe Iuculano <giuseppe@iuculano.it>
+Subject: Only admin can upgrade wordpress. (CVE-2008-6767) (Closes: #531736)
+
+Signed-off-by: Jiang Xin <jiangxin@ossxp.com>
