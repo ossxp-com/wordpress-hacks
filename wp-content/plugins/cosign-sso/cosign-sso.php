@@ -67,15 +67,12 @@ $remote_user = @$_SERVER["REMOTE_USER"] ? @$_SERVER["REMOTE_USER"] : @$_SERVER["
 //Detect WordPress version to add compatibility with 2.3 or higher
 $wpversion = preg_replace('/([0-9].[0-9])(.*)/', '$1', get_bloginfo('version')); //Boil down version number to X.X
 
+//Plugin i18n
+load_plugin_textdomain( 'cosign_sso', false, basename(dirname(__FILE__)) . "/languages/" );
+
 //----------------------------------------------------------------------------
 //	Activation and Deactivation Functions
 //----------------------------------------------------------------------------
-
-function cosign_sso_init()
-{
-	//Plugin i18n
-	load_plugin_textdomain( 'cosign_sso', false, basename(dirname(__FILE__)) . "/languages/" );
-}
 
 function cosign_sso_deactivate()
 {
@@ -122,8 +119,8 @@ function cosign_sso_activate()
 	);
 		
 	if (empty($cosign_sso_opt)) { //If there aren't already options for CoSign SSO
-		add_option('cosign_sso_options', $optionarray_def, 'CoSign SSO Wordpress Plugin Options');
-	}	
+		add_option('cosign_sso_options', $optionarray_def);
+	}
 }
 
 //--------------------------------------------------------------------------
@@ -134,7 +131,7 @@ function cosign_sso_add_options_page()
 {
 	if (function_exists('add_options_page'))
 	{
-		add_options_page('CoSign SSO', 'CoSign SSO', 8, basename(__FILE__), 'cosign_sso_options_page');
+		add_options_page(__('CoSign SSO', "cosign_sso"), __('CoSign SSO', "cosign_sso"), 8, basename(__FILE__), 'cosign_sso_options_page');
 	}
 }
 
@@ -219,7 +216,7 @@ function cosign_sso_authenticate($user, $username="", $password="")
 	{
 		$username = $remote_user;
 		if (!$username) {
-			wp_die(__('CoSign login failed, no REMOTE_USER defined.'), __('login failed'));
+			wp_die(__('CoSign login failed, no REMOTE_USER defined.', "cosign_sso"), __('login failed', "cosign_sso"));
 		}
 	}
 	elseif ( (int)$cosign_sso_opt["login_method"] == COSIGN_LOGIN_LDAP )
@@ -228,17 +225,17 @@ function cosign_sso_authenticate($user, $username="", $password="")
 			$error = new WP_Error();
 
 			if ( empty($username) )
-				$error->add('empty_username', __('<strong>ERROR</strong>: The username field is empty.'));
+				$error->add('empty_username', __('<strong>ERROR</strong>: The username field is empty.', "cosign_sso"));
 
 			if ( empty($password) )
-				$error->add('empty_password', __('<strong>ERROR</strong>: The password field is empty.'));
+				$error->add('empty_password', __('<strong>ERROR</strong>: The password field is empty.', "cosign_sso"));
 
 			return $error;
 		}
 		$ret = cosign_sso_ldap_authenticate( $username, $password );
 		if (!$ret || !$ret->status_ok)
 		{
-			return new WP_Error('incorrect_password', sprintf(__('<strong>ERROR</strong>: Incorrect password. <a href="%s" title="Password Lost and Found">Lost your password</a>?'), site_url('wp-login.php?action=lostpassword', 'login')));
+			return new WP_Error('incorrect_password', sprintf(__('<strong>ERROR</strong>: Incorrect password. <a href="%s" title="Password Lost and Found">Lost your password</a>?', "cosign_sso"), site_url('wp-login.php?action=lostpassword', 'login')));
 		}
 	}
 	else
@@ -252,7 +249,7 @@ function cosign_sso_authenticate($user, $username="", $password="")
 
 	if ( !$userdata && !$cosign_sso_opt["auto_user"] )
 	{
-		wp_die(__('Invalid username. Turn on auto_user to create user account automatically.'), __('login failed'));
+		wp_die(__('Invalid username. Turn on auto_user to create user account automatically.', "cosign_sso"), __('login failed', "cosign_sso"));
 	}
 
 	$ldap_userdata = cosign_sso_ldap_fetch_account($username);
@@ -376,7 +373,7 @@ function cosign_sso_options_page()
 
 ?>
 	<div class="wrap">
-	<h2>CoSign SSO Options</h2>
+	<h2><?php _e("CoSign SSO Options", "cosign_sso"); ?></h2>
 	<form method="post" action="<?php echo $_SERVER['PHP_SELF'] . '?page=' . basename(__FILE__); ?>&updated=true">
 	<fieldset class="options" style="border: none">
 	<p>
@@ -406,7 +403,7 @@ function cosign_sso_options_page()
 	</table>
 	</p>
 
-	<h3><?php echo __("CoSign SSO Options", "cosign_sso"); ?></h3>
+	<h3><?php _e("CoSign SSO Options", "cosign_sso"); ?></h3>
 	<table width="100%" <?php echo $wpversion >= 2.5 ? 'class="form-table"' : 'cellspacing="2" cellpadding="5" class="editform"'; ?> >
 		<tr valign="top">
 			<th width="200px" scope="row"><?php echo __("CoSign Login URL", "cosign_sso"); ?></th>
@@ -425,7 +422,7 @@ function cosign_sso_options_page()
 		</tr>
 	</table>
 
-	<h3><?php echo __("User Account", "cosign_sso"); ?></h3>
+	<h3><?php _e("User Account", "cosign_sso"); ?></h3>
 	<table width="100%" <?php echo $wpversion >= 2.5 ? 'class="form-table"' : 'cellspacing="2" cellpadding="5" class="editform"'; ?> >
 		<tr valign="top">
 			<th width="200px" scope="row"><?php echo __("Auto create user account", "cosign_sso"); ?></th>
@@ -439,16 +436,16 @@ function cosign_sso_options_page()
 
 					// print the 'no role' option. Make it selected if the user has no role yet.
 					if ( ! $optionarray_def['default_role'] )
-					  echo '<option value="" selected="selected">' . __('&mdash; No role for this blog &mdash;') . '</option>';
+					  echo '<option value="" selected="selected">' . __('&mdash; No role for this blog &mdash;', "cosign_sso") . '</option>';
 					else
-					  echo '<option value="">' . __('&mdash; No role for this blog &mdash;') . '</option>';
+					  echo '<option value="">' . __('&mdash; No role for this blog &mdash;', "cosign_sso") . '</option>';
 					?>
 				</select>
 			</td>
 		</tr>
 	</table>
 
-	<h3><?php echo __("LDAP Options", "cosign_sso"); ?></h3>
+	<h3><?php _e("LDAP Options", "cosign_sso"); ?></h3>
 	<table width="100%" <?php echo $wpversion >= 2.5 ? 'class="form-table"' : 'cellspacing="2" cellpadding="5" class="editform"'; ?> >
 		<tr valign="top">
 			<th width="200px" scope="row"><?php echo __("LDAP hostname", "cosign_sso"); ?></th>
@@ -511,7 +508,7 @@ function cosign_sso_options_page()
 	</fieldset>
 	<p />
 	<div class="submit">
-		<input type="submit" name="submit" value="<?php _e('Update Options') ?> &raquo;" />
+		<input type="submit" name="submit" value="<?php _e('Update Options', "cosign_sso") ?> &raquo;" />
 	</div>
 	</form>
 <?php
@@ -535,10 +532,10 @@ if ( $cosign_sso_version === false || OPENID_PLUGIN_REVISION != get_option('cosi
 	add_action('admin_init', 'cosign_sso_activate');
 }
 
-if (!$cosign_sso_disabled)
+if ( (int)$cosign_sso_opt['login_method'] > COSIGN_LOGIN_DISABLED
+     && !$cosign_sso_disabled )
 {
 	// Common hooks
-	add_action('init', 'cosign_sso_init');
 	add_action('login_form_register', 'cosign_sso_register_disabled');
 	add_action('personal_options', 'cosign_sso_profile_notes');
 	add_action('show_user_profile', 'cosign_sso_profile_js');

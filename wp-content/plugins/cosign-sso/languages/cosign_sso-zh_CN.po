@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CoSign SSO 0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/cosign-sso\n"
-"POT-Creation-Date: 2010-01-03 18:41+0800\n"
-"PO-Revision-Date: 2010-01-03 18:43+0800\n"
+"POT-Creation-Date: 2010-01-04 16:20+0800\n"
+"PO-Revision-Date: 2010-01-04 16:16+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -18,23 +18,29 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: cosign-sso.php:215
+#. #-#-#-#-#  cosign_sso.pot (CoSign SSO 0.1)  #-#-#-#-#
+#. Plugin Name of an extension
+#: cosign-sso.php:134
+msgid "CoSign SSO"
+msgstr "单点登录"
+
+#: cosign-sso.php:219
 msgid "CoSign login failed, no REMOTE_USER defined."
 msgstr "单点登录失败，无法找到 REMOTE_USER 环境变量。"
 
-#: cosign-sso.php:215 cosign-sso.php:248
+#: cosign-sso.php:219 cosign-sso.php:252
 msgid "login failed"
 msgstr "登录失败"
 
-#: cosign-sso.php:224
+#: cosign-sso.php:228
 msgid "<strong>ERROR</strong>: The username field is empty."
 msgstr "<strong>错误</strong>: 用户名字段为空。"
 
-#: cosign-sso.php:227
+#: cosign-sso.php:231
 msgid "<strong>ERROR</strong>: The password field is empty."
 msgstr "<strong>错误</strong>: 口令字段为空。"
 
-#: cosign-sso.php:234
+#: cosign-sso.php:238
 #, php-format
 msgid ""
 "<strong>ERROR</strong>: Incorrect password. <a href=\"%s\" title=\"Password "
@@ -43,30 +49,34 @@ msgstr ""
 "<strong>错误</strong>: 口令错误。 <a href=\"%s\" title=\"Password Lost and "
 "Found\">忘记口令</a>?"
 
-#: cosign-sso.php:248
+#: cosign-sso.php:252
 msgid ""
 "Invalid username. Turn on auto_user to create user account automatically."
 msgstr "错误用户名。打开 auto_user 实现用户自动创建。"
 
-#: cosign-sso.php:289
+#: cosign-sso.php:293
 msgid ""
 "Note: Some fields of profile store in LDAP and can not be changed here. "
 "These fields are disabled below."
 msgstr "注意：一些字段保存在 LDAP 中，不能在此界面中修改。"
 
-#: cosign-sso.php:354
+#: cosign-sso.php:358
 msgid "Disabled"
 msgstr "禁用"
 
-#: cosign-sso.php:355
+#: cosign-sso.php:359
 msgid "LDAP"
 msgstr "LDAP认证"
 
-#: cosign-sso.php:356
+#: cosign-sso.php:360
 msgid "SSO"
 msgstr "单点登录认证"
 
-#: cosign-sso.php:377
+#: cosign-sso.php:376 cosign-sso.php:406
+msgid "CoSign SSO Options"
+msgstr "单点登录选项"
+
+#: cosign-sso.php:381
 msgid ""
 "Checking the <em>CoSign SSO</em> option below, it will change login method "
 "and will affect all users including yourself.<br /><strong>Bad configuration "
@@ -79,124 +89,115 @@ msgstr ""
 "您因此而无法登录系统，可以在服务器端本插件目录下创建一个名为 <em>'DISABLE'</"
 "em> 的文件，或者通过修改数据库恢复原有认证方式。"
 
-#: cosign-sso.php:387
+#: cosign-sso.php:391
 msgid "Login method"
 msgstr "登录方式"
 
-#: cosign-sso.php:393
+#: cosign-sso.php:397
 #, php-format
 msgid ""
 "CoSign SSO login disable by file '%s'. To enable CoSign SSO login, remove "
 "that file."
 msgstr "单点登录因为文件 '%s' 而禁用。重新启用单点登录，请删除该文件。"
 
-#: cosign-sso.php:394
+#: cosign-sso.php:398
 msgid ""
 "Choose to disable internale auth login and authenticate all users using "
 "CoSign SSO login service."
 msgstr "选择不同的登录方式。缺省禁用单点登录。"
 
-#: cosign-sso.php:402
-msgid "CoSign SSO Options"
-msgstr "单点登录选项"
-
-#: cosign-sso.php:405
+#: cosign-sso.php:409
 msgid "CoSign Login URL"
 msgstr "单点登录的登录URL地址"
 
-#: cosign-sso.php:410
+#: cosign-sso.php:414
 msgid "CoSign Logout URL"
 msgstr "单点登录的退出URL地址"
 
-#: cosign-sso.php:415
+#: cosign-sso.php:419
 msgid "CoSign Service Name"
 msgstr "单点登录的服务名"
 
-#: cosign-sso.php:421
+#: cosign-sso.php:425
 msgid "User Account"
 msgstr "用户帐号"
 
-#: cosign-sso.php:424
+#: cosign-sso.php:428
 msgid "Auto create user account"
 msgstr "自动创建用户帐号"
 
-#: cosign-sso.php:427
+#: cosign-sso.php:431
 msgid "new user as"
 msgstr "新用户角色"
 
-#: cosign-sso.php:435 cosign-sso.php:437
+#: cosign-sso.php:439 cosign-sso.php:441
 msgid "&mdash; No role for this blog &mdash;"
 msgstr "&mdash; 本博客中无权限 &mdash;"
 
-#: cosign-sso.php:444
+#: cosign-sso.php:448
 msgid "LDAP Options"
 msgstr "LDAP 选项"
 
-#: cosign-sso.php:447
+#: cosign-sso.php:451
 msgid "LDAP hostname"
 msgstr "LDAP 主机名"
 
-#: cosign-sso.php:452
+#: cosign-sso.php:456
 msgid "LDAP port"
 msgstr "LDAP 端口"
 
-#: cosign-sso.php:458
+#: cosign-sso.php:462
 msgid "LDAP BaseDN"
 msgstr "LDAP BaseDN"
 
-#: cosign-sso.php:463
+#: cosign-sso.php:467
 msgid "LDAP Bind Username"
 msgstr "LDAP 绑定用户名"
 
-#: cosign-sso.php:468
+#: cosign-sso.php:472
 msgid "LDAP Bind Password"
 msgstr "LDAP 绑定口令"
 
-#: cosign-sso.php:473
+#: cosign-sso.php:477
 msgid "LDAP Search Filter"
 msgstr "LDAP 搜索过滤器"
 
-#: cosign-sso.php:478
+#: cosign-sso.php:482
 msgid "Login Name"
 msgstr "登录名字段"
 
-#: cosign-sso.php:483
+#: cosign-sso.php:487
 msgid "Given Name"
 msgstr "名字字段"
 
-#: cosign-sso.php:488
+#: cosign-sso.php:492
 msgid "Surname"
 msgstr "姓字段"
 
-#: cosign-sso.php:493
+#: cosign-sso.php:497
 msgid "Nick Name"
 msgstr "别名字段"
 
-#: cosign-sso.php:498
+#: cosign-sso.php:502
 msgid "Email"
 msgstr "Email 字段"
 
-#: cosign-sso.php:507
+#: cosign-sso.php:511
 msgid "Update Options"
-msgstr "更新选项"
-
-#. Plugin Name of an extension
-msgid "CoSign SSO"
-msgstr "单点登录"
+msgstr "保存"
 
 #. Plugin URI of an extension
-msgid "http://github.com/ossxp-com/wp-cosign-sso/"
+msgid "http://github.com/ossxp-com/wordpress/"
 msgstr ""
 
 #. Description of an extension
 msgid ""
-"CoSign SSO is a WordPress plugin that integrates CoSign Single Signon with "
-"WordPress. When user visit login page, redirect to CoSign's weblogin page, "
-"and after successful logged in, redirect back to WordPress."
+"Alternative authentication plugin for WordPress. This plugin add two LDAP "
+"login and CoSign Single Sign-on(SSO) login method, while LDAP login is just "
+"a by-pruduct, and this is why this plugin named."
 msgstr ""
-"CoSign SSO 是一个和单点登录认证整合的 WordPress 插件。如果您不了解 CoSign 单"
-"点登录，请忽略本插件。当本插件启用后，将使用外部的认证系统取代 WordPress 的认"
-"证机制，当认证成功后通过重定向返回。"
+"WordPress 可替换认证插件。这个插件增加了两个新的认证方式：单点登录认证以及"
+"LDAP认证。LDAP认证是副产品，故此命名。"
 
 #. Author of an extension
 msgid "Jiang Xin"
@@ -206,3 +207,11 @@ msgstr "蒋鑫"
 msgid "http://www.ossxp.com/"
 msgstr "http://www.ossxp.com/"
 
+#~ msgid ""
+#~ "CoSign SSO is a WordPress plugin that integrates CoSign Single Signon "
+#~ "with WordPress. When user visit login page, redirect to CoSign's weblogin "
+#~ "page, and after successful logged in, redirect back to WordPress."
+#~ msgstr ""
+#~ "CoSign SSO 是一个和单点登录认证整合的 WordPress 插件。如果您不了解 CoSign "
+#~ "单点登录，请忽略本插件。当本插件启用后，将使用外部的认证系统取代 "
+#~ "WordPress 的认证机制，当认证成功后通过重定向返回。"
