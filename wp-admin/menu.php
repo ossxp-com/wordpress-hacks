@@ -113,6 +113,7 @@ $menu[80] = array( __('Settings'), 'manage_options', 'options-general.php', '', 
 	$submenu['options-general.php'][35] = array(__('Privacy'), 'manage_options', 'options-privacy.php');
 	$submenu['options-general.php'][40] = array(__('Permalinks'), 'manage_options', 'options-permalink.php');
 	$submenu['options-general.php'][45] = array(__('Miscellaneous'), 'manage_options', 'options-misc.php');
+	$submenu['options-general.php'][45] = array(__('Security'), 'manage_options', 'options-security.php');
 
 $_wp_last_utility_menu = 80; // The index of the last top-level menu in the utility menu group
 
