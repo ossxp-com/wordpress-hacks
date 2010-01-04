@@ -169,7 +169,6 @@ function &get_manifest() {
 		array('../wp-includes/js/tinymce/themes/advanced/skins/default/img/progress.gif'),
 		array('../wp-includes/js/tinymce/themes/advanced/skins/default/img/menu_check.gif'),
 		array('../wp-includes/js/tinymce/themes/advanced/skins/default/img/menu_arrow.gif'),
-		array('../wp-includes/js/tinymce/plugins/inlinepopups/skins/clearlooks2/img/drag.gif'),
 		array('../wp-includes/js/tinymce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif'),
 		array('../wp-includes/js/tinymce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif'),
 		array('../wp-includes/js/tinymce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif'),

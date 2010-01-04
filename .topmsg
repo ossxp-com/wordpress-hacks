@@ -1,0 +1,4 @@
+From: debian
+Subject: Removed reference about drag.gif in manifest.php, thanks to Michel Meyers (Closes: #517969)
+
+Signed-off-by: Jiang Xin <jiangxin@ossxp.com>
