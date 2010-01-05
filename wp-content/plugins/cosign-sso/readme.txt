@@ -4,7 +4,7 @@ Tags: authentication, sso, cosign, ldap, login
 Donate link: 
 Requires at least: unknown
 Tested up to: 2.9.1
-Stable tag: trunk
+Stable tag: 0.2
 
 Alternative authentication plugin for WordPress. This plugin add two login method: LDAP login and CoSign Single Sign-on(SSO) login.
 
