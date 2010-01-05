@@ -1,10 +1,10 @@
 <?php
 /* 
 Plugin Name: CoSign SSO
-Plugin URI:  http://github.com/ossxp-com/wordpress/
-Description: Alternative authentication plugin for WordPress. This plugin add two LDAP login and CoSign Single Sign-on(SSO) login method, while LDAP login is just a by-pruduct, and this is why this plugin named.
-Version: 0.1
-Author: Jiang Xin
+Plugin URI:  http://redmine.ossxp.com/redmine/projects/show/wp
+Description: Alternative authentication plugin for WordPress. This plugin add two login method: LDAP login and CoSign Single Sign-on(SSO) login.
+Version: 0.2
+Author: Jiang Xin <jiangxin AT ossxp.com>
 Author URI: http://www.ossxp.com/
 Licensed under the The GNU General Public License 2.0 (GPL) http://www.gnu.org/licenses/gpl.html
 */ 
@@ -29,7 +29,7 @@ Licensed under the The GNU General Public License 2.0 (GPL) http://www.gnu.org/l
  */
 
 define('COSIGN_SSO_VERSION', "0.1");
-define('COSIGN_SSO_DISABLE_FILE', dirname(__FILE__) . '/DISABLE');
+define('COSIGN_SSO_FALLBACK_FILE', dirname(__FILE__) . '/FALLBACK');
 define('COSIGN_LOGIN_DISABLED', 0);
 define('COSIGN_LOGIN_LDAP',     1);
 define('COSIGN_LOGIN_SSO',      2);
@@ -47,7 +47,7 @@ require_once( dirname(__FILE__) . "/ldap_api.php" );
 //plugin is NOT included within the global scope. It's included in the
 //activate_plugin function, and so its "main body" is not automatically 
 //in the global scope. 
-global $cosign_sso_opt, $cosign_sso_version, $cosign_sso_disabled;
+global $cosign_sso_opt, $cosign_sso_version, $cosign_sso_fallback;
 
 //CoSign SSO Options
 $cosign_sso_opt = get_option('cosign_sso_options');
@@ -55,11 +55,15 @@ $cosign_sso_opt = get_option('cosign_sso_options');
 //CoSign SSO Version
 $cosign_sso_version = get_option('cosign_sso_version');
 
-//If disable by 'DISABLE' file
-if( file_exists(COSIGN_SSO_DISABLE_FILE))
-	$cosign_sso_disabled = TRUE;
-else
-	$cosign_sso_disabled = FALSE;
+//Disable or fallback by 'FALLBACK' file
+if( file_exists(COSIGN_SSO_FALLBACK_FILE)) {
+	if ( trim(strtolower(file_get_contents(COSIGN_SSO_FALLBACK_FILE))) == 'ldap' )
+		$cosign_sso_fallback = COSIGN_LOGIN_LDAP;
+	else
+		$cosign_sso_fallback = COSIGN_LOGIN_DISABLED;
+} else {
+	$cosign_sso_fallback = COSIGN_LOGIN_SSO;
+}
 
 //Remote User
 $remote_user = @$_SERVER["REMOTE_USER"] ? @$_SERVER["REMOTE_USER"] : @$_SERVER["REDIRECT_REMOTE_USER"];
@@ -76,8 +80,8 @@ load_plugin_textdomain( 'cosign_sso', false, basename(dirname(__FILE__)) . "/lan
 
 function cosign_sso_deactivate()
 {
-	if (file_exists(COSIGN_SSO_DISABLE_FILE))
-		unlink(COSIGN_SSO_DISABLE_FILE);
+	if (file_exists(COSIGN_SSO_FALLBACK_FILE))
+		unlink(COSIGN_SSO_FALLBACK_FILE);
 }
 
 function cosign_sso_activate()
@@ -208,18 +212,20 @@ function cosign_sso_logout_redirect()
 //----------------------------------------------------------------------------
 function cosign_sso_authenticate($user, $username="", $password="")
 {
-	global $remote_user, $cosign_sso_opt;
+	global $remote_user, $cosign_sso_opt, $cosign_sso_fallback;
 
 	if ( is_a($user, 'WP_User') ) { return $user; }
 
-	if ( (int)$cosign_sso_opt["login_method"] == COSIGN_LOGIN_SSO )
+	if ( (int)$cosign_sso_opt["login_method"] == COSIGN_LOGIN_SSO &&
+		  $cosign_sso_fallback != COSIGN_LOGIN_LDAP )
 	{
 		$username = $remote_user;
 		if (!$username) {
 			wp_die(__('CoSign login failed, no REMOTE_USER defined.', "cosign_sso"), __('login failed', "cosign_sso"));
 		}
 	}
-	elseif ( (int)$cosign_sso_opt["login_method"] == COSIGN_LOGIN_LDAP )
+	elseif ( (int)$cosign_sso_opt["login_method"] == COSIGN_LOGIN_LDAP ||
+		      $cosign_sso_fallback == COSIGN_LOGIN_LDAP )
 	{
 		if ( empty($username) || empty($password) ) {
 			$error = new WP_Error();
@@ -323,7 +329,7 @@ function cosign_sso_no_password_reset()
 
 function cosign_sso_options_page()
 {
-	global $wpversion, $cosign_sso_disabled;
+	global $wpversion, $cosign_sso_fallback;
 
 	if (isset($_POST['submit']) ) {
 		// Options Array Update
@@ -393,8 +399,10 @@ function cosign_sso_options_page()
 			<td>
 				<span style="color: #555; font-size: .85em;">
 				<?php
-					if($cosign_sso_disabled)
-						printf("<strong>". __("CoSign SSO login disable by file '%s'. To enable CoSign SSO login, remove that file.", "cosign_sso") . "</strong><br />", COSIGN_SSO_DISABLE_FILE);
+					if($cosign_sso_fallback == COSIGN_LOGIN_DISABLED)
+						printf("<strong>". __("CoSign SSO login disable by file '%s'. To enable CoSign SSO login, remove that file.", "cosign_sso") . "</strong><br />", COSIGN_SSO_FALLBACK_FILE);
+					elseif($cosign_sso_fallback == COSIGN_LOGIN_LDAP)
+						printf("<strong>". __("Fallback to use LDAP auth mode. To enable CoSign SSO login, remove the file '%s'.", "cosign_sso") . "</strong><br />", COSIGN_SSO_FALLBACK_FILE);
 					echo _e("Choose to disable internale auth login and authenticate all users using CoSign SSO login service.", "cosign_sso");
 				?>
 				</span>
@@ -533,7 +541,7 @@ if ( $cosign_sso_version === false || OPENID_PLUGIN_REVISION != get_option('cosi
 }
 
 if ( (int)$cosign_sso_opt['login_method'] > COSIGN_LOGIN_DISABLED
-     && !$cosign_sso_disabled )
+     && $cosign_sso_fallback > COSIGN_LOGIN_DISABLED )
 {
 	// Common hooks
 	add_action('login_form_register', 'cosign_sso_register_disabled');
@@ -543,7 +551,8 @@ if ( (int)$cosign_sso_opt['login_method'] > COSIGN_LOGIN_DISABLED
 	add_filter('show_password_fields', 'cosign_sso_no_password_reset', 10, 0);
 	add_filter('allow_password_reset', 'cosign_sso_no_password_reset', 10, 0);
 
-	if ( (int)$cosign_sso_opt['login_method'] == COSIGN_LOGIN_SSO )
+	if ( (int)$cosign_sso_opt['login_method'] == COSIGN_LOGIN_SSO &&
+		  $cosign_sso_fallback != COSIGN_LOGIN_LDAP )
 	{
 		// Hoos for CoSign SSO
 		add_filter('authenticate', 'cosign_sso_authenticate', 10, 1);
@@ -551,7 +560,8 @@ if ( (int)$cosign_sso_opt['login_method'] > COSIGN_LOGIN_DISABLED
 		add_action('clear_auth_cookie', 'cosign_sso_clear_auth_cookie');
 		add_action('wp_logout', 'cosign_sso_logout_redirect');
 	}
-	elseif ( (int)$cosign_sso_opt['login_method'] == COSIGN_LOGIN_LDAP )
+	elseif ( (int)$cosign_sso_opt['login_method'] == COSIGN_LOGIN_LDAP ||
+		      $cosign_sso_fallback == COSIGN_LOGIN_LDAP )
 	{
 		// Hoos for LDAP Login
 		add_filter('authenticate', 'cosign_sso_authenticate', 10, 3);

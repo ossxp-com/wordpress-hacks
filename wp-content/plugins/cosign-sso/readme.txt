@@ -32,9 +32,9 @@ The settings for *CoSign SSO* are extremely simple. **But** before you change th
 
 If you cannot login any more, don't blame me. A trick may help you:
 
-    $ touch <PLUGIN_DIR>/cosign-sso/DISABLE
+    $ touch <PLUGIN_DIR>/cosign-sso/FALLBACK
 
-After you correct the settings, not forgot to remove the *DISABLE* file.
+After you correct the settings, not forgot to remove the *FALLBACK* file.
 
 == Screenshots ==
 
@@ -56,13 +56,32 @@ This section describes how to localized, which means let cosign-sso speak in you
 </pre>
 
 == Changelog ==
+= 0.2 =
+
+1. FALLBACK to LDAP auth backend if a FALLBACK file exists with "LDAP" in it.
+2. A blank file FALLBACK exists, disable this plugin totally.
+
 = 0.1 =
 
 1. Initial release.
 
 == Frequently Asked Questions ==
 
-TODO
+= CoSign login url changed, can not login!!! =
+
+If CoSign login url changed, when user login the web browser will redirect to wrong place.
+If this happens, you can simply *FALLBACK* to LDAP authenticate backend or *DISABLE* this plugin totally.
+
+* To disable this plugin, simply create a file named *FALLBACK* under the plugin directory.
+<pre>
+    $ echo -n > <PLUGIN_DIR>/cosign-sso/FALLBACK
+</pre>
+* To fallback to LDAP auth backend, simply create a file named *FALLBACK* with the content "LDAP".
+<pre>
+    $ echo LDAP > <PLUGIN_DIR>/cosign-sso/FALLBACK
+</pre>
+
+After you correct the settings, not forgot to remove the *FALLBACK* file.
 
 == Upgrade Notice ==
 
