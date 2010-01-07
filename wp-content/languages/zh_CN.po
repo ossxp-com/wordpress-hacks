@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: WordPress Default 1.6\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-07 13:46+0800\n"
-"PO-Revision-Date: 2010-01-07 14:45+0800\n"
+"PO-Revision-Date: 2010-01-07 14:56+0800\n"
 "Last-Translator: leiweiwei\n"
 "Language-Team: 简体中文 <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -11039,10 +11039,9 @@ msgstr "有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</ab
 msgid "Error 404 - Not Found"
 msgstr "Error 404 - Not Found"
 
-#: wp-content/themes/default/archive.php:16
-#, fuzzy, php-format
+#: wp-content/themes/default/archive.php:16, php-format
 msgid "Archive for the &#8216;%s&#8217; Category"
-msgstr "激活 &#8220;%s&#8221;"
+msgstr "针对&#8216;%s&#8217 的存档; 分类"
 
 #: wp-content/themes/default/archive.php:18, php-format
 msgid "Posts Tagged &#8216;%s&#8217;"
@@ -11172,43 +11171,38 @@ msgid ""
 msgstr "本文的引用 <abbr title=\"Universal Resource Locator\">URL</abbr> 是:"
 
 #: wp-content/themes/default/comments-popup.php:62
-#, fuzzy
 msgid ""
 "Line and paragraph breaks automatic, e-mail address never displayed, "
 "<acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: "
 msgstr ""
-"自动换行分段，电子邮箱地址不会被公开。允许使用 <acronym title=\"Hypertext "
-"Markup Language（超文本标记语言）\">HTML</acronym> 标签："
+"行和分段自动截断，电子邮箱地址不会被公开。允许使用 <acronym title=\"Hypertext "
+"Markup Language（超文本标记语言）\">HTML</acronym> ："
 
-#: wp-content/themes/default/comments-popup.php:113
-#, fuzzy, php-format
+#: wp-content/themes/default/comments-popup.php:113, php-format
 msgid "Powered by %s"
-msgstr "Powered by WordPress"
+msgstr "由%s提供支持"
 
 #: wp-content/themes/default/comments-popup.php:113
-#, fuzzy
 msgid ""
 "Powered by WordPress, state-of-the-art semantic personal publishing platform"
-msgstr "基于 WordPress，完美的个人信息发布平台。"
+msgstr " WordPress提供支持，完美的个人信息发布平台。"
 
 #: wp-content/themes/default/footer.php:12
 #, php-format
 msgid "is proudly powered by %s"
-msgstr ""
+msgstr "由%s提供技术支持"
 
 #: wp-content/themes/default/footer.php:14
-#, fuzzy
 msgid "and"
-msgstr " 和"
+msgstr "和"
 
 #: wp-content/themes/default/footer.php:14
-#, fuzzy
 msgid "Comments (RSS)"
-msgstr "评论（0）"
+msgstr "评论(RSS)"
 
 #: wp-content/themes/default/footer.php:13
 msgid "Entries (RSS)"
-msgstr ""
+msgstr "记录(RSS)"
 
 #: wp-content/themes/default/functions.php:171
 msgid "Close Color Picker"
@@ -11292,7 +11286,7 @@ msgstr "文本显示开关"
 #: wp-content/themes/default/image.php:30
 #, php-format
 msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
-msgstr ""
+msgstr "该记录被发布在%2$s下的%1$s中，并且被%3$s包含。"
 
 #: wp-content/themes/default/image.php:50
 msgid "Edit this entry."
