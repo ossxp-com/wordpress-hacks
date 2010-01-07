@@ -42,7 +42,7 @@
 			                 the_time('Y')); ?></p>
 
 			<?php /* If this is a search result */ } elseif (is_search()) { ?>
-			<p><?php printf (__('You have searched the %1$s blog archives for <strong>'%2$s'</strong>. If you are unable to find anything in these search results, you can try one of these links.'),
+			<p><?php printf (__('You have searched the %1$s blog archives for <strong>\'%2$s\'</strong>. If you are unable to find anything in these search results, you can try one of these links.'),
 			                 '<a href="'.bloginfo('url').'/">'.bloginfo('name').'</a>',
 			                 the_search_query()); ?></p>
 

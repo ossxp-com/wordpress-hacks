@@ -13,9 +13,9 @@ get_header();
 
  	  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
  	  <?php /* If this is a category archive */ if (is_category()) { ?>
-		<h2 class="pagetitle"><?php printf(__("Archive for the &#8216;%s&#8217; Category"), single_cat_title()); ?></h2>
+		<h2 class="pagetitle"><?php printf(__("Archive for the &#8216;%s&#8217; Category"), single_cat_title('',false)); ?></h2>
  	  <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
-		<h2 class="pagetitle"><?php printf(__("Posts Tagged &#8216;%s&#8217;"), single_tag_title()); ?></h2>
+		<h2 class="pagetitle"><?php printf(__("Posts Tagged &#8216;%s&#8217;"), single_tag_title('',false)); ?></h2>
  	  <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
 		<h2 class="pagetitle"><?php printf(__("Archive for %s"), the_time('F jS, Y')); ?></h2>
  	  <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
@@ -43,7 +43,7 @@ get_header();
 					<?php the_content() ?>
 				</div>
 
-				<p class="postmetadata"><?php the_tags(null, ', ', '<br />'); _e(" Posted in "); echo the_category(', ') ?> | <?php edit_post_link('Edit', '', ' | '); ?>  <?php comments_popup_link(__('No Comments &#187;'), __('1 Comment &#187;'), __('% Comments &#187;')); ?></p>
+				<p class="postmetadata"><?php the_tags(null, ', ', '<br />'); _e(" Posted in "); echo the_category(', ') ?> | <?php edit_post_link(__('Edit'), '', ' | '); ?>  <?php comments_popup_link(__('No Comments &#187;'), __('1 Comment &#187;'), __('% Comments &#187;')); ?></p>
 
 			</div>
 
@@ -56,7 +56,7 @@ get_header();
 	<?php else :
 
 		if ( is_category() ) { // If this is a category archive
-			printf("<h2 class='center'>".__("Sorry, but there aren't any posts in the %s category yet.")."</h2>"), single_cat_title('',false));
+			printf("<h2 class='center'>".__("Sorry, but there aren't any posts in the %s category yet.")."</h2>", single_cat_title('',false));
 		} else if ( is_date() ) { // If this is a date archive
 			echo("<h2>" . __("Sorry, but there aren't any posts with this date.") . "</h2>");
 		} else if ( is_author() ) { // If this is a category archive

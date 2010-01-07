@@ -931,7 +931,7 @@ msgstr[0] "%s 条评论从回收站中恢复"
 #, php-format
 msgid "%s comment permanently deleted"
 msgid_plural "%s comments permanently deleted"
-msgstr[0] "%s条评论被删除"
+msgstr[0] "%s 条评论被删除"
 
 #: wp-admin/edit-comments.php:190 wp-content/plugins/akismet/akismet.php:753
 msgid "All"
@@ -1097,7 +1097,7 @@ msgstr "日志已提交。 <a target=\"_blank\" href=\"%s\">查看日志</a>"
 msgid ""
 "Post scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "post</a>"
-msgstr "日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
+msgstr "日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">预览日志</a>"
 
 #. translators: Publish box date formt, see http://php.net/date
 #: wp-admin/edit-form-advanced.php:54 wp-admin/edit-form-comment.php:58
@@ -1115,7 +1115,7 @@ msgstr "日志草稿已更新。<a target=\"_blank\" href=\"%s\">预览日志</a
 msgid ""
 "There is an autosave of this post that is more recent than the version "
 "below.  <a href=\"%s\">View the autosave</a>."
-msgstr "这是比当前文章更新的自动存档，  <a href=\"%s\">查看存档</a>。"
+msgstr "这有一个比当前日志版本更新的自动归档。<a href=\"%s\">查看自动保存的版本</a>。"
 
 #: wp-admin/edit-form-advanced.php:88 wp-admin/edit-page-form.php:78
 #: wp-admin/includes/dashboard.php:419 wp-admin/includes/meta-boxes.php:208
@@ -1409,7 +1409,7 @@ msgstr "页面草稿已更新。 <a target=\"_blank\" href=\"%s\">预览页面</
 msgid ""
 "There is an autosave of this page that is more recent than the version "
 "below.  <a href=\"%s\">View the autosave</a>."
-msgstr "这是比当前页面更新的自动存档，  <a href=\"%s\">查看存档</a>"
+msgstr "这有一个比当前页面版本更新的自动归档。<a href=\"%s\">查看自动保存的版本</a>。"
 
 #: wp-admin/edit-page-form.php:79
 msgid "Attributes"
@@ -2227,7 +2227,7 @@ msgstr "导入评论中..."
 #: wp-admin/import/dotclear.php:445 wp-admin/import/textpattern.php:428
 #, php-format
 msgid "Done! <strong>%1$s</strong> comments imported."
-msgstr "完成！<strong>%1$s</strong>条评论已导入。"
+msgstr "完成！<strong>%1$s</strong> 条评论已导入。"
 
 #: wp-admin/import/dotclear.php:448 wp-admin/import/textpattern.php:431
 msgid "No Comments to Import!"
@@ -2420,7 +2420,7 @@ msgstr "导入工具能做的事："
 msgid ""
 "Parses gm-authors.cgi to import (new) authors. Everyone is imported at level "
 "1."
-msgstr "解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
+msgstr "解析 gm-authors.cgi 以导入(新)作者。每个导入的用户会被自动设置为1级。"
 
 #: wp-admin/import/greymatter.php:38
 msgid ""
@@ -2428,7 +2428,7 @@ msgid ""
 "(although karma is not used on WordPress yet).<br />If authors are found not "
 "to be in gm-authors.cgi, imports them at level 0."
 msgstr ""
-"解析存档文件，导入日志、评论和日志的 karma 值（虽然 karma 值目前没有被用于 "
+"解析归档文件，导入日志、评论和日志的 karma 值（虽然 karma 值目前没有被用于 "
 "WordPress）。<br />如果日志作者没有出现在 gm-authors.cgi 文件，他们的级别将被"
 "设置为0."
 
@@ -2471,7 +2471,7 @@ msgstr "GM 文件的路径："
 
 #: wp-admin/import/greymatter.php:60
 msgid "Path to GM entries:"
-msgstr "GM 存档文件的路径："
+msgstr "GM 条目的路径："
 
 #: wp-admin/import/greymatter.php:64
 msgid "Last entry&#8217;s number:"
@@ -2796,7 +2796,7 @@ msgstr "下载评论"
 msgid ""
 "Now we will download your comments so we can import them (this could take a "
 "<strong>long</strong> time if you have lots of comments)..."
-msgstr "现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
+msgstr "现在我们将开始下载您的评论以便我们能够导入（这将需要很长时间如果您有非常多的评论）..."
 
 #: wp-admin/import/livejournal.php:871
 #, php-format
@@ -3096,7 +3096,7 @@ msgstr "导入 Simple Tagging"
 
 #: wp-admin/import/stp.php:30
 msgid "Howdy! This imports tags from Simple Tagging 1.6.2 into WordPress tags."
-msgstr "已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
+msgstr "您好！从 Simple Tagging 1.6.2 导入标签到 WordPress 中。"
 
 # (Mileage may vary)
 #: wp-admin/import/stp.php:31
@@ -3767,7 +3767,7 @@ msgstr "无法创建目录"
 
 #: wp-admin/includes/class-wp-upgrader.php:57
 msgid "Incompatible Archive"
-msgstr "不兼容的存档"
+msgstr "不兼容的归档"
 
 #: wp-admin/includes/class-wp-upgrader.php:59
 msgid "Enabling Maintenance mode."
@@ -4399,7 +4399,7 @@ msgstr "侧边栏"
 #: wp-admin/includes/file.php:19 wp-content/themes/default/sidebar.php:61
 #: wp-includes/default-widgets.php:219 wp-includes/default-widgets.php:226
 msgid "Archives"
-msgstr "存档页"
+msgstr "归档页"
 
 #: wp-admin/includes/file.php:20
 msgid "Category Template"
@@ -4561,11 +4561,11 @@ msgstr "无法创建临时文件"
 
 #: wp-admin/includes/file.php:511
 msgid "Incompatible archive"
-msgstr "不兼容的存档"
+msgstr "不兼容的归档"
 
 #: wp-admin/includes/file.php:514
 msgid "Empty archive"
-msgstr "空存档"
+msgstr "空归档"
 
 #: wp-admin/includes/file.php:523 wp-admin/includes/file.php:541
 #: wp-admin/includes/file.php:587
@@ -8534,11 +8534,11 @@ msgstr "Blog 可见性"
 msgid ""
 "I would like my blog to be visible to everyone, including search engines "
 "(like Google, Bing, Technorati) and archivers"
-msgstr "任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
+msgstr "任何人都可以访问我的Blog ，包括搜索引擎（Google，Bing, Technorati, 百度等等）"
 
 #: wp-admin/options-privacy.php:35
 msgid "I would like to block search engines, but allow normal visitors"
-msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
+msgstr "我不希望被搜索引擎收录，只允许普通访客访问"
 
 #: wp-admin/options-reading.php:15
 msgid "Reading Settings"
@@ -10804,12 +10804,12 @@ msgstr "没有评论"
 #: wp-content/themes/classic/comments.php:11
 #: wp-includes/comment-template.php:559 wp-includes/comment-template.php:938
 msgid "1 Comment"
-msgstr "1条评论"
+msgstr "1 条评论"
 
 #: wp-content/themes/classic/comments.php:11
 #: wp-includes/comment-template.php:555 wp-includes/comment-template.php:939
 msgid "% Comments"
-msgstr "%条评论"
+msgstr "% 条评论"
 
 #: wp-content/themes/classic/comments.php:13
 #: wp-content/themes/classic/comments.php:42
@@ -11014,7 +11014,7 @@ msgstr "搜索："
 
 #: wp-content/themes/classic/sidebar.php:25
 msgid "Archives:"
-msgstr "存档："
+msgstr "归档："
 
 #: wp-content/themes/classic/sidebar.php:30
 msgid "Meta:"
@@ -11049,24 +11049,24 @@ msgstr "有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</ab
 
 #: wp-content/themes/default/404.php:12
 msgid "Error 404 - Not Found"
-msgstr "Error 404 - Not Found"
+msgstr "404 错误 - 未发现"
 
 #: wp-content/themes/default/archive.php:16
 #, php-format
 msgid "Archive for the &#8216;%s&#8217; Category"
-msgstr "针对&#8216;%s&#8217 的存档; 分类"
+msgstr "分类 &#8216;%s&#8217; 的归档"
 
 #: wp-content/themes/default/archive.php:18
 #, php-format
 msgid "Posts Tagged &#8216;%s&#8217;"
-msgstr "已使用标签的日志&#8220;%s&#8221;"
+msgstr "标签为 &#8220;%s&#8221; 的日志"
 
 #: wp-content/themes/default/archive.php:20
 #: wp-content/themes/default/archive.php:22
 #: wp-content/themes/default/archive.php:24
 #, php-format
 msgid "Archive for %s"
-msgstr "为%s存档"
+msgstr "%s 归档"
 
 #: wp-content/themes/default/archive.php:26
 msgid "Author Archive"
@@ -11090,7 +11090,7 @@ msgstr "&laquo; 较旧的条目"
 #: wp-content/themes/default/search.php:17
 #: wp-content/themes/default/search.php:34
 msgid "Newer Entries &raquo;"
-msgstr "新记录 &raquo;"
+msgstr "新条目 &raquo;"
 
 #: wp-content/themes/default/archive.php:39
 #, php-format
@@ -11111,13 +11111,13 @@ msgstr "没有评论 &#187;"
 #: wp-content/themes/default/index.php:23
 #: wp-content/themes/default/search.php:27
 msgid "1 Comment &#187;"
-msgstr "1条评论 &#187;"
+msgstr "1 条评论 &#187;"
 
 #: wp-content/themes/default/archive.php:46
 #: wp-content/themes/default/index.php:23
 #: wp-content/themes/default/search.php:27
 msgid "% Comments &#187;"
-msgstr "%条评论 &#187;"
+msgstr "% 条评论 &#187;"
 
 #: wp-content/themes/default/archive.php:59
 #, php-format
@@ -11139,12 +11139,12 @@ msgstr "请不要直接加载这个页面。谢谢！"
 
 #: wp-content/themes/default/comments.php:12
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "这篇日志已被密码保护。请在这里输入密码进行查看："
+msgstr "这篇日志已被密码保护。请在这里输入密码进行查看评论。"
 
 #: wp-content/themes/default/comments.php:21
 #, php-format
 msgid "%2$s to &#8220;%1$s&#8221"
-msgstr "%2$s to &#8220;%1$s&#8221"
+msgstr "对 &#8220;%1$s&#8221 的 %2$s"
 
 # 加一个引号标识出日志标题
 #: wp-content/themes/default/comments.php:21
@@ -11233,7 +11233,7 @@ msgstr "评论(RSS)"
 
 #: wp-content/themes/default/footer.php:13
 msgid "Entries (RSS)"
-msgstr "记录(RSS)"
+msgstr "条目(RSS)"
 
 #: wp-content/themes/default/functions.php:171
 msgid "Close Color Picker"
@@ -11324,12 +11324,12 @@ msgstr "阅读全部内容 &raquo;"
 #: wp-content/themes/default/single.php:35
 #, php-format
 msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
-msgstr "该记录被发布在%2$s下的%1$s中，并且被%3$s包含。"
+msgstr "该条目被发布于 %1$s - %2$s，并归类于 %3$s。"
 
 #: wp-content/themes/default/image.php:32
 #: wp-content/themes/default/single.php:39, php-format
 msgid "You can follow any responses to this entry through the %s feed."
-msgstr "你可以通过%sfeed跟踪任意对该记录的回复"
+msgstr "你可以通过%sfeed跟踪任意对该条目的回复"
 
 #: wp-content/themes/default/image.php:36
 #: wp-content/themes/default/single.php:43
@@ -11364,7 +11364,7 @@ msgstr "评论和ping目前已经关闭"
 #: wp-content/themes/default/image.php:50
 #: wp-content/themes/default/page.php:22
 msgid "Edit this entry."
-msgstr "编辑这条记录"
+msgstr "编辑这个条目"
 
 #: wp-content/themes/default/image.php:63
 msgid "Sorry, no attachments matched your criteria."
@@ -11451,7 +11451,7 @@ msgstr "%link &raquo;"
 
 #: wp-content/themes/default/single.php:57
 msgid "Edit this entry"
-msgstr "编辑这条记录"
+msgstr "编辑这个条目"
 
 #: wp-includes/atomlib.php:133
 #, php-format
@@ -12242,14 +12242,14 @@ msgstr "搜索结果 %1$s %2$s"
 msgid "Page not found"
 msgstr "页面无法找到"
 
-# 按月存档的日期格式
+# 按月归档的日期格式
 #. translators: 1: month name, 2: 4-digit year
 #: wp-includes/general-template.php:821
 #, php-format
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
-# 按月存档的日期格式
+# 按月归档的日期格式
 #. translators: Calendar caption: 1: month name, 2: 4-digit year
 #: wp-includes/general-template.php:1026
 #, php-format
@@ -12268,7 +12268,7 @@ msgctxt "feed link"
 msgid "&raquo;"
 msgstr "下一页 &raquo;"
 
-# 按月存档的日期格式
+# 按月归档的日期格式
 #. translators: 1: blog title, 2: separator (raquo)
 #: wp-includes/general-template.php:1460
 #, php-format
@@ -14420,13 +14420,13 @@ msgstr "j F, Y @ G:i"
 #: wp-includes/post-template.php:1202
 #, php-format
 msgid "%1$s [Autosave]"
-msgstr "%1$s [自动存档]"
+msgstr "%1$s [自动归档]"
 
 #. translators: 1: date
 #: wp-includes/post-template.php:1204
 #, php-format
 msgid "%1$s [Current Revision]"
-msgstr "%1$s [当前修订记录]"
+msgstr "%1$s [当前修订条目]"
 
 #. translators: post revision: 1: when, 2: author name
 #: wp-includes/post-template.php:1270
@@ -15389,7 +15389,7 @@ msgstr ""
 "href='{$path}setup-config.php' class='button'>创建配置文件</a>"
 
 #~ msgid "This entry was posted on"
-#~ msgstr "这条记录发布在"
+#~ msgstr "这个条目发布在"
 
 #~ msgid "and is filed under"
 #~ msgstr "并且归类在"
