@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Default 1.6\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-07 13:46+0800\n"
+"POT-Creation-Date: 2010-01-07 14:44+0800\n"
 "PO-Revision-Date: 2010-01-07 14:56+0800\n"
 "Last-Translator: leiweiwei\n"
 "Language-Team: 简体中文 <kde-i18n-doc@kde.org>\n"
@@ -329,6 +329,7 @@ msgstr "您无权上传文件。"
 #: wp-admin/edit-link-form.php:28 wp-admin/includes/template.php:759
 #: wp-admin/includes/template.php:859 wp-admin/includes/template.php:1103
 #: wp-admin/menu.php:46 wp-admin/press-this.php:498
+#: wp-content/themes/default/sidebar.php:67
 #: wp-includes/category-template.php:437 wp-includes/default-widgets.php:423
 #: wp-includes/default-widgets.php:429 wp-includes/taxonomy.php:18
 #: wp-includes/taxonomy.php:20
@@ -581,6 +582,7 @@ msgstr "警告："
 #: wp-admin/includes/template.php:784 wp-admin/includes/template.php:808
 #: wp-admin/includes/template.php:846 wp-admin/includes/template.php:1069
 #: wp-admin/includes/theme-install.php:158
+#: wp-content/themes/default/sidebar.php:16
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
 #: wp-includes/post-template.php:1335
 msgid "Author"
@@ -751,7 +753,9 @@ msgstr "编辑&#8220;%s&#8221;"
 #: wp-admin/includes/template.php:2199 wp-admin/includes/widgets.php:177
 #: wp-admin/link-manager.php:200 wp-admin/menu.php:33 wp-admin/menu.php:54
 #: wp-admin/menu.php:60 wp-admin/plugins.php:423 wp-admin/upload.php:393
-#: wp-includes/script-loader.php:287 wp-includes/script-loader.php:315
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27 wp-includes/script-loader.php:287
+#: wp-includes/script-loader.php:315
 msgid "Edit"
 msgstr "编辑"
 
@@ -1093,7 +1097,8 @@ msgstr "日志已提交。 <a target=\"_blank\" href=\"%s\">查看日志</a>"
 msgid ""
 "Post scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "post</a>"
-msgstr "日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
+msgstr ""
+"日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
 
 #. translators: Publish box date formt, see http://php.net/date
 #: wp-admin/edit-form-advanced.php:54 wp-admin/edit-form-comment.php:58
@@ -1393,7 +1398,8 @@ msgstr "页面已提交。<a target=\"_blank\" href=\"%s\">查看页面</a>"
 msgid ""
 "Page scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "page</a>"
-msgstr "页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
+msgstr ""
+"页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
 
 #: wp-admin/edit-page-form.php:52
 #, php-format
@@ -1557,8 +1563,9 @@ msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125 wp-admin/includes/template.php:3239
-#: wp-admin/menu.php:59 wp-includes/default-widgets.php:19
-#: wp-includes/default-widgets.php:25 wp-includes/post-template.php:735
+#: wp-admin/menu.php:59 wp-content/themes/default/sidebar.php:59
+#: wp-includes/default-widgets.php:19 wp-includes/default-widgets.php:25
+#: wp-includes/post-template.php:735
 msgid "Pages"
 msgstr "页面"
 
@@ -2415,7 +2422,8 @@ msgstr "导入工具能做的事："
 msgid ""
 "Parses gm-authors.cgi to import (new) authors. Everyone is imported at level "
 "1."
-msgstr "解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
+msgstr ""
+"解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
 
 #: wp-admin/import/greymatter.php:38
 msgid ""
@@ -2791,7 +2799,8 @@ msgstr "下载评论"
 msgid ""
 "Now we will download your comments so we can import them (this could take a "
 "<strong>long</strong> time if you have lots of comments)..."
-msgstr "现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
+msgstr ""
+"现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
 
 #: wp-admin/import/livejournal.php:871
 #, php-format
@@ -3091,7 +3100,8 @@ msgstr "导入 Simple Tagging"
 
 #: wp-admin/import/stp.php:30
 msgid "Howdy! This imports tags from Simple Tagging 1.6.2 into WordPress tags."
-msgstr "已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
+msgstr ""
+"已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
 
 # (Mileage may vary)
 #: wp-admin/import/stp.php:31
@@ -3680,7 +3690,8 @@ msgstr "ftp PHP 扩展不可用"
 msgid ""
 "The ssh2 PHP extension is available, however, we require the PHP5 function "
 "<code>stream_get_contents()</code>"
-msgstr " ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
+msgstr ""
+" ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:72
 msgid "SSH2 hostname is required"
@@ -4391,8 +4402,8 @@ msgstr "页眉"
 msgid "Sidebar"
 msgstr "侧边栏"
 
-#: wp-admin/includes/file.php:19 wp-includes/default-widgets.php:219
-#: wp-includes/default-widgets.php:226
+#: wp-admin/includes/file.php:19 wp-content/themes/default/sidebar.php:61
+#: wp-includes/default-widgets.php:219 wp-includes/default-widgets.php:226
 msgid "Archives"
 msgstr "存档页"
 
@@ -5565,7 +5576,8 @@ msgstr "页面序号"
 msgid ""
 "Pages are usually ordered alphabetically, but you can put a number above to "
 "change the order pages appear in."
-msgstr "页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
+msgstr ""
+"页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
 
 #: wp-admin/includes/meta-boxes.php:523
 msgid "Visit Link"
@@ -6768,7 +6780,8 @@ msgstr "<a href=\"http://codex.wordpress.org/\">文档</a>"
 msgid ""
 "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</"
 "a>"
-msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
+msgstr ""
+"<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
 
 #: wp-admin/includes/template.php:3615
 msgid "Screen Options"
@@ -6845,7 +6858,8 @@ msgstr "移除侧边栏的某一个挂件时，先点击它的标题以显示设
 msgid ""
 "To remove a widget from a sidebar <em>and keep its configuration</em>, drag "
 "it to Inactive Widgets."
-msgstr "拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
+msgstr ""
+"拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
 
 #: wp-admin/includes/template.php:3662
 msgid ""
@@ -7274,7 +7288,8 @@ msgstr "WordPress 自动更新失败！请提醒站点管理员。"
 msgid ""
 "<strong><em>Note that password</em></strong> carefully! It is a <em>random</"
 "em> password that was generated just for you."
-msgstr "<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
+msgstr ""
+"<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
 
 #: wp-admin/includes/upgrade.php:67
 msgid "User already exists.  Password inherited."
@@ -7514,7 +7529,8 @@ msgstr "已经安装"
 msgid ""
 "You appear to have already installed WordPress. To reinstall please clear "
 "your old database tables first."
-msgstr "您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
+msgstr ""
+"您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
 
 #: wp-admin/install.php:90
 msgid "Welcome"
@@ -7692,7 +7708,8 @@ msgstr ""
 msgid ""
 "WordPress can automatically look for some common database problems and "
 "repair them.  Repairing can take awhile, so please be patient."
-msgstr "WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
+msgstr ""
+"WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
 
 #: wp-admin/maint/repair.php:83
 msgid "Repair Database"
@@ -8529,11 +8546,13 @@ msgstr "Blog 可见性"
 msgid ""
 "I would like my blog to be visible to everyone, including search engines "
 "(like Google, Bing, Technorati) and archivers"
-msgstr "任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
+msgstr ""
+"任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
 
 #: wp-admin/options-privacy.php:35
 msgid "I would like to block search engines, but allow normal visitors"
-msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
+msgstr ""
+"我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
 
 #: wp-admin/options-reading.php:15
 msgid "Reading Settings"
@@ -8781,7 +8800,8 @@ msgstr "文件修改成功。"
 msgid ""
 "This plugin has been deactivated because your changes resulted in a "
 "<strong>fatal error</strong>."
-msgstr "这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
+msgstr ""
+"这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
 
 # 可编辑时显示“正在编辑”
 #: wp-admin/plugin-editor.php:144
@@ -9435,7 +9455,8 @@ msgstr ""
 msgid ""
 "You only have one theme installed at the moment so there is nothing to show "
 "you here.  Maybe you should download some more to try out."
-msgstr "您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
+msgstr ""
+"您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
 
 #: wp-admin/themes.php:272
 msgid "Broken Themes"
@@ -9583,7 +9604,8 @@ msgstr ""
 msgid ""
 "Drag-and-drop the following link to your bookmarks bar or right click it and "
 "add it to your favorites for a posting shortcut."
-msgstr "拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
+msgstr ""
+"拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
 
 #: wp-admin/update-core.php:13 wp-admin/update.php:21 wp-admin/update.php:40
 msgid "You do not have sufficient permissions to update plugins for this blog."
@@ -10101,14 +10123,16 @@ msgstr "添加新用户"
 msgid ""
 "Users can <a href=\"%1$s\">register themselves</a> or you can manually "
 "create users here."
-msgstr "用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
+msgstr ""
+"用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
 
 #: wp-admin/user-new.php:80
 #, php-format
 msgid ""
 "Users cannot currently <a href=\"%1$s\">register themselves</a>, but you can "
 "manually create users here."
-msgstr "用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
+msgstr ""
+"用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
 
 #: wp-admin/user-new.php:101
 msgid "First Name"
@@ -10418,7 +10442,8 @@ msgstr "无法连接 Akismet 服务器，请检查您的服务器的设置。"
 msgid ""
 "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</"
 "a>)"
-msgstr "请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
+msgstr ""
+"请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
 
 #: wp-content/plugins/akismet/akismet.php:126
 msgid "This key is valid."
@@ -10428,7 +10453,8 @@ msgstr "该 Key 有效"
 msgid ""
 "The key below was previously validated but a connection to akismet.com can "
 "not be established at this time. Please check your server configuration."
-msgstr "该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
+msgstr ""
+"该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
 
 #: wp-content/plugins/akismet/akismet.php:130
 #: wp-content/themes/default/functions.php:374
@@ -10457,7 +10483,8 @@ msgstr "WordPress.com API Key"
 #: wp-content/plugins/akismet/akismet.php:144
 msgid ""
 "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
-msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
+msgstr ""
+"<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
 
 #: wp-content/plugins/akismet/akismet.php:146
 msgid "Why might my key be invalid?"
@@ -10600,7 +10627,8 @@ msgstr "Akismet 已就绪。"
 msgid ""
 "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to "
 "work."
-msgstr "您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
+msgstr ""
+"您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
 
 #: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
@@ -10739,7 +10767,8 @@ msgid ""
 msgid_plural ""
 "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments "
 "already,"
-msgstr[0] "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
+msgstr[0] ""
+"<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
 
 #: wp-content/plugins/akismet/akismet.php:938
 #, php-format
@@ -10937,6 +10966,7 @@ msgstr ""
 #: wp-content/themes/classic/comments-popup.php:115
 #: wp-content/themes/classic/footer.php:12
 #: wp-content/themes/classic/sidebar.php:38
+#: wp-content/themes/default/sidebar.php:79
 #: wp-includes/default-widgets.php:300
 msgid ""
 "Powered by WordPress, state-of-the-art semantic personal publishing platform."
@@ -10956,6 +10986,8 @@ msgid "Filed under:"
 msgstr "归类于："
 
 #: wp-content/themes/classic/index.php:15
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
 #: wp-includes/category-template.php:820
 msgid "Tags: "
 msgstr "标签："
@@ -10978,6 +11010,7 @@ msgstr "评论（%）"
 
 #: wp-content/themes/classic/index.php:31
 #: wp-content/themes/default/comments-popup.php:109
+#: wp-content/themes/default/single.php:69
 msgid "Sorry, no posts matched your criteria."
 msgstr "抱歉，没有符合条件的日志。"
 
@@ -10989,7 +11022,9 @@ msgstr "&laquo; 上一页"
 msgid "Older Posts &raquo;"
 msgstr "下一页 &raquo;"
 
-#: wp-content/themes/classic/sidebar.php:13 wp-includes/post-template.php:560
+#: wp-content/themes/classic/sidebar.php:13
+#: wp-content/themes/default/page.php:17
+#: wp-content/themes/default/single.php:25 wp-includes/post-template.php:560
 msgid "Pages:"
 msgstr "页面："
 
@@ -11028,28 +11063,33 @@ msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 msgstr "评论 <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
 #: wp-content/themes/classic/sidebar.php:36
+#: wp-content/themes/default/sidebar.php:77
 msgid "This page validates as XHTML 1.0 Transitional"
 msgstr "本页面可通过 XHTML 1.0 Transitional 验证"
 
 #: wp-content/themes/classic/sidebar.php:36
 msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
-msgstr "有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr ""
+"有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
 
 #: wp-content/themes/default/404.php:12
 msgid "Error 404 - Not Found"
 msgstr "Error 404 - Not Found"
 
-#: wp-content/themes/default/archive.php:16, php-format
+#: wp-content/themes/default/archive.php:16
+#, php-format
 msgid "Archive for the &#8216;%s&#8217; Category"
 msgstr "针对&#8216;%s&#8217 的存档; 分类"
 
-#: wp-content/themes/default/archive.php:18, php-format
+#: wp-content/themes/default/archive.php:18
+#, php-format
 msgid "Posts Tagged &#8216;%s&#8217;"
 msgstr "已使用标签的日志&#8220;%s&#8221;"
 
 #: wp-content/themes/default/archive.php:20
 #: wp-content/themes/default/archive.php:22
-#: wp-content/themes/default/archive.php:24, php-format
+#: wp-content/themes/default/archive.php:24
+#, php-format
 msgid "Archive for %s"
 msgstr "为%s存档"
 
@@ -11063,15 +11103,22 @@ msgstr "日志归档"
 
 #: wp-content/themes/default/archive.php:33
 #: wp-content/themes/default/archive.php:53
+#: wp-content/themes/default/index.php:29
+#: wp-content/themes/default/search.php:16
+#: wp-content/themes/default/search.php:33
 msgid "&laquo; Older Entries"
 msgstr "&laquo; 较旧的条目"
 
 #: wp-content/themes/default/archive.php:34
 #: wp-content/themes/default/archive.php:54
+#: wp-content/themes/default/index.php:30
+#: wp-content/themes/default/search.php:17
+#: wp-content/themes/default/search.php:34
 msgid "Newer Entries &raquo;"
 msgstr "新记录 &raquo;"
 
-#: wp-content/themes/default/archive.php:39, php-format
+#: wp-content/themes/default/archive.php:39
+#, php-format
 msgid "Permanent Link to %s"
 msgstr "指向%s的永久链接"
 
@@ -11080,14 +11127,20 @@ msgid " Posted in "
 msgstr "发布在"
 
 #: wp-content/themes/default/archive.php:46
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
 msgid "No Comments &#187;"
 msgstr "没有评论 &#187;"
 
 #: wp-content/themes/default/archive.php:46
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
 msgid "1 Comment &#187;"
 msgstr "1条评论 &#187;"
 
 #: wp-content/themes/default/archive.php:46
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
 msgid "% Comments &#187;"
 msgstr "%条评论 &#187;"
 
@@ -11113,7 +11166,8 @@ msgstr "请不要直接加载这个页面。谢谢！"
 msgid "This post is password protected. Enter the password to view comments."
 msgstr "这篇日志已被密码保护。请在这里输入密码进行查看："
 
-#: wp-content/themes/default/comments.php:21, php-format
+#: wp-content/themes/default/comments.php:21
+#, php-format
 msgid "%2$s to &#8220;%1$s&#8221"
 msgstr "%2$s to &#8220;%1$s&#8221"
 
@@ -11156,7 +11210,8 @@ msgstr "您可以使用这些标签："
 msgid "Comments on "
 msgstr "评论在"
 
-#: wp-content/themes/default/comments-popup.php:30, php-format
+#: wp-content/themes/default/comments-popup.php:30
+#, php-format
 msgid "%s feed for comments on this post."
 msgstr "该日志的相关评论的%s feed。"
 
@@ -11175,10 +11230,11 @@ msgid ""
 "Line and paragraph breaks automatic, e-mail address never displayed, "
 "<acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: "
 msgstr ""
-"行和分段自动截断，电子邮箱地址不会被公开。允许使用 <acronym title=\"Hypertext "
-"Markup Language（超文本标记语言）\">HTML</acronym> ："
+"行和分段自动截断，电子邮箱地址不会被公开。允许使用 <acronym title="
+"\"Hypertext Markup Language（超文本标记语言）\">HTML</acronym> ："
 
-#: wp-content/themes/default/comments-popup.php:113, php-format
+#: wp-content/themes/default/comments-popup.php:113
+#, php-format
 msgid "Powered by %s"
 msgstr "由%s提供支持"
 
@@ -11283,12 +11339,54 @@ msgstr "选择默认颜色"
 msgid "Toggle Text Display"
 msgstr "文本显示开关"
 
+#: wp-content/themes/default/image.php:20
+#: wp-content/themes/default/index.php:20
+#: wp-content/themes/default/single.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr "阅读全部内容 &raquo;"
+
 #: wp-content/themes/default/image.php:30
+#: wp-content/themes/default/single.php:35
 #, php-format
 msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
 msgstr "该记录被发布在%2$s下的%1$s中，并且被%3$s包含。"
 
+#: wp-content/themes/default/image.php:32
+#: wp-content/themes/default/single.php:39
+#, fuzzy, php-format
+msgid "You can follow any responses to this entry through the %s feed."
+msgstr "你可以跟踪任意对该记录的回复通过"
+
+#: wp-content/themes/default/image.php:36
+#: wp-content/themes/default/single.php:43
+#, php-format
+msgid ""
+"You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel="
+"\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: wp-content/themes/default/image.php:40
+#: wp-content/themes/default/single.php:47
+#, php-format
+msgid ""
+"Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
+"\">trackback</a> from your own site."
+msgstr ""
+
+#: wp-content/themes/default/image.php:44
+#: wp-content/themes/default/single.php:51
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr "你可以跳到结尾并且发表评论。当前不允许Pinging"
+
+#: wp-content/themes/default/image.php:48
+#: wp-content/themes/default/single.php:55
+msgid "Both comments and pings are currently closed."
+msgstr "评论和ping目前已经关闭"
+
 #: wp-content/themes/default/image.php:50
+#: wp-content/themes/default/page.php:22
 msgid "Edit this entry."
 msgstr "编辑这条记录"
 
@@ -11296,9 +11394,100 @@ msgstr "编辑这条记录"
 msgid "Sorry, no attachments matched your criteria."
 msgstr "对不起，没有你所请求的附件"
 
-#: wp-content/themes/default/index.php:20
-msgid "Read the rest of this entry &raquo;"
+#: wp-content/themes/default/index.php:16
+#: wp-content/themes/default/search.php:24
+#, fuzzy
+msgid "Permanent Link to"
+msgstr "指向%s的永久链接"
+
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
+#, fuzzy
+msgid "Posted in"
+msgstr "发布在"
+
+#: wp-content/themes/default/index.php:35
+#, fuzzy
+msgid "Not Found"
+msgstr "没有找到标签！ "
+
+#: wp-content/themes/default/index.php:36
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "对不起，但是你可以寻找不在这儿的部分东西"
+
+#: wp-content/themes/default/page.php:15
+#, fuzzy
+msgid "Read the rest of this page &raquo;"
 msgstr "阅读全部内容 &raquo;"
+
+#: wp-content/themes/default/search.php:39
+#, fuzzy
+msgid "No posts found. Try a different search?"
+msgstr "回收站中无日志。"
+
+#: wp-content/themes/default/sidebar.php:17
+msgid ""
+"A little something about you, the author. Nothing lengthy, just an overview."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:27
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:30
+#, php-format
+msgid "You are currently browsing the %1$s blog archives for the day %2$s."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:35
+#, fuzzy, php-format
+msgid "You are currently browsing the %1$s blog archives for %2$s."
+msgstr "您正在使用版本%1$s。 更新到 %2$s。"
+
+#: wp-content/themes/default/sidebar.php:40
+#, php-format
+msgid "You are currently browsing the %1$s blog archives for the year %2$s."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:45
+#, fuzzy, php-format
+msgid "You have searched the %1$s blog archives for <strong>"
+msgstr "您正准备删除以下用户："
+
+#: wp-content/themes/default/sidebar.php:50
+#, fuzzy, php-format
+msgid "You are currently browsing the %s blog archives."
+msgstr "您正在使用浏览器上传工具。"
+
+#: wp-content/themes/default/sidebar.php:73
+#: wp-includes/default-widgets.php:284 wp-includes/default-widgets.php:289
+msgid "Meta"
+msgstr "功能"
+
+#: wp-content/themes/default/sidebar.php:77
+#, fuzzy
+msgid "Valid"
+msgstr "视频"
+
+#: wp-content/themes/default/sidebar.php:78
+msgid "XHTML Friends Network"
+msgstr ""
+
+#: wp-content/themes/default/single.php:15
+#, fuzzy
+msgid "&laquo; %link"
+msgstr "&laquo; 返回"
+
+#: wp-content/themes/default/single.php:16
+#, fuzzy
+msgid "%link &raquo;"
+msgstr "下一页 &raquo;"
+
+#: wp-content/themes/default/single.php:57
+#, fuzzy
+msgid "Edit this entry"
+msgstr "编辑这条记录"
 
 #: wp-includes/atomlib.php:133
 #, php-format
@@ -11585,10 +11774,6 @@ msgstr "以下拉方式显示"
 #: wp-includes/default-widgets.php:283
 msgid "Log in/out, admin, feed and WordPress links"
 msgstr "登录、注销、后台管理、订阅和链接单元"
-
-#: wp-includes/default-widgets.php:284 wp-includes/default-widgets.php:289
-msgid "Meta"
-msgstr "功能"
 
 #: wp-includes/default-widgets.php:298
 msgid "Syndicate this site using RSS 2.0"
@@ -13669,7 +13854,8 @@ msgstr ""
 msgid ""
 "If you do not like the way the rich editor works, you may turn it off from "
 "Your Profile submenu, under Users in the admin menu."
-msgstr "如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
+msgstr ""
+"如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:191
 msgid "Advanced Rich Editing"
@@ -14713,7 +14899,8 @@ msgstr "<strong>错误</strong>：无效的电子邮件地址。"
 msgid ""
 "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
 "href=\"mailto:%s\">webmaster</a> !"
-msgstr "<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
+msgstr ""
+"<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
 
 #: wp-login.php:347
 msgid "Sorry, that key does not appear to be valid."
@@ -15259,20 +15446,6 @@ msgstr ""
 
 #~ msgid "Responses are currently closed, but you can"
 #~ msgstr "回复系统已经关闭，但是你可以"
-
-#~ msgid ""
-#~ "You can skip to the end and leave a response. Pinging is currently not "
-#~ "allowed."
-#~ msgstr "你可以跳到结尾并且发表评论。当前不允许Pinging"
-
-#~ msgid "Both comments and pings are currently closed."
-#~ msgstr "评论和ping目前已经关闭"
-
-#~ msgid "You can follow any responses to this entry through the"
-#~ msgstr "你可以跟踪任意对该记录的回复通过"
-
-#~ msgid "Sorry, but you are looking for something that isn't here."
-#~ msgstr "对不起，但是你可以寻找不在这儿的部分东西"
 
 #~ msgid "WordPress Default"
 #~ msgstr "WordPress默认"
