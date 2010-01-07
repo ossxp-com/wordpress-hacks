@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.9.1-beta1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-07 14:44+0800\n"
+"POT-Creation-Date: 2010-01-07 18:20+0800\n"
 "PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -726,6 +726,7 @@ msgstr ""
 #: wp-admin/includes/template.php:2199 wp-admin/includes/widgets.php:177
 #: wp-admin/link-manager.php:200 wp-admin/menu.php:33 wp-admin/menu.php:54
 #: wp-admin/menu.php:60 wp-admin/plugins.php:423 wp-admin/upload.php:393
+#: wp-content/themes/default/archive.php:46
 #: wp-content/themes/default/index.php:23
 #: wp-content/themes/default/search.php:27 wp-includes/script-loader.php:287
 #: wp-includes/script-loader.php:315
@@ -1665,7 +1666,7 @@ msgid "View post"
 msgstr ""
 
 #: wp-admin/edit.php:144 wp-admin/press-this.php:545
-#: wp-includes/link-template.php:733
+#: wp-includes/link-template.php:736
 msgid "Edit post"
 msgstr ""
 
@@ -4096,7 +4097,7 @@ msgid "Unapprove this comment"
 msgstr ""
 
 #: wp-admin/includes/dashboard.php:554 wp-admin/includes/template.php:2199
-#: wp-includes/link-template.php:837
+#: wp-includes/link-template.php:840
 msgid "Edit comment"
 msgstr ""
 
@@ -4105,7 +4106,7 @@ msgid "Reply to this comment"
 msgstr ""
 
 #: wp-admin/includes/dashboard.php:555 wp-admin/includes/template.php:2202
-#: wp-includes/comment-template.php:1002
+#: wp-includes/comment-template.php:1007
 msgid "Reply"
 msgstr ""
 
@@ -10254,13 +10255,13 @@ msgstr ""
 
 #: wp-content/plugins/akismet/akismet.php:783
 #: wp-content/plugins/akismet/akismet.php:850
-#: wp-includes/link-template.php:1504
+#: wp-includes/link-template.php:1507
 msgid "&laquo; Previous Page"
 msgstr ""
 
 #: wp-content/plugins/akismet/akismet.php:804
 #: wp-content/plugins/akismet/akismet.php:871
-#: wp-includes/link-template.php:1505
+#: wp-includes/link-template.php:1508
 msgid "Next Page &raquo;"
 msgstr ""
 
@@ -10348,17 +10349,17 @@ msgid "Enter your password to view comments."
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:557 wp-includes/comment-template.php:937
+#: wp-includes/comment-template.php:557 wp-includes/comment-template.php:942
 msgid "No Comments"
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:559 wp-includes/comment-template.php:938
+#: wp-includes/comment-template.php:559 wp-includes/comment-template.php:943
 msgid "1 Comment"
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:11
-#: wp-includes/comment-template.php:555 wp-includes/comment-template.php:939
+#: wp-includes/comment-template.php:555 wp-includes/comment-template.php:944
 msgid "% Comments"
 msgstr ""
 
@@ -10375,9 +10376,9 @@ msgid "by"
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:24
-#: wp-content/themes/classic/index.php:15 wp-includes/link-template.php:605
-#: wp-includes/link-template.php:731 wp-includes/link-template.php:835
-#: wp-includes/link-template.php:876
+#: wp-content/themes/classic/index.php:15 wp-includes/link-template.php:608
+#: wp-includes/link-template.php:734 wp-includes/link-template.php:838
+#: wp-includes/link-template.php:879
 msgid "Edit This"
 msgstr ""
 
@@ -10442,6 +10443,7 @@ msgid "Sorry, the comment form is closed at this time."
 msgstr ""
 
 #: wp-content/themes/classic/comments-popup.php:9
+#: wp-content/themes/default/comments-popup.php:9
 #, php-format
 msgid "Comments on %s"
 msgstr ""
@@ -10685,11 +10687,6 @@ msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 
 #: wp-content/themes/default/comments.php:21
-#, php-format
-msgid "%2$s to &#8220;%1$s&#8221"
-msgstr ""
-
-#: wp-content/themes/default/comments.php:21
 msgid "No Responses"
 msgstr ""
 
@@ -10701,27 +10698,27 @@ msgstr ""
 msgid "% Responses"
 msgstr ""
 
+#: wp-content/themes/default/comments.php:21
+msgid "to"
+msgstr ""
+
 #: wp-content/themes/default/comments.php:43
 msgid "Comments are closed."
 msgstr ""
 
 #: wp-content/themes/default/comments.php:53
-#: wp-includes/comment-template.php:1144
+#: wp-includes/comment-template.php:1149
 msgid "Leave a Reply"
 msgstr ""
 
 #: wp-content/themes/default/comments.php:53
-#: wp-includes/comment-template.php:1145
+#: wp-includes/comment-template.php:1150
 #, php-format
 msgid "Leave a Reply to %s"
 msgstr ""
 
 #: wp-content/themes/default/comments.php:82
 msgid "You can use these tags:"
-msgstr ""
-
-#: wp-content/themes/default/comments-popup.php:9
-msgid "Comments on "
 msgstr ""
 
 #: wp-content/themes/default/comments-popup.php:30
@@ -10760,16 +10757,16 @@ msgstr ""
 msgid "is proudly powered by %s"
 msgstr ""
 
+#: wp-content/themes/default/footer.php:13
+msgid "Entries (RSS)"
+msgstr ""
+
 #: wp-content/themes/default/footer.php:14
 msgid "and"
 msgstr ""
 
 #: wp-content/themes/default/footer.php:14
 msgid "Comments (RSS)"
-msgstr ""
-
-#: wp-content/themes/default/footer.php:13
-msgid "Entries (RSS)"
 msgstr ""
 
 #: wp-content/themes/default/functions.php:171
@@ -10959,7 +10956,10 @@ msgstr ""
 
 #: wp-content/themes/default/sidebar.php:45
 #, php-format
-msgid "You have searched the %1$s blog archives for <strong>"
+msgid ""
+"You have searched the %1$s blog archives for <strong>'%2$s'</strong>. If you "
+"are unable to find anything in these search results, you can try one of "
+"these links."
 msgstr ""
 
 #: wp-content/themes/default/sidebar.php:50
@@ -11136,50 +11136,50 @@ msgstr ""
 msgid "Could not update comment status"
 msgstr ""
 
-#: wp-includes/comment-template.php:940
+#: wp-includes/comment-template.php:945
 msgid "Comments Off"
 msgstr ""
 
-#: wp-includes/comment-template.php:950
+#: wp-includes/comment-template.php:955
 msgid "Enter your password to view comments"
 msgstr ""
 
-#: wp-includes/comment-template.php:977
+#: wp-includes/comment-template.php:982
 #, php-format
 msgid "Comment on %s"
 msgstr ""
 
-#: wp-includes/comment-template.php:1003
+#: wp-includes/comment-template.php:1008
 msgid "Log in to Reply"
 msgstr ""
 
-#: wp-includes/comment-template.php:1061
+#: wp-includes/comment-template.php:1066
 msgid "Leave a Comment"
 msgstr ""
 
-#: wp-includes/comment-template.php:1062
+#: wp-includes/comment-template.php:1067
 msgid "Log in to leave a Comment"
 msgstr ""
 
-#: wp-includes/comment-template.php:1101
+#: wp-includes/comment-template.php:1106
 msgid "Click here to cancel reply."
 msgstr ""
 
-#: wp-includes/comment-template.php:1263
+#: wp-includes/comment-template.php:1268
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr ""
 
-#: wp-includes/comment-template.php:1266
+#: wp-includes/comment-template.php:1271
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: wp-includes/comment-template.php:1270
+#: wp-includes/comment-template.php:1275
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: wp-includes/comment-template.php:1270
+#: wp-includes/comment-template.php:1275
 msgid "(Edit)"
 msgstr ""
 
@@ -13508,35 +13508,35 @@ msgstr ""
 msgid "Comments Feed"
 msgstr ""
 
-#: wp-includes/link-template.php:607
+#: wp-includes/link-template.php:610
 msgid "Edit tag"
 msgstr ""
 
-#: wp-includes/link-template.php:878
+#: wp-includes/link-template.php:881
 msgid "Edit link"
 msgstr ""
 
-#: wp-includes/link-template.php:999 wp-includes/link-template.php:1263
+#: wp-includes/link-template.php:1002 wp-includes/link-template.php:1266
 msgid "Previous Post"
 msgstr ""
 
-#: wp-includes/link-template.php:999 wp-includes/link-template.php:1263
+#: wp-includes/link-template.php:1002 wp-includes/link-template.php:1266
 msgid "Next Post"
 msgstr ""
 
-#: wp-includes/link-template.php:1123
+#: wp-includes/link-template.php:1126
 msgid "First Post"
 msgstr ""
 
-#: wp-includes/link-template.php:1123
+#: wp-includes/link-template.php:1126
 msgid "Last Post"
 msgstr ""
 
-#: wp-includes/link-template.php:1606
+#: wp-includes/link-template.php:1609
 msgid "Newer Comments &raquo;"
 msgstr ""
 
-#: wp-includes/link-template.php:1643
+#: wp-includes/link-template.php:1646
 msgid "&laquo; Older Comments"
 msgstr ""
 
