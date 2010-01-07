@@ -27,8 +27,7 @@ get_header();
 
 				<p class="postmetadata alt">
 					<small>
-						This entry was posted on <?php the_time('l, F jS, Y') ?> at <?php the_time() ?>
-						and is filed under <?php the_category(', ') ?>.
+            <?php printf ( __('This entry was posted on %1$s at %2$s and is filed under %3$s.'),the_time('l, F jS, Y'), the_time(), the_category(', ') ); ?>
 						<?php the_taxonomies(); ?>
 						You can follow any responses to this entry through the <?php post_comments_feed_link('RSS 2.0'); ?> feed.
 
@@ -48,7 +47,7 @@ get_header();
 							// Neither Comments, nor Pings are open ?>
 							Both comments and pings are currently closed.
 
-						<?php } edit_post_link('Edit this entry.','',''); ?>
+						<?php } edit_post_link(__('Edit this entry.'),'',''); ?>
 
 					</small>
 				</p>
@@ -61,7 +60,7 @@ get_header();
 
 	<?php endwhile; else: ?>
 
-		<p>Sorry, no attachments matched your criteria.</p>
+		<p><?php _e('Sorry, no attachments matched your criteria.'); ?></p>
 
 <?php endif; ?>
 

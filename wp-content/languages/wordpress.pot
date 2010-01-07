@@ -1,15 +1,15 @@
 # Translation of WordPress 2.9.1-beta1.
-# Copyright (C) 2009 WordPress
+# Copyright (C) 2010 WordPress
 # This file is distributed under the same license as the WordPress package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.9.1-beta1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-29 15:30+0800\n"
-"PO-Revision-Date: 2009-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2010-01-07 13:46+0800\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -178,7 +178,7 @@ msgstr ""
 msgid "Tag not updated."
 msgstr ""
 
-#: wp-admin/admin-ajax.php:1230
+#: wp-admin/admin-ajax.php:1230 wp-content/themes/default/archive.php:66
 msgid "No posts found."
 msgstr ""
 
@@ -564,7 +564,7 @@ msgstr ""
 #: wp-admin/comment.php:119 wp-admin/includes/template.php:904
 #: wp-admin/includes/template.php:2334 wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109 wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:429
+#: wp-content/themes/default/comments-popup.php:75 wp-login.php:429
 msgid "E-mail"
 msgstr ""
 
@@ -999,6 +999,7 @@ msgstr ""
 #: wp-admin/includes/template.php:3321
 #: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
+#: wp-content/themes/default/comments-popup.php:28
 msgid "Comments"
 msgstr ""
 
@@ -1315,6 +1316,8 @@ msgstr ""
 #: wp-admin/update-core.php:232 wp-admin/update-core.php:239
 #: wp-admin/user-edit.php:183 wp-content/themes/classic/comments.php:57
 #: wp-content/themes/classic/comments-popup.php:71
+#: wp-content/themes/default/comments.php:72
+#: wp-content/themes/default/comments-popup.php:70
 #: wp-includes/js/tinymce/langs/wp-langs.php:312
 msgid "Name"
 msgstr ""
@@ -4073,6 +4076,7 @@ msgstr ""
 #: wp-admin/includes/dashboard.php:518 wp-admin/includes/meta-boxes.php:398
 #: wp-content/themes/classic/comments.php:32
 #: wp-content/themes/classic/comments-popup.php:58
+#: wp-content/themes/default/comments-popup.php:57
 msgid "No comments yet."
 msgstr ""
 
@@ -9594,6 +9598,8 @@ msgstr ""
 #: wp-admin/user-new.php:96 wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments.php:57
 #: wp-content/themes/classic/comments.php:60
+#: wp-content/themes/default/comments.php:72
+#: wp-content/themes/default/comments.php:75
 msgid "(required)"
 msgstr ""
 
@@ -9607,6 +9613,7 @@ msgstr ""
 
 #: wp-admin/user-edit.php:266 wp-admin/user-new.php:113
 #: wp-content/themes/classic/comments.php:63
+#: wp-content/themes/default/comments.php:78
 msgid "Website"
 msgstr ""
 
@@ -10353,6 +10360,7 @@ msgstr ""
 #: wp-content/themes/classic/comments.php:13
 #: wp-content/themes/classic/comments.php:42
 #: wp-content/themes/classic/comments-popup.php:62
+#: wp-content/themes/default/comments-popup.php:61
 msgid "Leave a comment"
 msgstr ""
 
@@ -10380,27 +10388,35 @@ msgid "TrackBack <abbr title=\"Universal Resource Locator\">URL</abbr>"
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:45
+#: wp-content/themes/default/comments.php:60
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:52
 #: wp-content/themes/classic/comments-popup.php:67
+#: wp-content/themes/default/comments.php:67
+#: wp-content/themes/default/comments-popup.php:66
 #, php-format
 msgid "Logged in as %s."
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:52
 #: wp-content/themes/classic/comments-popup.php:67
+#: wp-content/themes/default/comments.php:67
+#: wp-content/themes/default/comments-popup.php:66
 msgid "Log out of this account"
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:52
 #: wp-content/themes/classic/comments-popup.php:67
+#: wp-content/themes/default/comments.php:67
+#: wp-content/themes/default/comments-popup.php:66
 msgid "Log out &raquo;"
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:60
+#: wp-content/themes/default/comments.php:75
 msgid "Mail (will not be published)"
 msgstr ""
 
@@ -10410,11 +10426,13 @@ msgid "You can use these tags: %s"
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:71
+#: wp-content/themes/default/comments.php:86
 msgid "Submit Comment"
 msgstr ""
 
 #: wp-content/themes/classic/comments.php:81
 #: wp-content/themes/classic/comments-popup.php:99
+#: wp-content/themes/default/comments-popup.php:98
 msgid "Sorry, the comment form is closed at this time."
 msgstr ""
 
@@ -10440,14 +10458,17 @@ msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
 msgstr ""
 
 #: wp-content/themes/classic/comments-popup.php:86
+#: wp-content/themes/default/comments-popup.php:85
 msgid "Your Comment"
 msgstr ""
 
 #: wp-content/themes/classic/comments-popup.php:94
+#: wp-content/themes/default/comments-popup.php:93
 msgid "Say It!"
 msgstr ""
 
 #: wp-content/themes/classic/comments-popup.php:104
+#: wp-content/themes/default/comments-popup.php:103
 msgid "Close this window."
 msgstr ""
 
@@ -10499,6 +10520,7 @@ msgid "Comments (%)"
 msgstr ""
 
 #: wp-content/themes/classic/index.php:31
+#: wp-content/themes/default/comments-popup.php:109
 msgid "Sorry, no posts matched your criteria."
 msgstr ""
 
@@ -10554,6 +10576,176 @@ msgstr ""
 
 #: wp-content/themes/classic/sidebar.php:36
 msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr ""
+
+#: wp-content/themes/default/404.php:12
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:16
+#, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:18
+#, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:20
+#: wp-content/themes/default/archive.php:22
+#: wp-content/themes/default/archive.php:24
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:26
+msgid "Author Archive"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:28
+msgid "Blog Archives"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:33
+#: wp-content/themes/default/archive.php:53
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:34
+#: wp-content/themes/default/archive.php:54
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:39
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:46
+msgid " Posted in "
+msgstr ""
+
+#: wp-content/themes/default/archive.php:46
+msgid "No Comments &#187;"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:46
+msgid "1 Comment &#187;"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:46
+msgid "% Comments &#187;"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:59
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr ""
+
+#: wp-content/themes/default/archive.php:61
+msgid "Sorry, but there aren't any posts with this date."
+msgstr ""
+
+#: wp-content/themes/default/archive.php:64
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr ""
+
+#: wp-content/themes/default/comments.php:9
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: wp-content/themes/default/comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: wp-content/themes/default/comments.php:21
+#, php-format
+msgid "%2$s to &#8220;%1$s&#8221"
+msgstr ""
+
+#: wp-content/themes/default/comments.php:21
+msgid "No Responses"
+msgstr ""
+
+#: wp-content/themes/default/comments.php:21
+msgid "One Response"
+msgstr ""
+
+#: wp-content/themes/default/comments.php:21
+msgid "% Responses"
+msgstr ""
+
+#: wp-content/themes/default/comments.php:43
+msgid "Comments are closed."
+msgstr ""
+
+#: wp-content/themes/default/comments.php:53
+#: wp-includes/comment-template.php:1144
+msgid "Leave a Reply"
+msgstr ""
+
+#: wp-content/themes/default/comments.php:53
+#: wp-includes/comment-template.php:1145
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: wp-content/themes/default/comments.php:82
+msgid "You can use these tags:"
+msgstr ""
+
+#: wp-content/themes/default/comments-popup.php:9
+msgid "Comments on "
+msgstr ""
+
+#: wp-content/themes/default/comments-popup.php:30
+#, php-format
+msgid "%s feed for comments on this post."
+msgstr ""
+
+#: wp-content/themes/default/comments-popup.php:30
+msgid "Really Simple Syndication"
+msgstr ""
+
+#: wp-content/themes/default/comments-popup.php:33
+msgid ""
+"The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this "
+"entry is: "
+msgstr ""
+
+#: wp-content/themes/default/comments-popup.php:62
+msgid ""
+"Line and paragraph breaks automatic, e-mail address never displayed, "
+"<acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: "
+msgstr ""
+
+#: wp-content/themes/default/comments-popup.php:113
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: wp-content/themes/default/comments-popup.php:113
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform"
+msgstr ""
+
+#: wp-content/themes/default/footer.php:12
+#, php-format
+msgid "is proudly powered by %s"
+msgstr ""
+
+#: wp-content/themes/default/footer.php:14
+msgid "and"
+msgstr ""
+
+#: wp-content/themes/default/footer.php:14
+msgid "Comments (RSS)"
+msgstr ""
+
+#: wp-content/themes/default/footer.php:13
+msgid "Entries (RSS)"
 msgstr ""
 
 #: wp-content/themes/default/functions.php:171
@@ -10633,6 +10825,23 @@ msgstr ""
 
 #: wp-content/themes/default/functions.php:427
 msgid "Toggle Text Display"
+msgstr ""
+
+#: wp-content/themes/default/image.php:30
+#, php-format
+msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+msgstr ""
+
+#: wp-content/themes/default/image.php:50
+msgid "Edit this entry."
+msgstr ""
+
+#: wp-content/themes/default/image.php:63
+msgid "Sorry, no attachments matched your criteria."
+msgstr ""
+
+#: wp-content/themes/default/index.php:20
+msgid "Read the rest of this entry &raquo;"
 msgstr ""
 
 #: wp-includes/atomlib.php:133
@@ -10806,15 +11015,6 @@ msgstr ""
 
 #: wp-includes/comment-template.php:1101
 msgid "Click here to cancel reply."
-msgstr ""
-
-#: wp-includes/comment-template.php:1144
-msgid "Leave a Reply"
-msgstr ""
-
-#: wp-includes/comment-template.php:1145
-#, php-format
-msgid "Leave a Reply to %s"
 msgstr ""
 
 #: wp-includes/comment-template.php:1263

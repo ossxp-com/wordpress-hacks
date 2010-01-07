@@ -1,14 +1,22 @@
+# #-#-#-#-#  zh_CN.po (zh_CN)  #-#-#-#-#
 # translation of zh_CN.po to
-# Jiang Xin <worldhello.net@gmail.com>, 2009.
+# #-#-#-#-#  x.po (WordPress Default 1.6)  #-#-#-#-#
+# Translation of the WordPress theme WordPress Default 1.6 by Michael Heilemann.
+# Copyright (C) 2010 Michael Heilemann
+# This file is distributed under the same license as the WordPress Default package.
+#
+# Jiang Xin <worldhello.net@gmail.com>, 2009, 2010.
 # leiweiwei, 2009.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 msgid ""
 msgstr ""
+"#-#-#-#-#  zh_CN.po (zh_CN)  #-#-#-#-#\n"
 "Project-Id-Version: zh_CN\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-29 15:30+0800\n"
-"PO-Revision-Date: 2009-12-29 19:05+0800\n"
-"Last-Translator: leiweiwei\n"
-"Language-Team: 简体中文 <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2010-01-07 11:02+0800\n"
+"PO-Revision-Date: 2010-01-07 11:11+0800\n"
+"Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
+"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,6 +28,16 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Generator: Lokalize 1.0\n"
+"#-#-#-#-#  x.po (WordPress Default 1.6)  #-#-#-#-#\n"
+"Project-Id-Version: WordPress Default 1.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/default\n"
+"POT-Creation-Date: 2010-01-06 19:31+0800\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: wp-admin/admin-ajax.php:31
 #, php-format
@@ -618,7 +636,7 @@ msgid "Unknown action."
 msgstr "未知操作。"
 
 #: wp-admin/custom-header.php:44 wp-admin/includes/theme-install.php:188
-#: wp-content/themes/default/functions.php:158
+#: wp-content/themes/default/functions.php:158 functions.php:158
 msgid "Custom Header"
 msgstr "自定义页眉"
 
@@ -1083,8 +1101,7 @@ msgstr "日志已提交。 <a target=\"_blank\" href=\"%s\">查看日志</a>"
 msgid ""
 "Post scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "post</a>"
-msgstr ""
-"日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
+msgstr "日志预约发布：<b>%1$s</b>。<a target=\"_blank\" href=\"%2$s\">查看日志</a>"
 
 #. translators: Publish box date formt, see http://php.net/date
 #: wp-admin/edit-form-advanced.php:54 wp-admin/edit-form-comment.php:58
@@ -1295,7 +1312,8 @@ msgstr "添加链接"
 #: wp-admin/includes/widgets.php:206
 #: wp-content/themes/default/functions.php:391
 #: wp-content/themes/default/functions.php:398
-#: wp-includes/js/tinymce/langs/wp-langs.php:76
+#: wp-includes/js/tinymce/langs/wp-langs.php:76 functions.php:391
+#: functions.php:398
 msgid "Save"
 msgstr "保存"
 
@@ -1311,7 +1329,7 @@ msgstr "链接关系网（XFN）"
 
 #: wp-admin/edit-link-form.php:31 wp-content/themes/default/functions.php:410
 #: wp-includes/js/tinymce/langs/wp-langs.php:304
-#: wp-includes/js/tinymce/wp-mce-help.php:175
+#: wp-includes/js/tinymce/wp-mce-help.php:175 functions.php:410
 msgid "Advanced"
 msgstr "高级"
 
@@ -1382,8 +1400,7 @@ msgstr "页面已提交。<a target=\"_blank\" href=\"%s\">查看页面</a>"
 msgid ""
 "Page scheduled for: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Preview "
 "page</a>"
-msgstr ""
-"页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
+msgstr "页面预约发布: <b>%1$s</b>。 <a target=\"_blank\" href=\"%2$s\">预览页面</a>"
 
 #: wp-admin/edit-page-form.php:52
 #, php-format
@@ -2405,8 +2422,7 @@ msgstr "导入工具能做的事："
 msgid ""
 "Parses gm-authors.cgi to import (new) authors. Everyone is imported at level "
 "1."
-msgstr ""
-"解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
+msgstr "解析 gm-authors.cgi 文件，导入所有用户。所有用户的级别会被自动设置为1级。"
 
 #: wp-admin/import/greymatter.php:38
 msgid ""
@@ -2782,8 +2798,7 @@ msgstr "下载评论"
 msgid ""
 "Now we will download your comments so we can import them (this could take a "
 "<strong>long</strong> time if you have lots of comments)..."
-msgstr ""
-"现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
+msgstr "现在我们将开始下载您的评论并导入（这将需要很长时间如果您有非常多的评论）……"
 
 #: wp-admin/import/livejournal.php:871
 #, php-format
@@ -3083,8 +3098,7 @@ msgstr "导入 Simple Tagging"
 
 #: wp-admin/import/stp.php:30
 msgid "Howdy! This imports tags from Simple Tagging 1.6.2 into WordPress tags."
-msgstr ""
-"已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
+msgstr "已经把现有 Simple Tagging 1.6.2 标签导入到了新的 WordPress 自带的标签系统中。"
 
 # (Mileage may vary)
 #: wp-admin/import/stp.php:31
@@ -3673,8 +3687,7 @@ msgstr "ftp PHP 扩展不可用"
 msgid ""
 "The ssh2 PHP extension is available, however, we require the PHP5 function "
 "<code>stream_get_contents()</code>"
-msgstr ""
-" ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
+msgstr " ssh2  PHP 扩展可用，但是需要php 5的<code>stream_get_contents()</code>功能"
 
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:72
 msgid "SSH2 hostname is required"
@@ -5558,8 +5571,7 @@ msgstr "页面序号"
 msgid ""
 "Pages are usually ordered alphabetically, but you can put a number above to "
 "change the order pages appear in."
-msgstr ""
-"页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
+msgstr "页面通常按照字母进行排序，但是您可以在上面输入数字来更改页面的显示顺序。"
 
 #: wp-admin/includes/meta-boxes.php:523
 msgid "Visit Link"
@@ -6762,8 +6774,7 @@ msgstr "<a href=\"http://codex.wordpress.org/\">文档</a>"
 msgid ""
 "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</"
 "a>"
-msgstr ""
-"<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
+msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">支持论坛</a>"
 
 #: wp-admin/includes/template.php:3615
 msgid "Screen Options"
@@ -6840,8 +6851,7 @@ msgstr "移除侧边栏的某一个挂件时，先点击它的标题以显示设
 msgid ""
 "To remove a widget from a sidebar <em>and keep its configuration</em>, drag "
 "it to Inactive Widgets."
-msgstr ""
-"拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
+msgstr "拖动一个挂件到未启用挂件区以移除侧边栏的这个挂件并<em>保留它的设置</em>。"
 
 #: wp-admin/includes/template.php:3662
 msgid ""
@@ -7270,8 +7280,7 @@ msgstr "WordPress 自动更新失败！请提醒站点管理员。"
 msgid ""
 "<strong><em>Note that password</em></strong> carefully! It is a <em>random</"
 "em> password that was generated just for you."
-msgstr ""
-"<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
+msgstr "<strong><em>请牢记密码！</em></strong> 这是专门为您<em>随机</em>生成的密码。"
 
 #: wp-admin/includes/upgrade.php:67
 msgid "User already exists.  Password inherited."
@@ -7511,8 +7520,7 @@ msgstr "已经安装"
 msgid ""
 "You appear to have already installed WordPress. To reinstall please clear "
 "your old database tables first."
-msgstr ""
-"您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
+msgstr "您似乎已经安装过 WordPress 了。如果您要重装 WordPress，请先清空数据库表。"
 
 #: wp-admin/install.php:90
 msgid "Welcome"
@@ -7690,8 +7698,7 @@ msgstr ""
 msgid ""
 "WordPress can automatically look for some common database problems and "
 "repair them.  Repairing can take awhile, so please be patient."
-msgstr ""
-"WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
+msgstr "WordPress能自动查找一些常见数据库问题并修复它们。修复需要一点时间，请稍等。"
 
 #: wp-admin/maint/repair.php:83
 msgid "Repair Database"
@@ -8528,13 +8535,11 @@ msgstr "Blog 可见性"
 msgid ""
 "I would like my blog to be visible to everyone, including search engines "
 "(like Google, Bing, Technorati) and archivers"
-msgstr ""
-"任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
+msgstr "任何人都可以访问我的Blog ，包括搜索引擎（Google，百度，Technorati 等等）"
 
 #: wp-admin/options-privacy.php:35
 msgid "I would like to block search engines, but allow normal visitors"
-msgstr ""
-"我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
+msgstr "我不希望我的 Blog 被 Google 和 Technorati 等搜索引擎收录，只允许普通访客访问"
 
 #: wp-admin/options-reading.php:15
 msgid "Reading Settings"
@@ -8782,8 +8787,7 @@ msgstr "文件修改成功。"
 msgid ""
 "This plugin has been deactivated because your changes resulted in a "
 "<strong>fatal error</strong>."
-msgstr ""
-"这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
+msgstr "这个插件已经被停用，因为您的修改导致一个 <strong>致命错误</strong> 出现。"
 
 # 可编辑时显示“正在编辑”
 #: wp-admin/plugin-editor.php:144
@@ -9437,8 +9441,7 @@ msgstr ""
 msgid ""
 "You only have one theme installed at the moment so there is nothing to show "
 "you here.  Maybe you should download some more to try out."
-msgstr ""
-"您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
+msgstr "您目前只安装了一个主题，因此这里没有显示。也许你可以尝试下载更多的主题。"
 
 #: wp-admin/themes.php:272
 msgid "Broken Themes"
@@ -9586,8 +9589,7 @@ msgstr ""
 msgid ""
 "Drag-and-drop the following link to your bookmarks bar or right click it and "
 "add it to your favorites for a posting shortcut."
-msgstr ""
-"拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
+msgstr "拖拽下面链接到您的书签，或通过鼠标右键添加到您的收藏夹，用以快速发布文章。"
 
 #: wp-admin/update-core.php:13 wp-admin/update.php:21 wp-admin/update.php:40
 msgid "You do not have sufficient permissions to update plugins for this blog."
@@ -10102,16 +10104,14 @@ msgstr "添加新用户"
 msgid ""
 "Users can <a href=\"%1$s\">register themselves</a> or you can manually "
 "create users here."
-msgstr ""
-"用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
+msgstr "用户可以<a href=\"%1$s\">自行注册帐号</a>，您也可以在这里手动创建帐号。"
 
 #: wp-admin/user-new.php:80
 #, php-format
 msgid ""
 "Users cannot currently <a href=\"%1$s\">register themselves</a>, but you can "
 "manually create users here."
-msgstr ""
-"用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
+msgstr "用户不可以自行<a href=\"%1$s\">注册帐号</a>，但您可以在这里手动建立帐号。"
 
 #: wp-admin/user-new.php:101
 msgid "First Name"
@@ -10421,8 +10421,7 @@ msgstr "无法连接 Akismet 服务器，请检查您的服务器的设置。"
 msgid ""
 "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</"
 "a>)"
-msgstr ""
-"请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
+msgstr "请输入一个 API Key。（<a href=\"%s\" style=\"color:#fff\">获取 key</a>）"
 
 #: wp-content/plugins/akismet/akismet.php:126
 msgid "This key is valid."
@@ -10432,11 +10431,10 @@ msgstr "该 Key 有效"
 msgid ""
 "The key below was previously validated but a connection to akismet.com can "
 "not be established at this time. Please check your server configuration."
-msgstr ""
-"该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
+msgstr "该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
 
 #: wp-content/plugins/akismet/akismet.php:130
-#: wp-content/themes/default/functions.php:374
+#: wp-content/themes/default/functions.php:374 functions.php:374
 msgid "Options saved."
 msgstr "选项已保存。"
 
@@ -10462,8 +10460,7 @@ msgstr "WordPress.com API Key"
 #: wp-content/plugins/akismet/akismet.php:144
 msgid ""
 "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
-msgstr ""
-"<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
+msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">这是什么？</a>"
 
 #: wp-content/plugins/akismet/akismet.php:146
 msgid "Why might my key be invalid?"
@@ -10606,8 +10603,7 @@ msgstr "Akismet 已就绪。"
 msgid ""
 "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to "
 "work."
-msgstr ""
-"您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
+msgstr "您必须<a href=\"%1$s\">输入您的 WordPress.com API Key</a>后，该功能才能使用。"
 
 #: wp-content/plugins/akismet/akismet.php:339
 msgid "Akismet has detected a problem."
@@ -10746,8 +10742,7 @@ msgid ""
 msgid_plural ""
 "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments "
 "already,"
-msgstr[0] ""
-"<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
+msgstr[0] "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
 
 #: wp-content/plugins/akismet/akismet.php:938
 #, php-format
@@ -11026,87 +11021,91 @@ msgstr "本页面可通过 XHTML 1.0 Transitional 验证"
 
 #: wp-content/themes/classic/sidebar.php:36
 msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
-msgstr ""
-"有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
 
-#: wp-content/themes/default/functions.php:171
+#: wp-content/themes/default/functions.php:171 functions.php:171
 msgid "Close Color Picker"
 msgstr "关闭颜色拾取器"
 
-#: wp-content/themes/default/functions.php:377
+#: wp-content/themes/default/functions.php:377 functions.php:377
 msgid "Customize Header"
 msgstr "自定义页眉"
 
-#: wp-content/themes/default/functions.php:392
+#: wp-content/themes/default/functions.php:392 functions.php:392
 msgid "Font Color:"
 msgstr "字体颜色："
 
-#: wp-content/themes/default/functions.php:392
+#: wp-content/themes/default/functions.php:392 functions.php:392
 #, php-format
 msgid "Any CSS color (%s or %s or %s)"
 msgstr "任何 CSS 颜色 （%s 或 %s 或 %s）"
 
-#: wp-content/themes/default/functions.php:393
+#: wp-content/themes/default/functions.php:393 functions.php:393
 msgid "Upper Color:"
 msgstr "顶部颜色："
 
 #: wp-content/themes/default/functions.php:393
-#: wp-content/themes/default/functions.php:394
+#: wp-content/themes/default/functions.php:394 functions.php:393
+#: functions.php:394
 #, php-format
 msgid "HEX only (%s or %s)"
 msgstr "仅使用 HEX （%s 或 %s）"
 
-#: wp-content/themes/default/functions.php:394
+#: wp-content/themes/default/functions.php:394 functions.php:394
 msgid "Lower Color:"
 msgstr "底部颜色："
 
-#: wp-content/themes/default/functions.php:396
+#: wp-content/themes/default/functions.php:396 functions.php:396
 msgid "Toggle Text"
 msgstr "文本开关"
 
-#: wp-content/themes/default/functions.php:397
+#: wp-content/themes/default/functions.php:397 functions.php:397
 msgid "Use Defaults"
 msgstr "使用默认"
 
-#: wp-content/themes/default/functions.php:406
+#: wp-content/themes/default/functions.php:406 functions.php:406
 msgid "Font Color"
 msgstr "字体颜色"
 
-#: wp-content/themes/default/functions.php:407
+#: wp-content/themes/default/functions.php:407 functions.php:407
 msgid "Upper Color"
 msgstr "顶部颜色"
 
-#: wp-content/themes/default/functions.php:408
+#: wp-content/themes/default/functions.php:408 functions.php:408
 msgid "Lower Color"
 msgstr "底部颜色"
 
-#: wp-content/themes/default/functions.php:409
+#: wp-content/themes/default/functions.php:409 functions.php:409
 msgid "Revert"
 msgstr "恢复"
 
-#: wp-content/themes/default/functions.php:417
+#: wp-content/themes/default/functions.php:417 functions.php:417
 msgid "Update Header"
 msgstr "更新页眉"
 
-#: wp-content/themes/default/functions.php:423
+#: wp-content/themes/default/functions.php:423 functions.php:423
 msgid "Font Color (CSS):"
 msgstr "字体颜色（CSS）："
 
-#: wp-content/themes/default/functions.php:424
+#: wp-content/themes/default/functions.php:424 functions.php:424
 msgid "Upper Color (HEX):"
 msgstr "顶部颜色（HEX）："
 
-#: wp-content/themes/default/functions.php:425
+#: wp-content/themes/default/functions.php:425 functions.php:425
 msgid "Lower Color (HEX):"
 msgstr "底部颜色（HEX）："
 
-#: wp-content/themes/default/functions.php:426
+#: wp-content/themes/default/functions.php:426 functions.php:426
 msgid "Select Default Colors"
 msgstr "选择默认颜色"
 
-#: wp-content/themes/default/functions.php:427
+#: wp-content/themes/default/functions.php:427 functions.php:427
 msgid "Toggle Text Display"
 msgstr "文本显示开关"
+
+#: wp-content/themes/default/index.php:20
+msgid "Read the rest of this entry &raquo;"
+msgstr "阅读全部内容 &raquo;"
 
 #: wp-includes/atomlib.php:133
 #, php-format
@@ -13486,8 +13485,7 @@ msgstr ""
 msgid ""
 "If you do not like the way the rich editor works, you may turn it off from "
 "Your Profile submenu, under Users in the admin menu."
-msgstr ""
-"如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
+msgstr "如果您不喜欢使用所见即所得编辑器，您可以后台用户管理的个人属性设置页面关闭。"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:191
 msgid "Advanced Rich Editing"
@@ -14531,8 +14529,7 @@ msgstr "<strong>错误</strong>：无效的电子邮件地址。"
 msgid ""
 "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
 "href=\"mailto:%s\">webmaster</a> !"
-msgstr ""
-"<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
+msgstr "<strong>错误</strong>：注册失败，请联系<a href=\"mailto:%s\">管理员</a> ！"
 
 #: wp-login.php:347
 msgid "Sorry, that key does not appear to be valid."
@@ -15057,3 +15054,94 @@ msgstr ""
 "取帮助</a>。您可以通过 web 界面创建一个 <code>wp-config.php</code> 文件，但并"
 "非所有服务器都支持这么创建。最安全的办法是手动创建这个文件。</p><p><a "
 "href='{$path}setup-config.php' class='button'>创建配置文件</a>"
+
+#: image.php:30
+msgid "This entry was posted on"
+msgstr "这条记录发布在"
+
+#: image.php:31
+msgid "and is filed under"
+msgstr "并且归类在"
+
+#: image.php:37
+msgid "You can"
+msgstr "你可以"
+
+#: image.php:37
+msgid "leave a response"
+msgstr "留下回复"
+
+#: image.php:37
+msgid "trackback"
+msgstr "跟踪"
+
+#: image.php:37
+msgid "from your own site."
+msgstr "从你自己的网站"
+
+#: image.php:41
+msgid "Responses are currently closed, but you can"
+msgstr "回复系统已经关闭，但是你可以"
+
+#: image.php:45
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr "你可以跳到结尾并且发表评论。当前不允许Pinging"
+
+#: image.php:49
+msgid "Both comments and pings are currently closed."
+msgstr "评论和ping目前已经关闭"
+
+#: image.php:51
+msgid "Edit this entry."
+msgstr "编辑这条记录"
+
+#: image.php:64
+msgid "Sorry, no attachments matched your criteria."
+msgstr "对不起，没有你所请求的附件"
+
+#: image.php:33
+msgid "You can follow any responses to this entry through the"
+msgstr "你可以跟踪任意对该记录的回复通过"
+
+#: index.php:16
+msgid "Permanent Link to"
+msgstr "永久链接对"
+
+#: index.php:23
+msgid "Posted in"
+msgstr "发布在"
+
+#: index.php:36
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "对不起，但是你可以寻找不在这儿的部分东西"
+
+#. Theme Name of an extension
+msgid "WordPress Default"
+msgstr "WordPress默认"
+
+#. Theme URI of an extension
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#. Description of an extension
+msgid ""
+"The default WordPress theme based on the famous <a href=\"http://"
+"binarybonsai.com/kubrick/\">Kubrick</a>."
+msgstr ""
+"WordPress的默认主题是基于著名的<a href=\"http://binarybonsai.com/kubrick/"
+"\">Kubrick</a>开发的."
+
+#. Author of an extension
+msgid "Michael Heilemann"
+msgstr "Michael Heilemann"
+
+#. Author URI of an extension
+msgid "http://binarybonsai.com/"
+msgstr "http://binarybonsai.com/"
+
+#. Tags of an extension
+msgid "blue, custom header, fixed width, two columns, widgets"
+msgstr "blue, custom header, fixed width, two columns, widgets"
+
