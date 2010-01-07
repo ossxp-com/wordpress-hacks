@@ -6336,12 +6336,12 @@ msgstr "Y年n月j日"
 #. translators: default time format, see http://php.net/date
 #: wp-admin/includes/schema.php:222 wp-admin/options-general.php:249
 msgid "g:i a"
-msgstr "H:i"
+msgstr "g:i a"
 
 #. translators: links last updated date format, see http://php.net/date
 #: wp-admin/includes/schema.php:224
 msgid "F j, Y g:i a"
-msgstr "Y年n月j日 H:i"
+msgstr "Y年n月j日 g:i a"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:384
@@ -6577,7 +6577,7 @@ msgstr "查看该作者的日志"
 
 #: wp-admin/includes/template.php:2111
 msgid "Y/m/d \\a\\t g:i A"
-msgstr "Y年n月j日 \\a\\t H:i"
+msgstr "Y年n月j日 g:i A"
 
 #: wp-admin/includes/template.php:2149
 #, php-format
@@ -6590,7 +6590,7 @@ msgstr "g:ia"
 
 #: wp-admin/includes/template.php:2251
 msgid "Y/m/d \\a\\t g:ia"
-msgstr "Y年n月j日 \\a\\t H:i"
+msgstr "Y年n月j日 g:ia"
 
 #: wp-admin/includes/template.php:2325
 msgid "Reply to Comment"
