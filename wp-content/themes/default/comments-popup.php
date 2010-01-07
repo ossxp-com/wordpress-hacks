@@ -6,7 +6,7 @@
 ?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-     <title><?php echo get_option('blogname'); ?> - <?php _e('Comments on '); the_title(); ?></title>
+     <title><?php echo get_option('blogname'); ?> - <?php printf (__('Comments on %s'), get_the_title()); ?></title>
 
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php echo get_option('blog_charset'); ?>" />
 	<style type="text/css" media="screen">
@@ -48,7 +48,7 @@ if ( post_password_required($post) ) {  // and it doesn't match the cookie
 <?php foreach ($comments as $comment) { ?>
 	<li id="comment-<?php comment_ID() ?>">
 	<?php comment_text() ?>
-	<p><cite><?php printf("%1\$s by %2\$s &#8212; %3\$s @ %4\$s", comment_type(), comment_author_link(), comment_date(), "<a href=\"#comment-".comment_ID()."\">".comment_time()."</a>"); ?></cite></p>
+	<p><cite><?php printf("%1\$s by %2\$s &#8212; %3\$s @ %4\$s", comment_type(false,false,false,false), get_comment_author_link(), get_comment_date(), "<a href=\"#comment-".get_comment_ID()."\">".get_comment_time()."</a>"); ?></cite></p>
 	</li>
 
 <?php } // end for each comment ?>

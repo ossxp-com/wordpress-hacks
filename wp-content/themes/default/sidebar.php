@@ -24,31 +24,31 @@
 
 			<?php /* If this is a 404 page */ if (is_404()) { ?>
 			<?php /* If this is a category archive */ } elseif (is_category()) { ?>
-			<p><?php printf(__('You are currently browsing the archives for the %s category.'), single_cat_title('')); ?></p>
+			<p><?php printf(__('You are currently browsing the archives for the %s category.'), single_cat_title('',false)); ?></p>
 
 			<?php /* If this is a daily archive */ } elseif (is_day()) { ?>
 			<p><?php printf (__('You are currently browsing the %1$s blog archives for the day %2$s.'), 
-			                 '<a href="'.bloginfo('url').'/">'.bloginfo('name').'</a>', 
-			                 the_time('l, F jS, Y')); ?></p>
+			                 '<a href="'.get_bloginfo('url').'/">'.get_bloginfo('name').'</a>', 
+			                 get_the_time('l, F jS, Y')); ?></p>
 
 			<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
 			<p><?php printf (__('You are currently browsing the %1$s blog archives for %2$s.'),
-			                 '<a href="'.bloginfo('url').'/">'.bloginfo('name').'</a>',
-			                 the_time('F, Y')); ?></p>
+			                 '<a href="'.get_bloginfo('url').'/">'.get_bloginfo('name').'</a>',
+			                 get_the_time('F, Y')); ?></p>
 
 			<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
 			<p><?php printf (__('You are currently browsing the %1$s blog archives for the year %2$s.'),
-			                 '<a href="'.bloginfo('url').'/">'.bloginfo('name').'</a>',
-			                 the_time('Y')); ?></p>
+			                 '<a href="'.get_bloginfo('url').'/">'.get_bloginfo('name').'</a>',
+			                 get_the_time('Y')); ?></p>
 
 			<?php /* If this is a search result */ } elseif (is_search()) { ?>
 			<p><?php printf (__('You have searched the %1$s blog archives for <strong>\'%2$s\'</strong>. If you are unable to find anything in these search results, you can try one of these links.'),
-			                 '<a href="'.bloginfo('url').'/">'.bloginfo('name').'</a>',
-			                 the_search_query()); ?></p>
+			                 '<a href="'.get_bloginfo('url').'/">'.get_bloginfo('name').'</a>',
+			                 esc_attr( apply_filters( 'the_search_query', get_search_query() ) ) ); ?></p>
 
 			<?php /* If this set is paginated */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
 			<p><?php printf (__('You are currently browsing the %s blog archives.'),
-			                 '<a href="'.bloginfo('url').'/">'.bloginfo('name').'</a>'); ?></p>
+			                 '<a href="'.get_bloginfo('url').'/">'.get_bloginfo('name').'</a>'); ?></p>
 
 			<?php } ?>
 

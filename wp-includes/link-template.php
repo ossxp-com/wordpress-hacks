@@ -438,12 +438,15 @@ function get_post_comments_feed_link($post_id = '', $feed = '') {
  * @param string $feed Optional. Feed format.
  * @return string Link to the comment feed for the current post.
 */
-function post_comments_feed_link( $link_text = '', $post_id = '', $feed = '' ) {
+function post_comments_feed_link( $link_text = '', $post_id = '', $feed = '', $echo = true ) {
 	$url = get_post_comments_feed_link($post_id, $feed);
 	if ( empty($link_text) )
 		$link_text = __('Comments Feed');
 
-	echo apply_filters( 'post_comments_feed_link_html', "<a href='$url'>$link_text</a>", $post_id, $feed );
+	if ($echo)
+		echo apply_filters( 'post_comments_feed_link_html', "<a href='$url'>$link_text</a>", $post_id, $feed );
+	else
+		return apply_filters( 'post_comments_feed_link_html', "<a href='$url'>$link_text</a>", $post_id, $feed );
 }
 
 /**

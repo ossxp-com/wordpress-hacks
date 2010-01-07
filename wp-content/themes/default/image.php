@@ -27,17 +27,17 @@ get_header();
 
 				<p class="postmetadata alt">
 					<small>
-            <?php printf ( __('This entry was posted on %1$s at %2$s and is filed under %3$s.'),the_time('l, F jS, Y'), the_time(), the_category(', ') ); ?>
+            <?php printf ( __('This entry was posted on %1$s at %2$s and is filed under %3$s.'),get_the_time('l, F jS, Y'), get_the_time(), get_the_category(', ') ); ?>
 						<?php the_taxonomies(); ?>
-						<?php printf(__('You can follow any responses to this entry through the %s feed.'), post_comments_feed_link('RSS 2.0')); ?>
+						<?php printf(__('You can follow any responses to this entry through the %s feed.'), post_comments_feed_link('RSS 2.0','','',false)); ?>
 
 						<?php if ( comments_open() && pings_open() ) {
 							// Both Comments and Pings are open ?>
-							<?php printf(__('You can <a href="#respond">leave a response</a>, or <a href="%s" rel="trackback">trackback</a> from your own site.'), trackback_url()); ?>
+							<?php printf(__('You can <a href="#respond">leave a response</a>, or <a href="%s" rel="trackback">trackback</a> from your own site.'), trackback_url(false)); ?>
 
 						<?php } elseif ( !comments_open() && pings_open() ) {
 							// Only Pings are Open ?>
-							<?php printf(__('Responses are currently closed, but you can <a href="%s" rel="trackback">trackback</a> from your own site.'), trackback_url()); ?>
+							<?php printf(__('Responses are currently closed, but you can <a href="%s" rel="trackback">trackback</a> from your own site.'), trackback_url(false)); ?>
 
 						<?php } elseif ( comments_open() && !pings_open() ) {
 							// Comments are open, Pings are not ?>

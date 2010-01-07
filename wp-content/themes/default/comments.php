@@ -18,7 +18,7 @@
 <!-- You can start editing here. -->
 
 <?php if ( have_comments() ) : ?>
-	<h3 id="comments"><?php printf(__('%2$s to &#8220;%1$s&#8221'), get_the_title(), comments_number(__('No Responses'), __('One Response'), __('% Responses') ));?></h3>
+	<h3 id="comments"><?php comments_number(__('No Responses'), __('One Response'), __('% Responses') );?> <?php _e('to'); ?> &#8220;<?php the_title(); ?>&#8221;</h3>
 
 	<div class="navigation">
 		<div class="alignleft"><?php previous_comments_link() ?></div>

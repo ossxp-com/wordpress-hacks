@@ -33,11 +33,10 @@ get_header();
 							http://binarybonsai.com/wordpress/time-since/ */
 						    /* $entry_datetime = abs(strtotime($post->post_date) - (60*120)); echo time_since($entry_datetime); echo ' ago'; */
 						printf(__('This entry was posted on %1$s at %2$s and is filed under %3$s.'),
-						       apply_filters('the_time', get_the_time( 'l, F jS, Y' ), 'l, F jS, Y'),
-						       apply_filters('the_time', get_the_time( '' ), ''),
+						       get_the_time( 'l, F jS, Y' ),
+						       get_the_time( '' ),
 						       get_the_category_list(', ')) ?>
-						<?php printf(__('You can follow any responses to this entry through the %s feed.'), 
-						             apply_filters( 'post_comments_feed_link_html', "<a href='". get_post_comments_feed_link('RSS 2.0')."'>RSS 2.0</a>")); ?>
+						<?php printf(__('You can follow any responses to this entry through the %s feed.'), post_comments_feed_link('RSS 2.0','','',false)); ?>
 
 						<?php if ( comments_open() && pings_open() ) {
 							// Both Comments and Pings are open ?>
