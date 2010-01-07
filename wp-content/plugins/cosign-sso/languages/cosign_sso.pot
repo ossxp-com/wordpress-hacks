@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CoSign SSO 0.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/cosign-sso\n"
-"POT-Creation-Date: 2010-01-05 13:42+0800\n"
+"POT-Creation-Date: 2010-01-07 09:57+0800\n"
 "PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,170 +18,171 @@ msgstr ""
 
 #. #-#-#-#-#  cosign_sso.pot (CoSign SSO 0.2)  #-#-#-#-#
 #. Plugin Name of an extension
-#: cosign-sso.php:138
+#: cosign-sso.php:140
 msgid "CoSign SSO"
 msgstr ""
 
-#: cosign-sso.php:224
+#: cosign-sso.php:226
 msgid "CoSign login failed, no REMOTE_USER defined."
 msgstr ""
 
-#: cosign-sso.php:224 cosign-sso.php:258
+#: cosign-sso.php:226 cosign-sso.php:260
 msgid "login failed"
 msgstr ""
 
-#: cosign-sso.php:234
+#: cosign-sso.php:236
 msgid "<strong>ERROR</strong>: The username field is empty."
 msgstr ""
 
-#: cosign-sso.php:237
+#: cosign-sso.php:239
 msgid "<strong>ERROR</strong>: The password field is empty."
 msgstr ""
 
-#: cosign-sso.php:244
+#: cosign-sso.php:246
 #, php-format
 msgid ""
 "<strong>ERROR</strong>: Incorrect password. <a href=\"%s\" title=\"Password "
 "Lost and Found\">Lost your password</a>?"
 msgstr ""
 
-#: cosign-sso.php:258
+#: cosign-sso.php:260
 msgid ""
 "Invalid username. Turn on auto_user to create user account automatically."
 msgstr ""
 
-#: cosign-sso.php:299
+#: cosign-sso.php:301
 msgid ""
 "Note: Some fields of profile store in LDAP and can not be changed here. "
 "These fields are disabled below."
 msgstr ""
 
-#: cosign-sso.php:364
+#: cosign-sso.php:366
 msgid "Disabled"
 msgstr ""
 
-#: cosign-sso.php:365
+#: cosign-sso.php:367
 msgid "LDAP"
 msgstr ""
 
-#: cosign-sso.php:366
+#: cosign-sso.php:368
 msgid "SSO"
 msgstr ""
 
-#: cosign-sso.php:382 cosign-sso.php:414
+#: cosign-sso.php:384 cosign-sso.php:416
 msgid "CoSign SSO Options"
 msgstr ""
 
-#: cosign-sso.php:387
+#: cosign-sso.php:389
 msgid ""
 "Checking the <em>CoSign SSO</em> option below, it will change login method "
 "and will affect all users including yourself.<br /><strong>Bad configuration "
 "will ban all users!!!</strong><br />If you are banned cause of the bad "
-"cosign sso login configurations, simply create a file named <em>'DISABLE'</"
-"em> under this plugin directory or modify the database record by hands."
+"cosign sso login configurations, simply create a file named <em>\"FALLBACK"
+"\"</em> (blank file or contains \"LDAP\") under this plugin directory, or "
+"modify the database record by hands."
 msgstr ""
 
-#: cosign-sso.php:397
+#: cosign-sso.php:399
 msgid "Login method"
 msgstr ""
 
-#: cosign-sso.php:403
+#: cosign-sso.php:405
 #, php-format
 msgid ""
 "CoSign SSO login disable by file '%s'. To enable CoSign SSO login, remove "
 "that file."
 msgstr ""
 
-#: cosign-sso.php:405
+#: cosign-sso.php:407
 #, php-format
 msgid ""
 "Fallback to use LDAP auth mode. To enable CoSign SSO login, remove the file "
 "'%s'."
 msgstr ""
 
-#: cosign-sso.php:406
+#: cosign-sso.php:408
 msgid ""
 "Choose to disable internale auth login and authenticate all users using "
 "CoSign SSO login service."
 msgstr ""
 
-#: cosign-sso.php:417
+#: cosign-sso.php:419
 msgid "CoSign Login URL"
 msgstr ""
 
-#: cosign-sso.php:422
+#: cosign-sso.php:424
 msgid "CoSign Logout URL"
 msgstr ""
 
-#: cosign-sso.php:427
+#: cosign-sso.php:429
 msgid "CoSign Service Name"
 msgstr ""
 
-#: cosign-sso.php:433
+#: cosign-sso.php:435
 msgid "User Account"
 msgstr ""
 
-#: cosign-sso.php:436
+#: cosign-sso.php:438
 msgid "Auto create user account"
 msgstr ""
 
-#: cosign-sso.php:439
+#: cosign-sso.php:441
 msgid "new user as"
 msgstr ""
 
-#: cosign-sso.php:447 cosign-sso.php:449
+#: cosign-sso.php:449 cosign-sso.php:451
 msgid "&mdash; No role for this blog &mdash;"
 msgstr ""
 
-#: cosign-sso.php:456
+#: cosign-sso.php:458
 msgid "LDAP Options"
 msgstr ""
 
-#: cosign-sso.php:459
+#: cosign-sso.php:461
 msgid "LDAP hostname"
 msgstr ""
 
-#: cosign-sso.php:464
+#: cosign-sso.php:466
 msgid "LDAP port"
 msgstr ""
 
-#: cosign-sso.php:470
+#: cosign-sso.php:472
 msgid "LDAP BaseDN"
 msgstr ""
 
-#: cosign-sso.php:475
+#: cosign-sso.php:477
 msgid "LDAP Bind Username"
 msgstr ""
 
-#: cosign-sso.php:480
+#: cosign-sso.php:482
 msgid "LDAP Bind Password"
 msgstr ""
 
-#: cosign-sso.php:485
+#: cosign-sso.php:487
 msgid "LDAP Search Filter"
 msgstr ""
 
-#: cosign-sso.php:490
+#: cosign-sso.php:492
 msgid "Login Name"
 msgstr ""
 
-#: cosign-sso.php:495
+#: cosign-sso.php:497
 msgid "Given Name"
 msgstr ""
 
-#: cosign-sso.php:500
+#: cosign-sso.php:502
 msgid "Surname"
 msgstr ""
 
-#: cosign-sso.php:505
+#: cosign-sso.php:507
 msgid "Nick Name"
 msgstr ""
 
-#: cosign-sso.php:510
+#: cosign-sso.php:512
 msgid "Email"
 msgstr ""
 
-#: cosign-sso.php:519
+#: cosign-sso.php:521
 msgid "Update Options"
 msgstr ""
 

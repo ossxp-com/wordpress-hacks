@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CoSign SSO 0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/cosign-sso\n"
-"POT-Creation-Date: 2010-01-05 13:42+0800\n"
-"PO-Revision-Date: 2010-01-05 13:46+0800\n"
+"POT-Creation-Date: 2010-01-07 09:57+0800\n"
+"PO-Revision-Date: 2010-01-07 10:00+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,27 +20,27 @@ msgstr ""
 
 #. #-#-#-#-#  cosign_sso.pot (CoSign SSO 0.2)  #-#-#-#-#
 #. Plugin Name of an extension
-#: cosign-sso.php:138
+#: cosign-sso.php:140
 msgid "CoSign SSO"
 msgstr "单点登录"
 
-#: cosign-sso.php:224
+#: cosign-sso.php:226
 msgid "CoSign login failed, no REMOTE_USER defined."
 msgstr "单点登录失败，无法找到 REMOTE_USER 环境变量。"
 
-#: cosign-sso.php:224 cosign-sso.php:258
+#: cosign-sso.php:226 cosign-sso.php:260
 msgid "login failed"
 msgstr "登录失败"
 
-#: cosign-sso.php:234
+#: cosign-sso.php:236
 msgid "<strong>ERROR</strong>: The username field is empty."
 msgstr "<strong>错误</strong>: 用户名字段为空。"
 
-#: cosign-sso.php:237
+#: cosign-sso.php:239
 msgid "<strong>ERROR</strong>: The password field is empty."
 msgstr "<strong>错误</strong>: 口令字段为空。"
 
-#: cosign-sso.php:244
+#: cosign-sso.php:246
 #, php-format
 msgid ""
 "<strong>ERROR</strong>: Incorrect password. <a href=\"%s\" title=\"Password "
@@ -49,153 +49,154 @@ msgstr ""
 "<strong>错误</strong>: 口令错误。 <a href=\"%s\" title=\"Password Lost and "
 "Found\">忘记口令</a>?"
 
-#: cosign-sso.php:258
+#: cosign-sso.php:260
 msgid ""
 "Invalid username. Turn on auto_user to create user account automatically."
 msgstr "错误用户名。打开 auto_user 实现用户自动创建。"
 
-#: cosign-sso.php:299
+#: cosign-sso.php:301
 msgid ""
 "Note: Some fields of profile store in LDAP and can not be changed here. "
 "These fields are disabled below."
 msgstr "注意：一些字段保存在 LDAP 中，不能在此界面中修改。"
 
-#: cosign-sso.php:364
+#: cosign-sso.php:366
 msgid "Disabled"
 msgstr "禁用"
 
-#: cosign-sso.php:365
+#: cosign-sso.php:367
 msgid "LDAP"
 msgstr "LDAP认证"
 
-#: cosign-sso.php:366
+#: cosign-sso.php:368
 msgid "SSO"
 msgstr "单点登录认证"
 
-#: cosign-sso.php:382 cosign-sso.php:414
+#: cosign-sso.php:384 cosign-sso.php:416
 msgid "CoSign SSO Options"
 msgstr "单点登录选项"
 
-#: cosign-sso.php:387
+#: cosign-sso.php:389
 msgid ""
 "Checking the <em>CoSign SSO</em> option below, it will change login method "
 "and will affect all users including yourself.<br /><strong>Bad configuration "
 "will ban all users!!!</strong><br />If you are banned cause of the bad "
-"cosign sso login configurations, simply create a file named <em>'DISABLE'</"
-"em> under this plugin directory or modify the database record by hands."
+"cosign sso login configurations, simply create a file named <em>\"FALLBACK"
+"\"</em> (blank file or contains \"LDAP\") under this plugin directory, or "
+"modify the database record by hands."
 msgstr ""
-"检查下面的 <em>单点登录</em> 设置，将会改变认证方式，影响所有用户包括你自"
+"检查下面的 <em>单点登录</em> 设置，它将改变认证方式，会影响所有用户包括你自"
 "己。 <br /><strong>错误的设置将会让所有用户无法登录！！！</strong><br />如果"
-"您因此而无法登录系统，可以在服务器端本插件目录下创建一个名为 <em>'DISABLE'</"
-"em> 的文件，或者通过修改数据库恢复原有认证方式。"
+"您因此而无法登录系统，可以在服务器端本插件目录下创建一个名为 <em>\"FALLBACK\"</"
+"em> 的文件（空文件或者包含\"LDAP\"），或者您也可以通过修改数据库恢复原有认证方式。"
 
-#: cosign-sso.php:397
+#: cosign-sso.php:399
 msgid "Login method"
 msgstr "登录方式"
 
-#: cosign-sso.php:403
+#: cosign-sso.php:405
 #, php-format
 msgid ""
 "CoSign SSO login disable by file '%s'. To enable CoSign SSO login, remove "
 "that file."
 msgstr "单点登录因为文件 '%s' 而禁用。重新启用单点登录，请删除该文件。"
 
-#: cosign-sso.php:405
+#: cosign-sso.php:407
 #, php-format
 msgid ""
 "Fallback to use LDAP auth mode. To enable CoSign SSO login, remove the file "
 "'%s'."
 msgstr "回退到 LDAP 认证模式。重新启用单点登录，请删除文件 '%s'。"
 
-#: cosign-sso.php:406
+#: cosign-sso.php:408
 msgid ""
 "Choose to disable internale auth login and authenticate all users using "
 "CoSign SSO login service."
 msgstr "选择不同的登录方式。缺省禁用单点登录。"
 
-#: cosign-sso.php:417
+#: cosign-sso.php:419
 msgid "CoSign Login URL"
 msgstr "单点登录的登录URL地址"
 
-#: cosign-sso.php:422
+#: cosign-sso.php:424
 msgid "CoSign Logout URL"
 msgstr "单点登录的退出URL地址"
 
-#: cosign-sso.php:427
+#: cosign-sso.php:429
 msgid "CoSign Service Name"
 msgstr "单点登录的服务名"
 
-#: cosign-sso.php:433
+#: cosign-sso.php:435
 msgid "User Account"
 msgstr "用户帐号"
 
-#: cosign-sso.php:436
+#: cosign-sso.php:438
 msgid "Auto create user account"
 msgstr "自动创建用户帐号"
 
-#: cosign-sso.php:439
+#: cosign-sso.php:441
 msgid "new user as"
 msgstr "新用户角色"
 
-#: cosign-sso.php:447 cosign-sso.php:449
+#: cosign-sso.php:449 cosign-sso.php:451
 msgid "&mdash; No role for this blog &mdash;"
 msgstr "&mdash; 本博客中无权限 &mdash;"
 
-#: cosign-sso.php:456
+#: cosign-sso.php:458
 msgid "LDAP Options"
 msgstr "LDAP 选项"
 
-#: cosign-sso.php:459
+#: cosign-sso.php:461
 msgid "LDAP hostname"
 msgstr "LDAP 主机名"
 
-#: cosign-sso.php:464
+#: cosign-sso.php:466
 msgid "LDAP port"
 msgstr "LDAP 端口"
 
-#: cosign-sso.php:470
+#: cosign-sso.php:472
 msgid "LDAP BaseDN"
 msgstr "LDAP BaseDN"
 
-#: cosign-sso.php:475
+#: cosign-sso.php:477
 msgid "LDAP Bind Username"
 msgstr "LDAP 绑定用户名"
 
-#: cosign-sso.php:480
+#: cosign-sso.php:482
 msgid "LDAP Bind Password"
 msgstr "LDAP 绑定口令"
 
-#: cosign-sso.php:485
+#: cosign-sso.php:487
 msgid "LDAP Search Filter"
 msgstr "LDAP 搜索过滤器"
 
-#: cosign-sso.php:490
+#: cosign-sso.php:492
 msgid "Login Name"
 msgstr "登录名字段"
 
-#: cosign-sso.php:495
+#: cosign-sso.php:497
 msgid "Given Name"
 msgstr "名字字段"
 
-#: cosign-sso.php:500
+#: cosign-sso.php:502
 msgid "Surname"
-msgstr "姓字段"
+msgstr "姓氏字段"
 
-#: cosign-sso.php:505
+#: cosign-sso.php:507
 msgid "Nick Name"
 msgstr "别名字段"
 
-#: cosign-sso.php:510
+#: cosign-sso.php:512
 msgid "Email"
 msgstr "Email 字段"
 
-#: cosign-sso.php:519
+#: cosign-sso.php:521
 msgid "Update Options"
 msgstr "保存"
 
 #. Plugin URI of an extension
 msgid "http://redmine.ossxp.com/redmine/projects/show/wp"
-msgstr ""
+msgstr "http://redmine.ossxp.com/redmine/projects/show/wp"
 
 #. Description of an extension
 msgid ""
@@ -207,7 +208,7 @@ msgstr ""
 
 #. Author of an extension
 msgid "Jiang Xin <jiangxin AT ossxp.com>"
-msgstr ""
+msgstr "蒋鑫 <jiangxin AT ossxp.com>"
 
 #. Author URI of an extension
 msgid "http://www.ossxp.com/"

@@ -389,8 +389,8 @@ function cosign_sso_options_page()
 	print __("Checking the <em>CoSign SSO</em> option below, it will change login method and will affect all users including yourself.<br />".
 	         "<strong>Bad configuration will ban all users!!!</strong><br />".
 				"If you are banned cause of the bad cosign sso login configurations, ".
-				"simply create a file named <em>'DISABLE'</em> under this plugin directory ".
-				"or modify the database record by hands.",
+				"simply create a file named <em>\"FALLBACK\"</em> (blank file or contains \"LDAP\") ".
+				"under this plugin directory, or modify the database record by hands.",
 				"cosign_sso");
 	?>
 	</p>
