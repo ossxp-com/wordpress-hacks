@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.9.1-beta1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-07 13:46+0800\n"
+"POT-Creation-Date: 2010-01-07 14:44+0800\n"
 "PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -311,6 +311,7 @@ msgstr ""
 #: wp-admin/edit-link-form.php:28 wp-admin/includes/template.php:759
 #: wp-admin/includes/template.php:859 wp-admin/includes/template.php:1103
 #: wp-admin/menu.php:46 wp-admin/press-this.php:498
+#: wp-content/themes/default/sidebar.php:67
 #: wp-includes/category-template.php:437 wp-includes/default-widgets.php:423
 #: wp-includes/default-widgets.php:429 wp-includes/taxonomy.php:18
 #: wp-includes/taxonomy.php:20
@@ -556,6 +557,7 @@ msgstr ""
 #: wp-admin/includes/template.php:784 wp-admin/includes/template.php:808
 #: wp-admin/includes/template.php:846 wp-admin/includes/template.php:1069
 #: wp-admin/includes/theme-install.php:158
+#: wp-content/themes/default/sidebar.php:16
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
 #: wp-includes/post-template.php:1335
 msgid "Author"
@@ -724,7 +726,9 @@ msgstr ""
 #: wp-admin/includes/template.php:2199 wp-admin/includes/widgets.php:177
 #: wp-admin/link-manager.php:200 wp-admin/menu.php:33 wp-admin/menu.php:54
 #: wp-admin/menu.php:60 wp-admin/plugins.php:423 wp-admin/upload.php:393
-#: wp-includes/script-loader.php:287 wp-includes/script-loader.php:315
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27 wp-includes/script-loader.php:287
+#: wp-includes/script-loader.php:315
 msgid "Edit"
 msgstr ""
 
@@ -1538,8 +1542,9 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: wp-admin/edit-pages.php:125 wp-admin/includes/template.php:3239
-#: wp-admin/menu.php:59 wp-includes/default-widgets.php:19
-#: wp-includes/default-widgets.php:25 wp-includes/post-template.php:735
+#: wp-admin/menu.php:59 wp-content/themes/default/sidebar.php:59
+#: wp-includes/default-widgets.php:19 wp-includes/default-widgets.php:25
+#: wp-includes/post-template.php:735
 msgid "Pages"
 msgstr ""
 
@@ -4253,8 +4258,8 @@ msgstr ""
 msgid "Sidebar"
 msgstr ""
 
-#: wp-admin/includes/file.php:19 wp-includes/default-widgets.php:219
-#: wp-includes/default-widgets.php:226
+#: wp-admin/includes/file.php:19 wp-content/themes/default/sidebar.php:61
+#: wp-includes/default-widgets.php:219 wp-includes/default-widgets.php:226
 msgid "Archives"
 msgstr ""
 
@@ -10482,6 +10487,7 @@ msgstr ""
 #: wp-content/themes/classic/comments-popup.php:115
 #: wp-content/themes/classic/footer.php:12
 #: wp-content/themes/classic/sidebar.php:38
+#: wp-content/themes/default/sidebar.php:79
 #: wp-includes/default-widgets.php:300
 msgid ""
 "Powered by WordPress, state-of-the-art semantic personal publishing platform."
@@ -10499,6 +10505,8 @@ msgid "Filed under:"
 msgstr ""
 
 #: wp-content/themes/classic/index.php:15
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
 #: wp-includes/category-template.php:820
 msgid "Tags: "
 msgstr ""
@@ -10521,6 +10529,7 @@ msgstr ""
 
 #: wp-content/themes/classic/index.php:31
 #: wp-content/themes/default/comments-popup.php:109
+#: wp-content/themes/default/single.php:69
 msgid "Sorry, no posts matched your criteria."
 msgstr ""
 
@@ -10532,7 +10541,9 @@ msgstr ""
 msgid "Older Posts &raquo;"
 msgstr ""
 
-#: wp-content/themes/classic/sidebar.php:13 wp-includes/post-template.php:560
+#: wp-content/themes/classic/sidebar.php:13
+#: wp-content/themes/default/page.php:17
+#: wp-content/themes/default/single.php:25 wp-includes/post-template.php:560
 msgid "Pages:"
 msgstr ""
 
@@ -10571,6 +10582,7 @@ msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 msgstr ""
 
 #: wp-content/themes/classic/sidebar.php:36
+#: wp-content/themes/default/sidebar.php:77
 msgid "This page validates as XHTML 1.0 Transitional"
 msgstr ""
 
@@ -10609,11 +10621,17 @@ msgstr ""
 
 #: wp-content/themes/default/archive.php:33
 #: wp-content/themes/default/archive.php:53
+#: wp-content/themes/default/index.php:29
+#: wp-content/themes/default/search.php:16
+#: wp-content/themes/default/search.php:33
 msgid "&laquo; Older Entries"
 msgstr ""
 
 #: wp-content/themes/default/archive.php:34
 #: wp-content/themes/default/archive.php:54
+#: wp-content/themes/default/index.php:30
+#: wp-content/themes/default/search.php:17
+#: wp-content/themes/default/search.php:34
 msgid "Newer Entries &raquo;"
 msgstr ""
 
@@ -10627,14 +10645,20 @@ msgid " Posted in "
 msgstr ""
 
 #: wp-content/themes/default/archive.php:46
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
 msgid "No Comments &#187;"
 msgstr ""
 
 #: wp-content/themes/default/archive.php:46
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
 msgid "1 Comment &#187;"
 msgstr ""
 
 #: wp-content/themes/default/archive.php:46
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
 msgid "% Comments &#187;"
 msgstr ""
 
@@ -10827,12 +10851,54 @@ msgstr ""
 msgid "Toggle Text Display"
 msgstr ""
 
+#: wp-content/themes/default/image.php:20
+#: wp-content/themes/default/index.php:20
+#: wp-content/themes/default/single.php:23
+msgid "Read the rest of this entry &raquo;"
+msgstr ""
+
 #: wp-content/themes/default/image.php:30
+#: wp-content/themes/default/single.php:35
 #, php-format
 msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
 msgstr ""
 
+#: wp-content/themes/default/image.php:32
+#: wp-content/themes/default/single.php:39
+#, php-format
+msgid "You can follow any responses to this entry through the %s feed."
+msgstr ""
+
+#: wp-content/themes/default/image.php:36
+#: wp-content/themes/default/single.php:43
+#, php-format
+msgid ""
+"You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel="
+"\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: wp-content/themes/default/image.php:40
+#: wp-content/themes/default/single.php:47
+#, php-format
+msgid ""
+"Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
+"\">trackback</a> from your own site."
+msgstr ""
+
+#: wp-content/themes/default/image.php:44
+#: wp-content/themes/default/single.php:51
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr ""
+
+#: wp-content/themes/default/image.php:48
+#: wp-content/themes/default/single.php:55
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
 #: wp-content/themes/default/image.php:50
+#: wp-content/themes/default/page.php:22
 msgid "Edit this entry."
 msgstr ""
 
@@ -10840,8 +10906,90 @@ msgstr ""
 msgid "Sorry, no attachments matched your criteria."
 msgstr ""
 
-#: wp-content/themes/default/index.php:20
-msgid "Read the rest of this entry &raquo;"
+#: wp-content/themes/default/index.php:16
+#: wp-content/themes/default/search.php:24
+msgid "Permanent Link to"
+msgstr ""
+
+#: wp-content/themes/default/index.php:23
+#: wp-content/themes/default/search.php:27
+msgid "Posted in"
+msgstr ""
+
+#: wp-content/themes/default/index.php:35
+msgid "Not Found"
+msgstr ""
+
+#: wp-content/themes/default/index.php:36
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: wp-content/themes/default/page.php:15
+msgid "Read the rest of this page &raquo;"
+msgstr ""
+
+#: wp-content/themes/default/search.php:39
+msgid "No posts found. Try a different search?"
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:17
+msgid ""
+"A little something about you, the author. Nothing lengthy, just an overview."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:27
+#, php-format
+msgid "You are currently browsing the archives for the %s category."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:30
+#, php-format
+msgid "You are currently browsing the %1$s blog archives for the day %2$s."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:35
+#, php-format
+msgid "You are currently browsing the %1$s blog archives for %2$s."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:40
+#, php-format
+msgid "You are currently browsing the %1$s blog archives for the year %2$s."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:45
+#, php-format
+msgid "You have searched the %1$s blog archives for <strong>"
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:50
+#, php-format
+msgid "You are currently browsing the %s blog archives."
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:73
+#: wp-includes/default-widgets.php:284 wp-includes/default-widgets.php:289
+msgid "Meta"
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:77
+msgid "Valid"
+msgstr ""
+
+#: wp-content/themes/default/sidebar.php:78
+msgid "XHTML Friends Network"
+msgstr ""
+
+#: wp-content/themes/default/single.php:15
+msgid "&laquo; %link"
+msgstr ""
+
+#: wp-content/themes/default/single.php:16
+msgid "%link &raquo;"
+msgstr ""
+
+#: wp-content/themes/default/single.php:57
+msgid "Edit this entry"
 msgstr ""
 
 #: wp-includes/atomlib.php:133
@@ -11125,10 +11273,6 @@ msgstr ""
 
 #: wp-includes/default-widgets.php:283
 msgid "Log in/out, admin, feed and WordPress links"
-msgstr ""
-
-#: wp-includes/default-widgets.php:284 wp-includes/default-widgets.php:289
-msgid "Meta"
 msgstr ""
 
 #: wp-includes/default-widgets.php:298

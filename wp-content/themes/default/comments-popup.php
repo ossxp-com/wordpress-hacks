@@ -27,7 +27,7 @@ while ( have_posts() ) : the_post();
 ?>
 <h2 id="comments"><?php _e('Comments'); ?></h2>
 
-<p><?php printf(__('%s feed for comments on this post.'), "<a href=\".get_post_comments_feed_link($post->ID)."\"><abbr title=\"".__('Really Simple Syndication')."\">RSS</abbr></a>"); ?></p>
+<p><?php printf(__('%s feed for comments on this post.'), '<a href="'.get_post_comments_feed_link($post->ID).'"><abbr title="'.__('Really Simple Syndication').'">RSS</abbr></a>'); ?></p>
 
 <?php if ( pings_open() ) { ?>
 <p><?php _e('The <abbr title="Universal Resource Locator">URL</abbr> to TrackBack this entry is: '); ?><em><?php trackback_url() ?></em></p>
@@ -63,7 +63,7 @@ if ( post_password_required($post) ) {  // and it doesn't match the cookie
 
 <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
 <?php if ( $user_ID ) : ?>
-	<p><?php printf( __("Logged in as %s."), "<a href=\"".get_option('siteurl')."/wp-admin/profile.php\">".$user_identity."</a>."); ?> <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e("Log out of this account"); ?>"><?php _e("Log out &raquo;"); ?></a></p>
+	<p><?php printf( __('Logged in as %s.'), '<a href="'.get_option('siteurl').'/wp-admin/profile.php">'.$user_identity.'</a>.'); ?> <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="<?php _e("Log out of this account"); ?>"><?php _e("Log out &raquo;"); ?></a></p>
 <?php else : ?>
 	<p>
 	  <input type="text" name="author" id="author" class="textarea" value="<?php echo esc_attr($comment_author); ?>" size="28" tabindex="1" />
