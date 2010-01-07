@@ -10165,7 +10165,7 @@ msgstr "您正准备删除以下用户："
 #: wp-admin/users.php:150
 #, php-format
 msgid "ID #%1s: %2s <strong>The current user will not be deleted.</strong>"
-msgstr "ID #%1s: %2s <strong>不能删除当前已登陆的用户。</strong>"
+msgstr "ID #%1s: %2s <strong>不能删除当前已登录的用户。</strong>"
 
 #: wp-admin/users.php:152
 #, php-format
@@ -10857,7 +10857,7 @@ msgstr "您必须 <a href=\"%s\">登录</a> 后才可以发表评论。"
 #: wp-content/themes/default/comments-popup.php:66
 #, php-format
 msgid "Logged in as %s."
-msgstr "登陆为 %s。"
+msgstr "登录为 %s。"
 
 #: wp-content/themes/classic/comments.php:52
 #: wp-content/themes/classic/comments-popup.php:67
@@ -11622,7 +11622,7 @@ msgstr "发表评论 "
 
 #: wp-includes/comment-template.php:1067
 msgid "Log in to leave a Comment"
-msgstr "登陆发表评论"
+msgstr "登录发表评论"
 
 #: wp-includes/comment-template.php:1106
 msgid "Click here to cancel reply."
@@ -14770,7 +14770,7 @@ msgstr ""
 
 #: wp-includes/user.php:124
 msgid "Please log in again."
-msgstr "请再次登陆。"
+msgstr "请再次登录。"
 
 #: wp-includes/widgets.php:487 wp-includes/widgets.php:549
 #, php-format
@@ -14952,7 +14952,7 @@ msgstr "注册成功。请检查您的电子邮箱。"
 
 #: wp-login.php:525
 msgid "Your session has expired. Please log-in again."
-msgstr "session已过期。请重新登陆。"
+msgstr "session已过期。请重新登录。"
 
 #: wp-login.php:544
 msgid "Remember Me"
