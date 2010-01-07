@@ -6,6 +6,8 @@ Description: Alternative authentication plugin for WordPress. This plugin add tw
 Version: 0.2
 Author: Jiang Xin <jiangxin AT ossxp.com>
 Author URI: http://www.ossxp.com/
+Text Domain: cosign_sso
+Domain Path: languages
 Licensed under the The GNU General Public License 2.0 (GPL) http://www.gnu.org/licenses/gpl.html
 */ 
 
