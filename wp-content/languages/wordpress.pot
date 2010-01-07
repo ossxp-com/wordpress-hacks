@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.9.1-beta1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-07 18:52+0800\n"
+"POT-Creation-Date: 2010-01-07 20:10+0800\n"
 "PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10613,6 +10613,21 @@ msgstr ""
 msgid "Archive for %s"
 msgstr ""
 
+#: wp-content/themes/default/archive.php:20
+#: wp-content/themes/default/index.php:17
+msgid "F jS, Y"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:22
+#: wp-content/themes/default/sidebar.php:37
+msgid "F, Y"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:24
+#: wp-content/themes/default/sidebar.php:42
+msgid "Y"
+msgstr ""
+
 #: wp-content/themes/default/archive.php:26
 msgid "Author Archive"
 msgstr ""
@@ -10640,6 +10655,14 @@ msgstr ""
 #: wp-content/themes/default/archive.php:39
 #, php-format
 msgid "Permanent Link to %s"
+msgstr ""
+
+#: wp-content/themes/default/archive.php:40
+#: wp-content/themes/default/image.php:30
+#: wp-content/themes/default/search.php:25
+#: wp-content/themes/default/sidebar.php:32
+#: wp-content/themes/default/single.php:36
+msgid "l, F jS, Y"
 msgstr ""
 
 #: wp-content/themes/default/archive.php:46
@@ -10982,6 +11005,10 @@ msgstr ""
 
 #: wp-content/themes/default/single.php:57
 msgid "Edit this entry"
+msgstr ""
+
+#: wp-content/themes/default/single.php:57
+msgid "."
 msgstr ""
 
 #: wp-includes/atomlib.php:133

@@ -1,6 +1,3 @@
-# #-#-#-#-#  zh_CN.po (zh_CN)  #-#-#-#-#
-# translation of zh_CN.po to
-# #-#-#-#-#  x.po (WordPress Default 1.6)  #-#-#-#-#
 # Translation of the WordPress theme WordPress Default 1.6 by Michael Heilemann.
 # Copyright (C) 2010 Michael Heilemann
 # This file is distributed under the same license as the WordPress Default package.
@@ -12,23 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Default 1.6\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-07 18:52+0800\n"
-"PO-Revision-Date: 2010-01-07 18:53+0800\n"
+"POT-Creation-Date: 2010-01-07 20:10+0800\n"
+"PO-Revision-Date: 2010-01-07 20:13+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  zh_CN.po (zh_CN)  #-#-#-#-#\n"
-"X-Poedit-Language: Chinese\n"
-"X-Poedit-Country: China\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: .\n"
 "X-Generator: Lokalize 1.0\n"
-"#-#-#-#-#  x.po (WordPress Default 1.6)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: wp-admin/admin-ajax.php:31
 #, php-format
@@ -47,7 +36,7 @@ msgstr ""
 #: wp-admin/includes/theme-install.php:386 wp-admin/plugins.php:367
 #: wp-admin/themes.php:80 wp-admin/upload.php:271
 msgid "&laquo;"
-msgstr "&laquo; 返回"
+msgstr "&laquo;"
 
 #: wp-admin/admin-ajax.php:187 wp-admin/categories.php:183
 #: wp-admin/edit-comments.php:270 wp-admin/edit-link-categories.php:102
@@ -57,7 +46,7 @@ msgstr "&laquo; 返回"
 #: wp-admin/includes/theme-install.php:387 wp-admin/plugins.php:368
 #: wp-admin/themes.php:81 wp-admin/upload.php:272
 msgid "&raquo;"
-msgstr "下一页 &raquo;"
+msgstr "&raquo;"
 
 #: wp-admin/admin-ajax.php:289 wp-admin/categories.php:50
 #: wp-admin/categories.php:72 wp-admin/edit-link-categories.php:28
@@ -70,7 +59,7 @@ msgstr "无法删除 <strong>%s</strong> 分类：该分类为默认分类"
 #: wp-admin/admin-ajax.php:382
 #, php-format
 msgid "Comment %d does not exist"
-msgstr "评论 %d 不存在。"
+msgstr "评论 %d 不存在"
 
 #: wp-admin/admin-ajax.php:468 wp-admin/includes/meta-boxes.php:293
 #: wp-admin/press-this.php:512
@@ -119,12 +108,12 @@ msgstr "请提供一个自定义字段值。"
 #: wp-admin/admin-ajax.php:900
 #, php-format
 msgid "User <a href=\"#%s\">%s</a> added"
-msgstr "用户 <a href=\"#%s\">%s</a> 已添加。"
+msgstr "用户 <a href=\"#%s\">%s</a> 已添加"
 
 #. translators: draft saved date format, see http://php.net/date
 #: wp-admin/admin-ajax.php:921
 msgid "g:i:s a"
-msgstr "H:i:s"
+msgstr "g:i:s a"
 
 #: wp-admin/admin-ajax.php:922
 #, php-format
@@ -894,12 +883,14 @@ msgstr "编辑评论"
 msgid "%s comment approved"
 msgid_plural "%s comments approved"
 msgstr[0] "%s 条评论被审核"
+msgstr[1] "%s 条评论被审核"
 
 #: wp-admin/edit-comments.php:155
 #, php-format
 msgid "%s comment marked as spam."
 msgid_plural "%s comments marked as spam."
 msgstr[0] "%s 条评论被标记为垃圾评论。"
+msgstr[1] "%s 条评论被标记为垃圾评论。"
 
 #: wp-admin/edit-comments.php:157 wp-admin/edit-comments.php:166
 #: wp-admin/edit-pages.php:170 wp-admin/edit.php:171
@@ -915,29 +906,34 @@ msgstr "撤消"
 msgid "%s comment restored from the spam"
 msgid_plural "%s comments restored from the spam"
 msgstr[0] "%s 条评论从垃圾评论中恢复"
+msgstr[1] "%s 条评论从垃圾评论中恢复"
 
 #: wp-admin/edit-comments.php:164
 #, php-format
 msgid "%s comment moved to the trash."
 msgid_plural "%s comments moved to the trash."
 msgstr[0] "%s 条评论被移入回收站。 "
+msgstr[1] "%s 条评论被移入回收站。 "
 
 #: wp-admin/edit-comments.php:169
 #, php-format
 msgid "%s comment restored from the trash"
 msgid_plural "%s comments restored from the trash"
 msgstr[0] "%s 条评论从回收站中恢复"
+msgstr[1] "%s 条评论从回收站中恢复"
 
 #: wp-admin/edit-comments.php:173
 #, php-format
 msgid "%s comment permanently deleted"
 msgid_plural "%s comments permanently deleted"
 msgstr[0] "%s 条评论被删除"
+msgstr[1] "%s 条评论被删除"
 
 #: wp-admin/edit-comments.php:190 wp-content/plugins/akismet/akismet.php:753
 msgid "All"
 msgid_plural "All"
 msgstr[0] "全部"
+msgstr[1] "全部"
 
 #: wp-admin/edit-comments.php:191
 #, php-format
@@ -949,11 +945,14 @@ msgid_plural ""
 "span>"
 msgstr[0] ""
 "待审核 <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
+msgstr[1] ""
+"待审核 <span class=\"count\">(<span class=\"pending-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:192
 msgid "Approved"
 msgid_plural "Approved"
 msgstr[0] "已审核"
+msgstr[1] "已审核"
 
 #: wp-admin/edit-comments.php:193
 #, php-format
@@ -963,6 +962,8 @@ msgid_plural ""
 "Spam <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 msgstr[0] ""
 "垃圾评论 <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
+msgstr[1] ""
+"垃圾评论 <span class=\"count\">(<span class=\"spam-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:194
 #, php-format
@@ -971,6 +972,8 @@ msgid ""
 msgid_plural ""
 "Trash <span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 msgstr[0] ""
+"回收站<span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
+msgstr[1] ""
 "回收站<span class=\"count\">(<span class=\"trash-count\">%s</span>)</span>"
 
 #: wp-admin/edit-comments.php:233 wp-admin/edit-comments.php:235
@@ -1479,6 +1482,7 @@ msgctxt "page"
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
 msgstr[0] "已发布 <span class=\"count\">(%s)</span>"
+msgstr[1] "已发布 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:110
 msgctxt "page"
@@ -1495,6 +1499,7 @@ msgctxt "page"
 msgid "Scheduled <span class=\"count\">(%s)</span>"
 msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 msgstr[0] "计划于 <span class=\"count\">(%s)</span>"
+msgstr[1] "计划于 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:111
 msgctxt "page"
@@ -1511,6 +1516,7 @@ msgctxt "page"
 msgid "Pending Review <span class=\"count\">(%s)</span>"
 msgid_plural "Pending Review <span class=\"count\">(%s)</span>"
 msgstr[0] "待审阅 <span class=\"count\">(%s)</span>"
+msgstr[1] "待审阅 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:112
 msgctxt "page"
@@ -1528,6 +1534,7 @@ msgctxt "page"
 msgid "Draft <span class=\"count\">(%s)</span>"
 msgid_plural "Drafts <span class=\"count\">(%s)</span>"
 msgstr[0] "草稿 <span class=\"count\">(%s)</span>"
+msgstr[1] "草稿 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:113
 msgctxt "page"
@@ -1544,6 +1551,7 @@ msgctxt "page"
 msgid "Private <span class=\"count\">(%s)</span>"
 msgid_plural "Private <span class=\"count\">(%s)</span>"
 msgstr[0] "私人的 <span class=\"count\">(%s)</span>"
+msgstr[1] "私人的 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:114
 msgctxt "page"
@@ -1560,6 +1568,7 @@ msgctxt "page"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "回收站<span class=\"count\">(%s)</span>"
+msgstr[1] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:125 wp-admin/includes/template.php:3239
 #: wp-admin/menu.php:59 wp-content/themes/default/sidebar.php:59
@@ -1579,36 +1588,42 @@ msgstr "新页面"
 msgid "%s page updated."
 msgid_plural "%s pages updated."
 msgstr[0] "页面 %s 已更新。"
+msgstr[1] "页面 %s 已更新。"
 
 #: wp-admin/edit-pages.php:156
 #, php-format
 msgid "%s page not updated, invalid parent page specified."
 msgid_plural "%s pages not updated, invalid parent page specified."
 msgstr[0] "%d 页面无法更新，指定的上级页面无效。 "
+msgstr[1] "%d 页面无法更新，指定的上级页面无效。 "
 
 #: wp-admin/edit-pages.php:160
 #, php-format
 msgid "%s page not updated, somebody is editing it."
 msgid_plural "%s pages not updated, somebody is editing them."
 msgstr[0] "%d 页面无法更新，有人正在进行编辑操作。"
+msgstr[1] "%d 页面无法更新，有人正在进行编辑操作。"
 
 #: wp-admin/edit-pages.php:164
 #, php-format
 msgid "Page permanently deleted."
 msgid_plural "%s pages permanently deleted."
 msgstr[0] "%s 个页面已永久删除。"
+msgstr[1] "%s 个页面已永久删除。"
 
 #: wp-admin/edit-pages.php:168
 #, php-format
 msgid "Page moved to the trash."
 msgid_plural "%s pages moved to the trash."
 msgstr[0] "%s 个页面被移入回收站。"
+msgstr[1] "%s 个页面被移入回收站。"
 
 #: wp-admin/edit-pages.php:174
 #, php-format
 msgid "Page restored from the trash."
 msgid_plural "%s pages restored from the trash."
 msgstr[0] "%s 个页面已从回收站中恢复。"
+msgstr[1] "%s 个页面已从回收站中恢复。"
 
 #: wp-admin/edit-pages.php:183
 msgid "Your page has been saved."
@@ -1628,6 +1643,7 @@ msgctxt "pages"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "所有 <span class=\"count\">(%s)</span>"
+msgstr[1] "所有 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit-pages.php:216 wp-admin/edit-pages.php:218
 msgid "Search Pages"
@@ -1687,30 +1703,35 @@ msgstr "编辑日志"
 msgid "%s post updated."
 msgid_plural "%s posts updated."
 msgstr[0] "%s 个日志已更新。"
+msgstr[1] "%s 个日志已更新。"
 
 #: wp-admin/edit.php:159
 #, php-format
 msgid "%s post not updated, somebody is editing it."
 msgid_plural "%s posts not updated, somebody is editing them."
 msgstr[0] "%s 个文章无法更新，有人正在进行编辑操作。"
+msgstr[1] "%s 个文章无法更新，有人正在进行编辑操作。"
 
 #: wp-admin/edit.php:164
 #, php-format
 msgid "Post permanently deleted."
 msgid_plural "%s posts permanently deleted."
 msgstr[0] "%s 个日志已永久删除。"
+msgstr[1] "%s 个日志已永久删除。"
 
 #: wp-admin/edit.php:169
 #, php-format
 msgid "Post moved to the trash."
 msgid_plural "%s posts moved to the trash."
 msgstr[0] "%s 个日志被移入回收站。"
+msgstr[1] "%s 个日志被移入回收站。"
 
 #: wp-admin/edit.php:176
 #, php-format
 msgid "Post restored from the trash."
 msgid_plural "%s posts restored from the trash."
 msgstr[0] "%s 篇文章已从回收站中恢复。"
+msgstr[1] "%s 篇文章已从回收站中恢复。"
 
 #: wp-admin/edit.php:198
 #, php-format
@@ -1718,6 +1739,7 @@ msgctxt "posts"
 msgid "My Posts <span class=\"count\">(%s)</span>"
 msgid_plural "My Posts <span class=\"count\">(%s)</span>"
 msgstr[0] "我的日志 <span class=\"count\">(%s)</span>"
+msgstr[1] "我的日志 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit.php:204
 #, php-format
@@ -1725,6 +1747,7 @@ msgctxt "posts"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "所有 <span class=\"count\">(%s)</span>"
+msgstr[1] "所有 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit.php:227 wp-admin/edit.php:229
 msgid "Search Posts"
@@ -2141,6 +2164,7 @@ msgstr "无法获取日志 ID"
 msgid "%s comment"
 msgid_plural "%s comments"
 msgstr[0] "%s 条评论"
+msgstr[1] "%s 条评论"
 
 #: wp-admin/import/blogware.php:185 wp-admin/import/livejournal.php:933
 #: wp-admin/import/mt.php:468 wp-admin/import/rss.php:167
@@ -2194,6 +2218,7 @@ msgstr "导入分类中..."
 msgid "Done! <strong>%1$s</strong> category imported."
 msgid_plural "Done! <strong>%1$s</strong> categories imported."
 msgstr[0] "完成！<strong>%1$s</strong> 个分类已导入。"
+msgstr[1] "完成！<strong>%1$s</strong> 个分类已导入。"
 
 #: wp-admin/import/dotclear.php:212 wp-admin/import/textpattern.php:207
 msgid "No Categories to Import!"
@@ -2243,6 +2268,7 @@ msgstr "导入链接中..."
 msgid "Done! <strong>%s</strong> link or link category imported."
 msgid_plural "Done! <strong>%s</strong> links or link categories imported."
 msgstr[0] "完成！<strong>%s</strong> 个链接或链接类别成功导入。"
+msgstr[1] "完成！<strong>%s</strong> 个链接或链接类别成功导入。"
 
 #: wp-admin/import/dotclear.php:503 wp-admin/import/textpattern.php:484
 msgid "No Links to Import!"
@@ -2552,12 +2578,14 @@ msgstr "将在 Greymatter 中标记为已删除的用户 %s 的等级设置为0"
 msgid "imported %s comment"
 msgid_plural "imported %s comments"
 msgstr[0] "已导入 %s 条评论"
+msgstr[1] "已导入 %s 条评论"
 
 #: wp-admin/import/greymatter.php:291
 #, php-format
 msgid "ignored %s pre-existing comment"
 msgid_plural "ignored %s pre-existing comments"
 msgstr[0] "忽略 %s 条已存在的评论"
+msgstr[1] "忽略 %s 条已存在的评论"
 
 #: wp-admin/import/greymatter.php:301
 msgid "Completed GreyMatter import!"
@@ -2959,12 +2987,14 @@ msgstr "<br />正在添加标签<i>%s</i>……"
 msgid "(%s comment)"
 msgid_plural "(%s comments)"
 msgstr[0] "（%s 条评论）"
+msgstr[1] "（%s 条评论）"
 
 #: wp-admin/import/mt.php:308
 #, php-format
 msgid "(%s ping)"
 msgid_plural "(%s pings)"
 msgstr[0] "（%s 条pings）"
+msgstr[1] "（%s 条pings）"
 
 #: wp-admin/import/mt.php:513
 msgid "Movable Type and TypePad"
@@ -3139,6 +3169,7 @@ msgstr "没有包含这个标签的日志！"
 msgid "Done! <strong>%s</strong> tag to post relationships were read."
 msgid_plural "Done! <strong>%s</strong> tags to post relationships were read."
 msgstr[0] "完成！已经读取了 <strong>%s</strong> 个标签和日志的关联。"
+msgstr[1] "完成！已经读取了 <strong>%s</strong> 个标签和日志的关联。"
 
 #: wp-admin/import/stp.php:96 wp-admin/import/utw.php:123
 msgid "Step 2"
@@ -3153,6 +3184,7 @@ msgstr "添加标签到日志&#8230;"
 msgid "Done! <strong>%s</strong> tag was added!"
 msgid_plural "Done! <strong>%s</strong> tags were added!"
 msgstr[0] "完成！已添加<strong>%s</strong> 条标签！"
+msgstr[1] "完成！已添加<strong>%s</strong> 条标签！"
 
 #: wp-admin/import/stp.php:112 wp-admin/import/utw.php:159
 msgid "Step 3"
@@ -3204,6 +3236,7 @@ msgstr "您的 Textpattern 配置如下："
 msgid "Done! <strong>%s</strong> link imported"
 msgid_plural "Done! <strong>%s</strong> links imported"
 msgstr[0] "完成！<strong>%s</strong> 个链接已导入"
+msgstr[1] "完成！<strong>%s</strong> 个链接已导入"
 
 #: wp-admin/import/textpattern.php:574
 msgid ""
@@ -3322,6 +3355,7 @@ msgstr "没有找到标签！"
 msgid "Done! <strong>%s</strong> tag were read."
 msgid_plural "Done! <strong>%s</strong> tags were read."
 msgstr[0] "完成！<strong>%s</strong> 个标签已读取。"
+msgstr[1] "完成！<strong>%s</strong> 个标签已读取。"
 
 #: wp-admin/import/utw.php:102
 msgid "The following tags were found:"
@@ -3342,6 +3376,7 @@ msgstr "读取 UTW 日志标签&#8230;"
 msgid "Done! <strong>%s</strong> tag were added!"
 msgid_plural "Done! <strong>%s</strong> tags were added!"
 msgstr[0] "完成！<strong>%s</strong> 个标签已添加！"
+msgstr[1] "完成！<strong>%s</strong> 个标签已添加！"
 
 #: wp-admin/import/utw.php:178
 msgid "Step 4"
@@ -3476,6 +3511,7 @@ msgstr "转换标签为分类"
 msgid "Convert Category to Tag."
 msgid_plural "Convert Categories (%d) to Tags."
 msgstr[0] "转换分类 (%d) 为标签"
+msgstr[1] "转换分类 (%d) 为标签"
 
 #: wp-admin/import/wp-cat2tag.php:70
 msgid ""
@@ -3522,6 +3558,7 @@ msgstr "转换分类为标签"
 msgid "Convert Tag to Category."
 msgid_plural "Convert Tags (%d) to Categories."
 msgstr[0] "转换标签 (%d) 为分类。"
+msgstr[1] "转换标签 (%d) 为分类。"
 
 #: wp-admin/import/wp-cat2tag.php:146
 msgid ""
@@ -4090,42 +4127,50 @@ msgstr "概览"
 msgid "Post"
 msgid_plural "Posts"
 msgstr[0] "日志"
+msgstr[1] "日志"
 
 #: wp-admin/includes/dashboard.php:241
 msgid "Comment"
 msgid_plural "Comments"
 msgstr[0] "评论"
+msgstr[1] "评论"
 
 #: wp-admin/includes/dashboard.php:253
 msgid "Page"
 msgid_plural "Pages"
 msgstr[0] "页面"
+msgstr[1] "页面"
 
 #: wp-admin/includes/dashboard.php:263
 msgid "Approved|Right Now"
 msgid_plural "Approved"
 msgstr[0] "审核"
+msgstr[1] "审核"
 
 #: wp-admin/includes/dashboard.php:275
 msgid "Category"
 msgid_plural "Categories"
 msgstr[0] "分类"
+msgstr[1] "分类"
 
 #: wp-admin/includes/dashboard.php:285
 msgid "Pending"
 msgid_plural "Pending"
 msgstr[0] "待审核"
+msgstr[1] "待审核"
 
 #: wp-admin/includes/dashboard.php:297
 msgid "Tag"
 msgid_plural "Tags"
 msgstr[0] "标签"
+msgstr[1] "标签"
 
 #: wp-admin/includes/dashboard.php:307
 #: wp-content/plugins/akismet/akismet.php:909
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "垃圾评论"
+msgstr[1] "垃圾评论"
 
 # 以下为模板管理页面
 #: wp-admin/includes/dashboard.php:335 wp-admin/includes/dashboard.php:342
@@ -4143,6 +4188,9 @@ msgid_plural ""
 msgstr[0] ""
 "主题 <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> 带有 <span "
 "class=\"b\"><a href=\"widgets.php\">%2$s 个挂件</a></span>"
+msgstr[1] ""
+"主题 <span class=\"b\"><a href=\"themes.php\">%1$s</a></span> 带有 <span "
+"class=\"b\"><a href=\"widgets.php\">%2$s 个挂件</a></span>"
 
 #: wp-admin/includes/dashboard.php:338
 #, php-format
@@ -4152,6 +4200,9 @@ msgid_plural ""
 "Theme <span class=\"b\">%1$s</span> with <span class=\"b\">%2$s Widgets</"
 "span>"
 msgstr[0] ""
+"主题 <span class=\"b\">%1$s</span> 带有 <span class=\"b\">%2$s 个Widgets</"
+"span>"
+msgstr[1] ""
 "主题 <span class=\"b\">%1$s</span> 带有 <span class=\"b\">%2$s 个Widgets</"
 "span>"
 
@@ -5891,6 +5942,7 @@ msgstr "作者：%s"
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
 msgstr[0] "(共有 %s 人打分)"
+msgstr[1] "(共有 %s 人打分)"
 
 #: wp-admin/includes/plugin-install.php:366
 #: wp-admin/includes/plugin-install.php:524
@@ -5987,6 +6039,7 @@ msgstr "下载"
 msgid "%s time"
 msgid_plural "%s times"
 msgstr[0] "%s 次"
+msgstr[1] "%s 次"
 
 #: wp-admin/includes/plugin-install.php:515
 msgid "WordPress.org Plugin Page &#187;"
@@ -6092,6 +6145,7 @@ msgstr "已发布的日志"
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
 msgstr[0] "已发布 <span class=\"count\">(%s)</span>"
+msgstr[1] "已发布 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:820
 msgctxt "post"
@@ -6107,6 +6161,7 @@ msgstr "预发布日志"
 msgid "Scheduled <span class=\"count\">(%s)</span>"
 msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 msgstr[0] "计划于 <span class=\"count\">(%s)</span>"
+msgstr[1] "计划于 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:821
 msgctxt "post"
@@ -6122,6 +6177,7 @@ msgstr "待审核日志"
 msgid "Pending Review <span class=\"count\">(%s)</span>"
 msgid_plural "Pending Review <span class=\"count\">(%s)</span>"
 msgstr[0] "待审阅 <span class=\"count\">(%s)</span>"
+msgstr[1] "待审阅 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:822
 msgctxt "post"
@@ -6133,6 +6189,7 @@ msgstr "草稿"
 msgid "Draft <span class=\"count\">(%s)</span>"
 msgid_plural "Drafts <span class=\"count\">(%s)</span>"
 msgstr[0] "草稿 <span class=\"count\">(%s)</span>"
+msgstr[1] "草稿 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:823
 msgctxt "post"
@@ -6148,6 +6205,7 @@ msgstr "私人日志/页面"
 msgid "Private <span class=\"count\">(%s)</span>"
 msgid_plural "Private <span class=\"count\">(%s)</span>"
 msgstr[0] "私人的 <span class=\"count\">(%s)</span>"
+msgstr[1] "私人的 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:824
 msgctxt "post"
@@ -6163,6 +6221,7 @@ msgstr "回收站中的日志"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "回收站<span class=\"count\">(%s)</span>"
+msgstr[1] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:867
 msgid "Images"
@@ -6177,6 +6236,7 @@ msgstr "图片管理"
 msgid "Image <span class=\"count\">(%s)</span>"
 msgid_plural "Images <span class=\"count\">(%s)</span>"
 msgstr[0] "图片 <span class=\"count\">(%s)</span>"
+msgstr[1] "图片 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:868
 msgid "Audio"
@@ -6191,6 +6251,7 @@ msgstr "音频管理"
 msgid "Audio <span class=\"count\">(%s)</span>"
 msgid_plural "Audio <span class=\"count\">(%s)</span>"
 msgstr[0] "音频 <span class=\"count\">(%s)</span>"
+msgstr[1] "音频 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:869
 msgid "Video"
@@ -6205,6 +6266,7 @@ msgstr "视频管理"
 msgid "Video <span class=\"count\">(%s)</span>"
 msgid_plural "Video <span class=\"count\">(%s)</span>"
 msgstr[0] "视频 <span class=\"count\">(%s)</span>"
+msgstr[1] "视频 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:1018 wp-content/plugins/akismet/akismet.php:838
 msgid "View Post"
@@ -7601,6 +7663,7 @@ msgstr "添加新用户"
 msgid "%s link deleted."
 msgid_plural "%s links deleted"
 msgstr[0] "%s 个链接被删除。"
+msgstr[1] "%s 个链接被删除。"
 
 #: wp-admin/link-manager.php:92 wp-admin/link-manager.php:94
 msgid "Search Links"
@@ -9044,36 +9107,42 @@ msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "所有 <span class=\"count\">(%s)</span>"
+msgstr[1] "所有 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:523
 #, php-format
 msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
 msgstr[0] "激活的<span class=\"count\">(%s)</span>"
+msgstr[1] "激活的<span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:527
 #, php-format
 msgid "Recently Active <span class=\"count\">(%s)</span>"
 msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
 msgstr[0] "最近激活<span class=\"count\">(%s)</span>"
+msgstr[1] "最近激活<span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:531
 #, php-format
 msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
 msgstr[0] "未激活 <span class=\"count\">(%s)</span>"
+msgstr[1] "未激活 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:535
 #, php-format
 msgid "Upgrade Available <span class=\"count\">(%s)</span>"
 msgid_plural "Upgrade Available <span class=\"count\">(%s)</span>"
 msgstr[0] "有更新<span class=\"count\">(%s)</span>"
+msgstr[1] "有更新<span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:540
 #, php-format
 msgid "Search Results <span class=\"count\">(%s)</span>"
 msgid_plural "Search Results <span class=\"count\">(%s)</span>"
 msgstr[0] "搜索结果<span class=\"count\">(%s)</span>"
+msgstr[1] "搜索结果<span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:573
 msgid "You do not appear to have any plugins available at this time."
@@ -9870,6 +9939,7 @@ msgstr "您没有扫描丢失附件的权限。"
 msgid "Reattached %d attachment"
 msgid_plural "Reattached %d attachments"
 msgstr[0] "重新添加 %d 附件"
+msgstr[1] "重新添加 %d 附件"
 
 #: wp-admin/upload.php:208
 msgid "Media permanently deleted."
@@ -9893,6 +9963,7 @@ msgctxt "uploaded files"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "所有 <span class=\"count\">(%s)</span>"
+msgstr[1] "所有 <span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:245
 msgid "Unattached"
@@ -9904,6 +9975,7 @@ msgctxt "uploaded files"
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "回收站<span class=\"count\">(%s)</span>"
+msgstr[1] "回收站<span class=\"count\">(%s)</span>"
 
 #: wp-admin/upload.php:296 wp-admin/upload.php:462
 msgid "Attach to a post"
@@ -10197,6 +10269,7 @@ msgstr "没有选择要删除的用户。"
 msgid "%s user deleted"
 msgid_plural "%s users deleted"
 msgstr[0] "%s 个用户被删除。"
+msgstr[1] "%s 个用户被删除。"
 
 #: wp-admin/users.php:208
 msgid "New user created."
@@ -10228,6 +10301,7 @@ msgctxt "users"
 msgid "All <span class=\"count\">(%s)</span>"
 msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "所有 <span class=\"count\">(%s)</span>"
+msgstr[1] "所有 <span class=\"count\">(%s)</span>"
 
 #. translators: User role name with count
 #: wp-admin/users.php:281
@@ -10748,6 +10822,7 @@ msgid_plural ""
 "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments "
 "already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
+msgstr[1] "<a href=\"%1$s\">Akismet</a> 已经帮助您的 Blog 清除了%2$s条垃圾评论</a>，"
 
 #: wp-content/plugins/akismet/akismet.php:938
 #, php-format
@@ -10762,6 +10837,7 @@ msgid_plural ""
 "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right "
 "now."
 msgstr[0] "目前您的垃圾评论队列中有 <a href=\"%2$s\">%1$s 条垃圾评论</a>。"
+msgstr[1] "目前您的垃圾评论队列中有 <a href=\"%2$s\">%1$s 条垃圾评论</a>。"
 
 #: wp-content/plugins/akismet/akismet.php:948
 #, php-format
@@ -11072,6 +11148,21 @@ msgstr "标签为 &#8220;%s&#8221; 的日志"
 msgid "Archive for %s"
 msgstr "%s 归档"
 
+#: wp-content/themes/default/archive.php:20
+#: wp-content/themes/default/index.php:17
+msgid "F jS, Y"
+msgstr "Y年n月j日"
+
+#: wp-content/themes/default/archive.php:22
+#: wp-content/themes/default/sidebar.php:37
+msgid "F, Y"
+msgstr "Y年n月"
+
+#: wp-content/themes/default/archive.php:24
+#: wp-content/themes/default/sidebar.php:42
+msgid "Y"
+msgstr "Y年"
+
 #: wp-content/themes/default/archive.php:26
 msgid "Author Archive"
 msgstr "作者归档"
@@ -11100,6 +11191,14 @@ msgstr "新条目 &raquo;"
 #, php-format
 msgid "Permanent Link to %s"
 msgstr "指向%s的永久链接"
+
+#: wp-content/themes/default/archive.php:40
+#: wp-content/themes/default/image.php:30
+#: wp-content/themes/default/search.php:25
+#: wp-content/themes/default/sidebar.php:32
+#: wp-content/themes/default/single.php:36
+msgid "l, F jS, Y"
+msgstr "Y年n月j日, l"
 
 #: wp-content/themes/default/archive.php:46
 msgid " Posted in "
@@ -11328,7 +11427,7 @@ msgstr "该条目被发布于 %1$s - %2$s，并归类于 %3$s。"
 #: wp-content/themes/default/single.php:39
 #, php-format
 msgid "You can follow any responses to this entry through the %s feed."
-msgstr "你可以通过%sfeed跟踪任意对该条目的回复"
+msgstr "你可以通过 %s feed 来跟踪任意对该条目的回复。"
 
 #: wp-content/themes/default/image.php:36
 #: wp-content/themes/default/single.php:43
@@ -11337,8 +11436,8 @@ msgid ""
 "You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel="
 "\"trackback\">trackback</a> from your own site."
 msgstr ""
-"你可以<a href=\"#respond\">提交一条回复</a>,或者从你的网站进行<a href=\"%s\" "
-"rel=\"trackback\">跟踪</a>"
+"您可以<a href=\"#respond\">提交一条回复</a>，或者从您的网站 <a href=\"%s\" "
+"rel=\"trackback\">trackback</a>。"
 
 #: wp-content/themes/default/image.php:40
 #: wp-content/themes/default/single.php:47
@@ -11347,29 +11446,29 @@ msgid ""
 "Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
 "\">trackback</a> from your own site."
 msgstr ""
-"回复系统已经关闭，但是你可以从你的网站进行<a href=\"%s\" rel=\"trackback\">跟"
-"踪</a>"
+"回复系统已经关闭，但是你可以从你的网站 <a href=\"%s\" rel=\"trackback"
+"\">trackback</a>。"
 
 #: wp-content/themes/default/image.php:44
 #: wp-content/themes/default/single.php:51
 msgid ""
 "You can skip to the end and leave a response. Pinging is currently not "
 "allowed."
-msgstr "你可以跳到结尾并且发表评论。当前不允许Pinging"
+msgstr "你可以跳到结尾并且发表评论。当前不允许Ping。"
 
 #: wp-content/themes/default/image.php:48
 #: wp-content/themes/default/single.php:55
 msgid "Both comments and pings are currently closed."
-msgstr "评论和ping目前已经关闭"
+msgstr "评论和ping目前已经关闭。"
 
 #: wp-content/themes/default/image.php:50
 #: wp-content/themes/default/page.php:22
 msgid "Edit this entry."
-msgstr "编辑这个条目"
+msgstr "编辑这个条目。"
 
 #: wp-content/themes/default/image.php:63
 msgid "Sorry, no attachments matched your criteria."
-msgstr "对不起，没有你所请求的附件"
+msgstr "对不起，没有你所请求的附件。"
 
 #: wp-content/themes/default/index.php:16
 #: wp-content/themes/default/search.php:24
@@ -11454,6 +11553,10 @@ msgstr "XHTML Friends Network"
 msgid "Edit this entry"
 msgstr "编辑这个条目"
 
+#: wp-content/themes/default/single.php:57
+msgid "."
+msgstr "。"
+
 #: wp-includes/atomlib.php:133
 #, php-format
 msgid "XML error: %s at line %d"
@@ -11496,6 +11599,7 @@ msgstr "无分类"
 msgid "%s topic"
 msgid_plural "%s topics"
 msgstr[0] "%s 个主题"
+msgstr[1] "%s 个主题"
 
 #: wp-includes/classes.php:1332
 #, php-format
@@ -11933,18 +12037,21 @@ msgstr "&#8221;"
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s分钟"
+msgstr[1] "%s分钟"
 
 #: wp-includes/formatting.php:1776
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s小时"
+msgstr[1] "%s小时"
 
 #: wp-includes/formatting.php:1782
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s天"
+msgstr[1] "%s天"
 
 #. translators: used between list items, there is a space after the coma
 #: wp-includes/formatting.php:2669
@@ -12411,47 +12518,47 @@ msgstr "插入时间"
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:140
 #: wp-includes/locale.php:155
 msgid "January"
-msgstr "01月"
+msgstr "1月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:141
 #: wp-includes/locale.php:156
 msgid "February"
-msgstr "02月"
+msgstr "2月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:142
 #: wp-includes/locale.php:157
 msgid "March"
-msgstr "03月"
+msgstr "3月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:143
 #: wp-includes/locale.php:158
 msgid "April"
-msgstr "04月"
+msgstr "4月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:144
 #: wp-includes/locale.php:159
 msgid "May"
-msgstr "05月"
+msgstr "5月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:145
 #: wp-includes/locale.php:160
 msgid "June"
-msgstr "06月"
+msgstr "6月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:146
 #: wp-includes/locale.php:161
 msgid "July"
-msgstr "07月"
+msgstr "7月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:147
 #: wp-includes/locale.php:162
 msgid "August"
-msgstr "08月"
+msgstr "8月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:148
 #: wp-includes/locale.php:163
 msgid "September"
-msgstr "09月"
+msgstr "9月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:53 wp-includes/locale.php:149
 #: wp-includes/locale.php:164
@@ -12470,51 +12577,51 @@ msgstr "12月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:155
 msgid "Jan_January_abbreviation"
-msgstr "Jan"
+msgstr "1月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:156
 msgid "Feb_February_abbreviation"
-msgstr "Feb"
+msgstr "2月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:157
 msgid "Mar_March_abbreviation"
-msgstr "Mar"
+msgstr "3月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:158
 msgid "Apr_April_abbreviation"
-msgstr "Apr"
+msgstr "4月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:159
 msgid "May_May_abbreviation"
-msgstr "May"
+msgstr "5月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:160
 msgid "Jun_June_abbreviation"
-msgstr "Jun"
+msgstr "6月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:161
 msgid "Jul_July_abbreviation"
-msgstr "Jul"
+msgstr "7月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:162
 msgid "Aug_August_abbreviation"
-msgstr "Aug"
+msgstr "8月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:163
 msgid "Sep_September_abbreviation"
-msgstr "Sep"
+msgstr "9月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:164
 msgid "Oct_October_abbreviation"
-msgstr "Oct"
+msgstr "10月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:165
 msgid "Nov_November_abbreviation"
-msgstr "Nov"
+msgstr "11月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:54 wp-includes/locale.php:166
 msgid "Dec_December_abbreviation"
-msgstr "Dec"
+msgstr "12月"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:55 wp-includes/locale.php:108
 #: wp-includes/locale.php:118 wp-includes/locale.php:131
@@ -12553,31 +12660,31 @@ msgstr "星期六"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:56 wp-includes/locale.php:131
 msgid "Sun"
-msgstr "Sun"
+msgstr "周日"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:56 wp-includes/locale.php:132
 msgid "Mon"
-msgstr "Mon"
+msgstr "周一"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:56 wp-includes/locale.php:133
 msgid "Tue"
-msgstr "Tue"
+msgstr "周二"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:56 wp-includes/locale.php:134
 msgid "Wed"
-msgstr "Wed"
+msgstr "周三"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:56 wp-includes/locale.php:135
 msgid "Thu"
-msgstr "Thu"
+msgstr "周四"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:56 wp-includes/locale.php:136
 msgid "Fri"
-msgstr "Fri"
+msgstr "周五"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:56 wp-includes/locale.php:137
 msgid "Sat"
-msgstr "Sat"
+msgstr "周六"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:59
 msgid "Print"
@@ -14119,11 +14226,11 @@ msgstr "六"
 
 #: wp-includes/locale.php:173
 msgid "am"
-msgstr "am"
+msgstr "上午"
 
 #: wp-includes/locale.php:174
 msgid "pm"
-msgstr "pm"
+msgstr "下午"
 
 #: wp-includes/locale.php:175
 msgid "AM"
@@ -14304,6 +14411,7 @@ msgid_plural ""
 "Currently %s comments are waiting for approval. Please visit the moderation "
 "panel:"
 msgstr[0] "当前有 %s 条评论等待审核。请访问审核评论页面："
+msgstr[1] "当前有 %s 条评论等待审核。请访问审核评论页面："
 
 #: wp-includes/pluggable.php:1118
 #, php-format
@@ -15418,7 +15526,7 @@ msgstr ""
 #~ msgstr "留下回复"
 
 #~ msgid "trackback"
-#~ msgstr "跟踪"
+#~ msgstr "trackback"
 
 #~ msgid "from your own site."
 #~ msgstr "从你自己的网站"

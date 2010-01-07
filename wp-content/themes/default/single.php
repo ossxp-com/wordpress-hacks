@@ -33,7 +33,7 @@ get_header();
 							http://binarybonsai.com/wordpress/time-since/ */
 						    /* $entry_datetime = abs(strtotime($post->post_date) - (60*120)); echo time_since($entry_datetime); echo ' ago'; */
 						printf(__('This entry was posted on %1$s at %2$s and is filed under %3$s.'),
-						       get_the_time( 'l, F jS, Y' ),
+						       get_the_time( __('l, F jS, Y') ),
 						       get_the_time( '' ),
 						       get_the_category_list(', ')) ?>
 						<?php printf(__('You can follow any responses to this entry through the %s feed.'), post_comments_feed_link('RSS 2.0','','',false)); ?>
@@ -54,7 +54,7 @@ get_header();
 							// Neither Comments, nor Pings are open ?>
 							<?php _e('Both comments and pings are currently closed.'); ?>
 
-						<?php } edit_post_link(__('Edit this entry'),'','.'); ?>
+						<?php } edit_post_link(__('Edit this entry'),'',__('.')); ?>
 
 					</small>
 				</p>

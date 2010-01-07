@@ -29,17 +29,17 @@
 			<?php /* If this is a daily archive */ } elseif (is_day()) { ?>
 			<p><?php printf (__('You are currently browsing the %1$s blog archives for the day %2$s.'), 
 			                 '<a href="'.get_bloginfo('url').'/">'.get_bloginfo('name').'</a>', 
-			                 get_the_time('l, F jS, Y')); ?></p>
+			                 get_the_time(__('l, F jS, Y'))); ?></p>
 
 			<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
 			<p><?php printf (__('You are currently browsing the %1$s blog archives for %2$s.'),
 			                 '<a href="'.get_bloginfo('url').'/">'.get_bloginfo('name').'</a>',
-			                 get_the_time('F, Y')); ?></p>
+			                 get_the_time(__('F, Y'))); ?></p>
 
 			<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
 			<p><?php printf (__('You are currently browsing the %1$s blog archives for the year %2$s.'),
 			                 '<a href="'.get_bloginfo('url').'/">'.get_bloginfo('name').'</a>',
-			                 get_the_time('Y')); ?></p>
+			                 get_the_time(__('Y'))); ?></p>
 
 			<?php /* If this is a search result */ } elseif (is_search()) { ?>
 			<p><?php printf (__('You have searched the %1$s blog archives for <strong>\'%2$s\'</strong>. If you are unable to find anything in these search results, you can try one of these links.'),

@@ -27,7 +27,7 @@ get_header();
 
 				<p class="postmetadata alt">
 					<small>
-            <?php printf ( __('This entry was posted on %1$s at %2$s and is filed under %3$s.'),get_the_time('l, F jS, Y'), get_the_time(), get_the_category(', ') ); ?>
+            <?php printf ( __('This entry was posted on %1$s at %2$s and is filed under %3$s.'),get_the_time(__('l, F jS, Y')), get_the_time(), get_the_category(', ') ); ?>
 						<?php the_taxonomies(); ?>
 						<?php printf(__('You can follow any responses to this entry through the %s feed.'), post_comments_feed_link('RSS 2.0','','',false)); ?>
 

@@ -17,11 +17,11 @@ get_header();
  	  <?php /* If this is a tag archive */ } elseif( is_tag() ) { ?>
 		<h2 class="pagetitle"><?php printf(__("Posts Tagged &#8216;%s&#8217;"), single_tag_title('',false)); ?></h2>
  	  <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
-		<h2 class="pagetitle"><?php printf(__("Archive for %s"), get_the_time('F jS, Y')); ?></h2>
+		<h2 class="pagetitle"><?php printf(__("Archive for %s"), get_the_time(__('F jS, Y'))); ?></h2>
  	  <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-		<h2 class="pagetitle"><?php printf(__("Archive for %s"), get_the_time('F, Y')); ?></h2>
+		<h2 class="pagetitle"><?php printf(__("Archive for %s"), get_the_time(__('F, Y'))); ?></h2>
  	  <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-		<h2 class="pagetitle"><?php printf(__("Archive for %s"), get_the_time('Y')); ?></h2>
+		<h2 class="pagetitle"><?php printf(__("Archive for %s"), get_the_time(__('Y'))); ?></h2>
 	  <?php /* If this is an author archive */ } elseif (is_author()) { ?>
 		<h2 class="pagetitle"><?php _e("Author Archive"); ?></h2>
  	  <?php /* If this is a paged archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
@@ -37,7 +37,7 @@ get_header();
 		<?php while (have_posts()) : the_post(); ?>
 		<div <?php post_class() ?>>
 				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php printf( __("Permanent Link to %s"), the_title_attribute(array("echo"=>false))); ?>"><?php the_title(); ?></a></h3>
-				<small><?php the_time('l, F jS, Y') ?></small>
+				<small><?php the_time(__('l, F jS, Y')) ?></small>
 
 				<div class="entry">
 					<?php the_content() ?>
