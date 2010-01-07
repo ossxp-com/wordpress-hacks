@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Default 1.6\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-07 18:20+0800\n"
-"PO-Revision-Date: 2010-01-07 18:24+0800\n"
+"POT-Creation-Date: 2010-01-07 18:52+0800\n"
+"PO-Revision-Date: 2010-01-07 18:53+0800\n"
 "Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
 "Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -11428,7 +11428,9 @@ msgid ""
 "You have searched the %1$s blog archives for <strong>'%2$s'</strong>. If you "
 "are unable to find anything in these search results, you can try one of "
 "these links."
-msgstr "您已在 %1$s 博客中对 <strong>'%2$s'</strong> 完成搜索。如果您在搜索结果没有发现，您可以尝试下面的链接。"
+msgstr ""
+"您已在 %1$s 博客中对 <strong>'%2$s'</strong> 完成搜索。如果您在搜索结果没有发"
+"现，您可以尝试下面的链接。"
 
 #: wp-content/themes/default/sidebar.php:50
 #, php-format
@@ -11447,14 +11449,6 @@ msgstr "有效的"
 #: wp-content/themes/default/sidebar.php:78
 msgid "XHTML Friends Network"
 msgstr "XHTML Friends Network"
-
-#: wp-content/themes/default/single.php:15
-msgid "&laquo; %link"
-msgstr "&laquo; %链接"
-
-#: wp-content/themes/default/single.php:16
-msgid "%link &raquo;"
-msgstr "%link &raquo;"
 
 #: wp-content/themes/default/single.php:57
 msgid "Edit this entry"
@@ -14073,19 +14067,19 @@ msgstr "编辑链接"
 
 #: wp-includes/link-template.php:1002 wp-includes/link-template.php:1266
 msgid "Previous Post"
-msgstr "以前的日志"
+msgstr "上一条日志"
 
 #: wp-includes/link-template.php:1002 wp-includes/link-template.php:1266
 msgid "Next Post"
-msgstr "以后的日志"
+msgstr "下一条日志"
 
 #: wp-includes/link-template.php:1126
 msgid "First Post"
-msgstr "最早的日志"
+msgstr "第一条日志"
 
 #: wp-includes/link-template.php:1126
 msgid "Last Post"
-msgstr "最新的日志"
+msgstr "最后一个日志"
 
 #: wp-includes/link-template.php:1609
 msgid "Newer Comments &raquo;"
@@ -15394,6 +15388,12 @@ msgstr ""
 "取帮助</a>。您可以通过 web 界面创建一个 <code>wp-config.php</code> 文件，但并"
 "非所有服务器都支持这么创建。最安全的办法是手动创建这个文件。</p><p><a "
 "href='{$path}setup-config.php' class='button'>创建配置文件</a>"
+
+#~ msgid "&laquo; %link"
+#~ msgstr "&laquo; %link"
+
+#~ msgid "%link &raquo;"
+#~ msgstr "%link &raquo;"
 
 #~ msgid "%2$s to &#8220;%1$s&#8221"
 #~ msgstr "对 &#8220;%1$s&#8221 的 %2$s"

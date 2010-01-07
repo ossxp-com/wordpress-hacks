@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 2.9.1-beta1\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-07 18:20+0800\n"
+"POT-Creation-Date: 2010-01-07 18:52+0800\n"
 "PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10978,14 +10978,6 @@ msgstr ""
 
 #: wp-content/themes/default/sidebar.php:78
 msgid "XHTML Friends Network"
-msgstr ""
-
-#: wp-content/themes/default/single.php:15
-msgid "&laquo; %link"
-msgstr ""
-
-#: wp-content/themes/default/single.php:16
-msgid "%link &raquo;"
 msgstr ""
 
 #: wp-content/themes/default/single.php:57
