@@ -6,20 +6,20 @@
 # This file is distributed under the same license as the WordPress Default package.
 #
 # Jiang Xin <worldhello.net@gmail.com>, 2009, 2010.
-# leiweiwei, 2009.
+# leiweiwei, 2009, 2010.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
 msgid ""
 msgstr ""
-"#-#-#-#-#  zh_CN.po (zh_CN)  #-#-#-#-#\n"
-"Project-Id-Version: zh_CN\n"
+"Project-Id-Version: WordPress Default 1.6\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-01-07 11:02+0800\n"
-"PO-Revision-Date: 2010-01-07 11:11+0800\n"
-"Last-Translator: Jiang Xin <worldhello.net@gmail.com>\n"
-"Language-Team: Chinese Simplified <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2010-01-07 13:46+0800\n"
+"PO-Revision-Date: 2010-01-07 14:45+0800\n"
+"Last-Translator: leiweiwei\n"
+"Language-Team: 简体中文 <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  zh_CN.po (zh_CN)  #-#-#-#-#\n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: China\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -29,15 +29,6 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Generator: Lokalize 1.0\n"
 "#-#-#-#-#  x.po (WordPress Default 1.6)  #-#-#-#-#\n"
-"Project-Id-Version: WordPress Default 1.6\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/default\n"
-"POT-Creation-Date: 2010-01-06 19:31+0800\n"
-"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 
 #: wp-admin/admin-ajax.php:31
 #, php-format
@@ -203,7 +194,7 @@ msgstr "分类未更新。"
 msgid "Tag not updated."
 msgstr "标签未更新。"
 
-#: wp-admin/admin-ajax.php:1230
+#: wp-admin/admin-ajax.php:1230 wp-content/themes/default/archive.php:66
 msgid "No posts found."
 msgstr "没找到日志。"
 
@@ -598,7 +589,7 @@ msgstr "作者"
 #: wp-admin/comment.php:119 wp-admin/includes/template.php:904
 #: wp-admin/includes/template.php:2334 wp-admin/user-edit.php:261
 #: wp-admin/user-new.php:109 wp-content/themes/classic/comments-popup.php:76
-#: wp-login.php:429
+#: wp-content/themes/default/comments-popup.php:75 wp-login.php:429
 msgid "E-mail"
 msgstr "电子邮箱"
 
@@ -636,7 +627,7 @@ msgid "Unknown action."
 msgstr "未知操作。"
 
 #: wp-admin/custom-header.php:44 wp-admin/includes/theme-install.php:188
-#: wp-content/themes/default/functions.php:158 functions.php:158
+#: wp-content/themes/default/functions.php:158
 msgid "Custom Header"
 msgstr "自定义页眉"
 
@@ -1028,6 +1019,7 @@ msgstr "显示所有评论"
 #: wp-admin/includes/template.php:3321
 #: wp-content/plugins/akismet/akismet.php:758
 #: wp-content/themes/classic/comments-popup.php:29
+#: wp-content/themes/default/comments-popup.php:28
 msgid "Comments"
 msgstr "评论"
 
@@ -1312,8 +1304,7 @@ msgstr "添加链接"
 #: wp-admin/includes/widgets.php:206
 #: wp-content/themes/default/functions.php:391
 #: wp-content/themes/default/functions.php:398
-#: wp-includes/js/tinymce/langs/wp-langs.php:76 functions.php:391
-#: functions.php:398
+#: wp-includes/js/tinymce/langs/wp-langs.php:76
 msgid "Save"
 msgstr "保存"
 
@@ -1329,7 +1320,7 @@ msgstr "链接关系网（XFN）"
 
 #: wp-admin/edit-link-form.php:31 wp-content/themes/default/functions.php:410
 #: wp-includes/js/tinymce/langs/wp-langs.php:304
-#: wp-includes/js/tinymce/wp-mce-help.php:175 functions.php:410
+#: wp-includes/js/tinymce/wp-mce-help.php:175
 msgid "Advanced"
 msgstr "高级"
 
@@ -1347,6 +1338,8 @@ msgstr "链接已添加。"
 #: wp-admin/update-core.php:232 wp-admin/update-core.php:239
 #: wp-admin/user-edit.php:183 wp-content/themes/classic/comments.php:57
 #: wp-content/themes/classic/comments-popup.php:71
+#: wp-content/themes/default/comments.php:72
+#: wp-content/themes/default/comments-popup.php:70
 #: wp-includes/js/tinymce/langs/wp-langs.php:312
 msgid "Name"
 msgstr "名称"
@@ -4218,6 +4211,7 @@ msgstr "该挂件没有可设置选项。"
 #: wp-admin/includes/dashboard.php:518 wp-admin/includes/meta-boxes.php:398
 #: wp-content/themes/classic/comments.php:32
 #: wp-content/themes/classic/comments-popup.php:58
+#: wp-content/themes/default/comments-popup.php:57
 msgid "No comments yet."
 msgstr "还没有评论。"
 
@@ -10015,6 +10009,8 @@ msgstr "昵称"
 #: wp-admin/user-new.php:96 wp-admin/user-new.php:109
 #: wp-content/themes/classic/comments.php:57
 #: wp-content/themes/classic/comments.php:60
+#: wp-content/themes/default/comments.php:72
+#: wp-content/themes/default/comments.php:75
 msgid "(required)"
 msgstr "（必填）"
 
@@ -10028,6 +10024,7 @@ msgstr "联系信息"
 
 #: wp-admin/user-edit.php:266 wp-admin/user-new.php:113
 #: wp-content/themes/classic/comments.php:63
+#: wp-content/themes/default/comments.php:78
 msgid "Website"
 msgstr "网址"
 
@@ -10434,7 +10431,7 @@ msgid ""
 msgstr "该 Key 以前被验证过，但现在无法连接到 akismet.com。请检查你的服务器配置。"
 
 #: wp-content/plugins/akismet/akismet.php:130
-#: wp-content/themes/default/functions.php:374 functions.php:374
+#: wp-content/themes/default/functions.php:374
 msgid "Options saved."
 msgstr "选项已保存。"
 
@@ -10812,6 +10809,7 @@ msgstr "%条评论"
 #: wp-content/themes/classic/comments.php:13
 #: wp-content/themes/classic/comments.php:42
 #: wp-content/themes/classic/comments-popup.php:62
+#: wp-content/themes/default/comments-popup.php:61
 msgid "Leave a comment"
 msgstr "发表评论"
 
@@ -10840,27 +10838,35 @@ msgid "TrackBack <abbr title=\"Universal Resource Locator\">URL</abbr>"
 msgstr "引用 <abbr title=\"Uniform Resource Identifier\">URL</abbr>"
 
 #: wp-content/themes/classic/comments.php:45
+#: wp-content/themes/default/comments.php:60
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "您必须 <a href=\"%s\">登录</a> 后才可以发表评论。"
 
 #: wp-content/themes/classic/comments.php:52
 #: wp-content/themes/classic/comments-popup.php:67
+#: wp-content/themes/default/comments.php:67
+#: wp-content/themes/default/comments-popup.php:66
 #, php-format
 msgid "Logged in as %s."
 msgstr "登陆为 %s。"
 
 #: wp-content/themes/classic/comments.php:52
 #: wp-content/themes/classic/comments-popup.php:67
+#: wp-content/themes/default/comments.php:67
+#: wp-content/themes/default/comments-popup.php:66
 msgid "Log out of this account"
 msgstr "注销当前账号"
 
 #: wp-content/themes/classic/comments.php:52
 #: wp-content/themes/classic/comments-popup.php:67
+#: wp-content/themes/default/comments.php:67
+#: wp-content/themes/default/comments-popup.php:66
 msgid "Log out &raquo;"
 msgstr "注销 &raquo;"
 
 #: wp-content/themes/classic/comments.php:60
+#: wp-content/themes/default/comments.php:75
 msgid "Mail (will not be published)"
 msgstr "电子邮箱（不公开）"
 
@@ -10870,11 +10876,13 @@ msgid "You can use these tags: %s"
 msgstr "您可以使用这些标签：%s"
 
 #: wp-content/themes/classic/comments.php:71
+#: wp-content/themes/default/comments.php:86
 msgid "Submit Comment"
 msgstr "提交评论"
 
 #: wp-content/themes/classic/comments.php:81
 #: wp-content/themes/classic/comments-popup.php:99
+#: wp-content/themes/default/comments-popup.php:98
 msgid "Sorry, the comment form is closed at this time."
 msgstr "抱歉，评论已被关闭。"
 
@@ -10903,14 +10911,17 @@ msgid "<abbr title=\"Universal Resource Locator\">URL</abbr>"
 msgstr "<abbr title=\"Universal Resource Locator\">URL</abbr>"
 
 #: wp-content/themes/classic/comments-popup.php:86
+#: wp-content/themes/default/comments-popup.php:85
 msgid "Your Comment"
 msgstr "您的评论"
 
 #: wp-content/themes/classic/comments-popup.php:94
+#: wp-content/themes/default/comments-popup.php:93
 msgid "Say It!"
 msgstr "就说这些！"
 
 #: wp-content/themes/classic/comments-popup.php:104
+#: wp-content/themes/default/comments-popup.php:103
 msgid "Close this window."
 msgstr "关闭此窗口。"
 
@@ -10966,6 +10977,7 @@ msgid "Comments (%)"
 msgstr "评论（%）"
 
 #: wp-content/themes/classic/index.php:31
+#: wp-content/themes/default/comments-popup.php:109
 msgid "Sorry, no posts matched your criteria."
 msgstr "抱歉，没有符合条件的日志。"
 
@@ -11023,85 +11035,272 @@ msgstr "本页面可通过 XHTML 1.0 Transitional 验证"
 msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
 msgstr "有效的 <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
 
-#: wp-content/themes/default/functions.php:171 functions.php:171
+#: wp-content/themes/default/404.php:12
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Not Found"
+
+#: wp-content/themes/default/archive.php:16
+#, fuzzy, php-format
+msgid "Archive for the &#8216;%s&#8217; Category"
+msgstr "激活 &#8220;%s&#8221;"
+
+#: wp-content/themes/default/archive.php:18, php-format
+msgid "Posts Tagged &#8216;%s&#8217;"
+msgstr "已使用标签的日志&#8220;%s&#8221;"
+
+#: wp-content/themes/default/archive.php:20
+#: wp-content/themes/default/archive.php:22
+#: wp-content/themes/default/archive.php:24, php-format
+msgid "Archive for %s"
+msgstr "为%s存档"
+
+#: wp-content/themes/default/archive.php:26
+msgid "Author Archive"
+msgstr "作者归档"
+
+#: wp-content/themes/default/archive.php:28
+msgid "Blog Archives"
+msgstr "日志归档"
+
+#: wp-content/themes/default/archive.php:33
+#: wp-content/themes/default/archive.php:53
+msgid "&laquo; Older Entries"
+msgstr "&laquo; 较旧的条目"
+
+#: wp-content/themes/default/archive.php:34
+#: wp-content/themes/default/archive.php:54
+msgid "Newer Entries &raquo;"
+msgstr "新记录 &raquo;"
+
+#: wp-content/themes/default/archive.php:39, php-format
+msgid "Permanent Link to %s"
+msgstr "指向%s的永久链接"
+
+#: wp-content/themes/default/archive.php:46
+msgid " Posted in "
+msgstr "发布在"
+
+#: wp-content/themes/default/archive.php:46
+msgid "No Comments &#187;"
+msgstr "没有评论 &#187;"
+
+#: wp-content/themes/default/archive.php:46
+msgid "1 Comment &#187;"
+msgstr "1条评论 &#187;"
+
+#: wp-content/themes/default/archive.php:46
+msgid "% Comments &#187;"
+msgstr "%条评论 &#187;"
+
+#: wp-content/themes/default/archive.php:59
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "对不起，但是 %s 分类中还没有任何文章"
+
+#: wp-content/themes/default/archive.php:61
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "对不起，你所查询的日期中还没有文章"
+
+#: wp-content/themes/default/archive.php:64
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "对不起，暂时还没有由 %s 所写的文章"
+
+#: wp-content/themes/default/comments.php:9
+msgid "Please do not load this page directly. Thanks!"
+msgstr "请不要直接加载这个页面。谢谢！"
+
+#: wp-content/themes/default/comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "这篇日志已被密码保护。请在这里输入密码进行查看："
+
+#: wp-content/themes/default/comments.php:21, php-format
+msgid "%2$s to &#8220;%1$s&#8221"
+msgstr "%2$s to &#8220;%1$s&#8221"
+
+# 加一个引号标识出日志标题
+#: wp-content/themes/default/comments.php:21
+msgid "No Responses"
+msgstr "无回复"
+
+# 加一个引号标识出日志标题
+#: wp-content/themes/default/comments.php:21
+msgid "One Response"
+msgstr "一条回复"
+
+# 加一个引号标识出日志标题
+#: wp-content/themes/default/comments.php:21
+msgid "% Responses"
+msgstr "% 条回复"
+
+#: wp-content/themes/default/comments.php:43
+msgid "Comments are closed."
+msgstr "已被关闭的评论。"
+
+#: wp-content/themes/default/comments.php:53
+#: wp-includes/comment-template.php:1144
+msgid "Leave a Reply"
+msgstr "发表评论"
+
+#: wp-content/themes/default/comments.php:53
+#: wp-includes/comment-template.php:1145
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "为%s添加回复"
+
+#: wp-content/themes/default/comments.php:82
+msgid "You can use these tags:"
+msgstr "您可以使用这些标签："
+
+# 加一个引号标识出日志标题
+#: wp-content/themes/default/comments-popup.php:9
+msgid "Comments on "
+msgstr "评论在"
+
+#: wp-content/themes/default/comments-popup.php:30, php-format
+msgid "%s feed for comments on this post."
+msgstr "该日志的相关评论的%s feed。"
+
+#: wp-content/themes/default/comments-popup.php:30
+msgid "Really Simple Syndication"
+msgstr "想当简单的联合"
+
+#: wp-content/themes/default/comments-popup.php:33
+msgid ""
+"The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this "
+"entry is: "
+msgstr "本文的引用 <abbr title=\"Universal Resource Locator\">URL</abbr> 是:"
+
+#: wp-content/themes/default/comments-popup.php:62
+#, fuzzy
+msgid ""
+"Line and paragraph breaks automatic, e-mail address never displayed, "
+"<acronym title=\"Hypertext Markup Language\">HTML</acronym> allowed: "
+msgstr ""
+"自动换行分段，电子邮箱地址不会被公开。允许使用 <acronym title=\"Hypertext "
+"Markup Language（超文本标记语言）\">HTML</acronym> 标签："
+
+#: wp-content/themes/default/comments-popup.php:113
+#, fuzzy, php-format
+msgid "Powered by %s"
+msgstr "Powered by WordPress"
+
+#: wp-content/themes/default/comments-popup.php:113
+#, fuzzy
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform"
+msgstr "基于 WordPress，完美的个人信息发布平台。"
+
+#: wp-content/themes/default/footer.php:12
+#, php-format
+msgid "is proudly powered by %s"
+msgstr ""
+
+#: wp-content/themes/default/footer.php:14
+#, fuzzy
+msgid "and"
+msgstr " 和"
+
+#: wp-content/themes/default/footer.php:14
+#, fuzzy
+msgid "Comments (RSS)"
+msgstr "评论（0）"
+
+#: wp-content/themes/default/footer.php:13
+msgid "Entries (RSS)"
+msgstr ""
+
+#: wp-content/themes/default/functions.php:171
 msgid "Close Color Picker"
 msgstr "关闭颜色拾取器"
 
-#: wp-content/themes/default/functions.php:377 functions.php:377
+#: wp-content/themes/default/functions.php:377
 msgid "Customize Header"
 msgstr "自定义页眉"
 
-#: wp-content/themes/default/functions.php:392 functions.php:392
+#: wp-content/themes/default/functions.php:392
 msgid "Font Color:"
 msgstr "字体颜色："
 
-#: wp-content/themes/default/functions.php:392 functions.php:392
+#: wp-content/themes/default/functions.php:392
 #, php-format
 msgid "Any CSS color (%s or %s or %s)"
 msgstr "任何 CSS 颜色 （%s 或 %s 或 %s）"
 
-#: wp-content/themes/default/functions.php:393 functions.php:393
+#: wp-content/themes/default/functions.php:393
 msgid "Upper Color:"
 msgstr "顶部颜色："
 
 #: wp-content/themes/default/functions.php:393
-#: wp-content/themes/default/functions.php:394 functions.php:393
-#: functions.php:394
+#: wp-content/themes/default/functions.php:394
 #, php-format
 msgid "HEX only (%s or %s)"
 msgstr "仅使用 HEX （%s 或 %s）"
 
-#: wp-content/themes/default/functions.php:394 functions.php:394
+#: wp-content/themes/default/functions.php:394
 msgid "Lower Color:"
 msgstr "底部颜色："
 
-#: wp-content/themes/default/functions.php:396 functions.php:396
+#: wp-content/themes/default/functions.php:396
 msgid "Toggle Text"
 msgstr "文本开关"
 
-#: wp-content/themes/default/functions.php:397 functions.php:397
+#: wp-content/themes/default/functions.php:397
 msgid "Use Defaults"
 msgstr "使用默认"
 
-#: wp-content/themes/default/functions.php:406 functions.php:406
+#: wp-content/themes/default/functions.php:406
 msgid "Font Color"
 msgstr "字体颜色"
 
-#: wp-content/themes/default/functions.php:407 functions.php:407
+#: wp-content/themes/default/functions.php:407
 msgid "Upper Color"
 msgstr "顶部颜色"
 
-#: wp-content/themes/default/functions.php:408 functions.php:408
+#: wp-content/themes/default/functions.php:408
 msgid "Lower Color"
 msgstr "底部颜色"
 
-#: wp-content/themes/default/functions.php:409 functions.php:409
+#: wp-content/themes/default/functions.php:409
 msgid "Revert"
 msgstr "恢复"
 
-#: wp-content/themes/default/functions.php:417 functions.php:417
+#: wp-content/themes/default/functions.php:417
 msgid "Update Header"
 msgstr "更新页眉"
 
-#: wp-content/themes/default/functions.php:423 functions.php:423
+#: wp-content/themes/default/functions.php:423
 msgid "Font Color (CSS):"
 msgstr "字体颜色（CSS）："
 
-#: wp-content/themes/default/functions.php:424 functions.php:424
+#: wp-content/themes/default/functions.php:424
 msgid "Upper Color (HEX):"
 msgstr "顶部颜色（HEX）："
 
-#: wp-content/themes/default/functions.php:425 functions.php:425
+#: wp-content/themes/default/functions.php:425
 msgid "Lower Color (HEX):"
 msgstr "底部颜色（HEX）："
 
-#: wp-content/themes/default/functions.php:426 functions.php:426
+#: wp-content/themes/default/functions.php:426
 msgid "Select Default Colors"
 msgstr "选择默认颜色"
 
-#: wp-content/themes/default/functions.php:427 functions.php:427
+#: wp-content/themes/default/functions.php:427
 msgid "Toggle Text Display"
 msgstr "文本显示开关"
+
+#: wp-content/themes/default/image.php:30
+#, php-format
+msgid "This entry was posted on %1$s at %2$s and is filed under %3$s."
+msgstr ""
+
+#: wp-content/themes/default/image.php:50
+msgid "Edit this entry."
+msgstr "编辑这条记录"
+
+#: wp-content/themes/default/image.php:63
+msgid "Sorry, no attachments matched your criteria."
+msgstr "对不起，没有你所请求的附件"
 
 #: wp-content/themes/default/index.php:20
 msgid "Read the rest of this entry &raquo;"
@@ -11280,15 +11479,6 @@ msgstr "登陆发表评论"
 #: wp-includes/comment-template.php:1101
 msgid "Click here to cancel reply."
 msgstr "点击这里取消回复。"
-
-#: wp-includes/comment-template.php:1144
-msgid "Leave a Reply"
-msgstr "发表评论"
-
-#: wp-includes/comment-template.php:1145
-#, php-format
-msgid "Leave a Reply to %s"
-msgstr "为%s添加回复"
 
 #: wp-includes/comment-template.php:1263
 #, php-format
@@ -15055,93 +15245,59 @@ msgstr ""
 "非所有服务器都支持这么创建。最安全的办法是手动创建这个文件。</p><p><a "
 "href='{$path}setup-config.php' class='button'>创建配置文件</a>"
 
-#: image.php:30
-msgid "This entry was posted on"
-msgstr "这条记录发布在"
+#~ msgid "This entry was posted on"
+#~ msgstr "这条记录发布在"
 
-#: image.php:31
-msgid "and is filed under"
-msgstr "并且归类在"
+#~ msgid "and is filed under"
+#~ msgstr "并且归类在"
 
-#: image.php:37
-msgid "You can"
-msgstr "你可以"
+#~ msgid "You can"
+#~ msgstr "你可以"
 
-#: image.php:37
-msgid "leave a response"
-msgstr "留下回复"
+#~ msgid "leave a response"
+#~ msgstr "留下回复"
 
-#: image.php:37
-msgid "trackback"
-msgstr "跟踪"
+#~ msgid "trackback"
+#~ msgstr "跟踪"
 
-#: image.php:37
-msgid "from your own site."
-msgstr "从你自己的网站"
+#~ msgid "from your own site."
+#~ msgstr "从你自己的网站"
 
-#: image.php:41
-msgid "Responses are currently closed, but you can"
-msgstr "回复系统已经关闭，但是你可以"
+#~ msgid "Responses are currently closed, but you can"
+#~ msgstr "回复系统已经关闭，但是你可以"
 
-#: image.php:45
-msgid ""
-"You can skip to the end and leave a response. Pinging is currently not "
-"allowed."
-msgstr "你可以跳到结尾并且发表评论。当前不允许Pinging"
+#~ msgid ""
+#~ "You can skip to the end and leave a response. Pinging is currently not "
+#~ "allowed."
+#~ msgstr "你可以跳到结尾并且发表评论。当前不允许Pinging"
 
-#: image.php:49
-msgid "Both comments and pings are currently closed."
-msgstr "评论和ping目前已经关闭"
+#~ msgid "Both comments and pings are currently closed."
+#~ msgstr "评论和ping目前已经关闭"
 
-#: image.php:51
-msgid "Edit this entry."
-msgstr "编辑这条记录"
+#~ msgid "You can follow any responses to this entry through the"
+#~ msgstr "你可以跟踪任意对该记录的回复通过"
 
-#: image.php:64
-msgid "Sorry, no attachments matched your criteria."
-msgstr "对不起，没有你所请求的附件"
+#~ msgid "Sorry, but you are looking for something that isn't here."
+#~ msgstr "对不起，但是你可以寻找不在这儿的部分东西"
 
-#: image.php:33
-msgid "You can follow any responses to this entry through the"
-msgstr "你可以跟踪任意对该记录的回复通过"
+#~ msgid "WordPress Default"
+#~ msgstr "WordPress默认"
 
-#: index.php:16
-msgid "Permanent Link to"
-msgstr "永久链接对"
+#~ msgid "http://wordpress.org/"
+#~ msgstr "http://wordpress.org/"
 
-#: index.php:23
-msgid "Posted in"
-msgstr "发布在"
+#~ msgid ""
+#~ "The default WordPress theme based on the famous <a href=\"http://"
+#~ "binarybonsai.com/kubrick/\">Kubrick</a>."
+#~ msgstr ""
+#~ "WordPress的默认主题是基于著名的<a href=\"http://binarybonsai.com/kubrick/"
+#~ "\">Kubrick</a>开发的."
 
-#: index.php:36
-msgid "Sorry, but you are looking for something that isn't here."
-msgstr "对不起，但是你可以寻找不在这儿的部分东西"
+#~ msgid "Michael Heilemann"
+#~ msgstr "Michael Heilemann"
 
-#. Theme Name of an extension
-msgid "WordPress Default"
-msgstr "WordPress默认"
+#~ msgid "http://binarybonsai.com/"
+#~ msgstr "http://binarybonsai.com/"
 
-#. Theme URI of an extension
-msgid "http://wordpress.org/"
-msgstr "http://wordpress.org/"
-
-#. Description of an extension
-msgid ""
-"The default WordPress theme based on the famous <a href=\"http://"
-"binarybonsai.com/kubrick/\">Kubrick</a>."
-msgstr ""
-"WordPress的默认主题是基于著名的<a href=\"http://binarybonsai.com/kubrick/"
-"\">Kubrick</a>开发的."
-
-#. Author of an extension
-msgid "Michael Heilemann"
-msgstr "Michael Heilemann"
-
-#. Author URI of an extension
-msgid "http://binarybonsai.com/"
-msgstr "http://binarybonsai.com/"
-
-#. Tags of an extension
-msgid "blue, custom header, fixed width, two columns, widgets"
-msgstr "blue, custom header, fixed width, two columns, widgets"
-
+#~ msgid "blue, custom header, fixed width, two columns, widgets"
+#~ msgstr "blue, custom header, fixed width, two columns, widgets"
