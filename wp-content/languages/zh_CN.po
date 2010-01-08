@@ -264,7 +264,7 @@ msgstr "查看网站"
 #: wp-admin/admin-header.php:108
 #, php-format
 msgid "Howdy, <a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
-msgstr "您好，<a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
+msgstr "您好，<a href=\"%1$s\" title=\"修改个人资料\">%2$s</a>"
 
 #: wp-admin/admin-header.php:109
 msgid "Turbo"
