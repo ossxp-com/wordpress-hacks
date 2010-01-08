@@ -882,8 +882,8 @@ msgstr "编辑评论"
 #, php-format
 msgid "%s comment approved"
 msgid_plural "%s comments approved"
-msgstr[0] "%s 条评论被审核"
-msgstr[1] "%s 条评论被审核"
+msgstr[0] "%s 条评论审核通过"
+msgstr[1] "%s 条评论审核通过"
 
 #: wp-admin/edit-comments.php:155
 #, php-format
@@ -951,8 +951,8 @@ msgstr[1] ""
 #: wp-admin/edit-comments.php:192
 msgid "Approved"
 msgid_plural "Approved"
-msgstr[0] "已审核"
-msgstr[1] "已审核"
+msgstr[0] "审核已通过"
+msgstr[1] "审核已通过"
 
 #: wp-admin/edit-comments.php:193
 #, php-format
@@ -991,13 +991,13 @@ msgstr "显示 %s&#8211;%s of %s"
 #: wp-admin/includes/dashboard.php:553 wp-admin/includes/template.php:2176
 #: wp-admin/includes/template.php:2181
 msgid "Unapprove"
-msgstr "不审核"
+msgstr "审核未通过"
 
 #: wp-admin/edit-comments.php:305 wp-admin/edit-comments.php:403
 #: wp-admin/includes/dashboard.php:552 wp-admin/includes/template.php:2178
 #: wp-admin/includes/template.php:2180
 msgid "Approve"
-msgstr "已审核"
+msgstr "审核通过"
 
 #: wp-admin/edit-comments.php:308 wp-admin/edit-comments.php:406
 msgid "Mark as Spam"
@@ -1187,7 +1187,7 @@ msgstr "查看该评论"
 #: wp-admin/edit-form-comment.php:50 wp-includes/comment.php:263
 msgctxt "adjective"
 msgid "Approved"
-msgstr "已审核"
+msgstr "审核已通过"
 
 #. translators: comment type radio button
 #: wp-admin/edit-form-comment.php:51
@@ -4144,8 +4144,8 @@ msgstr[1] "页面"
 #: wp-admin/includes/dashboard.php:263
 msgid "Approved|Right Now"
 msgid_plural "Approved"
-msgstr[0] "审核"
-msgstr[1] "审核"
+msgstr[0] "审核已通过"
+msgstr[1] "审核已通过"
 
 #: wp-admin/includes/dashboard.php:275
 msgid "Category"
@@ -4277,12 +4277,12 @@ msgstr "还没有评论。"
 #: wp-admin/includes/dashboard.php:552 wp-admin/includes/template.php:2178
 #: wp-admin/includes/template.php:2180
 msgid "Approve this comment"
-msgstr "审核该评论"
+msgstr "允许该评论"
 
 #: wp-admin/includes/dashboard.php:553 wp-admin/includes/template.php:2176
 #: wp-admin/includes/template.php:2181
 msgid "Unapprove this comment"
-msgstr "不审核该评论"
+msgstr "不允许该评论"
 
 #: wp-admin/includes/dashboard.php:554 wp-admin/includes/template.php:2199
 #: wp-includes/link-template.php:840
@@ -11687,7 +11687,7 @@ msgstr "命令失效"
 
 #: wp-includes/comment.php:261
 msgid "Unapproved"
-msgstr "不审核"
+msgstr "审核未通过"
 
 #: wp-includes/comment.php:500 wp-includes/comment.php:502
 msgid ""
@@ -12129,12 +12129,12 @@ msgstr "尝试删除评论 &quot;%s&quot; 时发生错误。"
 #: wp-includes/functions.php:2369
 #, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
-msgstr "尝试不审核评论 &quot;%s&quot; 时发生错误。"
+msgstr "尝试不允许评论 &quot;%s&quot; 时发生错误。"
 
 #: wp-includes/functions.php:2370
 #, php-format
 msgid "Your attempt to approve this comment: &#8220;%s&#8221; has failed."
-msgstr "尝试审核评论 &quot;%s&quot; 时发生错误。"
+msgstr "尝试允许评论 &quot;%s&quot; 时发生错误。"
 
 #: wp-includes/functions.php:2371
 #, php-format
