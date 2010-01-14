@@ -18,9 +18,6 @@ if ( function_exists('memory_get_usage') && ( (int) @ini_get('memory_limit') < a
 set_magic_quotes_runtime(0);
 @ini_set('magic_quotes_sybase', 0);
 
-if ( function_exists('date_default_timezone_set') )
-	date_default_timezone_set('UTC');
-
 /**
  * Turn register globals off.
  *
@@ -390,6 +387,20 @@ require (ABSPATH . WPINC . '/widgets.php');
 
 if ( !defined('WP_CONTENT_URL') )
 	define( 'WP_CONTENT_URL', get_option('siteurl') . '/wp-content'); // full url - WP_CONTENT_DIR is defined further up
+
+if ( function_exists('date_default_timezone_set') )
+{
+	if ( !$timezone_string = get_option( 'timezone_string' ) )
+	{
+		//Note: not set timezone, fallback to php date.timezone setting.
+		//date_default_timezone_set('UTC');
+		;
+	}
+	else
+	{
+		date_default_timezone_set($timezone_string);
+	}
+}
 
 /**
  * Allows for the plugins directory to be moved from the default location.
