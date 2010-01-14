@@ -1973,9 +1973,8 @@ class WP_Query {
 					$q['author_name'] = $q['author_name'][count($q['author_name'])-2];#there was a trailling slash
 				}
 			}
-			$q['author_name'] = sanitize_title($q['author_name']);
-			$q['author'] = $wpdb->get_var("SELECT ID FROM $wpdb->users WHERE user_nicename='".$q['author_name']."'");
-			$q['author'] = get_user_by('slug', $q['author_name']);
+			//No worry: author_name is escaped by mysql_real_escape_string before SQL Query.
+			$q['author'] = get_user_by('slug', str_replace('\\', '', $q['author_name']));
 			if ( $q['author'] )
 				$q['author'] = $q['author']->ID;
 			$whichauthor .= " AND ($wpdb->posts.post_author = ".absint($q['author']).')';

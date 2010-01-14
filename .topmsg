@@ -1,0 +1,6 @@
+From: leiww <leiww@bj.ossxp.com>
+Subject: [PATCH] t/fix_utf8_author_nicename
+
+作者的 NiceName 为中文时，使用 permlink 访问作者，显示 404 错误
+
+Signed-off-by: leiww <leiww@bj.ossxp.com>
