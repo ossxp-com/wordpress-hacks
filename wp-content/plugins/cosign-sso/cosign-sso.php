@@ -3,7 +3,7 @@
 Plugin Name: CoSign SSO
 Plugin URI:  http://redmine.ossxp.com/redmine/projects/show/wp
 Description: Alternative authentication plugin for WordPress. This plugin add two login method: LDAP login and CoSign Single Sign-on(SSO) login.
-Version: 0.2.1
+Version: 0.2.2
 Author: Jiang Xin <jiangxin AT ossxp.com>
 Author URI: http://www.ossxp.com/
 Text Domain: cosign_sso
@@ -310,7 +310,6 @@ function cosign_sso_profile_js()
 	var theform = document.getElementById("your-profile");
 	theform.first_name.readOnly=true;
 	theform.last_name.readOnly=true;
-	theform.nickname.readOnly=true;
 	theform.email.readOnly=true;
 </script>
 EOD;
