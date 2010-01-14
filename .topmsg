@@ -1,0 +1,7 @@
+From: leiww <leiww@bj.ossxp.com>
+Subject: [PATCH] t/fix_timezone_reset_bug
+
+当时区设置为不同格式，如数字：+8，或者时区名：Asia/Shanghai 时，PHP 脚本得到的时区可能不一致，被意外重置！
+例如会导致：意外重置时区设置，导致评论时间显示为负数。
+
+Signed-off-by: leiww <leiww@bj.ossxp.com>

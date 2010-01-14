@@ -3321,7 +3321,10 @@ function wp_timezone_override_offset() {
 		return false;
 	}
 
-	@date_default_timezone_set( $timezone_string );
+	// Warning: Do not reset timezone here, timezone offset can be provided in eithor
+	//          gmt_offset, or timezone_string. Reset here will cause trouble.
+	//          -- ossxp.com
+	// @date_default_timezone_set( $timezone_string );
 	$timezone_object = timezone_open( $timezone_string );
 	$datetime_object = date_create();
 	if ( false === $timezone_object || false === $datetime_object ) {
