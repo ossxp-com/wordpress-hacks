@@ -58,6 +58,8 @@ while ($query->have_posts()) {
      $url = apply_filters('the_permalink', get_permalink());
      $results[] = array('url'=>$url, 'title'=>$text);
      $count++;
+     if ($count >= $limit)
+         break;
 }
 
 echo $callback."(".json_encode($results).")";
