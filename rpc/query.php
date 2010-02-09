@@ -48,6 +48,12 @@ if (!empty($_REQUEST['offset'])) {
     $args .= '&offset='.$_REQUEST['offset'];
 }
 
+# datetime format
+if (!empty($_REQUEST['time_fmt']))
+    $time_fmt = $_REQUEST['time_fmt'];
+else
+    $time_fmt = "Y-m-d";
+
 header('Content-Type: application/x-javascript; charset=utf-8');
 
 $query = new WP_Query($args);
@@ -56,7 +62,8 @@ while ($query->have_posts()) {
      $query->the_post();
      $text = get_the_title();
      $url = apply_filters('the_permalink', get_permalink());
-     $results[] = array('url'=>$url, 'title'=>$text);
+     $time = apply_filters('the_time', get_the_time( $time_fmt ), $time_fmt);
+     $results[] = array('url'=>$url, 'title'=>$text, 'time'=>$time);
      $count++;
      if ($count >= $limit)
          break;
