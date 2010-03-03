@@ -1695,7 +1695,7 @@ class WP_Rewrite {
 		} else {
 			$rules .= "RewriteCond %{REQUEST_FILENAME} !-f\n" .
 				"RewriteCond %{REQUEST_FILENAME} !-d\n" .
-				"RewriteRule . {$home_root}{$this->index} [L]\n";
+				"RewriteRule ^(.*)\$ {$home_root}{$this->index}/\$1 [L]\n";
 		}
 
 		$rules .= "</IfModule>\n";
