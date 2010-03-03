@@ -1,0 +1,6 @@
+From: Jiang Xin <jiangxin@moon.ossxp.com>
+Subject: [PATCH] t/rewrite_works_with_mod_cache
+
+WordPress generate .htaccess not works with apache mod_cache.
+
+Signed-off-by: Jiang Xin <jiangxin@moon.ossxp.com>
