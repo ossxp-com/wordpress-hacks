@@ -14,6 +14,7 @@ function my_wp_get_archives($limit)
 
 $limit = $_REQUEST['limit'];
 header('Content-Type: application/x-javascript; charset=utf-8');
+header('Cache-Control: max-age=3600, public');
 echo my_wp_get_archives($limit);
 
 // vim: et ts=4 sw=4

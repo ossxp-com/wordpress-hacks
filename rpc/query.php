@@ -55,6 +55,7 @@ else
     $time_fmt = "Y-m-d";
 
 header('Content-Type: application/x-javascript; charset=utf-8');
+header('Cache-Control: max-age=3600, public');
 
 $query = new WP_Query($args);
 $results = array();
