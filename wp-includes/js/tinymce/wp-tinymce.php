@@ -22,7 +22,7 @@ function get_file($path) {
 $expires_offset = 31536000;
 
 header('Content-Type: application/x-javascript; charset=UTF-8');
-header('Vary: Accept-Encoding'); // Handle proxies
+header('Vary: Cookie,Accept-Encoding'); // Handle proxies
 header('Expires: ' . gmdate( "D, d M Y H:i:s", time() + $expires_offset ) . ' GMT');
 header("Cache-Control: public, max-age=$expires_offset");
 
