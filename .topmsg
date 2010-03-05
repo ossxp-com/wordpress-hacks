@@ -1,0 +1,6 @@
+From: Jiang Xin <jiangxin@moon.ossxp.com>
+Subject: [PATCH] t/apache_mod_cache
+
+Better support for apache mod_cache.
+
+Signed-off-by: Jiang Xin <jiangxin@moon.ossxp.com>
