@@ -3,7 +3,7 @@
 Plugin Name: CoSign SSO
 Plugin URI:  http://redmine.ossxp.com/redmine/projects/show/wp
 Description: Alternative authentication plugin for WordPress. This plugin add two login method: LDAP login and CoSign Single Sign-on(SSO) login.
-Version: 0.2.2
+Version: 0.3.0
 Author: Jiang Xin <jiangxin AT ossxp.com>
 Author URI: http://www.ossxp.com/
 Text Domain: cosign_sso
@@ -108,6 +108,7 @@ function cosign_sso_activate()
 		'login_method' => COSIGN_LOGIN_DISABLED,
 		'sso_login_url' => "https://foo.bar/cgi-bin/login",
 		'sso_logout_url' => "https://foo.bar/cgi-bin/logout",
+		'sso_protocol' => "3",
 		'sso_srv_name' => "wordpress",
 		'auto_user' => '1',
 		'default_role' => 'subscriber',
@@ -161,17 +162,34 @@ function cosign_sso_login_redirect()
 		return;
 
 	$sso_login_url    = $cosign_sso_opt["sso_login_url"];
+	if (isset($cosign_sso_opt["sso_protocol"]))
+		$sso_protocol  = $cosign_sso_opt["sso_protocol"];
+	else
+		$sso_protocol  = "2";
 	$service_url  = "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"];
-	$sample_string =
-	"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	$cookie_name = "cosign-" . $cosign_sso_opt["sso_srv_name"];
-	$cookie_data = '';
-	for ($i=0;$i<125;$i++) {
-		$cookie_data .= $sample_string[mt_rand(0,61)];
+	if ($sso_protocol == "3")
+	{
+		## CoSign protocol 3: redirect to weblogin only with cookie name.
+		## It is the cgi's responsibility to generate cookie and the cookie is
+		## set by uri /cosign/valid/ of this domain.
+		$cookie_name = "cosign-" . $cosign_sso_opt["sso_srv_name"];
+		$dest_url = $sso_login_url . "?" . $cookie_name . "&" .  $service_url;
 	}
-	setcookie( $cookie_name, $cookie_data );
-	$dest_url = $sso_login_url . "?" . $cookie_name . "=" . $cookie_data . ";&" .  $service_url;
+	else
+	{
+		## CoSign protocol 2: set cookie first, then redirect to weblogin with
+		## cookie data in query string.
+		$cookie_name = "cosign-" . $cosign_sso_opt["sso_srv_name"];
+		$cookie_data = '';
+		$sample_string =
+		"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		for ($i=0;$i<125;$i++) {
+			$cookie_data .= $sample_string[mt_rand(0,61)];
+		}
+		setcookie( $cookie_name, $cookie_data );
+		$dest_url = $sso_login_url . "?" . $cookie_name . "=" . $cookie_data . ";&" .  $service_url;
+	}
 	header( "Location: $dest_url" );
 	exit;
 }
@@ -338,6 +356,7 @@ function cosign_sso_options_page()
 			'login_method' => (int) $_POST['login_method'],
 			'sso_login_url' => $_POST['sso_login_url'],
 			'sso_logout_url' => $_POST['sso_logout_url'],
+			'sso_protocol' => $_POST['sso_protocol'],
 			'sso_srv_name' => $_POST['sso_srv_name'],
 			'auto_user' => $_POST['auto_user'],
 			'default_role' => "administrator" == strtolower(trim($_POST['default_role']))? "" : $_POST['default_role'],
@@ -422,6 +441,31 @@ function cosign_sso_options_page()
 		<tr valign="top">
 			<th width="200px" scope="row"><?php echo __("CoSign Logout URL", "cosign_sso"); ?></th>
 			<td width="100px"><input type="text" name="sso_logout_url" size="50" value="<?php echo  $optionarray_def['sso_logout_url']; ?>"></td>
+			<td></td>
+		</tr>
+		<tr valign="top">
+			<th width="200px" scope="row"><?php echo __("CoSign Protocol Version", "cosign_sso"); ?></th>
+			<td width="100px">
+				<select name="sso_protocol">
+					<?php
+					$cosign_protocol_types = array(
+						__('unknown', 'cosign_sso') => 0,
+						__('version 2', 'cosign_sso') => 2,
+						__('version 3', 'cosign_sso') => 3,
+					);
+
+					foreach ($cosign_protocol_types as $option => $value) {
+						if ($value == (int)$optionarray_def['sso_protocol']) {
+							$selected = 'selected="selected"';
+						} else {
+							$selected = '';
+						}
+
+						echo "\n\t<option value='$value' $selected>$option</option>";
+					}
+					?>
+				</select>
+			</td>
 			<td></td>
 		</tr>
 		<tr valign="top">
