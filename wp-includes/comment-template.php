@@ -645,21 +645,26 @@ function get_comment_type() {
  * @param string $trackbacktxt The string to display for trackback type
  * @param string $pingbacktxt The string to display for pingback type
  */
-function comment_type($commenttxt = false, $trackbacktxt = false, $pingbacktxt = false) {
+function comment_type($commenttxt = false, $trackbacktxt = false, $pingbacktxt = false, $echo = true) {
     if ( false === $commenttxt ) $commenttxt = _x( 'Comment', 'noun' );
     if ( false === $trackbacktxt ) $trackbacktxt = __( 'Trackback' );
     if ( false === $pingbacktxt ) $pingbacktxt = __( 'Pingback' );
 	$type = get_comment_type();
+	$typestr = "";
 	switch( $type ) {
 		case 'trackback' :
-			echo $trackbacktxt;
+			$typestr = $trackbacktxt;
 			break;
 		case 'pingback' :
-			echo $pingbacktxt;
+			$typestr = $pingbacktxt;
 			break;
 		default :
-			echo $commenttxt;
+			$typestr = $commenttxt;
 	}
+	if ($echo)
+		echo $typestr;
+	else
+		return $typestr;
 }
 
 /**
