@@ -4,7 +4,7 @@ Tags: authentication, sso, cosign, ldap, login
 Donate link: 
 Requires at least: unknown
 Tested up to: 2.9.1
-Stable tag: 0.2
+Stable tag: 0.3.0
 
 Alternative authentication plugin for WordPress. This plugin add two login method: LDAP login and CoSign Single Sign-on(SSO) login.
 
@@ -36,6 +36,12 @@ If you cannot login any more, don't blame me. A trick may help you:
 
 After you correct the settings, not forgot to remove the *FALLBACK* file.
 
+Notes for CoSign 3.x:
+
+* CoSign 3.x filter needs to add a "/cosign/valid" location as cosign handler.
+* If wordpress uses a permlink, which means the RewriteRule in .htaccess may conflict with the "/cosign/valid" handler.
+* You can hack wp-includes/rewrite.php, add "RewriteRule ^cosign/valid - [L]" right after "RewriteBase" directive.
+
 == Screenshots ==
 
 1. Options for *CoSign SSO* in English.
@@ -56,6 +62,11 @@ This section describes how to localized, which means let cosign-sso speak in you
 </pre>
 
 == Changelog ==
+= 0.3.0 =
+
+1. Add support for CoSign 3.x protocol.
+2. Add cosign protocol settings in admin pannel, which support for both 2.x and 3.x.
+
 = 0.2 =
 
 1. FALLBACK to LDAP auth backend if a FALLBACK file exists with "LDAP" in it.
