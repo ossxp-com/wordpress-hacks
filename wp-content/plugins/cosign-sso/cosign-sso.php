@@ -435,27 +435,24 @@ function cosign_sso_options_page()
 	<table width="100%" <?php echo $wpversion >= 2.5 ? 'class="form-table"' : 'cellspacing="2" cellpadding="5" class="editform"'; ?> >
 		<tr valign="top">
 			<th width="200px" scope="row"><?php echo __("CoSign Login URL", "cosign_sso"); ?></th>
-			<td width="100px"><input type="text" name="sso_login_url" size="50" value="<?php echo  $optionarray_def['sso_login_url']; ?>"></td>
-			<td></td>
+			<td width="100px" colspan="2"><input type="text" name="sso_login_url" size="50" value="<?php echo  $optionarray_def['sso_login_url']; ?>"></td>
 		</tr>
 		<tr valign="top">
 			<th width="200px" scope="row"><?php echo __("CoSign Logout URL", "cosign_sso"); ?></th>
-			<td width="100px"><input type="text" name="sso_logout_url" size="50" value="<?php echo  $optionarray_def['sso_logout_url']; ?>"></td>
-			<td></td>
+			<td width="100px" colspan="2"><input type="text" name="sso_logout_url" size="50" value="<?php echo  $optionarray_def['sso_logout_url']; ?>"></td>
 		</tr>
 		<tr valign="top">
-			<th width="200px" scope="row"><?php echo __("CoSign Protocol Version", "cosign_sso"); ?></th>
+			<th width="200px" scope="row"><?php echo __("CoSign Protocol", "cosign_sso"); ?></th>
 			<td width="100px">
 				<select name="sso_protocol">
 					<?php
 					$cosign_protocol_types = array(
-						__('unknown', 'cosign_sso') => 0,
-						__('version 2', 'cosign_sso') => 2,
-						__('version 3', 'cosign_sso') => 3,
+						__("for cosign 2.x", "cosign_sso") => "2",
+						__("for cosign 3.x", "cosign_sso") => "3",
 					);
 
 					foreach ($cosign_protocol_types as $option => $value) {
-						if ($value == (int)$optionarray_def['sso_protocol']) {
+						if ($value == $optionarray_def['sso_protocol']) {
 							$selected = 'selected="selected"';
 						} else {
 							$selected = '';
@@ -466,12 +463,24 @@ function cosign_sso_options_page()
 					?>
 				</select>
 			</td>
-			<td></td>
+			<td>
+				<span style="color: #555; font-size: .85em;">
+				<?php
+					printf("<strong>". __("CoSign 2.x and 3.x use different protocol, and not compatible. If you choose wrong CoSign protocol version, you can not login any more.", "cosign_sso") . "</strong>");
+				?>
+				</span>
+			</td>
 		</tr>
 		<tr valign="top">
 			<th width="200px" scope="row"><?php echo __("CoSign Service Name", "cosign_sso"); ?></th>
 			<td width="100px"><input type="text" name="sso_srv_name" size="18" value="<?php echo  $optionarray_def['sso_srv_name']; ?>"></td>
-			<td></td>
+			<td>
+				<span style="color: #555; font-size: .85em;">
+				<?php
+					printf("<strong>". __("Must match with the settings of cosign filter, and/or cosign daemon. If you are not sure, ask for it form webmaster.", "cosign_sso") . "</strong>");
+				?>
+				</span>
+			</td>
 		</tr>
 	</table>
 
